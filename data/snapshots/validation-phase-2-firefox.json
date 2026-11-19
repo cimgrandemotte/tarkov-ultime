@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "status": "VALIDE",
+  "browser": "Firefox 159.0",
+  "checkedAt": "2026-11-18T13:21:41.946Z",
+  "viewportCssPx": 390,
+  "checks": [
+    "reflow",
+    "méga-menu et focus de destination",
+    "recherche Fuse et Échap",
+    "checklist",
+    "filtres éditoriaux",
+    "audio sur geste et pause"
+  ]
+}

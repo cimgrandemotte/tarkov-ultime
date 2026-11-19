@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-18T13:21:21+00:00",
+  "profiles": [
+    {
+      "widthCssPx": 320,
+      "theme": "renforce",
+      "testedSamples": 77,
+      "lowestRatio": 9.45,
+      "at": ".home-section__head",
+      "text": "04"
+    },
+    {
+      "widthCssPx": 320,
+      "theme": "standard",
+      "testedSamples": 77,
+      "lowestRatio": 6.84,
+      "at": ".home-hero__title",
+      "text": "Tarkov"
+    },
+    {
+      "widthCssPx": 390,
+      "theme": "renforce",
+      "testedSamples": 77,
+      "lowestRatio": 9.31,
+      "at": ".home-hero__signals",
+      "text": "Écouter l’ambiance"
+    },
+    {
+      "widthCssPx": 390,
+      "theme": "standard",
+      "testedSamples": 77,
+      "lowestRatio": 7.75,
+      "at": ".home-hero__intro",
+      "text": "De Ground Zero à Terminal : cartes, équipement, boss et mises à jour d’"
+    },
+    {
+      "widthCssPx": 768,
+      "theme": "renforce",
+      "testedSamples": 77,
+      "lowestRatio": 9.57,
+      "at": ".home-section__head",
+      "text": "04"
+    },
+    {
+      "widthCssPx": 768,
+      "theme": "standard",
+      "testedSamples": 77,
+      "lowestRatio": 7.47,
+      "at": ".home-hero__title",
+      "text": "Ultimate Guide"
+    },
+    {
+      "widthCssPx": 1024,
+      "theme": "renforce",
+      "testedSamples": 79,
+      "lowestRatio": 9.64,
+      "at": ".home-section__head",
+      "text": "04"
+    },
+    {
+      "widthCssPx": 1024,
+      "theme": "standard",
+      "testedSamples": 79,
+      "lowestRatio": 7.88,
+      "at": ".patch-panel__rows",
+      "text": "Build répertorié · 13 novembre"
+    },
+    {
+      "widthCssPx": 1440,
+      "theme": "renforce",
+      "testedSamples": 79,
+      "lowestRatio": 9.77,
+      "at": ".news-feed__pills",
+      "text": "Tout"
+    },
+    {
+      "widthCssPx": 1440,
+      "theme": "standard",
+      "testedSamples": 79,
+      "lowestRatio": 8.35,
+      "at": ".patch-panel__rows",
+      "text": "Build répertorié · 13 novembre"
+    }
+  ],
+  "palette": [
+    {
+      "label": "Bouton filtres · contour",
+      "color": "#817d6e",
+      "background": "#1a1c17",
+      "ratio": 4.17,
+      "minimum": 3
+    },
+    {
+      "label": "Filtre courant · contour",
+      "color": "#ba9d64",
+      "background": "#2d2619",
+      "ratio": 5.77,
+      "minimum": 3
+    },
+    {
+      "label": "Bouton secondaire sur le hero · contour",
+      "color": "#8d8976",
+      "background": "#101412",
+      "ratio": 5.28,
+      "minimum": 3
+    },
+    {
+      "label": "Focus doré sur surface claire du panneau patch",
+      "color": "#f2d59c",
+      "background": "#30281b",
+      "ratio": 10.22,
+      "minimum": 3
+    },
+    {
+      "label": "Panneaux éditoriaux · texte secondaire",
+      "color": "#c2c0b5",
+      "background": "#282619",
+      "ratio": 8.32,
+      "minimum": 4.5
+    },
+    {
+      "label": "Actualités · libellé date",
+      "color": "#babbb0",
+      "background": "#1d211a",
+      "ratio": 8.42,
+      "minimum": 4.5
+    },
+    {
+      "label": "Onglet courant · texte",
+      "color": "#e1c48d",
+      "background": "#252017",
+      "ratio": 9.62,
+      "minimum": 4.5
+    }
+  ],
+  "method": "Chromium à DPR 1 : texte masqué sur JPG qualité 100 de l’arrière-plan composé, contraste WCAG relatif calculé pour la luminance la plus défavorable dans la boîte des glyphes."
+}

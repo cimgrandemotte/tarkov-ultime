@@ -1,0 +1,1258 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-18T20:22:01+01:00",
+  "snapshot": "data/snapshots/cartes-2026-11-18.json",
+  "overview": {
+    "title": "Cartes de Tarkov",
+    "description": "Comparez les 13 lieux principaux de Tarkov, leurs variantes, modes, durées et accès. Données datées et repères pour vérifier les extractions en raid.",
+    "heading": "Treize lieux. Une seule sortie fiable : celle de votre raid.",
+    "lead": "Choisissez un terrain, comparez les métadonnées par profil et repérez les accès conditionnels. Les chiffres viennent d’un export daté ; seule l’interface de votre raid confirme l’extraction active.",
+    "image": "images/maps/norvinsk-overlook.jpg",
+    "imageAlt": "Illustration originale de Norvinsk, voies ferrées et blocs urbains fictifs dans la brume; pas un plan de navigation.",
+    "imageCaption": "Illustration d’ambiance originale · Norvinsk · pas un plan de jeu",
+    "sourceKeys": [
+      "tdev-maps",
+      "tdev-maps-pve",
+      "tdev-maps-seasonal",
+      "wiki-maps",
+      "mapgenie",
+      "patch105",
+      "patch115",
+      "patch120",
+      "terminal-80level",
+      "wiki-terminal",
+      "tracker-map-rules",
+      "tarkov-party-transits",
+      "wiki-bosses",
+      "wiki-factory",
+      "wiki-labyrinth",
+      "wiki-ground-zero",
+      "wiki-streets",
+      "wiki-reserve",
+      "wiki-lab",
+      "wiki-lighthouse",
+      "wiki-woods",
+      "wiki-shoreline",
+      "wiki-interchange",
+      "wiki-customs",
+      "tdev-interactive-maps"
+    ]
+  },
+  "modes": [
+    {
+      "id": "regular",
+      "label": "PvP permanent",
+      "shortLabel": "PvP"
+    },
+    {
+      "id": "pve",
+      "label": "PvE Zone",
+      "shortLabel": "PvE"
+    },
+    {
+      "id": "pvp-season",
+      "label": "PvP Seasonal",
+      "shortLabel": "Seasonal"
+    }
+  ],
+  "difficultyLegend": {
+    "label": "Lecture du terrain",
+    "note": "Repère éditorial sur la densité et la forme du parcours, pas une difficulté BSG, un niveau requis ni une promesse de survie.",
+    "options": [
+      {
+        "id": "proche",
+        "label": "Espaces resserrés"
+      },
+      {
+        "id": "mixte",
+        "label": "Parcours mixtes"
+      },
+      {
+        "id": "etendue",
+        "label": "Terrains étendus"
+      }
+    ]
+  },
+  "accessLegend": [
+    {
+      "id": "catalogue",
+      "label": "Entrée d’export",
+      "description": "Répertoriée dans le JSON ; ne prouve pas l’accès au menu ni l’ouverture en raid."
+    },
+    {
+      "id": "communaute",
+      "label": "Wiki communautaire",
+      "description": "Condition rapportée par une wiki ou un outil communautaire ; à confirmer dans le client."
+    },
+    {
+      "id": "officiel",
+      "label": "Note BSG",
+      "description": "Fait précis confirmé dans une note officielle citée ; ne renseigne pas l’état live."
+    },
+    {
+      "id": "conflit",
+      "label": "Données en conflit",
+      "description": "Sources consultées incompatibles ; aucune valeur unique n’est retenue."
+    }
+  ],
+  "variants": [
+    {
+      "slug": "night-factory",
+      "name": "Night Factory",
+      "parent": "factory",
+      "note": "Variante nocturne distincte : ne pas fusionner ses joueurs, durée ou menaces avec Factory de jour.",
+      "interactiveMapUrl": "https://tarkov.dev/map/night-factory"
+    },
+    {
+      "slug": "ground-zero-21",
+      "name": "Ground Zero 21+",
+      "parent": "ground-zero",
+      "note": "Entrée distincte du snapshot, associée par la wiki au groupe expérimenté ; portée par mode non testée.",
+      "interactiveMapUrl": "https://tarkov.dev/map/ground-zero-21"
+    },
+    {
+      "slug": "ground-zero-tutorial",
+      "name": "Ground Zero Tutorial",
+      "parent": "ground-zero",
+      "note": "Enregistrement d’entraînement séparé ; zéro entrée d’extraction dans le snapshot ne décrit pas une disponibilité en client."
+    },
+    {
+      "slug": "the-lab-dark",
+      "name": "The Lab (Dark)",
+      "parent": "the-lab",
+      "note": "Variante distincte ; durée PvE différente dans le snapshot du 18/11.",
+      "interactiveMapUrl": "https://tarkov.dev/map/the-lab-dark"
+    },
+    {
+      "slug": "infected-lab",
+      "name": "Infected Lab",
+      "parent": "the-lab",
+      "note": "Variante d’événement ; ne pas mélanger ses rencontres ou durées à The Lab régulier.",
+      "interactiveMapUrl": "https://tarkov.dev/map/infected-lab"
+    },
+    {
+      "slug": "infected-factory",
+      "name": "Infected Factory",
+      "parent": "factory",
+      "note": "Variante d’événement ; ne pas mélanger ses rencontres ou durées à Factory régulier.",
+      "interactiveMapUrl": "https://tarkov.dev/map/infected-factory"
+    }
+  ],
+  "transits": [
+    {
+      "origin": "Factory",
+      "destination": "Customs",
+      "sourceKey": "wiki-factory",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Customs, répertorié après 1 min ; point indiqué près de Med Tent Gate. Fenêtre réelle à vérifier dans le raid."
+    },
+    {
+      "origin": "Factory",
+      "destination": "The Lab",
+      "sourceKey": "wiki-factory",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit PMC après 1 min ; carte d’accès Lab par joueur indiquée. Prérequis et état non testés en client."
+    },
+    {
+      "origin": "Shoreline",
+      "destination": "The Labyrinth",
+      "sourceKey": "wiki-labyrinth",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit depuis le sous-sol de l’aile ouest du Resort, après 1 min ; clé Knossos à la porte et carte Labrys par joueur rapportées. Accès non testé en client."
+    },
+    {
+      "origin": "Shoreline",
+      "destination": "Terminal",
+      "sourceKey": "wiki-terminal",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit signalé dans la fenêtre 21 h–6 h, après 1 min, avec présentation d’un objet à l’intercom du port. Détails et accès non testés en client."
+    },
+    {
+      "origin": "Shoreline",
+      "destination": "Icebreaker",
+      "sourceKey": "patch115",
+      "evidence": "BSG 1.1.5.0",
+      "note": "BSG confirme l’accès depuis Shoreline et Lighthouse et un kit marin à usage unique à la place des roubles."
+    },
+    {
+      "origin": "Lighthouse",
+      "destination": "Icebreaker",
+      "sourceKey": "patch115",
+      "evidence": "BSG 1.1.5.0",
+      "note": "Le point ajouté se trouve au quai près des maisons d’eau ; confirmer l’objet et la disponibilité dans le raid."
+    },
+    {
+      "origin": "Factory",
+      "destination": "Woods",
+      "sourceKey": "wiki-factory",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Woods, répertorié après 1 min. Fenêtre réelle à vérifier dans le raid."
+    },
+    {
+      "origin": "Ground Zero",
+      "destination": "Streets of Tarkov",
+      "sourceKey": "wiki-ground-zero",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Streets, répertorié après 1 min près de Mira Ave. Présence en raid non testée."
+    },
+    {
+      "origin": "Woods",
+      "destination": "Customs",
+      "sourceKey": "wiki-woods",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Customs, répertorié après 1 min. Fenêtre réelle à vérifier dans le raid."
+    },
+    {
+      "origin": "Woods",
+      "destination": "Factory",
+      "sourceKey": "wiki-woods",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Factory, répertorié après 1 min. Fenêtre réelle à vérifier dans le raid."
+    },
+    {
+      "origin": "Woods",
+      "destination": "Lighthouse",
+      "sourceKey": "wiki-woods",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Lighthouse, répertorié après 1 min. Fenêtre réelle à vérifier dans le raid."
+    },
+    {
+      "origin": "Woods",
+      "destination": "Reserve",
+      "sourceKey": "wiki-woods",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Reserve, répertorié après 1 min. Fenêtre réelle à vérifier dans le raid."
+    },
+    {
+      "origin": "Shoreline",
+      "destination": "Lighthouse",
+      "sourceKey": "wiki-shoreline",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Lighthouse, répertorié après 1 min. Fenêtre réelle à vérifier dans le raid."
+    },
+    {
+      "origin": "Interchange",
+      "destination": "Customs",
+      "sourceKey": "wiki-interchange",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Customs, répertorié après 1 min à l’extrémité sud de l’autoroute. Fenêtre réelle à vérifier en raid."
+    },
+    {
+      "origin": "Interchange",
+      "destination": "Streets of Tarkov",
+      "sourceKey": "wiki-interchange",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Streets, répertorié après 1 min à l’extrémité nord de l’autoroute. Fenêtre réelle à vérifier en raid."
+    },
+    {
+      "origin": "Reserve",
+      "destination": "Customs",
+      "sourceKey": "wiki-reserve",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Customs, répertorié après 1 min au nord de la caserne Black Bishop. Fenêtre réelle à vérifier en raid."
+    },
+    {
+      "origin": "Reserve",
+      "destination": "Lighthouse",
+      "sourceKey": "wiki-reserve",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Lighthouse, répertorié après 1 min au sud-ouest du dépôt ferroviaire. Fenêtre réelle à vérifier en raid."
+    },
+    {
+      "origin": "Reserve",
+      "destination": "Woods",
+      "sourceKey": "wiki-reserve",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Woods, répertorié après 1 min au nord-ouest du dépôt ferroviaire. Fenêtre réelle à vérifier en raid."
+    },
+    {
+      "origin": "The Lab",
+      "destination": "Streets of Tarkov",
+      "sourceKey": "wiki-lab",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit vers Streets répertorié après 1 min, près du dôme orange. Présence en raid non testée."
+    },
+    {
+      "origin": "Lighthouse",
+      "destination": "Reserve",
+      "sourceKey": "wiki-lighthouse",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Reserve, répertorié après 1 min. Fenêtre réelle à vérifier en raid."
+    },
+    {
+      "origin": "Lighthouse",
+      "destination": "Shoreline",
+      "sourceKey": "wiki-lighthouse",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Shoreline, répertorié après 1 min. Fenêtre réelle à vérifier en raid."
+    },
+    {
+      "origin": "Lighthouse",
+      "destination": "Woods",
+      "sourceKey": "wiki-lighthouse",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Woods, répertorié après 1 min. Fenêtre réelle à vérifier en raid."
+    },
+    {
+      "origin": "Streets of Tarkov",
+      "destination": "Ground Zero",
+      "sourceKey": "wiki-streets",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Ground Zero, répertorié après 1 min près de l’académie MVD. Fenêtre réelle à vérifier en raid."
+    },
+    {
+      "origin": "Streets of Tarkov",
+      "destination": "Interchange",
+      "sourceKey": "wiki-streets",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit partagé vers Interchange, répertorié après 1 min au sud-ouest de Concordia. Fenêtre réelle à vérifier en raid."
+    },
+    {
+      "origin": "Streets of Tarkov",
+      "destination": "The Lab",
+      "sourceKey": "wiki-streets",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit PMC vers The Lab, répertorié après 1 min avec une carte d’accès Lab par joueur. Prérequis et état non testés en client."
+    },
+    {
+      "origin": "Customs",
+      "destination": "Factory",
+      "sourceKey": "wiki-customs",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit répertorié comme disponible après 1 min dans la table consultée ; elle le classe partagé. Fenêtre et présence non testées en client."
+    },
+    {
+      "origin": "Customs",
+      "destination": "Interchange",
+      "sourceKey": "wiki-customs",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit répertorié comme disponible après 1 min dans la table consultée ; elle le classe partagé. Fenêtre et présence non testées en client."
+    },
+    {
+      "origin": "Customs",
+      "destination": "Reserve",
+      "sourceKey": "wiki-customs",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit répertorié comme disponible après 1 min dans la table consultée ; elle le classe partagé. Fenêtre et présence non testées en client."
+    },
+    {
+      "origin": "Customs",
+      "destination": "Shoreline",
+      "sourceKey": "wiki-customs",
+      "evidence": "COMMUNAUTAIRE",
+      "note": "Wiki : transit répertorié comme disponible après 1 min dans la table consultée ; elle le classe partagé. Fenêtre et présence non testées en client."
+    }
+  ],
+  "maps": [
+    {
+      "slug": "ground-zero",
+      "name": "Ground Zero",
+      "code": "M–01",
+      "route": "pages/maps/ground-zero.html",
+      "difficulty": "mixte",
+      "accessType": "paliers",
+      "heading": "Ground Zero : lire le centre-ville avant de traverser",
+      "lead": "Le quartier d’affaires mêle grands axes, passages intérieurs et sorties à conditions. Vérifiez d’abord quelle variante de matchmaking votre profil vous propose.",
+      "description": "Repérez Ground Zero, ses groupes de niveau rapportés, ses voies urbaines et ses sorties conditionnelles. Les modes et disponibilités restent à vérifier en raid.",
+      "terrain": "Centre-ville · zones denses",
+      "landmarks": [
+        "Centre d’affaires TerraGroup",
+        "Unity Credit Bank",
+        "Nakatani",
+        "Parkings et couloirs"
+      ],
+      "risks": [
+        "Axes exposés et bâtiments à plusieurs entrées",
+        "Le relevé wiki distingue deux groupes de niveau ; portée par mode à confirmer",
+        "Ne pas confondre l’enregistrement tutoriel avec une carte d’extraction"
+      ],
+      "accessTitle": "Deux variantes rapportées par la wiki",
+      "accessText": "La wiki décrit un matchmaking débutant sous le niveau 21 et expérimenté à partir de 21 ; pour un groupe, le niveau le plus élevé compterait. Le snapshot garde Ground Zero, Ground Zero 21+ et Tutorial séparés. Aucun test client ne confirme ici la règle pour PvE, Seasonal ou chaque type de groupe.",
+      "exitTitle": "Sorties rapportées, état en raid inconnu",
+      "exitText": "La wiki cite notamment Emercom Checkpoint, Nakatani Basement Stairs, Mira Ave (fusée verte) et Police Cordon V-Ex. Ce sont des exemples communautaires, pas une liste garantie pour votre profil. Vérifiez le nom et la condition affichés dans le raid ; aucun prix n’est figé ici.",
+      "exitExamples": [
+        {
+          "name": "Emercom Checkpoint",
+          "detail": "Nom rapporté par la wiki ; faction et disponibilité à relire en raid."
+        },
+        {
+          "name": "Mira Ave",
+          "detail": "La wiki décrit une extraction au signal vert ; confirmer la consigne et la zone dans le client."
+        },
+        {
+          "name": "Nakatani Basement Stairs",
+          "detail": "Escalier de sous-sol rapporté par la wiki ; l’interface du raid fait foi."
+        },
+        {
+          "name": "Police Cordon V-Ex",
+          "detail": "Sortie conditionnelle rapportée par la wiki ; coût et disponibilité non publiés ici."
+        }
+      ],
+      "routeAdvice": "Choisissez un seul objectif intérieur et un point de repli extérieur. Avant d’entrer, comparez les deux variantes du lieu et le niveau le plus élevé de votre groupe ; au départ, relisez la liste d’extractions au lieu de suivre une ancienne capture d’écran.",
+      "image": "images/maps/ground-zero-district.jpg",
+      "imageAlt": "Illustration originale d’une avenue d’affaires fictive; aucun POI ni plan de jeu n’est représenté.",
+      "imageCaption": "Illustration d’ambiance · Ground Zero · pas un plan de jeu",
+      "sources": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-ground-zero",
+        "patch110",
+        "tracker-map-rules",
+        "wiki-bosses",
+        "wiki-streets",
+        "tdev-interactive-maps"
+      ],
+      "imageStatus": "visuel_dedie",
+      "bosses": [],
+      "eventBosses": [
+        "Santa Claus — événement listé pour Ground Zero 21+ par la wiki"
+      ],
+      "bossSourceKey": "wiki-bosses",
+      "exitSourceKey": "wiki-ground-zero",
+      "accessSourceKeys": [
+        "wiki-ground-zero"
+      ],
+      "interactiveMapUrl": "https://tarkov.dev/map/ground-zero"
+    },
+    {
+      "slug": "customs",
+      "name": "Customs",
+      "code": "M–02",
+      "route": "pages/maps/customs.html",
+      "difficulty": "mixte",
+      "accessType": "progression",
+      "heading": "Customs : relier les dortoirs et les entrepôts",
+      "lead": "Une traversée entre bâtiments, routes et zones ouvertes. Le patch 1.2.0.0 a modifié les extractions PMC et Scav : les noms d’avant la mise à jour ne suffisent plus.",
+      "description": "Traversez Customs entre dortoirs, entrepôts et axes exposés. BSG a ajouté et ajusté des sorties en 1.2.0.0 ; contrôlez les conditions de votre raid.",
+      "terrain": "Axes, cours et bâtiments",
+      "landmarks": [
+        "Dortoirs",
+        "New Gas / Old Gas — repères communautaires",
+        "Entrepôts",
+        "Fortress / Stronghold"
+      ],
+      "risks": [
+        "Traversées d’axes et lignes de vue",
+        "Dortoirs : combats et portes à clés",
+        "Sorties PMC/Scav ajustées en 1.2.0.0"
+      ],
+      "accessTitle": "Progression et profil à contrôler",
+      "accessText": "L’index communautaire indique que la plupart des cartes se débloquent avec la progression Tour ; la page Customs décrit aussi une sélection directe après cette progression. Ce n’est ni un test du menu ni une règle vérifiée pour tous les modes.",
+      "exitTitle": "Patch 1.2.0.0 : nouvelle liste à relever",
+      "exitText": "BSG confirme officiellement des extractions PMC et Scav ajustées et de nouvelles sorties, sans en publier les noms dans la note. Les cartes et messages communautaires consultés divergent sur certains noms et modes. La fiche ne recopie donc pas une liste statique : ouvrez l’écran de sorties au début du raid et relevez faction, activation et condition.",
+      "exitExamples": [],
+      "routeAdvice": "Avant de quitter le spawn, repérez deux itinéraires vers les dortoirs ou l’objectif de quête et un retour moins exposé. Ne faites pas dépendre la fin de raid d’un ancien guide d’extractions : 1.2.0.0 a explicitement changé les sorties PMC et Scav.",
+      "image": "images/maps/customs.jpg",
+      "imageAlt": "Illustration originale d’une route industrielle et de bâtiments de briques dans la brume",
+      "imageCaption": "Illustration d’ambiance · Customs · pas un plan de jeu",
+      "sources": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-customs",
+        "patch120",
+        "tracker-map-rules",
+        "customs-reddit-oct",
+        "customs-reemr-x",
+        "wiki-bosses",
+        "wiki-factory",
+        "wiki-woods",
+        "wiki-interchange",
+        "wiki-reserve",
+        "tdev-interactive-maps"
+      ],
+      "imageStatus": "visuel_dedie",
+      "bosses": [
+        "Big Pipe",
+        "Birdeye",
+        "Knight",
+        "Partisan",
+        "Reshala"
+      ],
+      "eventBosses": [
+        "Santa Claus — entrée de la table des événements de la wiki"
+      ],
+      "bossSourceKey": "wiki-bosses",
+      "accessSourceKeys": [
+        "wiki-customs",
+        "patch120"
+      ],
+      "interactiveMapUrl": "https://tarkov.dev/map/customs"
+    },
+    {
+      "slug": "factory",
+      "name": "Factory",
+      "code": "M–03",
+      "route": "pages/maps/factory.html",
+      "difficulty": "proche",
+      "accessType": "progression",
+      "heading": "Factory : maîtriser les distances courtes",
+      "lead": "Un site industriel compact, où couloirs, escaliers et portes imposent de choisir rapidement une direction. La version nocturne est un enregistrement distinct.",
+      "description": "Apprenez Factory, ses espaces rapprochés, ses sorties PMC et Scav et sa variante Night Factory. Durées et joueurs viennent d’un export Tarkov.dev daté.",
+      "terrain": "Usine · couloirs et niveaux",
+      "landmarks": [
+        "Bureaux",
+        "Locker room",
+        "Med Tent",
+        "Passages entre étages"
+      ],
+      "risks": [
+        "Engagements à très courte distance",
+        "Portes et sorties dont certaines sont rapportées comme conditionnelles",
+        "Tagilla est signalé sur Factory ; aucun taux de spawn n’est repris"
+      ],
+      "accessTitle": "Aucun accès client testé",
+      "accessText": "La wiki indique que la plupart des lieux sont d’abord verrouillés puis débloqués via Tour ; la disponibilité exacte de Factory dans votre profil et chaque mode n’a pas été testée. Une entrée API n’est pas un droit d’accès.",
+      "exitTitle": "Exemples de noms communautaires",
+      "exitText": "La page wiki consultée cite Gate 3, Gate 0, Camera Bunker Door, Office Window, Cellars et Med Tent Gate, avec des factions/conditions différentes. Smugglers’ Passage y apparaît conditionnel. Cette table n’indique pas l’état du raid : contrôlez la liste affichée et votre faction.",
+      "exitExamples": [
+        {
+          "name": "Gate 3",
+          "detail": "La wiki le répertorie pour PMC et Scav, sans prérequis dans sa table ; vérifiez qu’il figure dans votre raid."
+        },
+        {
+          "name": "Cellars",
+          "detail": "La wiki le classe PMC et indique la clé Factory emergency exit pour ouvrir la porte ; l’état reste à confirmer dans le client."
+        },
+        {
+          "name": "Camera Bunker Door",
+          "detail": "Nom d’extraction Scav rapporté par la wiki, sans condition dans sa table ; présence en raid non vérifiée."
+        },
+        {
+          "name": "Smugglers’ Passage",
+          "detail": "La wiki le répertorie comme partagé et lié à la note « Ark » ; prérequis communautaire, à contrôler en raid."
+        }
+      ],
+      "routeAdvice": "Prenez un repère d’étage avant d’engager une porte, puis choisissez une issue opposée à votre point de contact. Si vous partez sur la variante Night Factory, consultez sa ligne séparée dans les données et ne copiez pas la durée de jour.",
+      "image": "images/maps/factory.jpg",
+      "imageAlt": "Illustration originale d’un atelier industriel sombre, éclairé par quelques lampes",
+      "imageCaption": "Illustration d’ambiance · Factory · pas un plan de jeu",
+      "sources": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-factory",
+        "wiki-bosses",
+        "halloween",
+        "wiki-woods",
+        "wiki-customs",
+        "tdev-interactive-maps"
+      ],
+      "imageStatus": "visuel_dedie",
+      "bosses": [
+        "Tagilla"
+      ],
+      "eventBosses": [
+        "Santa Claus — entrée de la table des événements de la wiki"
+      ],
+      "bossSourceKey": "wiki-bosses",
+      "exitSourceKey": "wiki-factory",
+      "accessSourceKeys": [
+        "wiki-factory"
+      ],
+      "interactiveMapUrl": "https://tarkov.dev/map/factory"
+    },
+    {
+      "slug": "woods",
+      "name": "Woods",
+      "code": "M–04",
+      "route": "pages/maps/woods.html",
+      "difficulty": "etendue",
+      "accessType": "progression",
+      "heading": "Woods : garder un cap dans la forêt",
+      "lead": "Les lignes de vue, les reliefs et les limites invisibles comptent autant que les bâtiments. Apprenez à relier deux repères avant de couper à travers un secteur inconnu.",
+      "description": "Orientez-vous dans Woods entre Scierie, reliefs et bordures. Les sorties et dangers sont communautaires ; la liste du raid confirme ce qui est actif.",
+      "terrain": "Forêt · longues lignes de vue",
+      "landmarks": [
+        "Scierie",
+        "USEC camp",
+        "Scav Bunker",
+        "Rives et reliefs"
+      ],
+      "risks": [
+        "Végétation et distances de détection variables",
+        "Mines et tireurs de bordure rapportés sur la carte wiki",
+        "Shturman est associé à la Scierie ; aucune probabilité n’est annoncée"
+      ],
+      "accessTitle": "Progression à confirmer sur le profil",
+      "accessText": "La wiki présente la progression Tour comme le mécanisme de déverrouillage de la plupart des lieux. Le menu d’accès, les exceptions et la portée par mode n’ont pas été vérifiés dans le client.",
+      "exitTitle": "Faites de la sortie un repère, pas une supposition",
+      "exitText": "Les sorties PMC/Scav et les limites sont listées par les sources communautaires, mais le JSON n’indique pas lesquelles sont actives. Dans le raid, vérifiez la faction, la distance, le compte à rebours et les conditions avant d’engager une longue traversée.",
+      "exitExamples": [
+        {
+          "name": "Outskirts",
+          "detail": "Wiki : sortie PMC/Scav rapportée comme partagée ; contrôlez faction, distance et état dans votre raid."
+        },
+        {
+          "name": "Power Line Passage (Flare)",
+          "detail": "Wiki : sortie PMC sous condition de signal vert dans la zone prévue ; confirmez la consigne affichée et l’ouverture."
+        },
+        {
+          "name": "ZB-014",
+          "detail": "Wiki : sortie PMC ; la table liste la clé ZB-014 et indique « Green flares = Open ». Elle ne précise pas ici si les deux conditions se cumulent ; contrôlez clé, signal et état dans votre raid."
+        }
+      ],
+      "routeAdvice": "Définissez votre orientation à partir de deux repères fixes — par exemple une lisière et un bâtiment — puis vérifiez votre position avant d’approcher la Scierie ou un objectif. Évitez les bordures signalées comme minées ou couvertes par un tireur.",
+      "image": "images/maps/woods.jpg",
+      "imageAlt": "Illustration originale d’une forêt boréale traversée par une piste sous un ciel gris",
+      "imageCaption": "Illustration d’ambiance · Woods · pas un plan de jeu",
+      "sources": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-woods",
+        "tracker-map-rules",
+        "wiki-bosses",
+        "wiki-factory",
+        "wiki-reserve",
+        "wiki-lighthouse",
+        "tdev-interactive-maps"
+      ],
+      "imageStatus": "visuel_dedie",
+      "bosses": [
+        "Big Pipe",
+        "Birdeye",
+        "Knight",
+        "Partisan",
+        "Shturman"
+      ],
+      "eventBosses": [
+        "Santa Claus — entrée de la table des événements de la wiki"
+      ],
+      "bossSourceKey": "wiki-bosses",
+      "exitSourceKey": "wiki-woods",
+      "accessSourceKeys": [
+        "wiki-woods"
+      ],
+      "interactiveMapUrl": "https://tarkov.dev/map/woods"
+    },
+    {
+      "slug": "shoreline",
+      "name": "Shoreline",
+      "code": "M–05",
+      "route": "pages/maps/shoreline.html",
+      "difficulty": "etendue",
+      "accessType": "progression",
+      "heading": "Shoreline : préparer le Resort et ses embranchements",
+      "lead": "Le Resort attire vers ses ailes et ses étages ; la côte et les champs allongent les détours. Plusieurs lieux à accès conditionnel sont liés à cette carte par des transits rapportés.",
+      "description": "Explorez Shoreline entre le Resort, la côte et les transits. Les accès vers Labyrinth, Terminal et Icebreaker ont des niveaux de preuve distincts.",
+      "terrain": "Côte · Resort et zones ouvertes",
+      "landmarks": [
+        "Resort : ailes est et ouest",
+        "Hydroélectricité",
+        "Village et cottages",
+        "Jetée et accès portuaire"
+      ],
+      "risks": [
+        "Traversées ouvertes autour du Resort",
+        "Port Terminal : ne pas approcher l’intercom/zone sans lire la condition rapportée",
+        "Plusieurs transits ne constituent pas des sorties de raid"
+      ],
+      "accessTitle": "Carte de progression et de transit",
+      "accessText": "La wiki rapporte que la plupart des lieux exigent la progression Tour pour la sélection directe et décrit les liens Shoreline–Labyrinth, Shoreline–Terminal et Shoreline–Icebreaker. Seul le transit Icebreaker depuis Shoreline et Lighthouse est confirmé dans les notes BSG 1.1.5.0 ; les autres détails restent communautaires.",
+      "exitTitle": "Séparez sorties, clés et transitions",
+      "exitText": "Pour une sortie PMC/Scav, suivez la ligne affichée dans votre raid. Un accès au port Terminal, un transit vers une autre instance ou une porte de chambre du Resort n’est pas automatiquement une extraction vers le stash.",
+      "exitExamples": [
+        {
+          "name": "Climber’s Trail",
+          "detail": "Wiki : sortie PMC rapportée avec Red Rebel, paracord et sans gilet pare-balles ; vérifiez la règle affichée avant le départ."
+        },
+        {
+          "name": "Mountain Bunker",
+          "detail": "Wiki : sortie partagée liée à un élément de progression rapporté ; condition non validée dans le client."
+        },
+        {
+          "name": "Path to Lighthouse",
+          "detail": "Nom de sortie PMC répertorié par la wiki ; ne pas confondre avec un transit vers une autre carte."
+        }
+      ],
+      "routeAdvice": "Choisissez l’aile du Resort avant d’entrer, notez une sortie hors bâtiment et gardez un itinéraire de repli le long d’un repère de côte. Si l’objectif est un transit, vérifiez son nom, son item et sa fenêtre avant de vous engager ; n’assimilez pas ce transfert à une extraction.",
+      "image": "images/maps/shoreline.jpg",
+      "imageAlt": "Illustration originale d’une côte froide, de bâtiments bas et d’une jetée dans la brume",
+      "imageCaption": "Illustration d’ambiance · Shoreline · pas un plan de jeu",
+      "sources": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-shoreline",
+        "patch115",
+        "terminal-80level",
+        "wiki-terminal",
+        "wiki-labyrinth",
+        "wiki-icebreaker",
+        "wiki-bosses",
+        "wiki-lighthouse",
+        "wiki-customs",
+        "tdev-interactive-maps"
+      ],
+      "imageStatus": "visuel_dedie",
+      "bosses": [
+        "Big Pipe",
+        "Birdeye",
+        "Knight",
+        "Partisan",
+        "Sanitar"
+      ],
+      "eventBosses": [
+        "Santa Claus — entrée de la table des événements de la wiki"
+      ],
+      "bossSourceKey": "wiki-bosses",
+      "exitSourceKey": "wiki-shoreline",
+      "accessSourceKeys": [
+        "wiki-shoreline",
+        "patch115"
+      ],
+      "interactiveMapUrl": "https://tarkov.dev/map/shoreline"
+    },
+    {
+      "slug": "interchange",
+      "name": "Interchange",
+      "code": "M–06",
+      "route": "pages/maps/interchange.html",
+      "difficulty": "mixte",
+      "accessType": "progression",
+      "heading": "Interchange : distinguer le mall de son périmètre",
+      "lead": "Le centre commercial concentre les boutiques, alarmes et étages ; les voies d’approche et le parking forment un terrain distinct. Les conditions d’une sortie peuvent dépendre d’un état en raid.",
+      "description": "Parcourez Interchange entre ULTRA, les magasins et le parking. Repères de loot et géométrie ont évolué ; vérifiez sorties, conditions et ouverture en raid.",
+      "terrain": "Centre commercial · niveaux et parking",
+      "landmarks": [
+        "ULTRA",
+        "Techlight / Idea / Goshan",
+        "KIBA Arms",
+        "Power Station et parking"
+      ],
+      "risks": [
+        "Visibilité et alarmes modifiées selon le secteur",
+        "Lumière ou alimentation ne prouve pas une extraction active",
+        "Killa est un repère de menace, pas un taux de présence garanti"
+      ],
+      "accessTitle": "Pas de verrou de profil testé",
+      "accessText": "Le snapshot classe Interchange dans les trois exports, sans prouver l’accès en sélection. La règle communautaire générale mentionne la progression Tour pour la plupart des cartes ; vérifiez le menu et votre profil.",
+      "exitTitle": "Une sortie conditionnelle se confirme dans le raid",
+      "exitText": "La wiki décrit des sorties et zones d’interaction avec conditions. La note officielle 1.2.0.0 parle surtout de loot et de corrections géométriques sur Interchange, pas d’une liste complète d’extractions. Ne reprenez pas un coût ou un signal lumineux comme état live.",
+      "exitExamples": [
+        {
+          "name": "Emercom Checkpoint",
+          "detail": "Wiki : sortie partagée répertoriée ; faction et état réel à contrôler dans la liste de raid."
+        },
+        {
+          "name": "Path to River (Flare)",
+          "detail": "Wiki : sortie PMC avec signal vert dans la zone dédiée ; l’état d’ouverture n’est pas lu par l’API."
+        },
+        {
+          "name": "Saferoom Exfil",
+          "detail": "Wiki : séquence de conditions rapportée (alimentation, interaction, carte d’accès et commande intérieure) ; rien ici ne confirme qu’elle est activée."
+        }
+      ],
+      "routeAdvice": "Avant d’entrer dans le mall, choisissez une aile et un point de sortie extérieur. Gardez en mémoire que la centrale, les magasins et le parking sont des secteurs séparés ; n’improvisez pas le retour à travers tout ULTRA après un objectif sonore.",
+      "image": "images/maps/interchange.jpg",
+      "imageAlt": "Illustration originale d’un centre commercial évacué et de ses vitrines dans la pénombre",
+      "imageCaption": "Illustration d’ambiance · Interchange · pas un plan de jeu",
+      "sources": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-interchange",
+        "patch120",
+        "tracker-map-rules",
+        "wiki-bosses",
+        "wiki-streets",
+        "wiki-customs",
+        "tdev-interactive-maps"
+      ],
+      "imageStatus": "visuel_dedie",
+      "bosses": [
+        "Killa",
+        "Tagilla"
+      ],
+      "eventBosses": [
+        "Santa Claus — entrée de la table des événements de la wiki"
+      ],
+      "bossSourceKey": "wiki-bosses",
+      "exitSourceKey": "wiki-interchange",
+      "accessSourceKeys": [
+        "wiki-interchange",
+        "patch120"
+      ],
+      "interactiveMapUrl": "https://tarkov.dev/map/interchange"
+    },
+    {
+      "slug": "reserve",
+      "name": "Reserve",
+      "code": "M–07",
+      "route": "pages/maps/reserve.html",
+      "difficulty": "mixte",
+      "accessType": "progression",
+      "heading": "Reserve : relier bâtiments, bunkers et sorties",
+      "lead": "Les blocs en surface et les souterrains forment deux couches de déplacement. Une sortie qui demande un levier, un véhicule ou un objet n’est pas garantie par le seul nom de la carte.",
+      "description": "Reliez les bâtiments et bunkers de Reserve. Train, sorties conditionnelles et restrictions varient ; le JSON public ne révèle pas l’état live.",
+      "terrain": "Base militaire · surface et sous-sols",
+      "landmarks": [
+        "Bâtiments de la base",
+        "Bunkers souterrains",
+        "Dépôt et voies ferrées",
+        "Rebords et points hauts"
+      ],
+      "risks": [
+        "Plusieurs niveaux et chemins de sous-sol",
+        "Sorties conditionnelles avec exigences rapportées par la wiki",
+        "Glukhar et Raiders sont des menaces possibles, sans compter les entrées de mobs"
+      ],
+      "accessTitle": "Vérifiez le mode, puis le raid",
+      "accessText": "Reserve figure dans les trois exports Tarkov.dev. Cette présence n’atteste pas qu’un profil l’a débloquée. Les conditions de sélection et de sortie n’ont pas été testées en client.",
+      "exitTitle": "Nombres et exigences ne sont pas un état live",
+      "exitText": "La wiki et les outils communautaires décrivent bunker, train, manhole et descentes conditionnelles. Les données statiques omettent une partie des exigences ; la capture d’un tracker ne détecte ni train parti, ni levier activé, ni extraction disponible.",
+      "exitExamples": [
+        {
+          "name": "Armored Train",
+          "detail": "Wiki : train partagé à fenêtre limitée ; horaire, arrivée et départ doivent être relus en raid."
+        },
+        {
+          "name": "Bunker Hermetic Door",
+          "detail": "Wiki : sortie activée par un levier et disponible pendant une fenêtre rapportée ; état et compte à rebours à confirmer."
+        },
+        {
+          "name": "D-2",
+          "detail": "Wiki : alimentation puis commande de porte dans le bunker ; activation et accès non observés en client."
+        }
+      ],
+      "routeAdvice": "Repérez une sortie de surface et une issue souterraine avant de descendre. Gardez une route qui vous permet de remonter sans refaire tout le bunker ; la liste PMC/Scav et les restrictions visibles dans le raid priment sur une carte annotée.",
+      "image": "images/maps/reserve.jpg",
+      "imageAlt": "Illustration originale d’une base militaire et d’une entrée de bunker dans la brume",
+      "imageCaption": "Illustration d’ambiance · Reserve · pas un plan de jeu",
+      "sources": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-reserve",
+        "tracker-map-rules",
+        "wiki-bosses",
+        "wiki-woods",
+        "wiki-lighthouse",
+        "wiki-customs",
+        "tdev-interactive-maps"
+      ],
+      "imageStatus": "visuel_dedie",
+      "bosses": [
+        "Glukhar"
+      ],
+      "eventBosses": [
+        "Santa Claus — entrée de la table des événements de la wiki"
+      ],
+      "bossSourceKey": "wiki-bosses",
+      "exitSourceKey": "wiki-reserve",
+      "accessSourceKeys": [
+        "wiki-reserve"
+      ],
+      "interactiveMapUrl": "https://tarkov.dev/map/reserve"
+    },
+    {
+      "slug": "the-lab",
+      "name": "The Lab",
+      "code": "M–08",
+      "route": "pages/maps/the-lab.html",
+      "difficulty": "proche",
+      "accessType": "carte",
+      "heading": "The Lab : séparer les portes des sorties",
+      "lead": "Le laboratoire se lit par étages, couloirs et systèmes d’accès. Une carte d’accès ouvre la voie au lieu ; d’autres cartes et interactions concernent des salles ou des sorties.",
+      "description": "Préparez The Lab : accès rapporté par carte, sorties à activer et variantes Dark ou infectées séparées. Les prix et l’accès de profil sont non vérifiés.",
+      "terrain": "Laboratoire · couloirs et ascenseurs",
+      "landmarks": [
+        "Réception et couloirs",
+        "Ailes médicales et techniques",
+        "Ascenseurs",
+        "Sorties d’urgence et sas"
+      ],
+      "risks": [
+        "Accès conditionné par une carte selon la wiki communautaire",
+        "Sorties pouvant nécessiter interaction ou alimentation",
+        "Ne pas confondre les spawns réguliers et variantes d’événement"
+      ],
+      "accessTitle": "Carte d’accès rapportée par la wiki",
+      "accessText": "La page communautaire décrit une carte d’accès pour entrer au laboratoire. Le prix, la disponibilité au compte et la règle précise par mode n’ont pas été testés ; une entrée d’export ne remplace pas l’écran de sélection.",
+      "exitTitle": "Distinguez accès, portes de loot et extractions",
+      "exitText": "Les sorties sont décrites par la wiki comme liées à des portes, des alarmes ou des interactions. Lisez l’indication de sortie du raid avant de quitter un secteur ; aucune condition ou liste statique n’est garantie ici.",
+      "exitExamples": [
+        {
+          "name": "Cargo Elevator",
+          "detail": "Wiki : ascenseur conditionné par une alimentation ; pas une confirmation que l’extraction est active."
+        },
+        {
+          "name": "Hangar Gate",
+          "detail": "Wiki : porte à ouvrir par commande rapportée ; faction et état à contrôler dans le raid."
+        },
+        {
+          "name": "Ventilation Shaft",
+          "detail": "Wiki : sortie associée à l’absence de sac à dos ; condition non testée sur le profil actuel."
+        }
+      ],
+      "routeAdvice": "Avant d’entrer, confirmez la carte d’accès et le mode, puis repérez un ascenseur/une issue de secours sur la couche appropriée. N’utilisez pas The Lab (Dark) ni Infected Lab pour déduire la durée ou les rencontres du Lab régulier.",
+      "image": "images/maps/the-lab.jpg",
+      "imageAlt": "Illustration originale d’un couloir de laboratoire de recherche sécurisé, lumière froide",
+      "imageCaption": "Illustration d’ambiance · The Lab · pas un plan de jeu",
+      "sources": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-lab",
+        "patch120",
+        "halloween",
+        "wiki-bosses",
+        "wiki-factory",
+        "wiki-streets",
+        "tdev-interactive-maps"
+      ],
+      "imageStatus": "visuel_dedie",
+      "bosses": [],
+      "eventBosses": [],
+      "bossSourceKey": "wiki-bosses",
+      "exitSourceKey": "wiki-lab",
+      "accessSourceKeys": [
+        "wiki-lab"
+      ],
+      "interactiveMapUrl": "https://tarkov.dev/map/the-lab"
+    },
+    {
+      "slug": "lighthouse",
+      "name": "Lighthouse",
+      "code": "M–09",
+      "route": "pages/maps/lighthouse.html",
+      "difficulty": "etendue",
+      "accessType": "progression",
+      "heading": "Lighthouse : intégrer la refonte 1.1.5.0",
+      "lead": "Rogues, route principale, BTR et tunnels ont changé la lecture du terrain. Les mines retirées de la station de traitement de l’eau ne signifient pas qu’il n’en reste nulle part ailleurs.",
+      "description": "Lighthouse après la refonte 1.1.5.0 : Rogues aux chalets, BTR et transit Icebreaker. Routes du véhicule, sorties et disponibilité restent à vérifier en raid.",
+      "terrain": "Littoral · route, chalets et péninsule",
+      "landmarks": [
+        "Chalets",
+        "Station de traitement de l’eau",
+        "Route principale et BTR",
+        "Passages souterrains et péninsule"
+      ],
+      "risks": [
+        "Route du BTR à variantes : ne pas mémoriser un trajet unique",
+        "Mines retirées de la station de traitement seulement (BSG 1.1.5.0)",
+        "Passage vers Icebreaker et progression Lightkeeper à distinguer"
+      ],
+      "accessTitle": "Mise à jour officielle, accès du profil à vérifier",
+      "accessText": "La note BSG 1.1.5.0 confirme la refonte de zones et le transit vers Icebreaker. La wiki mentionne la progression Tour pour la sélection directe de la plupart des cartes ; l’état actuel de votre profil n’a pas été testé.",
+      "exitTitle": "Ne figez ni le BTR ni la sortie",
+      "exitText": "BSG indique que le BTR possède plusieurs variantes de route couvrant la carte. Vérifiez la sortie affichée dans le raid ; un transit au quai près des maisons d’eau mène vers Icebreaker et n’est pas un retour au stash.",
+      "exitExamples": [
+        {
+          "name": "Armored Train",
+          "detail": "La wiki le classe comme sortie partagée à fenêtre limitée ; horaire, arrivée et départ sont à relire dans le raid."
+        },
+        {
+          "name": "Hideout Under the Landing Stage",
+          "detail": "La table communautaire le classe comme sortie Scav ; présence et état d’ouverture à vérifier dans votre raid."
+        }
+      ],
+      "routeAdvice": "Séparez votre parcours en deux : chalets/route d’un côté, station de traitement de l’autre. Les tunnels raccourcissent certaines liaisons selon la note BSG, mais n’abolissent pas les lignes de vue ; contrôlez le déplacement du BTR plutôt que d’attendre un trajet fixe.",
+      "image": "images/maps/lighthouse.jpg",
+      "imageAlt": "Illustration originale d’un phare lointain au-dessus d’une côte rocheuse et d’une route",
+      "imageCaption": "Illustration d’ambiance · Lighthouse · pas un plan de jeu",
+      "sources": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-lighthouse",
+        "patch115",
+        "wiki-icebreaker",
+        "wiki-bosses",
+        "wiki-woods",
+        "wiki-shoreline",
+        "wiki-reserve",
+        "tdev-interactive-maps"
+      ],
+      "imageStatus": "visuel_dedie",
+      "bosses": [
+        "Big Pipe",
+        "Birdeye",
+        "Knight",
+        "Partisan",
+        "Zryachiy"
+      ],
+      "eventBosses": [
+        "Santa Claus — entrée de la table des événements de la wiki"
+      ],
+      "bossSourceKey": "wiki-bosses",
+      "exitSourceKey": "wiki-lighthouse",
+      "accessSourceKeys": [
+        "patch115",
+        "wiki-lighthouse"
+      ],
+      "interactiveMapUrl": "https://tarkov.dev/map/lighthouse"
+    },
+    {
+      "slug": "streets-of-tarkov",
+      "name": "Streets of Tarkov",
+      "code": "M–10",
+      "route": "pages/maps/streets-of-tarkov.html",
+      "difficulty": "mixte",
+      "accessType": "progression",
+      "heading": "Streets of Tarkov : lire les quartiers par étage",
+      "lead": "Les rues, halls et bâtiments à plusieurs niveaux compliquent les raccourcis. Gardez une note de quartier et d’étage : une flèche de hauteur n’est pas un itinéraire vérifié.",
+      "description": "Orientez-vous dans Streets of Tarkov par quartier et par étage. Les coordonnées communautaires ne prouvent pas les accès ou sorties actives.",
+      "terrain": "Ville dense · rues et étages",
+      "landmarks": [
+        "LexOs",
+        "Pinewood",
+        "Quartiers résidentiels",
+        "Traversées et passages intérieurs"
+      ],
+      "risks": [
+        "Lignes de vue longues entre pâtés de maisons",
+        "Connexions verticales et étages",
+        "Les hauteurs d’un outil tiers ne sont pas des coordonnées vérifiées en client"
+      ],
+      "accessTitle": "Présence dans le catalogue, menu non testé",
+      "accessText": "Le flux Tarkov.dev répertorie Streets pour les trois profils. L’index wiki indique que la plupart des cartes se débloquent via Tour ; cette page ne confirme pas l’état de votre profil ni les différences PvE/Seasonal.",
+      "exitTitle": "Utilisez la carte tierce comme aide, pas comme autorité live",
+      "exitText": "Les cartes communautaires regroupent sorties, transits et marqueurs de niveaux, mais certaines conditions manquent dans les données publiques. Au raid, contrôlez faction, étage, besoin de clé/objet et état d’ouverture.",
+      "exitExamples": [
+        {
+          "name": "Klimov Street (Flare)",
+          "detail": "Wiki : sortie PMC conditionnée à une fusée verte dans la zone indiquée ; confirmez le signal et l’ouverture dans le raid."
+        },
+        {
+          "name": "Sewer Manhole",
+          "detail": "Wiki : sortie Scav rapportée sans sac à dos ; disponibilité en direct non vérifiée."
+        },
+        {
+          "name": "Crash Site",
+          "detail": "Nom de sortie PMC répertorié par la wiki ; vérifiez faction et état avant de traverser."
+        }
+      ],
+      "routeAdvice": "Choisissez un seul quartier comme destination, mémorisez un repère vertical et évitez de changer d’étage sans issue de repli. Les marqueurs d’étages aident à lire une carte, mais ne décrivent ni un escalier navigable ni une extraction active.",
+      "image": "images/maps/streets-of-tarkov-district.jpg",
+      "imageAlt": "Illustration originale d’une rue urbaine fictive au crépuscule; aucun repère cartographique n’est représenté.",
+      "imageCaption": "Illustration d’ambiance · Streets of Tarkov · pas un plan de jeu",
+      "sources": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-streets",
+        "tracker-map-rules",
+        "wiki-bosses",
+        "wiki-ground-zero",
+        "wiki-interchange",
+        "wiki-lab",
+        "tdev-interactive-maps"
+      ],
+      "imageStatus": "visuel_dedie",
+      "bosses": [
+        "Kaban",
+        "Kollontay"
+      ],
+      "eventBosses": [
+        "Santa Claus — entrée de la table des événements de la wiki"
+      ],
+      "bossSourceKey": "wiki-bosses",
+      "exitSourceKey": "wiki-streets",
+      "accessSourceKeys": [
+        "wiki-streets"
+      ],
+      "interactiveMapUrl": "https://tarkov.dev/map/streets-of-tarkov"
+    },
+    {
+      "slug": "the-labyrinth",
+      "name": "The Labyrinth",
+      "code": "M–11",
+      "route": "pages/maps/the-labyrinth.html",
+      "difficulty": "proche",
+      "accessType": "transit",
+      "heading": "The Labyrinth : préparer l’accès avant d’entrer",
+      "lead": "Cette instance souterraine est rapportée comme un transit conditionnel depuis le Resort. Les clés, pièges et nombre de joueurs sont à vérifier avant de préparer un groupe.",
+      "description": "Accès rapporté à The Labyrinth depuis Shoreline, clés Knossos et Labrys, conflit API/wiki sur la taille de groupe. Confirmez accès et sorties en raid.",
+      "terrain": "Installation souterraine · salles et pièges",
+      "landmarks": [
+        "Sous-sol de l’aile ouest du Resort",
+        "Chambres de départ",
+        "Portes de sécurité",
+        "Couloirs et passages piégés"
+      ],
+      "risks": [
+        "Accès par transit et clés selon la wiki communautaire",
+        "Pièges et obstacles signalés par la wiki",
+        "Sources incompatibles sur le nombre de joueurs"
+      ],
+      "accessTitle": "Transit et clés rapportés par la wiki",
+      "accessText": "La wiki indique un transit depuis le sous-sol de l’aile ouest du Resort, une Knossos LLC facility key pour la porte et une Labrys access keycard pour entrer. Aucun test client ne confirme les objets, les profils ou la disponibilité actuels.",
+      "exitTitle": "Deux entrées API ne donnent pas une sortie garantie",
+      "exitText": "Le snapshot contient deux entrées d’extraction dans chaque mode, sans indiquer lesquelles sont actives. La wiki décrit des pièges, portes et issues ; vérifiez la condition affichée et ne confondez pas un retour de transit avec une sortie au stash.",
+      "exitExamples": [],
+      "routeAdvice": "Confirmez la composition du groupe avant d’amorcer le transit : le snapshot dit 5–5 alors que la wiki indique 1–5. Une fois l’entrée choisie, traitez chaque chambre comme une zone à risque ; n’appliquez pas un puzzle ou une séquence de boss d’une vieille capture sans vérifier la version.",
+      "image": "images/maps/the-labyrinth.jpg",
+      "imageAlt": "Illustration originale d’un bunker souterrain de béton et de métal, lumière d’alarme",
+      "imageCaption": "Illustration d’ambiance · The Labyrinth · pas un plan de jeu",
+      "sources": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-labyrinth",
+        "patch120",
+        "balance-nov",
+        "tracker-map-rules",
+        "wiki-bosses",
+        "tdev-interactive-maps"
+      ],
+      "imageStatus": "visuel_dedie",
+      "bosses": [
+        "Shadow of Tagilla",
+        "Vengeful Killa"
+      ],
+      "eventBosses": [],
+      "bossSourceKey": "wiki-bosses",
+      "accessSourceKeys": [
+        "wiki-labyrinth"
+      ],
+      "interactiveMapUrl": "https://tarkov.dev/map/the-labyrinth"
+    },
+    {
+      "slug": "icebreaker",
+      "name": "Icebreaker",
+      "code": "M–12",
+      "route": "pages/maps/icebreaker.html",
+      "difficulty": "proche",
+      "accessType": "transit",
+      "heading": "Icebreaker : une expédition PvE dans tous les modes",
+      "lead": "BSG décrit une carte séparée pour un à trois joueurs face à l’IA, sans matchmaking avec des inconnus. Les notes de 1.1.5.0 remplacent les anciens frais en roubles par un kit marin à usage unique.",
+      "description": "Icebreaker : 1–3 joueurs contre l’IA dans les modes officiels. Accès par transit et kit Sudak-tudak selon BSG ; disponibilité et sorties restent à vérifier.",
+      "terrain": "Brise-glace Boreas · ponts et coursives",
+      "landmarks": [
+        "Pont et passerelles",
+        "Ponts intérieurs et coursives",
+        "Zones d’équipage",
+        "Transit depuis Shoreline ou Lighthouse"
+      ],
+      "risks": [
+        "Combat contre l’IA, sans matchmaking aléatoire (BSG 1.0.5.0)",
+        "Kit marin Sudak-tudak à usage unique pour les transits Shoreline/Lighthouse (BSG 1.1.5.0)",
+        "BSG, 12/11 (sans numéro de patch) : réaction, précision et santé de The Wedge et de ses gardes réduites ; munitions modifiées, tous modes",
+        "BSG, 12/11 : documents médicaux Battle Pass disponibles sur Icebreaker ; documents Battle Pass augmentés dans la liste Seasonal, sans promesse de butin par raid",
+        "Les vidéos fumée/IA de novembre décrivent un bug incertain et parfois non reproductible ; ne pas traiter cela comme une tactique fiable",
+        "BSG, 13/11 : des mallettes avec documents ont été ajoutées aux largages Seasonal ; aucune fréquence n’est publiée."
+      ],
+      "accessTitle": "Faits officiels et étape de progression séparés",
+      "accessText": "BSG confirme 1–3 joueurs, tous les modes EFT officiels, adversaires IA et absence de matchmaking aléatoire. En 1.1.5.0, les transits depuis Shoreline et Lighthouse utilisent un kit marin Sudak-tudak à usage unique au lieu de roubles. Le message BSG du 12/11, sans numéro de patch, annonce des documents médicaux du Battle Pass disponibles sur Icebreaker et davantage de documents Battle Pass dans la liste Seasonal ; ce n’est pas une garantie de butin dans chaque raid. La même annonce fixe à 100 % l’apparition de Black Division sur les lieux concernés en Seasonal, sans fournir ici de taux propre à Icebreaker : aucun spawn local n’est déduit. La wiki rapporte enfin un accès direct après Stick to It ; vérifiez cette étape en client. Le 13/11, BSG a aussi ajouté des mallettes avec documents aux largages Seasonal ; aucune fréquence de drop n’est donnée, et ce changement ne vaut pas pour les autres modes.",
+      "exitTitle": "L’entrée n’est pas une extraction au stash",
+      "exitText": "Le snapshot enregistre une sortie, mais ne dit pas si elle est disponible dans ce raid. Les objectifs de l’expédition, une issue de navire et un transit retour sont à distinguer dans l’interface.",
+      "exitExamples": [
+        {
+          "name": "Helicopter",
+          "detail": "La wiki rapporte un signal vert dans la zone et 2 400 euros par joueur ; coût et activation non testés dans le client."
+        }
+      ],
+      "routeAdvice": "Préparez un point de repli avant d’ouvrir une coursive. Un guide de joueur antérieur au rééquilibrage du 12/11 propose écoute, couvert et angles étroits ; ce sont des pistes situées, pas des règles testées. BSG a depuis réduit la réaction, la précision et la santé de The Wedge et de ses gardes dans tous les modes, et modifié leurs munitions. Des vidéos des 12–13/11 présentent le tir dans la fumée comme une interaction IA incertaine, parfois non reproductible : ne la considérez pas comme une technique fiable. La vidéo communautaire du 14/11 et les commentaires consultés après l’équilibrage restent partagés : certains rapportent un combat plus accessible, d’autres le trouvent toujours difficile. Ce sont des expériences individuelles, pas une mesure ni une validation en client.",
+      "image": "images/maps/icebreaker.jpg",
+      "imageAlt": "Illustration originale d’un brise-glace pris dans la banquise sous la neige",
+      "imageCaption": "Illustration d’ambiance · Icebreaker · pas un plan de jeu",
+      "sources": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-icebreaker",
+        "patch105",
+        "patch115",
+        "balance-nov",
+        "wiki-bosses",
+        "yt-icebreaker-wedge-1.3",
+        "yt-icebreaker-smoke-1.3",
+        "yt-icebreaker-smoke-1.3-nov12",
+        "tdev-interactive-maps",
+        "balance-13nov",
+        "yt-icebreaker-hotfix-14nov"
+      ],
+      "imageStatus": "visuel_dedie",
+      "bosses": [
+        "The Wedge",
+        "Knight"
+      ],
+      "eventBosses": [],
+      "bossSourceKey": "wiki-bosses",
+      "exitSourceKey": "wiki-icebreaker",
+      "accessSourceKeys": [
+        "patch105",
+        "patch115",
+        "balance-nov",
+        "wiki-icebreaker",
+        "balance-13nov"
+      ],
+      "routeAdviceSourceKeys": [
+        "yt-icebreaker-wedge-1.3",
+        "yt-icebreaker-smoke-1.3-nov12",
+        "yt-icebreaker-smoke-1.3",
+        "balance-nov",
+        "balance-13nov",
+        "yt-icebreaker-hotfix-14nov"
+      ],
+      "interactiveMapUrl": "https://tarkov.dev/map/icebreaker"
+    },
+    {
+      "slug": "terminal",
+      "name": "Terminal",
+      "code": "M–13",
+      "route": "pages/maps/terminal.html",
+      "difficulty": "mixte",
+      "accessType": "transit",
+      "heading": "Terminal : le port, les révélations et le doute des données",
+      "lead": "Le lieu est lié au dénouement de la campagne. Les horaires, l’objet d’accès et la durée divergent entre API et wiki ; ce guide sépare l’entretien développeur des détails communautaires.",
+      "description": "Terminal : accès par Shoreline et horaires rapportés, durée 45 ou 50 minutes selon source. Avertissement spoilers ; aucune règle live n’est confirmée ici.",
+      "terrain": "Port · terminal maritime et quais",
+      "landmarks": [
+        "Port et barrières",
+        "Bâtiments de contrôle",
+        "Quais et navires",
+        "Intercom de garnison rapporté par la wiki"
+      ],
+      "risks": [
+        "Accès lié à la progression narrative selon l’entretien et la wiki",
+        "Objet à présenter à l’intercom selon la wiki ; règle non testée",
+        "Durée contradictoire : 45 min sur la wiki, 50 min dans l’export"
+      ],
+      "accessTitle": "Transit narratif rapporté, pas une sélection libre vérifiée",
+      "accessText": "L’entretien développeur consulté via 80 Level décrit un accès depuis Shoreline à fenêtre limitée et situe le lieu après la campagne. La wiki précise 21:00–06:00 et un objet présenté à l’intercom. L’URL de l’entretien renvoie 404 au recontrôle ; ces détails ne sont pas une note de patch vérifiée en client.",
+      "exitTitle": "Zubr rapporté ; l’API n’enregistre aucune sortie",
+      "exitText": "L’entretien et la wiki rapportent le Zubr comme issue, tandis que l’export Tarkov.dev indique 0 entrée d’extraction. Cela ne prouve pas l’absence de sortie : la durée diverge aussi, 45 min (wiki) contre 50 min (API). Les deux valeurs sont affichées comme conflit, aucune n’est présentée comme live.",
+      "exitExamples": [
+        {
+          "name": "Zubr",
+          "detail": "Issue rapportée par l’entretien et la wiki ; non vérifiée dans le client et absente des entrées d’extraction API."
+        }
+      ],
+      "routeAdvice": "Activez l’avertissement spoilers avant de lire les objets et événements du port. Avant d’entamer un transit, confirmez l’heure, l’objet requis et le message de l’intercom dans le raid ; ne planifiez pas sur la seule durée API ou sur la table Fandom.",
+      "image": "images/maps/terminal-port.jpg",
+      "imageAlt": "Illustration originale d’un terminal portuaire fictif dans la brume; aucun plan ni marqueur d’extraction n’est représenté.",
+      "imageCaption": "Illustration d’ambiance · Terminal · pas un plan de jeu",
+      "sources": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-terminal",
+        "terminal-80level",
+        "tracker-map-rules",
+        "wiki-bosses",
+        "tdev-interactive-maps"
+      ],
+      "imageStatus": "visuel_dedie",
+      "bosses": [
+        "Glukhar",
+        "Killa",
+        "Reshala",
+        "Sanitar",
+        "Tagilla"
+      ],
+      "eventBosses": [],
+      "bossSourceKey": "wiki-bosses",
+      "exitSourceKey": "wiki-terminal",
+      "accessSourceKeys": [
+        "wiki-terminal",
+        "terminal-80level"
+      ],
+      "interactiveMapUrl": "https://tarkov.dev/map/terminal"
+    }
+  ],
+  "interactiveMapsCheckedAt": "2026-11-18T19:48:11+01:00"
+}

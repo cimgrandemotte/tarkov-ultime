@@ -1,0 +1,625 @@
+{
+  "schemaVersion": 1,
+  "status": "VALIDE",
+  "browser": "Chromium 159.0.8154.6",
+  "checkedAt": "2026-11-18T13:50:32.465Z",
+  "checks": [
+    {
+      "name": "HTTP : trois routes, alias lore, MIME, référencement et liste blanche",
+      "passed": true
+    },
+    {
+      "name": "Bureau : starter, médias décodés, chargement léger, audit",
+      "passed": true
+    },
+    {
+      "name": "Bureau : lore, médias décodés, chargement léger, audit",
+      "passed": true
+    },
+    {
+      "name": "Clavier : lien d’évitement, sommaire, retour en haut et onglets PMC/Scav",
+      "passed": true
+    },
+    {
+      "name": "Checklist locale : six cases, conservation, remise à zéro et isolation de l’accueil",
+      "passed": true
+    },
+    {
+      "name": "FAQ : 24, recherche accentuée, état vide, remise à zéro et ancre directe",
+      "passed": true
+    },
+    {
+      "name": "Recherche globale : accueil → débutant → lore, retour à une ancre sur l’accueil",
+      "passed": true
+    },
+    {
+      "name": "Recherche locale : question masquée réaffichée, alias du lore sans rechargement",
+      "passed": true
+    },
+    {
+      "name": "Lore : divulgation explicite, réponse refermable, non persistée et hors résultats",
+      "passed": true
+    },
+    {
+      "name": "Mobile tactile : parcours accueil–lore–débutant, menu et cibles",
+      "passed": true
+    },
+    {
+      "name": "Reflow 320–1440 px, texte 200 %, pas de débordement hors région de tableau",
+      "passed": true
+    },
+    {
+      "name": "Préférences : contraste partagé, couleurs système, contenus et clavier",
+      "passed": true
+    },
+    {
+      "name": "Sans JS : navigation, 10 étapes, FAQ native, tous les profils et bloc de révélations",
+      "passed": true
+    },
+    {
+      "name": "Mobile simulé : LCP et CLS des deux dossiers (+100 ms, 4 Mbit/s, CPU ×4)",
+      "passed": true
+    }
+  ],
+  "audits": [
+    {
+      "context": "starter 1440 px, état initial",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#guide-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#profils\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#profils\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#checklist\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#extraction\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"lore/\"]"
+            ]
+          ]
+        }
+      ],
+      "passes": 36
+    },
+    {
+      "context": "lore 1440 px, état initial",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#guide-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#factions\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#norvinsk\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#factions\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#chapitres\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".guide-next > .button--quiet.button"
+            ]
+          ]
+        }
+      ],
+      "passes": 29
+    },
+    {
+      "context": "Profil Scav sélectionné",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#guide-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#profils\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#profils\"] > .guide-quick__copy > strong"
+            ],
+            [
+              ".guide-quick__link[href$=\"#profils\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#checklist\"] > .guide-quick__copy > strong"
+            ],
+            [
+              "a[href$=\"#checklist\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#extraction\"] > .guide-quick__copy > strong"
+            ],
+            [
+              ".guide-quick__link[href$=\"#extraction\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"lore/\"]"
+            ]
+          ]
+        }
+      ],
+      "passes": 36
+    },
+    {
+      "context": "FAQ filtrée et réponse ouverte",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#guide-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#profils\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#profils\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#checklist\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#extraction\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              "#commandes > p"
+            ],
+            [
+              "a[href$=\"#ref-wiki-controls\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"lore/\"]"
+            ]
+          ]
+        }
+      ],
+      "passes": 36
+    },
+    {
+      "context": "Révélations ouvertes sur activation",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#guide-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#factions\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#norvinsk\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#factions\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#chapitres\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-chapters"
+            ],
+            [
+              ".guide-chapters > a[href$=\"#ref-story-chapters\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".guide-next > .button--quiet.button"
+            ]
+          ]
+        }
+      ],
+      "passes": 29
+    },
+    {
+      "context": "Lore, menu mobile ouvert",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "li:nth-child(1) > a[href=\"../../\"]"
+            ],
+            [
+              "li[aria-current=\"page\"]"
+            ],
+            [
+              ".guide-crumbbar__meta"
+            ],
+            [
+              ".guide-crumbbar__meta > time[datetime=\"2026-11-18\"]"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#guide-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#factions\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-quick__link[href$=\"#norvinsk\"] > .guide-quick__no[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#norvinsk\"] > .guide-quick__copy > small"
+            ],
+            [
+              ".guide-quick__link[href$=\"#norvinsk\"] > .guide-quick__copy > strong"
+            ],
+            [
+              ".guide-quick__link[href$=\"#norvinsk\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#factions\"] > .guide-quick__no[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#factions\"] > .guide-quick__copy > small"
+            ],
+            [
+              ".guide-quick__link[href$=\"#factions\"] > .guide-quick__copy > strong"
+            ],
+            [
+              ".guide-quick__link[href$=\"#factions\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#chapitres\"] > .guide-quick__no[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#chapitres\"] > .guide-quick__copy > small"
+            ],
+            [
+              ".guide-quick__link[href$=\"#chapitres\"] > .guide-quick__copy > strong"
+            ],
+            [
+              ".guide-quick__link[href$=\"#chapitres\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".guide-next > .button--quiet.button"
+            ]
+          ]
+        }
+      ],
+      "passes": 29
+    },
+    {
+      "context": "Débutant sous couleurs système",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#guide-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#profils\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-quick__link[href$=\"#profils\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#checklist\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#extraction\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              "#ref-health > p"
+            ],
+            [
+              "#ref-medical > .guide-source__type"
+            ]
+          ]
+        }
+      ],
+      "passes": 36
+    },
+    {
+      "context": "Lore ouvert sous couleurs système",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#guide-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#factions\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-quick__link[href$=\"#norvinsk\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#factions\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#chapitres\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-chapters"
+            ],
+            [
+              ".guide-chapters > a[href$=\"#ref-story-chapters\"]"
+            ]
+          ]
+        }
+      ],
+      "passes": 29
+    }
+  ],
+  "widths": [
+    320,
+    390,
+    576,
+    768,
+    831,
+    832,
+    1024,
+    1440
+  ],
+  "performance": {
+    "starter": {
+      "initial": {
+        "lcpMs": 196,
+        "cls": 0.006,
+        "resources": 23,
+        "transferBytes": 535714
+      },
+      "mobile": {
+        "lcpMs": 1216,
+        "cls": 0,
+        "resources": 22,
+        "transferBytes": 358631
+      }
+    },
+    "lore": {
+      "initial": {
+        "lcpMs": 216,
+        "cls": 0.056,
+        "resources": 23,
+        "transferBytes": 632651
+      },
+      "mobile": {
+        "lcpMs": 1260,
+        "cls": 0,
+        "resources": 23,
+        "transferBytes": 632651
+      }
+    }
+  }
+}

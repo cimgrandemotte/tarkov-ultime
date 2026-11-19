@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Banc d’essai de Tarkov Ultimate Guide : essayez la recherche, le catalogue, les composants et le lecteur d’ambiance avant la mise en ligne du guide Tarkov.">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>Interface tactique · Tarkov Ultimate Guide</title>
+  <style>html{background:#0a0a0a;color:#e8e6e3}[hidden]{display:none!important}</style>
+  <link rel="icon" type="image/jpeg" href="../images/ui/design-field-kit.jpg">
+  <link rel="preload" href="../images/ui/design-ops-rain.jpg" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="../fonts/type.css">
+  <link rel="stylesheet" href="../vendor/aos.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/animations.css">
+  <link rel="stylesheet" href="../css/pages/lab.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <script src="../vendor/howler.core.min.js" defer></script>
+  <script src="../vendor/aos.js" defer></script>
+  <script src="../js/main.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <header class="site-header" data-site-header>
+    <div class="shell site-header__inner">
+      <a href="#top" class="brand">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span><span class="brand__word">TARKOV</span> <span class="brand__descriptor">Ultimate Guide</span></span><span class="sr-only">, haut de l’atelier</span>
+      </a>
+      <nav class="site-nav" id="global-nav" data-site-nav aria-label="Navigation principale">
+        <a class="site-nav__link" href="#top" aria-current="location">Atelier</a>
+        <details class="mega-menu" data-nav-disclosure>
+          <summary class="mega-menu__summary">Composants</summary>
+          <div class="mega-menu__panel">
+            <a class="mega-menu__item" href="#catalogue"><strong>Catalogue</strong><span>Filtrer des données du jeu.</span></a>
+            <a class="mega-menu__item" href="#modules"><strong>Interactions</strong><span>Onglets et préférences.</span></a>
+            <a class="mega-menu__item" href="#priorites"><strong>Tier list</strong><span>Personnaliser ses priorités.</span></a>
+            <a class="mega-menu__item" href="#dataset"><strong>Données</strong><span>Consulter le relevé utilisé.</span></a>
+          </div>
+        </details>
+        <a class="site-nav__link" href="#audio">Ambiances</a>
+        <a class="site-nav__link" href="#sources-atelier">Sources</a>
+      </nav>
+      <div class="site-header__utilities">
+        <a class="badge badge--live" href="#sources-atelier" data-patch-badge aria-label="Patch de référence : 1.3.0.0">1.3.0.0</a>
+        <button type="button" class="button button--quiet" data-modal-open="site-search" data-site-search-trigger aria-label="Rechercher dans l’atelier" aria-haspopup="dialog" aria-controls="site-search" aria-keyshortcuts="Control+K Meta+K" hidden>
+          <i class="icon icon--search" aria-hidden="true"></i><span class="button__text">Rechercher</span> <kbd aria-hidden="true" class="search-key" data-keyhint="Ctrl K"></kbd>
+        </button>
+        <button type="button" class="button button--icon" data-nav-toggle aria-label="Menu de navigation" aria-controls="global-nav" aria-expanded="false" hidden><i class="icon icon--menu" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="lab-hero" id="top" tabindex="-1" aria-labelledby="hero-heading" data-motion-hero>
+      <div class="lab-hero__photo" aria-hidden="true"></div>
+      <div class="particles" aria-hidden="true" data-particles></div>
+      <div class="shell lab-hero__inner">
+        <div class="lab-hero__body">
+          <nav class="breadcrumb" aria-label="Fil d’Ariane"><ol><li>Guide Tarkov</li><li aria-current="page">Atelier</li></ol></nav>
+          <p class="eyebrow eyebrow--dot">Banc d’essai <span aria-hidden="true">//</span> Phase 01</p>
+          <h1 class="lab-hero__heading" id="hero-heading">Interface <span>tactique</span></h1>
+          <p class="lab-hero__intro">Essayez les outils du futur guide : trouvez un modèle, comparez ses statistiques en jeu et choisissez une ambiance de Tarkov.</p>
+          <div class="lab-hero__actions">
+            <a class="button button--primary" href="#catalogue"><i class="icon icon--compare" aria-hidden="true"></i> Ouvrir le catalogue <span aria-hidden="true">↓</span></a>
+            <button class="button button--quiet" type="button" data-audio-toggle data-play-label="Écouter l’ambiance" data-pause-label="Suspendre l’ambiance" hidden><i class="icon icon--sound" aria-hidden="true"></i><span data-audio-toggle-text>Écouter l’ambiance</span></button>
+          </div>
+          <p class="lab-hero__transmit">Aperçu technique · pas encore le guide public</p>
+          <a class="badge badge--live lab-hero__patch" href="#sources-atelier">Patch 1.3.0.0</a>
+        </div>
+        <p class="lab-hero__meta" aria-hidden="true">NORVINSK <span>SECTEUR 01 · PLUIE</span></p>
+      </div>
+    </section>
+    <nav class="lab-nav" aria-label="Accès rapides de l’atelier">
+      <div class="shell lab-nav__items">
+        <a class="shortcut" href="#catalogue"><span class="shortcut__icon"><i class="icon icon--compare" aria-hidden="true"></i></span><span><strong>Catalogue</strong><small>Filtres &amp; comparaison</small></span><span class="shortcut__arrow" aria-hidden="true">↘</span></a>
+        <a class="shortcut" href="#modules"><span class="shortcut__icon" aria-hidden="true">⌘</span><span><strong>Composants</strong><small>Clavier &amp; contraste</small></span><span class="shortcut__arrow" aria-hidden="true">↘</span></a>
+        <a class="shortcut" href="#audio"><span class="shortcut__icon"><i class="icon icon--sound" aria-hidden="true"></i></span><span><strong>Ambiances</strong><small>Lecteur à la demande</small></span><span class="shortcut__arrow" aria-hidden="true">↘</span></a>
+      </div>
+    </nav>
+    <div class="lab-content">
+      <div class="shell">
+        <section class="lab-section" id="catalogue" aria-labelledby="catalogue-title">
+          <header class="lab-section__header">
+            <div><p class="eyebrow">01 / Données</p><h2 class="lab-section__title" id="catalogue-title">Comparer l’équipement</h2><p class="lab-section__lead">Filtrez les modèles et sélectionnez-en jusqu’à trois pour les comparer côte à côte.</p></div>
+            <span class="badge badge--gold">PvP permanent · relevé du 18/11</span>
+          </header>
+          <div class="catalogue">
+            <div class="panel" data-filter data-filter-singular="modèle affiché" data-filter-plural="modèles affichés" data-compare>
+              <div class="panel__bar"><span class="eyebrow eyebrow--muted">Catalogue d’essai</span><span class="badge">Objets de base</span></div>
+              <div class="panel__body catalogue__body">
+                <form class="filter-bar" role="search" aria-label="Filtrer les modèles du catalogue" data-filter-form hidden>
+                  <label class="field" for="catalogue-query">Modèle ou terme
+                    <span class="field__wrap"><i class="icon icon--search" aria-hidden="true"></i><input class="field__input field__input--search" type="search" id="catalogue-query" placeholder="Ex. M4A1" autocomplete="off" data-filter-input></span>
+                  </label>
+                  <label class="field" for="catalogue-family">Famille
+                    <select class="field__input" id="catalogue-family" data-filter-key="family"><option value="">Toutes les familles</option><option value="assault">Fusils d’assaut</option><option value="smg">Pistolets-mitrailleurs</option><option value="shotgun">Fusils à pompe</option></select>
+                  </label>
+                  <label class="field" for="catalogue-sort">Tri
+                    <select class="field__input" id="catalogue-sort" data-filter-sort><option value="">Ordre initial</option><option value="label">Nom (A–Z)</option><option value="ergo" data-metric="sortErgo">Ergonomie ↓</option><option value="cadence" data-metric="sortCadence">Cadence ↓</option></select>
+                  </label>
+                  <button type="reset" class="button button--quiet">Réinitialiser</button>
+                </form>
+                <p class="catalogue__count" role="status" data-filter-count>[[COUNT]] modèles affichés</p>
+                <p class="catalogue__empty" data-filter-empty hidden>Aucun modèle ne correspond. Effacez la recherche ou changez de famille.</p>
+                <ul class="catalogue__results" data-filter-list>
+                [[CATALOGUE]]
+                </ul>
+              </div>
+              <div class="compare-bar" data-compare-bar hidden>
+                <p class="compare-status" role="status" data-compare-status>0/3 sélectionnés</p>
+                <div class="compare-bar__buttons"><button class="button button--quiet button--xs" type="button" data-compare-clear>Effacer la sélection</button><button class="button button--primary button--xs" type="button" data-compare-open data-modal-open="compare-dialog" aria-haspopup="dialog" aria-controls="compare-dialog" disabled>Comparer</button></div>
+              </div>
+              <script type="application/json" data-compare-data>[[COMPARE]]</script>
+            </div>
+            <aside class="panel dossier" id="dataset" aria-labelledby="dataset-heading">
+              <figure class="dossier__visual"><img src="../images/ui/design-field-kit.jpg" width="1376" height="768" alt="Gilet de toile olive et radio usée posés sur un établi faiblement éclairé" loading="lazy" decoding="async"><figcaption class="dossier__credit">Illustration générée</figcaption></figure>
+              <div class="panel__body dossier__body">
+                <p class="eyebrow">Échantillon local</p><h3 class="dossier__headline" id="dataset-heading">Le relevé Tarkov.dev</h3>
+                <p>Valeurs de jeu des objets de base, sans accessoires ajoutés. Ni prix en temps réel ni classement des armes.</p>
+                <dl class="dossier__figures"><div><dt>Modèles</dt><dd>06</dd></div><div><dt>Familles</dt><dd>03</dd></div></dl>
+                <div class="dossier__line"><span class="mono">Ergonomie</span><button type="button" class="tooltip__trigger" data-tooltip aria-label="Que signifie ergonomie dans ce relevé ?" aria-describedby="tip-ergo" hidden><span class="icon icon--info" aria-hidden="true"></span></button><span class="tooltip__bubble" id="tip-ergo" role="tooltip" hidden>Valeur d’ergonomie affichée par le jeu pour l’objet de base. Un preset complet peut avoir une autre valeur.</span></div>
+                <a class="dossier__source" href="https://json.tarkov.dev/endpoints">Ouvrir la documentation de la source <span aria-hidden="true">↗</span></a>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="lab-section" id="modules" aria-labelledby="modules-title">
+          <header class="lab-section__header"><div><p class="eyebrow">02 / Interactions</p><h2 class="lab-section__title" id="modules-title">Composants et préférences</h2><p class="lab-section__lead">Les contrôles partagés sont utilisables au clavier, au toucher et à la souris.</p></div><span class="badge" data-reveal>Interface locale</span></header>
+          <div class="lab-widgets">
+            <div class="panel" data-tabs>
+              <div class="panel__bar"><span class="eyebrow eyebrow--muted">Préférences visuelles</span></div>
+              <div class="panel__body">
+                <h3>Adapter la lecture</h3>
+                <div class="tabs__nav" data-tabs-nav aria-label="Aide de l’atelier" hidden>
+                  <button type="button" class="button button--xs tabs__tab" id="tab-shortcuts" data-tab="panel-shortcuts">Raccourcis</button>
+                  <button type="button" class="button button--xs tabs__tab" id="tab-display" data-tab="panel-display">Affichage</button>
+                  <button type="button" class="button button--xs tabs__tab" id="tab-storage" data-tab="panel-storage">Local</button>
+                </div>
+                <div class="tabs__panel" id="panel-shortcuts"><p><kbd>Ctrl</kbd> + <kbd>K</kbd> (ou <kbd>⌘</kbd> + <kbd>K</kbd> sur Mac) ouvre la recherche. Dans le menu de recherche, les flèches parcourent les résultats ; <kbd>Échap</kbd> ferme la fenêtre.</p></div>
+                <div class="tabs__panel" id="panel-display"><p>Le contraste renforcé conserve le thème sombre. Les effets sont désactivés si le système demande de réduire les animations.</p></div>
+                <div class="tabs__panel" id="panel-storage"><p>Le contraste, les animations, le volume et les priorités sont enregistrés dans ce navigateur, sans compte ni transmission à un service tiers.</p></div>
+                <div class="lab-widgets__actions">
+                  <button type="button" class="button button--quiet button--xs" data-contrast-toggle aria-pressed="false" hidden>Contraste renforcé</button>
+                  <button type="button" class="button button--quiet button--xs" data-motion-toggle aria-pressed="false" hidden>Réduire les animations</button>
+                </div>
+                <details class="accordion"><summary>Pourquoi un banc d’essai ?</summary><div class="accordion__content">Cet atelier teste des composants avant leur intégration dans l’accueil et les pages du guide. Il ne contient ni guide de méta ni parcours de progression complet.</div></details>
+                <details class="accordion"><summary>Pourquoi ce relevé n’affiche-t-il pas les prix ?</summary><div class="accordion__content">Un objet de base et un preset vendu en jeu ne sont pas la même entrée. La comparaison technique n’assimile pas l’absence d’offre au fait qu’un trader ne vend rien.</div></details>
+              </div>
+            </div>
+            <div class="panel" id="priorites" data-tierlist="atelier-priorites">
+              <div class="panel__bar"><span class="eyebrow eyebrow--muted">Classement personnalisable</span></div>
+              <div class="panel__body">
+                <h3>Priorités de lecture</h3><p class="lab-widgets__copy">Déplacez les sujets entre les rangs S à D. Ceci est un exemple de classement, pas une tier list méta du jeu.</p>
+                <div class="tiers">
+                  <div class="tiers__row"><span class="tiers__label" aria-hidden="true">S</span><ul class="tiers__items" aria-label="Rang S" data-tier-rank="S"><li class="tiers__item">Premier raid</li></ul></div>
+                  <div class="tiers__row"><span class="tiers__label" aria-hidden="true">A</span><ul class="tiers__items" aria-label="Rang A" data-tier-rank="A"><li class="tiers__item">Cartes</li></ul></div>
+                  <div class="tiers__row"><span class="tiers__label" aria-hidden="true">B</span><ul class="tiers__items" aria-label="Rang B" data-tier-rank="B"><li class="tiers__item">Équipement</li></ul></div>
+                  <div class="tiers__row"><span class="tiers__label" aria-hidden="true">C</span><ul class="tiers__items" aria-label="Rang C" data-tier-rank="C"><li class="copy-muted">Aucun élément</li></ul></div>
+                  <div class="tiers__row"><span class="tiers__label" aria-hidden="true">D</span><ul class="tiers__items" aria-label="Rang D" data-tier-rank="D"><li class="copy-muted">Aucun élément</li></ul></div>
+                </div>
+                <div class="tiers__controls" data-tier-controls hidden>
+                [[TIER_CONTROLS]]
+                  <button type="button" class="button button--xs button--quiet" data-tier-reset>Réinitialiser</button>
+                </div>
+                <p class="sr-only" role="status" data-tier-status></p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="lab-section" id="audio" aria-labelledby="audio-title">
+          <header class="lab-section__header"><div><p class="eyebrow">03 / Audio</p><h2 class="lab-section__title" id="audio-title">Ambiances audio</h2><p class="lab-section__lead">Trois ambiances originales en boucle et deux signaux d’interface, à écouter à la demande.</p></div><span class="badge">Silence par défaut</span></header>
+          <div class="panel sound-deck" data-audio-deck data-audio-state="idle">
+            <figure class="sound-deck__visual"><img src="../images/ui/design-hideout.jpg" width="1376" height="768" alt="Radio sur un établi et conduits humides dans une planque souterraine" loading="lazy" decoding="async"><figcaption>Canal audio · Illustration générée</figcaption></figure>
+            <div class="panel__body sound-deck__controls">
+              <div class="sound-deck__readout"><h3>Écoute locale</h3><span class="badge badge--gold">MP3 · Stéréo</span></div>
+              <div data-audio-controls hidden>
+                <div class="audio-wave sound-deck__wave" aria-hidden="true">[[WAVE]]</div>
+                <div class="sound-deck__track">
+                  <label class="field" for="ambient-select">Ambiance
+                    <select id="ambient-select" class="field__input" data-audio-select><option value="rain">Pluie sur les entrepôts</option><option value="industrial">Ventilation de la planque</option><option value="forest">Forêt de nuit</option></select>
+                  </label>
+                  <button type="button" class="button button--primary" data-audio-toggle data-play-label="Lire" data-pause-label="Pause" data-wait-label="Annuler"><i class="icon icon--play" aria-hidden="true"></i><span data-audio-toggle-text>Lire</span></button>
+                </div>
+                <label class="field sound-deck__volume" for="ambient-volume"><span class="sound-deck__volume-label">Volume <span data-audio-percent aria-hidden="true">24 %</span></span><input id="ambient-volume" type="range" min="0" max="100" value="24" class="field__range" data-audio-volume></label>
+                <p data-audio-status role="status">Prêt à écouter.</p>
+                <div class="lab-widgets__actions"><button class="button button--quiet button--xs" type="button" data-audio-cue="click">Clic radio</button><button class="button button--quiet button--xs" type="button" data-audio-cue="alert">Signal de notification</button></div>
+              </div>
+              <audio class="sound-deck__fallback" data-audio-fallback controls preload="none" aria-label="Écouter l’ambiance de pluie" src="../audio/ambient/ambient_rain.mp3">Votre navigateur ne peut pas lire la piste audio.</audio>
+            </div>
+            <script type="application/json" data-audio-map>[[AUDIO_MAP]]</script>
+          </div>
+        </section>
+
+        <section class="lab-section" id="sources-atelier" aria-labelledby="sources-title">
+          <header class="lab-section__header"><div><p class="eyebrow">04 / Références</p><h2 class="lab-section__title" id="sources-title">Sources de l’atelier</h2><p class="lab-section__lead">Contexte vérifié le 18 novembre 2026. Le relevé d’équipement est communautaire ; la note de patch vient de Battlestate Games.</p></div></header>
+          <details class="accordion" open><summary>Données du catalogue</summary><div class="accordion__content">Source : <a href="https://json.tarkov.dev/regular/items">Tarkov.dev, export PvP permanent</a>. Les fichiers sont locaux et l’atelier utilise seulement six entrées de démonstration. Une valeur manquante ne vaut pas zéro.</div></details>
+          <details class="accordion"><summary>Patch et annonce Unity 6</summary><div class="accordion__content">La <a href="https://steamcommunity.com/games/3932890/announcements/detail/719046160957833875">note 1.3.0.0 du 29 octobre</a> annonce la migration Unity 6 pour 1.3.5.0. Nous n’avons pas trouvé d’annonce officielle attestant le déploiement de 1.3.5.0 au relevé. Le <a href="https://t.me/s/escapefromtarkovEN">canal public Battlestate Games</a> publie aussi des changements non numérotés.</div></details>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell site-footer__inner">
+      <div><span class="eyebrow">Tarkov Ultimate Guide</span><p class="site-footer__notice">Atelier technique d’un projet non officiel, sans affiliation à Battlestate Games. Illustrations générées et audios originaux.</p></div>
+      <nav class="site-footer__links" aria-label="Liens de fin de page"><a href="#sources-atelier">Sources</a><a href="#top">Haut de l’atelier ↑</a></nav>
+    </div>
+  </footer>
+  <a class="back-top button button--icon" data-back-top href="#top" aria-label="Retour en haut" hidden><span aria-hidden="true">↑</span></a>
+
+  <dialog id="site-search" class="dialog" data-modal data-site-search data-search-source="./search-index.json" aria-labelledby="search-title">
+    <div class="dialog__head"><div><p class="eyebrow">Index local</p><h2 class="dialog__title" id="search-title">Rechercher dans l’atelier</h2></div><button type="button" class="button button--icon" data-modal-close aria-label="Fermer la recherche"><i class="icon icon--close" aria-hidden="true"></i></button></div>
+    <div class="dialog__body">
+      <label for="site-query" class="field">Sujet ou modèle<span class="field__wrap"><i class="icon icon--search" aria-hidden="true"></i><input class="field__input field__input--search" id="site-query" type="search" placeholder="Ex. catalogue, forêt, AK-74N" autocomplete="off" data-modal-initial data-search-input></span></label>
+      <p class="dialog__hint search-status" role="status" data-search-status></p>
+      <ul class="search-results" data-search-results aria-label="Résultats de recherche"></ul>
+      <p class="search-dialog__foot"><span><kbd>↑</kbd> <kbd>↓</kbd> Parcourir</span><span><kbd>Entrée</kbd> Ouvrir</span><span><kbd>Échap</kbd> Fermer</span></p>
+    </div>
+  </dialog>
+  <dialog id="compare-dialog" class="dialog dialog--wide" data-modal aria-labelledby="compare-title">
+    <div class="dialog__head"><div><p class="eyebrow">Atelier / valeurs en jeu</p><h2 class="dialog__title" id="compare-title" tabindex="-1" data-modal-initial>Comparaison des modèles</h2></div><button type="button" class="button button--icon" data-modal-close aria-label="Fermer le comparateur"><i class="icon icon--close" aria-hidden="true"></i></button></div>
+    <div class="dialog__body"><p class="copy-soft">PvP permanent · objet de base, sans accessoires ajoutés.</p><p class="sr-only" role="status" data-compare-dialog-status></p><div data-compare-output></div></div>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-18T12:57:55+00:00",
+  "method": "Chromium : luminance maximale de chaque zone de texte, fond photographique et filtres déjà composés ; état immobile. Palette CSS : fond #272820 volontairement plus clair que les panneaux.",
+  "hero": [
+    {
+      "widthCssPx": 320,
+      "theme": "renforce",
+      "testedSamples": 9,
+      "lowestRatio": 9.21,
+      "at": "tactique"
+    },
+    {
+      "widthCssPx": 320,
+      "theme": "standard",
+      "testedSamples": 9,
+      "lowestRatio": 7.09,
+      "at": "tactique"
+    },
+    {
+      "widthCssPx": 390,
+      "theme": "renforce",
+      "testedSamples": 9,
+      "lowestRatio": 8.29,
+      "at": "Essayez les outils du futur guide : trouvez un modèle, comparez ses statistiques en jeu et choisissez une ambiance de Tarkov."
+    },
+    {
+      "widthCssPx": 390,
+      "theme": "standard",
+      "testedSamples": 9,
+      "lowestRatio": 7.39,
+      "at": "Guide Tarkov"
+    },
+    {
+      "widthCssPx": 768,
+      "theme": "renforce",
+      "testedSamples": 11,
+      "lowestRatio": 8.91,
+      "at": "Essayez les outils du futur guide : trouvez un modèle, comparez ses statistiques en jeu et choisissez une ambiance de Tarkov."
+    },
+    {
+      "widthCssPx": 768,
+      "theme": "standard",
+      "testedSamples": 11,
+      "lowestRatio": 7.24,
+      "at": "Guide Tarkov"
+    },
+    {
+      "widthCssPx": 1024,
+      "theme": "renforce",
+      "testedSamples": 11,
+      "lowestRatio": 11.65,
+      "at": "Guide Tarkov"
+    },
+    {
+      "widthCssPx": 1024,
+      "theme": "standard",
+      "testedSamples": 11,
+      "lowestRatio": 7.11,
+      "at": "Guide Tarkov"
+    },
+    {
+      "widthCssPx": 1440,
+      "theme": "renforce",
+      "testedSamples": 11,
+      "lowestRatio": 12.39,
+      "at": "Guide Tarkov"
+    },
+    {
+      "widthCssPx": 1440,
+      "theme": "standard",
+      "testedSamples": 11,
+      "lowestRatio": 7.56,
+      "at": "Guide Tarkov"
+    }
+  ],
+  "palette": [
+    {
+      "label": "Texte atténué sur surface sombre",
+      "color": "#a5a499",
+      "background": "#272820",
+      "ratio": 5.93,
+      "minimum": 4.5
+    },
+    {
+      "label": "Texte secondaire sur surface sombre",
+      "color": "#c2c0b5",
+      "background": "#272820",
+      "ratio": 8.15,
+      "minimum": 4.5
+    },
+    {
+      "label": "Texte blanc sur surface sombre",
+      "color": "#e8e6e3",
+      "background": "#272820",
+      "ratio": 11.95,
+      "minimum": 4.5
+    },
+    {
+      "label": "Texte or sur surface sombre",
+      "color": "#e1c48d",
+      "background": "#272820",
+      "ratio": 8.85,
+      "minimum": 4.5
+    },
+    {
+      "label": "Texte sur bouton principal",
+      "color": "#1d160c",
+      "background": "#c8aa6e",
+      "ratio": 8.04,
+      "minimum": 4.5
+    },
+    {
+      "label": "Étiquette de version",
+      "color": "#afd1a8",
+      "background": "#182017",
+      "ratio": 9.94,
+      "minimum": 4.5
+    },
+    {
+      "label": "Contours de commande",
+      "color": "#787568",
+      "background": "#272820",
+      "ratio": 3.22,
+      "minimum": 3
+    },
+    {
+      "label": "Anneau de focus",
+      "color": "#f2d59c",
+      "background": "#272820",
+      "ratio": 10.47,
+      "minimum": 3
+    },
+    {
+      "label": "Texte atténué en contraste renforcé",
+      "color": "#d3d1c7",
+      "background": "#272820",
+      "ratio": 9.72,
+      "minimum": 4.5
+    }
+  ]
+}

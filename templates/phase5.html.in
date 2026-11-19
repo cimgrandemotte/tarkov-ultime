@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="[[DESCRIPTION]]">
+  <title>[[SEO_TITLE]]</title>
+  [[CANONICAL_LINK]]
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Tarkov Ultimate Guide">
+  <meta property="og:title" content="[[SEO_TITLE]]">
+  <meta property="og:description" content="[[DESCRIPTION]]">
+  [[OG_URL_META]]
+  <meta property="og:image" content="[[OG_IMAGE]]">
+  <meta property="og:image:width" content="1376">
+  <meta property="og:image:height" content="768">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:alt" content="[[IMAGE_ALT]]">
+  <meta property="article:modified_time" content="[[VERIFIED_AT]]">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="[[SEO_TITLE]]">
+  <meta name="twitter:description" content="[[DESCRIPTION]]">
+  <meta name="twitter:image" content="[[OG_IMAGE]]">
+  <meta name="twitter:image:alt" content="[[IMAGE_ALT]]">
+  <script type="application/ld+json">[[JSON_LD]]</script>
+  <style>html{background:#0a0a0a;color:#e8e6e3;color-scheme:dark}body{margin:0}[hidden]{display:none!important}</style>
+  <link rel="icon" type="image/jpeg" href="[[ROOT]]images/hero/norvinsk-rain.jpg">
+  [[IMAGE_PRELOAD]]
+  <link rel="preload" href="[[ROOT]]fonts/orbitron-500-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="[[ROOT]]fonts/inter-400-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="[[ROOT]]fonts/type.css">
+  <link rel="stylesheet" href="[[ROOT]]css/main.css">
+  <link rel="stylesheet" href="[[ROOT]]css/components.css">
+  <link rel="stylesheet" href="[[ROOT]]css/animations.css">
+  <link rel="stylesheet" href="[[ROOT]]css/responsive.css">
+  <link rel="stylesheet" href="[[ROOT]]css/pages/home.css">
+  <link rel="stylesheet" href="[[ROOT]]css/pages/guides.css">
+  <link rel="stylesheet" href="[[ROOT]]css/pages/weapons.css">
+  <script src="[[ROOT]]js/main.js" type="module"></script>
+  <script src="[[ROOT]]js/weapons.js" type="module"></script>
+</head>
+<body class="home-page guide-page phase5-page">
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <header class="site-header home-header" data-site-header>
+    <div class="shell site-header__inner">
+      <a class="brand" href="[[ROOT]]"><span class="brand__mark" aria-hidden="true"></span><span><span class="brand__word">TARKOV</span> <span class="brand__descriptor">Ultimate Guide</span></span><span class="sr-only">, accueil</span></a>
+      <nav class="site-nav" id="global-nav" aria-label="Navigation principale" data-site-nav>
+        <a class="site-nav__link" href="[[ROOT]]">Accueil</a>
+        <a class="site-nav__link" href="[[ROOT]]pages/maps/">Cartes</a>
+        <a class="site-nav__link" href="[[ROOT]]pages/weapons/"[[NAV_WEAPONS_CURRENT]]>Arsenal</a>
+        <a class="site-nav__link" href="[[ROOT]]pages/ammo/"[[NAV_AMMO_CURRENT]]>Munitions</a>
+        <details class="mega-menu home-mega" data-nav-disclosure>
+          <summary class="mega-menu__summary">Explorer</summary>
+          <div class="mega-menu__panel home-mega__panel phase5-mega__panel">
+            <div class="home-mega__group"><p class="eyebrow">Armes par famille</p>
+              <a class="mega-menu__item" href="[[ROOT]]pages/weapons/assault-rifles.html"><strong>Fusils d’assaut</strong><span>Fusils et carabines</span></a>
+              <a class="mega-menu__item" href="[[ROOT]]pages/weapons/smgs.html"><strong>SMG et fusils à pompe</strong><span>Plateformes et calibres</span></a>
+              <a class="mega-menu__item" href="[[ROOT]]pages/weapons/sniper-rifles.html"><strong>Précision, DMR, LMG</strong><span>Groupes d’export distincts</span></a>
+            </div>
+            <div class="home-mega__group"><p class="eyebrow">Catalogue et méthode</p>
+              <a class="mega-menu__item" href="[[ROOT]]pages/weapons/"><strong>Catalogue Arsenal</strong><span>Filtres, modes et comparateur</span></a>
+              <a class="mega-menu__item" href="[[ROOT]]pages/weapons/weapon-mods.html"><strong>Modifications</strong><span>Slots et IDs de compatibilité</span></a>
+              <a class="mega-menu__item" href="[[ROOT]]pages/ammo/ammo-chart.html"><strong>Tableau balistique</strong><span>Dégâts et pénétration exportés</span></a>
+            </div>
+            <div class="home-mega__group"><p class="eyebrow">Repères</p>
+              <a class="mega-menu__item" href="[[ROOT]]pages/armor/"><strong>Armures et protection</strong><span>Gilets, plaques, casques et rigs.</span></a>
+              <a class="mega-menu__item" href="[[ROOT]]pages/bosses/"><strong>Boss et factions</strong><span>Profils, lieux et notes BSG datées.</span></a>
+              <a class="mega-menu__item" href="[[ROOT]]pages/getting-started.html"><strong>Guide du débutant</strong><span>Premiers raids et préparation</span></a>
+              <a class="mega-menu__item" href="[[ROOT]]pages/lore/"><strong>Lore et univers</strong><span>Norvinsk et factions</span></a>
+              <a class="mega-menu__item" href="[[ROOT]]#actualites"><strong>Actualités</strong><span>Notes et annonces datées</span></a>
+            </div>
+          </div>
+        </details>
+        <a class="site-nav__link" href="[[ROOT]]#actualites">Actualités</a>
+      </nav>
+      <div class="site-header__utilities">
+        <a class="badge badge--live home-header__patch" href="[[ROOT]]#etat-du-jeu" aria-label="[[PATCH]], patch de référence">[[PATCH]]</a>
+        <button type="button" class="button button--quiet home-header__search" data-modal-open="site-search" data-site-search-trigger aria-label="Rechercher dans le guide" aria-haspopup="dialog" aria-controls="site-search" aria-keyshortcuts="Control+K Meta+K" hidden><i class="icon icon--search" aria-hidden="true"></i><span class="button__text">Rechercher</span><kbd class="search-key" data-keyhint="Ctrl K" aria-hidden="true"></kbd></button>
+        <button type="button" class="button button--icon" data-nav-toggle aria-label="Menu de navigation" aria-controls="global-nav" aria-expanded="false" hidden><i class="icon icon--menu" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="guide-crumbbar"><div class="shell guide-crumbbar__inner"><nav class="breadcrumb" aria-label="Fil d’Ariane"><ol><li><a href="[[ROOT]]">Accueil</a></li><li><a href="[[PARENT_URL]]">[[PARENT_LABEL]]</a></li><li aria-current="page">[[LABEL]]</li></ol></nav><p class="guide-crumbbar__meta">Revu le <time datetime="[[VERIFIED_DAY]]">[[DATE_SHORT]]</time></p></div></div>
+    <section class="guide-hero phase5-hero" id="top" tabindex="-1" aria-labelledby="phase5-h1" data-motion-hero>
+      <img class="guide-hero__image" src="[[ROOT]][[IMAGE]]" [[IMAGE_SRCSET]] width="1376" height="768" alt="[[IMAGE_ALT]]" fetchpriority="high" decoding="async">
+      <div class="shell guide-hero__inner"><div class="guide-hero__copy"><p class="guide-kicker"><span>[[CODE]]</span> PHASE_5 · [[LABEL]]</p><h1 id="phase5-h1">[[HEADING]]</h1><p class="guide-hero__lead">[[LEAD]]</p><div class="guide-hero__actions"><a class="button button--primary" href="#[[PRIMARY_ANCHOR]]">[[PRIMARY_LABEL]] <span aria-hidden="true">↓</span></a><a class="button button--quiet" href="#[[SECONDARY_ANCHOR]]">[[SECONDARY_LABEL]] <span aria-hidden="true">↘</span></a></div><p class="guide-hero__note">Export communautaire · trois modes nommés · relevé du [[DATE_LONG]]</p></div><p class="guide-hero__locator" aria-hidden="true">[[IMAGE_CAPTION]]</p></div>
+    </section>
+    <div class="guide-quick" aria-label="Accès rapide au dossier" role="group"><div class="shell guide-quick__inner">[[QUICK]]</div></div>
+    <div class="shell guide-layout phase5-layout">
+      <aside class="guide-rail" aria-label="Navigation Arsenal et Munitions"><p class="guide-rail__tag">PHASE_5 / Dossiers</p><h2>Explorer</h2><nav aria-label="Armes et munitions"><ol>[[PAGE_NAV]]</ol></nav><div class="guide-rail__foot"><span>Instantané du catalogue</span><a href="#methode">18.11.2026 <span aria-hidden="true">↗</span></a></div></aside>
+      <article class="guide-content phase5-content" aria-label="[[LABEL]]">
+        [[CONTENT]]
+        <section class="guide-section guide-sources phase5-sources" id="sources" tabindex="-1" aria-labelledby="phase5-sources-title"><div class="guide-section__heading"><p class="guide-kicker"><span>[[SOURCE_CODE]]</span> Références</p><h2 id="phase5-sources-title">Sources et limites</h2><p>Sources consultées avant rédaction; relevés de données et notes officielles datés au [[DATE_LONG]]. Les exports communautaires ne sont pas des données certifiées BSG.</p></div><ul class="guide-sources__items">[[SOURCE_LIST]]</ul></section>
+        <div class="guide-next phase5-next"><div><p class="guide-kicker">À lire ensuite</p><h2>[[NEXT_LABEL]]</h2><p>[[NEXT_BLURB]]</p></div><a class="button button--quiet" href="[[NEXT_URL]]">Ouvrir le dossier <span aria-hidden="true">↗</span></a></div>
+      </article>
+    </div>
+  </main>
+  <footer class="home-footer guide-footer"><div class="shell guide-footer__inner"><div><a class="brand" href="[[ROOT]]"><span class="brand__mark" aria-hidden="true"></span><span><span class="brand__word">TARKOV</span><span class="brand__descriptor">Ultimate Guide</span></span><span class="sr-only">, accueil</span></a><p>Fan-site francophone indépendant de Battlestate Games. Illustrations éditoriales originales, non officielles. Les tableaux décrivent des exports datés, pas des tests en raid.</p></div><div class="guide-footer__controls"><a href="[[ROOT]]">Retour à l’accueil <span aria-hidden="true">↗</span></a><div class="home-footer__settings"><button type="button" class="button button--quiet button--xs" data-contrast-toggle aria-pressed="false" hidden>Contraste renforcé</button><button type="button" class="button button--quiet button--xs" data-motion-toggle aria-pressed="false" hidden>Réduire les animations</button></div></div></div></footer>
+  <a class="button button--icon back-top" data-back-top href="#top" aria-label="Retour rapide en haut" hidden></a>
+  <dialog id="site-search" class="dialog home-search" data-modal data-site-search data-search-base="[[ROOT]]" data-search-source="[[ROOT]]js/data/search-index.json" aria-labelledby="search-title"><header class="dialog__head"><div><p class="eyebrow">Index du guide</p><h2 class="dialog__title" id="search-title">Rechercher dans Tarkov Ultimate Guide</h2></div><button type="button" class="button button--icon" data-modal-close aria-label="Fermer la recherche"><i class="icon icon--close" aria-hidden="true"></i></button></header><div class="dialog__body"><label for="site-query" class="field">Sujet, arme ou mode<span class="field__wrap"><i class="icon icon--search" aria-hidden="true"></i><input class="field__input field__input--search" id="site-query" type="search" placeholder="Ex. M4A1, M855A1, Seasonal" autocomplete="off" data-modal-initial data-search-input></span></label><p class="dialog__hint search-status" role="status" data-search-status></p><ul class="search-results" data-search-results aria-label="Résultats de recherche"></ul><p class="search-dialog__foot"><span><kbd>↑</kbd> <kbd>↓</kbd> Parcourir</span><span><kbd>Entrée</kbd> Ouvrir</span><span><kbd>Échap</kbd> Fermer</span></p></div></dialog>
+</body>
+</html>

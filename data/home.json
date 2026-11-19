@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-18T20:22:01+01:00",
+  "patch": {
+    "reference": "1.3.0.0",
+    "publishedOn": "2026-10-29",
+    "publishedLabel": "29 octobre 2026",
+    "officialUrl": "https://steamcommunity.com/games/3932890/announcements/detail/719046160957833875",
+    "clientBuildWiki": "1.3.0.2.48779",
+    "clientBuildDate": "2026-11-13",
+    "clientBuildSource": "https://escapefromtarkov.fandom.com/wiki/Changelog#1.3.0.2.48779_(13_November_2026)",
+    "nextAnnounced": "1.3.5.0",
+    "nextStatus": "NON_ATTESTE_AU_RELEVE",
+    "nextWindow": "la seconde moitié de novembre 2026",
+    "nextSource": "https://www.escapefromtarkov.com/news/id/420"
+  },
+  "maps": {
+    "source": "https://escapefromtarkov.fandom.com/wiki/Map_of_Tarkov",
+    "locations": [
+      "Ground Zero",
+      "Customs",
+      "Factory",
+      "Woods",
+      "Shoreline",
+      "Interchange",
+      "Reserve",
+      "The Lab",
+      "Lighthouse",
+      "Streets of Tarkov",
+      "The Labyrinth",
+      "Icebreaker",
+      "Terminal"
+    ]
+  },
+  "tushonka": {
+    "stable": "4.1.6",
+    "baseBuild": "0.16.9.5.40743",
+    "release": "https://github.com/SP-Tushonka/build/releases/tag/4.1.6",
+    "projectWiki": "https://wiki.sp-tushonka.com/en/SPT_4x/Updating_SPT"
+  },
+  "news": [
+    {
+      "id": "actu-terminal",
+      "type": "studio",
+      "typeLabel": "Studio",
+      "date": "2026-11-18",
+      "day": "18",
+      "month": "NOV",
+      "title": "Terminal, de l’esquisse au port sous la pluie",
+      "status": "Coulisses",
+      "tone": "cold",
+      "summary": "Battlestate revient sur la conception du port qui conclut la campagne. L’article est paru le 16 novembre et a été relayé le 18 : ce n’est pas une sortie de carte.",
+      "sourceLabel": "Lire l’article de BSG (révélations)",
+      "url": "https://80.lv/articles/full-circle-building-terminal-escape-from-tarkov-s-final-location"
+    },
+    {
+      "id": "actu-drops",
+      "type": "evenements",
+      "typeLabel": "Événement",
+      "date": "2026-11-16",
+      "day": "16",
+      "month": "NOV",
+      "title": "Tarkov City Drops",
+      "status": "Échéance le 23 nov.",
+      "tone": "olive",
+      "summary": "La campagne Twitch propose notamment deux chemises de PMC. Fin annoncée le 23 novembre à 15 h UTC (16 h à Paris), indépendamment de l’événement Halloween.",
+      "sourceLabel": "Voir les conditions des Drops",
+      "url": "https://store.steampowered.com/news/app/3932890/view/677389277779199054"
+    },
+    {
+      "id": "actu-halloween",
+      "type": "evenements",
+      "typeLabel": "Événement",
+      "date": "2026-11-16",
+      "day": "16",
+      "month": "NOV",
+      "title": "Halloween : la date de fin reste à préciser",
+      "status": "Clôture annoncée",
+      "tone": "gold",
+      "summary": "Le 16 novembre, BSG signalait que l’événement continuait : quarantaine ou recherche du vaccin dans les versions infectées de Factory et The Lab. Aucun jour exact de clôture dans cette annonce.",
+      "sourceLabel": "Lire le point Halloween de BSG",
+      "url": "https://t.me/s/escapefromtarkovEN/6997"
+    },
+    {
+      "id": "actu-hotfix",
+      "type": "patchs",
+      "typeLabel": "Correctif",
+      "date": "2026-11-13",
+      "day": "13",
+      "month": "NOV",
+      "title": "Correctif technique installé",
+      "status": "Confirmé par BSG",
+      "tone": "olive",
+      "summary": "BSG confirme l’installation sans préciser le numéro dans le message. Le changelog communautaire l’indexe comme 1.3.0.2.48779 : à distinguer du patch de référence 1.3.0.0.",
+      "sourceLabel": "Voir le message d’installation",
+      "url": "https://t.me/s/escapefromtarkovEN/6994"
+    },
+    {
+      "id": "actu-untar",
+      "type": "saisons",
+      "typeLabel": "Seasonal",
+      "date": "2026-11-12",
+      "day": "12",
+      "month": "NOV",
+      "title": "UNTAR Control, la prochaine saison",
+      "status": "Annoncée",
+      "tone": "gold",
+      "summary": "Kord Breach doit se terminer le 7 décembre. Ce jour n’est pas une date de lancement confirmée pour UNTAR Control. Les récompenses débloquées sont conservées ; les succès uniques Seasonal sont reportés sur les profils PvP et PvE.",
+      "sourceLabel": "Lire l’annonce UNTAR Control",
+      "url": "https://t.me/s/escapefromtarkovEN/6987"
+    },
+    {
+      "id": "actu-unity",
+      "type": "patchs",
+      "typeLabel": "Patch",
+      "date": "2026-11-18",
+      "day": "18",
+      "month": "NOV",
+      "title": "Upgrade — Prepare 1.3.5.0 avant la mise à jour",
+      "status": "Annoncée · aucune installation confirmée au 18/11",
+      "tone": "gold",
+      "summary": "Le journal BSG du 18 novembre prévoit 1.3.5.0 pour la seconde moitié du mois, sans jour précis ni annonce d’installation. Préparez vos repères, surveillez le Launcher officiel et vérifiez la version après la mise à jour : conseils du guide, pas prérequis BSG. Unity 6 et les améliorations techniques sont annoncés; DirectX 12, DLSS Frame Generation et Reflex restent futurs, végétation reportée, FSR 4 visé avant fin 2026.",
+      "sourceLabel": "Lire le journal technique de BSG",
+      "url": "https://www.escapefromtarkov.com/news/id/420?lang=en"
+    },
+    {
+      "id": "actu-kord-balance",
+      "type": "patchs",
+      "typeLabel": "Équilibrage",
+      "date": "2026-11-12",
+      "day": "12",
+      "month": "NOV",
+      "title": "Kord Breach : objectifs assouplis, Black Division revue",
+      "status": "Conseil BSG · fin annoncée le 7 déc.",
+      "tone": "olive",
+      "summary": "BSG recommande de finir la chaîne Kord Breach : plusieurs objectifs Seasonal sont allégés, Black Division atteint 100 % sur les lieux concernés en Seasonal, et les offres d’équipement uniques débloquées resteront disponibles dans tous les modes. Wedge est aussi affaibli tous modes.",
+      "sourceLabel": "Lire l’équilibrage BSG sur X (12 nov.)",
+      "url": "https://x.com/tarkov/status/2120935917351289274"
+    },
+    {
+      "id": "actu-doc-airdrop",
+      "type": "patchs",
+      "typeLabel": "Équilibrage",
+      "date": "2026-11-13",
+      "day": "13",
+      "month": "NOV",
+      "title": "Largages Seasonal : mallettes avec documents",
+      "status": "Confirmé par BSG · sans numéro de patch",
+      "tone": "olive",
+      "summary": "En Seasonal, BSG ajoute des mallettes contenant des documents aux largages. Tous modes : les offres d’équipement Black Division demandent désormais de l’argent ou des objets de troc, au lieu des dogtags spéciaux.",
+      "sourceLabel": "Lire l’ajustement BSG sur X (13 nov.)",
+      "url": "https://x.com/tarkov/status/2121284426583716242"
+    }
+  ],
+  "search": [
+    {
+      "title": "Préparer son premier raid",
+      "href": "#premier-raid",
+      "tag": "Débutants",
+      "summary": "Une checklist en trois étapes : kit, objectif et extraction.",
+      "keywords": [
+        "débutant",
+        "démarrer",
+        "kit",
+        "scav",
+        "PMC",
+        "exfil",
+        "survie",
+        "soins",
+        "entraînement"
+      ]
+    },
+    {
+      "title": "Cartes et extractions",
+      "href": "#cartes",
+      "tag": "Cartes",
+      "summary": "Repères pour Ground Zero, Customs et les lieux à accès conditionnel.",
+      "keywords": [
+        "plan",
+        "spawns",
+        "carte",
+        "sortie",
+        "ground zero",
+        "shoreline",
+        "factory",
+        "terminal",
+        "icebreaker",
+        "labyrinthe",
+        "lighthouse"
+      ]
+    },
+    {
+      "title": "Armes et munitions",
+      "href": "#equipement",
+      "tag": "Équipement",
+      "summary": "Vérifier la compatibilité et distinguer arme de base et preset en jeu.",
+      "keywords": [
+        "munitions",
+        "arsenal",
+        "armure",
+        "arme",
+        "chargeur",
+        "build",
+        "pénétration",
+        "tarkov.dev",
+        "trader"
+      ]
+    },
+    {
+      "title": "Boss et factions",
+      "href": "#boss",
+      "tag": "Boss",
+      "summary": "Quels repères vérifier avant de chercher un boss ou sa variante.",
+      "keywords": [
+        "Killa",
+        "Tagilla",
+        "Vengeful Killa",
+        "Black Division",
+        "The Wedge",
+        "taux de spawn",
+        "USEC",
+        "BEAR"
+      ]
+    },
+    {
+      "title": "Dernières annonces",
+      "href": "#actualites",
+      "tag": "Actualités",
+      "summary": "Patchs, événements, saisons et messages du studio vérifiés.",
+      "keywords": [
+        "nouvelles",
+        "news",
+        "Tarkov City Drops",
+        "Halloween",
+        "Kord Breach",
+        "BSG",
+        "Unity"
+      ]
+    },
+    {
+      "title": "Version EFT et migration Unity 6",
+      "href": "#etat-du-jeu",
+      "tag": "Versions",
+      "summary": "Patch de référence 1.3.0.0 ; build 1.3.0.2.48779 attribué au changelog communautaire ; 1.3.5.0 prévue pour la seconde moitié de novembre, déploiement non attesté.",
+      "keywords": [
+        "patch",
+        "hotfix",
+        "build",
+        "mise à jour",
+        "1.3.0.2.48779",
+        "1.3.5.0",
+        "Unity 6",
+        "seconde moitié de novembre"
+      ]
+    },
+    {
+      "title": "Choisir un mode dans Tarkov",
+      "href": "#modes",
+      "tag": "Modes",
+      "summary": "PvP permanent, Seasonal, PvE Zone et la place d’Arena.",
+      "keywords": [
+        "Kord Breach",
+        "UNTAR Control",
+        "PvE",
+        "PvP",
+        "Arena",
+        "Prestige",
+        "saison",
+        "coop"
+      ]
+    },
+    {
+      "title": "Single Player Tushonka",
+      "href": "#tushonka",
+      "tag": "Solo",
+      "summary": "Version stable, build de base et différence avec le PvE officiel.",
+      "keywords": [
+        "SPT",
+        "SP-Tushonka",
+        "solo",
+        "offline",
+        "mods",
+        "Fika",
+        "4.1.6"
+      ]
+    },
+    {
+      "title": "Méthode et sources des chiffres",
+      "href": "#sources",
+      "tag": "Références",
+      "summary": "Tarkov.dev, index des cartes, sources officielles et limites du relevé.",
+      "keywords": [
+        "archive",
+        "horodatage",
+        "statistiques",
+        "fiabilité",
+        "wiki",
+        "données"
+      ]
+    }
+  ]
+}

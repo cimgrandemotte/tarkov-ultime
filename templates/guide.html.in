@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="[[DESCRIPTION]]">
+  <title>[[SEO_TITLE]]</title>
+  [[CANONICAL_LINK]]
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Tarkov Ultimate Guide">
+  <meta property="og:title" content="[[SEO_TITLE]]">
+  <meta property="og:description" content="[[DESCRIPTION]]">
+  [[OG_URL_META]]
+  <meta property="og:image" content="[[OG_IMAGE]]">
+  <meta property="og:image:width" content="1376">
+  <meta property="og:image:height" content="768">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:alt" content="[[IMAGE_ALT]]">
+  <meta property="article:modified_time" content="[[VERIFIED_AT]]">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="[[SEO_TITLE]]">
+  <meta name="twitter:description" content="[[DESCRIPTION]]">
+  <meta name="twitter:image" content="[[OG_IMAGE]]">
+  <meta name="twitter:image:alt" content="[[IMAGE_ALT]]">
+  <script type="application/ld+json">[[JSON_LD]]</script>
+  <style>html{background:#0a0a0a;color:#e8e6e3;color-scheme:dark}body{margin:0}[hidden]{display:none!important}</style>
+  <link rel="icon" type="image/jpeg" href="[[ROOT]]images/hero/norvinsk-rain.jpg">
+  [[IMAGE_PRELOAD]]
+  <link rel="preload" href="[[ROOT]]fonts/orbitron-500-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="[[ROOT]]fonts/type.css">
+  <link rel="stylesheet" href="[[ROOT]]css/main.css">
+  <link rel="stylesheet" href="[[ROOT]]css/components.css">
+  <link rel="stylesheet" href="[[ROOT]]css/animations.css">
+  <link rel="stylesheet" href="[[ROOT]]css/responsive.css">
+  <link rel="stylesheet" href="[[ROOT]]css/pages/home.css">
+  <link rel="stylesheet" href="[[ROOT]]css/pages/guides.css">
+  <link rel="stylesheet" href="[[ROOT]]css/pages/maps.css">
+  <script src="[[ROOT]]js/main.js" type="module"></script>
+  <script src="[[ROOT]]js/guides.js" type="module"></script>
+  <script src="[[ROOT]]js/maps.js" type="module"></script>
+</head>
+<body class="home-page guide-page guide-page--[[KIND]]">
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <header class="site-header home-header" data-site-header>
+    <div class="shell site-header__inner">
+      <a class="brand" href="[[ROOT]]"><span class="brand__mark" aria-hidden="true"></span><span><span class="brand__word">TARKOV</span> <span class="brand__descriptor">Ultimate Guide</span></span><span class="sr-only">, accueil</span></a>
+      <nav class="site-nav" id="global-nav" aria-label="Navigation principale" data-site-nav>
+        <a class="site-nav__link" href="[[ROOT]]">Accueil</a>
+        <a class="site-nav__link" href="[[ROOT]]pages/maps/">Cartes</a>
+        <details class="mega-menu home-mega" data-nav-disclosure>
+          <summary class="mega-menu__summary">Explorer</summary>
+          <div class="mega-menu__panel home-mega__panel">
+            <div class="home-mega__group"><p class="eyebrow">Repères de l’accueil</p><a class="mega-menu__item" href="[[ROOT]]#cartes"><strong>Cartes et extractions</strong><span>Lire les sorties du raid.</span></a><a class="mega-menu__item" href="[[ROOT]]#equipement"><strong>Armes et munitions</strong><span>Repères du catalogue en jeu.</span></a><a class="mega-menu__item" href="[[ROOT]]pages/armor/"><strong>Armures et protection</strong><span>Gilets, plaques, casques et rigs.</span></a><a class="mega-menu__item" href="[[ROOT]]pages/bosses/"><strong>Boss et factions</strong><span>Profils, lieux rapportés et mises à jour.</span></a></div>
+            <div class="home-mega__group"><p class="eyebrow">Dossiers publiés</p><a class="mega-menu__item" href="[[ROOT]]pages/getting-started.html"[[CURRENT_STARTER]]><strong>Guide du débutant</strong><span>Premiers raids, soins et réglages.</span></a><a class="mega-menu__item" href="[[ROOT]]pages/lore/"[[CURRENT_LORE]]><strong>Lore et univers</strong><span>Norvinsk, factions et chronologie.</span></a><a class="mega-menu__item" href="[[ROOT]]#modes"><strong>Modes de jeu</strong><span>Comparer PvP, Seasonal et PvE officiel.</span></a></div>
+          </div>
+        </details>
+        <a class="site-nav__link" href="[[ROOT]]#actualites">Actualités</a>
+        <a class="site-nav__link" href="[[GUIDE_NEIGHBOR_URL]]">[[GUIDE_NEIGHBOR_SHORT]]</a>
+        <a class="site-nav__link" href="[[ROOT]]#tushonka">SP‑Tushonka</a>
+      </nav>
+      <div class="site-header__utilities">
+        <a class="badge badge--live home-header__patch" href="[[ROOT]]#etat-du-jeu" data-patch-badge aria-label="[[PATCH]], patch de référence">[[PATCH]]</a>
+        <button type="button" class="button button--quiet home-header__search" data-modal-open="site-search" data-site-search-trigger aria-label="Rechercher dans le guide" aria-haspopup="dialog" aria-controls="site-search" aria-keyshortcuts="Control+K Meta+K" hidden><i class="icon icon--search" aria-hidden="true"></i><span class="button__text">Rechercher</span><kbd class="search-key" data-keyhint="Ctrl K" aria-hidden="true"></kbd></button>
+        <button type="button" class="button button--icon" data-nav-toggle aria-label="Menu de navigation" aria-controls="global-nav" aria-expanded="false" hidden><i class="icon icon--menu" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="guide-crumbbar">
+      <div class="shell guide-crumbbar__inner">
+        <nav class="breadcrumb" aria-label="Fil d’Ariane"><ol><li><a href="[[ROOT]]">Accueil</a></li><li aria-current="page">[[LABEL]]</li></ol></nav>
+        <p class="guide-crumbbar__meta">Revu le <time datetime="[[VERIFIED_DAY]]">[[DATE_SHORT]]</time></p>
+      </div>
+    </div>
+    <section class="guide-hero" id="top" tabindex="-1" aria-labelledby="guide-h1" data-motion-hero>
+      [[HERO_IMAGE]]
+      <div class="shell guide-hero__inner">
+        <div class="guide-hero__copy">
+          <p class="guide-kicker"><span>[[CODE]]</span> [[LABEL]]</p>
+          <h1 id="guide-h1">[[HEADING]]</h1>
+          <p class="guide-hero__lead">[[LEAD]]</p>
+          <div class="guide-hero__actions"><a class="button button--primary" href="#[[PRIMARY_ANCHOR]]">[[PRIMARY_LABEL]] <span aria-hidden="true">↓</span></a><a class="button button--quiet" href="#[[SECONDARY_ANCHOR]]">[[SECONDARY_LABEL]] <span aria-hidden="true">↘</span></a></div>
+          <p class="guide-hero__note">[[HERO_NOTE]]</p>
+        </div>
+        <p class="guide-hero__locator" aria-hidden="true">[[IMAGE_CAPTION]]</p>
+      </div>
+    </section>
+    <div class="guide-quick" aria-label="Repères du dossier" role="group"><div class="shell guide-quick__inner">[[QUICK]]</div></div>
+    <div class="shell guide-layout">
+      <aside class="guide-rail" aria-label="Repères de lecture">
+        <nav aria-labelledby="guide-toc-title" data-guide-toc>
+          <p class="guide-rail__tag" aria-hidden="true">[[CODE]] / Dossier</p><h2 id="guide-toc-title">Sommaire</h2>
+          <ol>[[TOC]]</ol>
+        </nav>
+        <div class="guide-rail__foot"><span>À lire aussi</span><a href="[[GUIDE_NEIGHBOR_URL]]">[[GUIDE_NEIGHBOR_LABEL]] <span aria-hidden="true">↗</span></a></div>
+      </aside>
+      <article class="guide-content" aria-label="[[LABEL]]">
+        [[CONTENT]]
+        <section class="guide-section guide-sources" id="sources" tabindex="-1" aria-labelledby="guide-sources-title">
+          <div class="guide-section__heading"><p class="guide-kicker"><span>[[SOURCE_CODE]]</span> Références</p><h2 id="guide-sources-title">Sources et périmètre</h2><p>Relevé du <time datetime="[[VERIFIED_DAY]]">[[DATE_LONG]]</time>. [[SOURCE_NOTE]]</p></div>
+          <ul class="guide-sources__items">[[SOURCE_LIST]]</ul>
+        </section>
+        <div class="guide-next"><div><p class="guide-kicker">À lire ensuite</p><h2>[[GUIDE_NEIGHBOR_LABEL]]</h2><p>[[GUIDE_NEIGHBOR_BLURB]]</p></div><a class="button button--quiet" href="[[GUIDE_NEIGHBOR_URL]]">Ouvrir le dossier <span aria-hidden="true">↗</span></a></div>
+      </article>
+    </div>
+  </main>
+  <footer class="home-footer guide-footer">
+    <div class="shell guide-footer__inner">
+      <div><a class="brand" href="[[ROOT]]"><span class="brand__mark" aria-hidden="true"></span><span><span class="brand__word">TARKOV</span><span class="brand__descriptor">Ultimate Guide</span></span><span class="sr-only">, accueil</span></a><p>Fan-site francophone indépendant de Battlestate Games. Illustrations originales générées, pas des captures officielles.</p></div>
+      <div class="guide-footer__controls"><a href="[[ROOT]]#ambiance">Ambiances sur l’accueil <span aria-hidden="true">↗</span></a><div class="home-footer__settings"><button type="button" class="button button--quiet button--xs" data-contrast-toggle aria-pressed="false" hidden>Contraste renforcé</button><button type="button" class="button button--quiet button--xs" data-motion-toggle aria-pressed="false" hidden>Réduire les animations</button></div></div>
+    </div>
+  </footer>
+  <a class="button button--icon back-top" data-back-top href="#top" aria-label="Retour rapide en haut" hidden></a>
+  <dialog id="site-search" class="dialog home-search" data-modal data-site-search data-search-base="[[ROOT]]" data-search-source="[[ROOT]]js/data/search-index.json" aria-labelledby="search-title">
+    <header class="dialog__head"><div><p class="eyebrow">Index du guide</p><h2 class="dialog__title" id="search-title">Rechercher dans Tarkov Ultimate Guide</h2></div><button type="button" class="button button--icon" data-modal-close aria-label="Fermer la recherche"><i class="icon icon--close" aria-hidden="true"></i></button></header>
+    <div class="dialog__body">
+      <label for="site-query" class="field">Sujet, lieu ou mode<span class="field__wrap"><i class="icon icon--search" aria-hidden="true"></i><input class="field__input field__input--search" id="site-query" type="search" placeholder="Ex. Scav, extraction, Norvinsk" autocomplete="off" data-modal-initial data-search-input></span></label>
+      <p class="dialog__hint search-status" role="status" data-search-status></p><ul class="search-results" data-search-results aria-label="Résultats de recherche"></ul>
+      <p class="search-dialog__foot"><span><kbd>↑</kbd> <kbd>↓</kbd> Parcourir</span><span><kbd>Entrée</kbd> Ouvrir</span><span><kbd>Échap</kbd> Fermer</span></p>
+    </div>
+  </dialog>
+</body>
+</html>

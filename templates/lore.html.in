@@ -1,0 +1,48 @@
+<section class="guide-section" id="norvinsk" tabindex="-1" aria-labelledby="norvinsk-title">
+  <div class="guide-section__heading"><p class="guide-kicker"><span>01</span> La zone économique</p><h2 id="norvinsk-title">Pourquoi Tarkov est coupée du monde</h2></div>
+  <div class="lore-setting">
+    <div class="lore-setting__copy"><p><strong>Norvinsk est une région fictive</strong>, imaginée comme une zone économique de contact entre Russie et Europe. Tarkov, l’une de ses grandes villes, attire des entreprises internationales. <strong>TerraGroup</strong> y installe notamment des activités de recherche, au cœur du scandale qui précède le conflit.</p><p>Des opérations des sociétés militaires privées aux évacuations, la crise finit par isoler la ville. Dès le départ d’<em>Escape from Tarkov</em>, le personnage a perdu le contact avec son commandement. Son objectif n’est plus simplement la mission pour laquelle il était venu : il doit trouver comment sortir.</p><p class="guide-cite">Le point de départ est établi par <a href="#ref-lore-officiel">le synopsis de Battlestate</a> et <a href="#ref-raid-film">le prologue du film <em>Raid</em></a>.</p></div>
+    <figure class="guide-figure lore-document"><img src="[[ROOT]]images/lore/norvinsk-archive.jpg" width="1376" height="768" loading="lazy" decoding="async" alt="Un plan de port imaginaire et un tirage photographique sur une table d’archives"><figcaption>Dossier cartographique fictif · illustration, pas un plan de navigation</figcaption></figure>
+  </div>
+</section>
+
+<section class="guide-section" id="factions" tabindex="-1" aria-labelledby="factions-title">
+  <div class="guide-section__heading"><p class="guide-kicker"><span>02</span> Au-delà de l’uniforme</p><h2 id="factions-title">Qui agit à Norvinsk&nbsp;?</h2><p>USEC et BEAR sont des sociétés militaires privées, pas deux équipes qui résument toute la ville. Le film et le synopsis donnent leur rôle dans la crise. Cela ne prédit pas la réaction d’un adversaire en raid.</p></div>
+  <div class="lore-factions">[[FACTIONS]]</div>
+  <p class="guide-emphasis"><strong>Ce qu’on peut interpréter :</strong> selon le personnage qui parle, une même opération peut être décrite comme protection, enquête ou représailles. Les débats de joueurs sur « le bon camp » ne tranchent ni le récit ni la responsabilité individuelle des opérateurs.</p>
+</section>
+
+<section class="guide-section" id="chronologie" tabindex="-1" aria-labelledby="chrono-title">
+  <div class="guide-section__heading"><p class="guide-kicker"><span>03</span> Deux calendriers à distinguer</p><h2 id="chrono-title">Des Contract Wars à la campagne</h2><p>Les étapes ci-dessous ordonnent le contexte sans inventer de date interne. <em>Contract Wars</em> désigne le conflit dans la fiction et un jeu du même univers. <em>Hired Ops</em> précède EFT comme projet dans cet univers ; ses dates de parution ne datent pas les événements de Tarkov.</p></div>
+  <ol class="lore-timeline">[[TIMELINE]]</ol>
+  <div class="lore-release"><h3>Dates de publication <small>· hors fiction</small></h3><dl class="lore-release__entries"><div><dt><time datetime="2021-05-19">19 mai 2021</time></dt><dd>Battlestate publie le montage intégral de <em>Raid</em>.</dd></div><div><dt><time datetime="2025-11-15">15 novembre 2025</time></dt><dd>Sortie d’EFT 1.0 et de sa campagne non linéaire.</dd></div><div><dt><time datetime="2026-05-25">25 mai 2026</time></dt><dd>Le patch 1.0.5.0 ajoute le chapitre <em>Boreas</em> et le lieu Icebreaker.</dd></div></dl></div>
+</section>
+
+<section class="guide-section" id="chapitres" tabindex="-1" aria-labelledby="chapitres-title">
+  <div class="guide-section__heading"><p class="guide-kicker"><span>04</span> Lieux et récit</p><h2 id="chapitres-title">Des cartes aux chapitres</h2><p>Le scénario se lit dans l’onglet de l’histoire, séparément des tâches ordinaires de marchands. Ces repères ne sont ni un ordre imposé pour tous les chapitres ni un guide d’accès.</p></div>
+  <dl class="guide-reference-list lore-locations">
+    <div><dt>Ground Zero</dt><dd><strong>Tour</strong> donne le premier point de repère : le quartier d’affaires de Tarkov et les premiers accès à débloquer. <a href="#ref-tour">Consulter le chapitre <em>Tour</em></a>.</dd></div>
+    <div><dt>Streets of Tarkov</dt><dd>La ville au-delà du quartier d’affaires. <strong>Tour</strong> relie les premiers échanges avec Therapist à l’accès à Streets.</dd></div>
+    <div><dt>The Lab et The Labyrinth</dt><dd>Deux lieux distincts. <strong>Blue Fire</strong> passe notamment par The Lab ; <strong>The Labyrinth</strong> est à la fois le nom d’un autre lieu et le titre d’un chapitre.</dd></div>
+    <div><dt>Icebreaker</dt><dd><strong>Boreas</strong> est l’enquête liée au navire de Paradigm Shipping immobilisé dans la région. Battlestate présente l’expédition comme une rencontre avec l’IA, pas comme un lieu réservé au profil PvE.</dd></div>
+    <div><dt>Shoreline et le port</dt><dd>Le littoral sert de repère au récit. Les détails sur la suite et les conditions d’accès sont volontairement séparés ci-dessous.</dd></div>
+  </dl>
+  <p class="guide-chapters"><strong>Les dix intitulés du scénario :</strong> <i>Accidental Witness</i>, <i>Batya</i>, <i>Blue Fire</i>, <i>Boreas</i>, <i>Falling Skies</i>, <i>The Labyrinth</i>, <i>The Ticket</i>, <i>The Unheard</i>, <i>They Are Already Here</i> et <i>Tour</i>. Cette liste n’est pas l’ordre dans lequel vous devez les jouer. Les guides détaillés liés dans <a href="#ref-story-chapters">l’index du wiki</a> peuvent révéler des éléments du récit.</p>
+</section>
+
+<section class="guide-section" id="revelations" tabindex="-1" aria-labelledby="revelations-title">
+  <div class="guide-section__heading"><p class="guide-kicker"><span>05</span> À ouvrir seulement si vous le souhaitez</p><h2 id="revelations-title">Révélations de campagne</h2><p>Le bloc qui suit dévoile les choix de fin, le départ du port et le rôle des preuves découvertes pendant la campagne. Par défaut il est fermé, et le guide ne mémorise pas votre choix.</p></div>
+  <details class="lore-spoiler" data-campaign-spoiler>
+    <summary><span class="lore-spoiler__tag">Spoilers</span> Afficher les révélations de la campagne</summary>
+    <div class="lore-spoiler__body" data-nosnippet>
+      <h3>Shoreline, Terminal et le dernier départ</h3>
+      <p>Après <em>Falling Skies</em>, <strong>The Ticket</strong> mène aux choix qui précèdent l’accès à Terminal. Battlestate décrit Terminal comme le dernier lieu de la campagne, accessible par un transit depuis Shoreline. Le <strong>Zubr</strong>, un aéroglisseur, permet le départ final. Les conditions d’accès ne sont pas les mêmes dans toutes les branches ; se rendre à Shoreline ne suffit pas à ouvrir le port.</p>
+      <h3>Boreas et les preuves</h3>
+      <p>Dans <em>Boreas</em>, les archives d’Icebreaker relient l’enquête sur Paradigm Shipping à celle sur TerraGroup. Dans <em>The Ticket</em>, ces archives font partie des pièces à remettre à Kerman dans sa branche du scénario. Le navire n’est donc pas seulement une destination de raid.</p>
+      <h3>Quatre issues possibles</h3>
+      <dl class="lore-endings"><div><dt>Survivor</dt><dd>Le personnage privilégie sa fuite ; il survit tandis que Tarkov s’embrase et que TerraGroup en sort renforcée.</dd></div><div><dt>Debtor</dt><dd>Le personnage recule alors qu’il a des preuves et part avec une dette envers Lightkeeper. TerraGroup se maintient.</dd></div><div><dt>Fallen</dt><dd>La fuite ne met pas fin à la catastrophe ; TerraGroup se pose en sauveur.</dd></div><div><dt>Savior</dt><dd>Le personnage fait confiance à Kerman et expose les activités de TerraGroup.</dd></div></dl>
+      <p>Ce sont des branches, pas quatre fins successives ni l’annonce d’une seule fin « officielle ». Le film <em>Raid</em> éclaire le décor, mais BSG décrit des déplacements d’éléments entre le film et le jeu : ne l’utilisez pas comme carte d’accès.</p>
+      <ul class="guide-spoiler-links"><li><a href="https://80.lv/articles/full-circle-building-terminal-escape-from-tarkov-s-final-location">Coulisses de Terminal · Battlestate, 16/11/2026</a></li><li><a href="https://escapefromtarkov.fandom.com/wiki/The_Ticket">Wiki · The Ticket</a></li><li><a href="https://escapefromtarkov.fandom.com/wiki/Endings">Wiki · textes des issues</a></li><li><a href="https://escapefromtarkov.fandom.com/wiki/Boreas">Wiki · étapes de Boreas</a></li></ul>
+    </div>
+  </details>
+</section>

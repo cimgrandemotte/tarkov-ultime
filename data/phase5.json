@@ -1,0 +1,554 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-18T19:39:58+01:00",
+  "catalogSnapshot": "data/snapshots/phase-5-catalogue-2026-11-18.json",
+  "craftsSnapshot": "data/snapshots/phase-5-crafts-2026-11-18.json",
+  "tradersSnapshot": "data/snapshots/phase-5-traders-hideout-2026-11-18.json",
+  "thresholdFleaDays": 7,
+  "questNames": {
+    "6613f3007f6666d56807c929": {
+      "name": "Drip-Out - Part 1",
+      "faction": "Bear",
+      "source": "tdev-drip-out-bear"
+    },
+    "66151401efb0539ae10875ae": {
+      "name": "Drip-Out - Part 1",
+      "faction": "USEC",
+      "source": "tdev-drip-out-usec"
+    },
+    "60e71ce009d7c801eb0c0ec6": {
+      "name": "Special Equipment",
+      "faction": null,
+      "source": "tdev-special-equipment"
+    }
+  },
+  "pages": [
+    {
+      "file": "pages/weapons/index.html",
+      "route": "pages/weapons/",
+      "type": "weapon-index",
+      "group": null,
+      "title": "Arsenal",
+      "label": "Arsenal",
+      "code": "A–00",
+      "seoTitle": "Arsenal EFT : catalogue et comparateur par mode | Tarkov Ultimate Guide",
+      "description": "Explorez les armes d’Escape from Tarkov par famille, calibre et mode. Comparez les statistiques de l’export, les offres rapportées et les limites des presets.",
+      "lead": "Un catalogue mesurable pour choisir et comparer — sans transformer un export communautaire en tier list ou en vérité de méta.",
+      "image": "images/weapons/weapon-family-rack.jpg",
+      "imageAlt": "Râtelier illustratif d’armes fictives dans un atelier sombre; aucun objet EFT précis n’est représenté.",
+      "imageCaption": "Illustration éditoriale · les références d’objets sont les icônes par ID dans le tableau",
+      "intro": "L’export du 18 novembre recense 199 objets de la catégorie armes dans chacun des trois modes. Les groupes regroupent des catégories précises : fusils d’assaut et carabines, DMR, pistolets, mêlée, dispositifs de signalement et lanceur-roquette ne sont pas interchangeables.",
+      "note": "Les données d’armes de base concordent entre les trois exports sélectionnés. Les offres traders sont un relevé communautaire horodaté; les prix du marché flea sont filtrés selon leur date, jamais qualifiés de temps réel.",
+      "sources": [
+        "tdev-phase5-catalog",
+        "bsg-balance-nov",
+        "bsg-135-diary",
+        "patch110",
+        "patch120",
+        "patch130"
+      ],
+      "quick": [
+        [
+          "catalogue",
+          "199 entrées",
+          "Parcourir"
+        ],
+        [
+          "comparaison",
+          "Jusqu’à 3 objets",
+          "Comparer"
+        ],
+        [
+          "methode",
+          "Modes, presets, prix",
+          "Comprendre"
+        ]
+      ]
+    },
+    {
+      "file": "pages/weapons/assault-rifles.html",
+      "route": "pages/weapons/assault-rifles.html",
+      "type": "weapon-family",
+      "group": "assault-rifles",
+      "title": "Fusils d’assaut et carabines",
+      "label": "Fusils d’assaut",
+      "code": "A–01",
+      "seoTitle": "Fusils d’assaut EFT : stats, calibres et offres | Tarkov Ultimate Guide",
+      "description": "Comparez 63 fusils d’assaut et carabines d’Escape from Tarkov : calibre, cadence, ergonomie, masse, preset référencé et offres par mode.",
+      "lead": "Fusils et carabines dans le même groupe d’export : filtrez, inspectez les chiffres puis vérifiez la configuration dans le jeu.",
+      "image": "images/weapons/assault-rifles-detail.jpg",
+      "imageAlt": "Fusils d’assaut fictifs alignés sur un établi, illustration originale",
+      "imageCaption": "Illustration · la configuration d’un objet varie en jeu",
+      "intro": "Le groupe compte 63 entrées : 53 catégories assault-rifle et 10 assault-carbine dans le catalogue. La page n’assimile pas ces étiquettes de données à une règle tactique ni à une compatibilité universelle des pièces.",
+      "note": "Calibre, cadence et ergonomie sont des valeurs de l’objet dans l’export. La masse « arme seule » ne se compare pas directement à celle du preset lié; les statistiques de preset effectives ne sont pas fournies.",
+      "sources": [
+        "tdev-phase5-catalog",
+        "patch110",
+        "patch130",
+        "wiki-ammo-2026"
+      ],
+      "quick": [
+        [
+          "catalogue",
+          "63 entrées",
+          "Parcourir"
+        ],
+        [
+          "comparaison",
+          "Comparer des modèles",
+          "Comparer"
+        ],
+        [
+          "methode",
+          "Base, preset, calibre",
+          "Lire les colonnes"
+        ]
+      ]
+    },
+    {
+      "file": "pages/weapons/smgs.html",
+      "route": "pages/weapons/smgs.html",
+      "type": "weapon-family",
+      "group": "smgs",
+      "title": "Pistolets-mitrailleurs (SMG)",
+      "label": "Pistolets-mitrailleurs",
+      "code": "A–02",
+      "seoTitle": "SMG EFT : comparaison par calibre et cadence | Tarkov Ultimate Guide",
+      "description": "Parcourez les 23 SMG d’Escape from Tarkov : calibres, cadence et ergonomie de l’export, offres datées par mode et compatibilité des munitions.",
+      "lead": "Comparez les propriétés disponibles des SMG; une cadence élevée n’est pas, à elle seule, une recommandation de méta.",
+      "image": "images/weapons/smg-detail.jpg",
+      "imageAlt": "Pistolets-mitrailleurs fictifs sur un établi d’armurerie, illustration originale",
+      "imageCaption": "Illustration · données de jeu, pas modèle réel",
+      "intro": "Les 23 objets du groupe sont comparables par identifiant. Utilisez le filtre de calibre et les propriétés d’export pour isoler une plateforme; contrôlez ensuite les chargeurs et munitions dans l’interface du client.",
+      "note": "La cadence inscrite au catalogue ne décrit pas votre cadence de tir réelle ni le coût d’une rafale. Les offres traders et les relevés flea sont séparés et horodatés par mode.",
+      "sources": [
+        "tdev-phase5-catalog",
+        "patch110",
+        "patch130",
+        "wiki-ammo-2026"
+      ],
+      "quick": [
+        [
+          "catalogue",
+          "23 entrées",
+          "Parcourir"
+        ],
+        [
+          "comparaison",
+          "Comparer des modèles",
+          "Comparer"
+        ],
+        [
+          "methode",
+          "Cadence et calibre",
+          "Lire les colonnes"
+        ]
+      ]
+    },
+    {
+      "file": "pages/weapons/shotguns.html",
+      "route": "pages/weapons/shotguns.html",
+      "type": "weapon-family",
+      "group": "shotguns",
+      "title": "Fusils à pompe",
+      "label": "Fusils à pompe",
+      "code": "A–03",
+      "seoTitle": "Fusils à pompe EFT : modèles et munitions | Tarkov Ultimate Guide",
+      "description": "Comparez les 16 fusils à pompe d’Escape from Tarkov et reliez chaque calibre au tableau des munitions, avec stats et disponibilité par mode.",
+      "lead": "Pompes, semi-automatiques et autres variantes du catalogue : séparez la plateforme de la cartouche chargée.",
+      "image": "images/weapons/shotguns-detail.jpg",
+      "imageAlt": "Fusils à pompe fictifs éclairés sur un établi, illustration originale",
+      "imageCaption": "Illustration · la charge utile n’est pas représentée",
+      "intro": "Le groupe recense 16 plateformes. L’export ne classe pas chaque variante en « pompe » ou « semi-auto » dans un champ dédié : lisez les noms et modes de tir comme des données indicatives et vérifiez la fiche de l’objet dans le client.",
+      "note": "Une cartouche à projectile unique, une chevrotine et un lanceur ont des comptages de projectiles différents. La colonne de cadence est un champ catalogue, pas une mesure de cycle en raid.",
+      "sources": [
+        "tdev-phase5-catalog",
+        "wiki-ammo-2026",
+        "patch110",
+        "patch130"
+      ],
+      "quick": [
+        [
+          "catalogue",
+          "16 entrées",
+          "Parcourir"
+        ],
+        [
+          "comparaison",
+          "Comparer des modèles",
+          "Comparer"
+        ],
+        [
+          "methode",
+          "Projectiles et calibre",
+          "Lire les colonnes"
+        ]
+      ]
+    },
+    {
+      "file": "pages/weapons/sniper-rifles.html",
+      "route": "pages/weapons/sniper-rifles.html",
+      "type": "weapon-family",
+      "group": "sniper-rifles",
+      "title": "Fusils de précision",
+      "label": "Fusils de précision",
+      "code": "A–04",
+      "seoTitle": "Fusils de précision EFT : stats et calibres | Tarkov Ultimate Guide",
+      "description": "Consultez les 10 fusils de précision classés dans l’export Tarkov.dev : calibre, ergonomie, masse, cadence renseignée et preset lié.",
+      "lead": "Un périmètre d’export distinct des DMR; les champs présents ne suffisent pas à simuler la précision ou un tir en raid.",
+      "image": "images/weapons/precision-detail.jpg",
+      "imageAlt": "Fusils de précision fictifs à longue portée exposés sur un établi, illustration originale",
+      "imageCaption": "Illustration · aucune caractéristique réelle n’est donnée",
+      "intro": "Les dix entrées ci-dessous appartiennent au groupe sniper-rifles; les DMR sont recensés dans une page séparée. La distance effective et la cadence de l’export ne sont pas des garanties de résultat à portée donnée.",
+      "note": "Les fusils à verrou ne sont pas classés par valeur de cadence. Consultez le calibre et la liste d’ammunition autorisée, puis validez la chambre et le chargeur dans le jeu.",
+      "sources": [
+        "tdev-phase5-catalog",
+        "patch130",
+        "wiki-ammo-2026"
+      ],
+      "quick": [
+        [
+          "catalogue",
+          "10 entrées",
+          "Parcourir"
+        ],
+        [
+          "comparaison",
+          "Comparer des modèles",
+          "Comparer"
+        ],
+        [
+          "methode",
+          "Fusils et DMR",
+          "Lire le périmètre"
+        ]
+      ]
+    },
+    {
+      "file": "pages/weapons/dmrs.html",
+      "route": "pages/weapons/dmrs.html",
+      "type": "weapon-family",
+      "group": "dmrs",
+      "title": "Fusils de tireur désigné (DMR)",
+      "label": "Fusils DMR",
+      "code": "A–05",
+      "seoTitle": "DMR EFT : stats, calibres et comparaison | Tarkov Ultimate Guide",
+      "description": "Comparez les 11 DMR d’Escape from Tarkov par calibre, ergonomie, cadence de l’export et offres relevées séparément en PvP, PvE et Seasonal.",
+      "lead": "Un groupe distinct des fusils à verrou : examinez l’identifiant et les champs disponibles plutôt qu’un classement de puissance.",
+      "image": "images/weapons/dmr-field-rifle.jpg",
+      "imageAlt": "Illustration photoréaliste d’un fusil de tireur désigné générique dans un atelier; aucun modèle EFT précis n’est représenté.",
+      "imageCaption": "Illustration d’ambiance générique · pas une référence d’objet EFT",
+      "intro": "Le groupe DMR compte onze entrées de catégorie marksman-rifle. Le tableau expose cadence, ergonomie, recul et calibre lorsqu’ils sont présents; il ne mesure ni les transitions de cible ni les performances d’une configuration montée.",
+      "note": "Un preset lié peut désigner une configuration catalogue, mais les valeurs d’ergonomie et de recul du preset ne sont pas présentes dans l’export réduit. Ne les déduisez pas des stats de l’arme seule.",
+      "sources": [
+        "tdev-phase5-catalog",
+        "patch110",
+        "patch130",
+        "wiki-ammo-2026"
+      ],
+      "quick": [
+        [
+          "catalogue",
+          "11 entrées",
+          "Parcourir"
+        ],
+        [
+          "comparaison",
+          "Comparer des modèles",
+          "Comparer"
+        ],
+        [
+          "methode",
+          "DMR et presets",
+          "Lire les colonnes"
+        ]
+      ]
+    },
+    {
+      "file": "pages/weapons/lmgs.html",
+      "route": "pages/weapons/lmgs.html",
+      "type": "weapon-family",
+      "group": "lmgs",
+      "title": "Mitrailleuses et LMG",
+      "label": "Mitrailleuses légères",
+      "code": "A–06",
+      "seoTitle": "Mitrailleuses EFT : poids, cadence et modèles | Tarkov Ultimate Guide",
+      "description": "Parcourez les 8 entrées LMG/machinegun d’Escape from Tarkov. Comparez masse, cadence, ergonomie et limites des données de configuration.",
+      "lead": "Un petit groupe de huit entrées : le filtre expose les champs vérifiables sans transformer un poids catalogue en conseil de kit.",
+      "image": "images/weapons/lmg-detail.jpg",
+      "imageAlt": "Mitrailleuses fictives posées dans une zone d’atelier, illustration originale",
+      "imageCaption": "Illustration · aucun chargement ou rôle de raid n’est simulé",
+      "intro": "Le groupe comporte huit enregistrements classés machinegun par l’API, dont des plateformes aux formats différents. La catégorie de données ne suffit pas à déterminer si un objet est fixe, transportable ou utilisable dans une condition particulière.",
+      "note": "La masse est celle de l’objet référencé; la masse du preset est distincte si un preset par défaut est lié. Les champs d’ergonomie et de recul correspondent à l’arme seule.",
+      "sources": [
+        "tdev-phase5-catalog",
+        "patch130",
+        "wiki-ammo-2026"
+      ],
+      "quick": [
+        [
+          "catalogue",
+          "8 entrées",
+          "Parcourir"
+        ],
+        [
+          "comparaison",
+          "Comparer des modèles",
+          "Comparer"
+        ],
+        [
+          "methode",
+          "Masse et preset",
+          "Lire les colonnes"
+        ]
+      ]
+    },
+    {
+      "file": "pages/weapons/pistols.html",
+      "route": "pages/weapons/pistols.html",
+      "type": "weapon-family",
+      "group": "pistols",
+      "title": "Pistolets et revolvers",
+      "label": "Pistolets et revolvers",
+      "code": "A–07",
+      "seoTitle": "Pistolets EFT : calibres, stats et offres | Tarkov Ultimate Guide",
+      "description": "Comparez 31 pistolets et revolvers d’Escape from Tarkov par calibre, ergonomie et offre exportée, sans confondre arme de poing et dispositif de signalement.",
+      "lead": "Pistolets et revolvers de l’export; les dispositifs de signalement sont recensés à part selon leur indicateur de catégorie.",
+      "image": "images/weapons/pistols-detail.jpg",
+      "imageAlt": "Pistolets et revolvers fictifs alignés sur un établi, illustration originale",
+      "imageCaption": "Illustration · valeurs propres au jeu uniquement",
+      "intro": "Le groupe compte 31 entrées: 26 de catégorie handgun et cinq revolver. Le tri exclut les devices de signalement classés par ailleurs; vérifiez la catégorie et le nom plutôt que le seul tag générique gun.",
+      "note": "Les champs de cadence, recul et ergonomie sont ceux de l’export du modèle de base. Le calibre d’une arme n’implique pas que chaque chargeur ou cartouche de ce calibre lui soit compatible.",
+      "sources": [
+        "tdev-phase5-catalog",
+        "patch110",
+        "patch130",
+        "wiki-ammo-2026"
+      ],
+      "quick": [
+        [
+          "catalogue",
+          "31 entrées",
+          "Parcourir"
+        ],
+        [
+          "comparaison",
+          "Comparer des modèles",
+          "Comparer"
+        ],
+        [
+          "methode",
+          "Pistolets et signaux",
+          "Lire le périmètre"
+        ]
+      ]
+    },
+    {
+      "file": "pages/weapons/melee.html",
+      "route": "pages/weapons/melee.html",
+      "type": "weapon-family",
+      "group": "melee",
+      "title": "Armes de mêlée",
+      "label": "Armes de mêlée",
+      "code": "A–08",
+      "seoTitle": "Armes de mêlée EFT : dégâts exportés et modèles | Tarkov Ultimate Guide",
+      "description": "Consultez les 27 objets de mêlée d’Escape from Tarkov et comparez les valeurs slash/stab, les noms et les offres sans extrapoler au réel.",
+      "lead": "Les champs de dégâts sont des propriétés du jeu, pas des données de matériel réel ni une simulation d’impact.",
+      "image": "images/weapons/melee-detail.jpg",
+      "imageAlt": "Armes de mêlée fictives exposées sur un établi, illustration originale",
+      "imageCaption": "Illustration · valeurs de jeu non transposables au réel",
+      "intro": "Les 27 objets de mêlée sont classés knife dans l’export. Les colonnes slashDamage et stabDamage ne sont présentes que lorsque la source les renseigne; aucune valeur manquante n’est estimée.",
+      "note": "Red Rebel est un objet de mêlée et peut avoir des usages d’accès selon les règles du jeu. Cette page ne l’assimile pas à une arme à feu et ne valide aucune condition d’extraction en direct.",
+      "sources": [
+        "tdev-phase5-catalog",
+        "patch130"
+      ],
+      "quick": [
+        [
+          "catalogue",
+          "27 entrées",
+          "Parcourir"
+        ],
+        [
+          "comparaison",
+          "Comparer des modèles",
+          "Comparer"
+        ],
+        [
+          "methode",
+          "Slash et stab",
+          "Lire les colonnes"
+        ]
+      ]
+    },
+    {
+      "file": "pages/weapons/grenade-launchers.html",
+      "route": "pages/weapons/grenade-launchers.html",
+      "type": "weapon-family",
+      "group": "grenade-launchers",
+      "title": "Lanceurs, roquettes et signaux",
+      "label": "Lanceurs en jeu",
+      "code": "A–09",
+      "seoTitle": "Lanceurs EFT : grenades, roquette et signaux | Tarkov Ultimate Guide",
+      "description": "Distinguez les 10 entrées du groupe lanceurs : lanceur de grenade, lanceur-roquette et dispositifs de signalement, selon leurs catégories d’export.",
+      "lead": "Le tag générique gun ne suffit pas : séparez les armes de combat des dispositifs de signalement et des munitions dédiées.",
+      "image": "images/weapons/grenade-launcher-detail.jpg",
+      "imageAlt": "Lanceur fictif et équipements de jeu sur une table d’atelier, illustration originale",
+      "imageCaption": "Illustration · ne décrit pas un équipement réel",
+      "intro": "Dix entrées se trouvent dans le groupe: neuf `grenade-launcher` et un `rocket-launcher`. Parmi elles, huit portent l’indicateur `signalDevice`; elles restent visibles dans le catalogue mais sont identifiées comme signalement, pas comme armes de combat.",
+      "note": "Les munitions de lanceur sont décrites dans les données d’ammo avec leur type et leur nombre de projectiles. Vérifiez chaque identifiant et son usage dans le client; aucune recommandation tactique ou de matériel réel n’est faite ici.",
+      "sources": [
+        "tdev-phase5-catalog",
+        "wiki-ammo-2026",
+        "patch130"
+      ],
+      "quick": [
+        [
+          "catalogue",
+          "10 entrées",
+          "Parcourir"
+        ],
+        [
+          "comparaison",
+          "Comparer des objets",
+          "Comparer"
+        ],
+        [
+          "methode",
+          "Signal vs combat",
+          "Lire le périmètre"
+        ]
+      ]
+    },
+    {
+      "file": "pages/weapons/weapon-mods.html",
+      "route": "pages/weapons/weapon-mods.html",
+      "type": "weapon-mods",
+      "group": null,
+      "title": "Modifications d’armes et compatibilité",
+      "label": "Modifications d’armes",
+      "code": "A–10",
+      "seoTitle": "Mods d’armes EFT : slots et compatibilités | Tarkov Ultimate Guide",
+      "description": "Explorez les slots et IDs de compatibilité des armes Tarkov. Le relevé compte 987 slots et 1 391 IDs de pièces autorisés et résolus, sans inventer des stats de build.",
+      "lead": "Les slots décrivent des compatibilités d’export par arme; ils ne calculent pas un build complet, son prix ou ses performances finales.",
+      "image": "images/weapons/weapon-mods-inspection.jpg",
+      "imageAlt": "Scène générique d’inspection d’un accessoire d’arme dans un atelier; aucune pièce EFT précise n’est identifiée.",
+      "imageCaption": "Illustration éditoriale générique · compatibilités réelles liées aux IDs du tableau",
+      "intro": "L’export regroupe 987 slots pour les armes et recense 1 391 identifiants distincts dans les listes d’objets autorisés, tous résolus dans le catalogue local. Aucun ID exclu n’est présent dans ces listes de slots. La relation s’applique à un slot et un identifiant précis; ne transposez pas une pièce compatible sur une autre plateforme.",
+      "note": "Le snapshot réduit ne contient pas les propriétés complètes de chaque modification ni les offres traders de toutes les pièces. Il ne permet donc pas un calcul validé de coût total, d’ergonomie ou de recul pour un preset monté.",
+      "sources": [
+        "tdev-phase5-catalog",
+        "patch130"
+      ],
+      "quick": [
+        [
+          "slots",
+          "987 slots",
+          "Parcourir"
+        ],
+        [
+          "mod-catalogue",
+          "1 391 IDs",
+          "Filtrer"
+        ],
+        [
+          "methode",
+          "Limites des builds",
+          "Comprendre"
+        ]
+      ]
+    },
+    {
+      "file": "pages/ammo/index.html",
+      "route": "pages/ammo/",
+      "type": "ammo-index",
+      "group": null,
+      "title": "Munitions et balistique en jeu",
+      "label": "Munitions",
+      "code": "M–00",
+      "seoTitle": "Munitions EFT : catalogue, craft et modes | Tarkov Ultimate Guide",
+      "description": "Parcourez 200 entrées de munitions dans l’export EFT : dégâts, pénétration, projectiles, offres par mode et recettes datées, sans tier list non vérifiée.",
+      "lead": "Deux nombres utiles ne font pas une prédiction de combat : lisez les unités d’export, le type de munition et le mode choisi.",
+      "image": "images/ammo/ammo-catalogue-tray.jpg",
+      "imageAlt": "Plateau illustratif de cartouches génériques dans une ambiance d’atelier; aucune munition EFT précise n’est représentée.",
+      "imageCaption": "Illustration d’ambiance générique · pas une référence de munition EFT",
+      "intro": "L’export local contient 200 enregistrements `ItemPropertiesAmmo` par mode : 180 `bullet`, 13 `buckshot`, six `grenade` et un `flashbang`. Ce décompte d’API n’est pas synonyme de 200 cartouches de fusil.",
+      "note": "Le relevé des stats est communautaire, sans build client indiqué. La documentation de l’API classe 199 rounds sur une autre page : les périmètres ne sont pas strictement comparables et l’écart n’est pas réconcilié.",
+      "sources": [
+        "tdev-phase5-catalog",
+        "tdev-phase5-crafts",
+        "tdev-special-equipment",
+        "wiki-ammo-2026",
+        "wiki-m855a1-2026",
+        "bsg-balance-nov",
+        "bsg-135-diary",
+        "patch110",
+        "patch130"
+      ],
+      "quick": [
+        [
+          "catalogue",
+          "200 entrées",
+          "Parcourir"
+        ],
+        [
+          "exemple",
+          "M855A1 et craft",
+          "Vérifier"
+        ],
+        [
+          "methode",
+          "Dégâts ≠ pénétration",
+          "Comprendre"
+        ]
+      ]
+    },
+    {
+      "file": "pages/ammo/ammo-chart.html",
+      "route": "pages/ammo/ammo-chart.html",
+      "type": "ammo-chart",
+      "group": null,
+      "title": "Tableau balistique interactif",
+      "label": "Tableau balistique",
+      "code": "M–01",
+      "seoTitle": "Tableau balistique EFT : dégâts et pénétration | Tarkov Ultimate Guide",
+      "description": "Filtrez les 200 entrées ammo EFT par calibre et type. Le nuage de points compare dégâts et pénétration de l’export; une table accessible fournit les valeurs.",
+      "lead": "Un nuage de points décrit deux champs de catalogue; il ne prédit ni la pénétration d’une plaque, ni la méta du raid.",
+      "image": "images/ammo/ammo-chart-detail.jpg",
+      "imageAlt": "Munitions fictives en gros plan, illustration originale",
+      "imageCaption": "Illustration éditoriale · le graphique provient des données, pas de la photo",
+      "intro": "Le graphique place les 180 objets de type `bullet` sur deux axes : dégâts exportés et puissance de pénétration exportée. Les 13 chevrotines, six grenades et le projectile flash restent consultables dans la table, mais sont exclus du nuage pour garder un périmètre homogène.",
+      "note": "La classe d’armure déduite de la pénétration est explicitement omise : le wiki communautaire consulté la décrit comme une heuristique. Les dégâts, l’armure, la durabilité, la fragmentation et les projectiles peuvent produire des résultats différents en jeu.",
+      "sources": [
+        "tdev-phase5-catalog",
+        "tdev-phase5-crafts",
+        "tdev-special-equipment",
+        "tdev-drip-out-bear",
+        "tdev-drip-out-usec",
+        "wiki-ammo-2026",
+        "wiki-m855a1-2026",
+        "lfcarry-ammo-2026",
+        "ascheron-ammo-2026",
+        "bsg-balance-nov",
+        "bsg-135-diary"
+      ],
+      "quick": [
+        [
+          "graphique",
+          "180 bullets",
+          "Explorer"
+        ],
+        [
+          "table",
+          "200 entrées",
+          "Filtrer"
+        ],
+        [
+          "craft",
+          "Recettes et modes",
+          "Vérifier"
+        ]
+      ]
+    }
+  ]
+}

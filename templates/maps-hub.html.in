@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="[[DESCRIPTION]]">
+  <title>[[SEO_TITLE]]</title>
+  [[CANONICAL_LINK]]
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Tarkov Ultimate Guide">
+  <meta property="og:title" content="[[SEO_TITLE]]">
+  <meta property="og:description" content="[[DESCRIPTION]]">
+  [[OG_URL_META]]
+  <meta property="og:image" content="[[OG_IMAGE]]">
+  <meta property="og:image:width" content="1376">
+  <meta property="og:image:height" content="768">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:alt" content="[[IMAGE_ALT]]">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="[[SEO_TITLE]]">
+  <meta name="twitter:description" content="[[DESCRIPTION]]">
+  <meta name="twitter:image" content="[[OG_IMAGE]]">
+  <meta name="twitter:image:alt" content="[[IMAGE_ALT]]">
+  <script type="application/ld+json">[[JSON_LD]]</script>
+  <style>html{background:#0a0a0a;color:#e8e6e3;color-scheme:dark}body{margin:0}[hidden]{display:none!important}</style>
+  <link rel="icon" type="image/jpeg" href="[[ROOT]]images/hero/norvinsk-rain.jpg">
+  <link rel="preload" href="[[ROOT]][[IMAGE]]" as="image" fetchpriority="high">
+  <link rel="preload" href="[[ROOT]]fonts/orbitron-500-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="[[ROOT]]fonts/type.css">
+  <link rel="stylesheet" href="[[ROOT]]css/main.css">
+  <link rel="stylesheet" href="[[ROOT]]css/components.css">
+  <link rel="stylesheet" href="[[ROOT]]css/animations.css">
+  <link rel="stylesheet" href="[[ROOT]]css/responsive.css">
+  <link rel="stylesheet" href="[[ROOT]]css/pages/home.css">
+  <link rel="stylesheet" href="[[ROOT]]css/pages/guides.css">
+  <link rel="stylesheet" href="[[ROOT]]css/pages/maps.css">
+  <script src="[[ROOT]]js/main.js" type="module"></script>
+  <script src="[[ROOT]]js/maps.js" type="module"></script>
+</head>
+<body class="home-page guide-page guide-page--map maps-hub-page">
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <header class="site-header home-header" data-site-header>
+    <div class="shell site-header__inner">
+      <a class="brand" href="[[ROOT]]"><span class="brand__mark" aria-hidden="true"></span><span><span class="brand__word">TARKOV</span> <span class="brand__descriptor">Ultimate Guide</span></span><span class="sr-only">, accueil</span></a>
+      <nav class="site-nav" id="global-nav" aria-label="Navigation principale" data-site-nav>
+        <a class="site-nav__link" href="[[ROOT]]">Accueil</a>
+        <a class="site-nav__link" href="[[ROOT]]pages/maps/" aria-current="page">Cartes</a>
+        <details class="mega-menu home-mega" data-nav-disclosure>
+          <summary class="mega-menu__summary">Explorer</summary>
+          <div class="mega-menu__panel home-mega__panel">
+            <div class="home-mega__group"><p class="eyebrow">En raid</p><a class="mega-menu__item" href="[[ROOT]]pages/maps/"><strong>Cartes et extractions</strong><span>Treize lieux, accès et repères.</span></a><a class="mega-menu__item" href="[[ROOT]]#equipement"><strong>Armes et munitions</strong><span>Compatibilité et lecture du catalogue.</span></a><a class="mega-menu__item" href="[[ROOT]]pages/armor/"><strong>Armures et protection</strong><span>Gilets, plaques, casques et rigs.</span></a><a class="mega-menu__item" href="[[ROOT]]pages/bosses/"><strong>Boss et factions</strong><span>Rencontres et changements par mode.</span></a></div>
+            <div class="home-mega__group"><p class="eyebrow">Dossiers publiés</p><a class="mega-menu__item" href="[[ROOT]]pages/getting-started.html"><strong>Guide du débutant</strong><span>Préparer ses premiers raids.</span></a><a class="mega-menu__item" href="[[ROOT]]pages/lore/"><strong>Lore et univers</strong><span>Norvinsk et les factions.</span></a><a class="mega-menu__item" href="[[ROOT]]#modes"><strong>Modes de jeu</strong><span>PvP, Seasonal et PvE officiel.</span></a></div>
+          </div>
+        </details>
+        <a class="site-nav__link" href="[[ROOT]]#actualites">Actualités</a>
+        <a class="site-nav__link" href="[[ROOT]]#premier-raid">Débuter</a>
+        <a class="site-nav__link" href="[[ROOT]]#tushonka">SP‑Tushonka</a>
+      </nav>
+      <div class="site-header__utilities">
+        <a class="badge badge--live home-header__patch" href="[[ROOT]]#etat-du-jeu" aria-label="[[PATCH]], patch de référence">[[PATCH]]</a>
+        <button type="button" class="button button--quiet home-header__search" data-modal-open="site-search" data-site-search-trigger aria-label="Rechercher dans le guide" aria-haspopup="dialog" aria-controls="site-search" hidden><i class="icon icon--search" aria-hidden="true"></i><span class="button__text">Rechercher</span><kbd class="search-key" data-keyhint="Ctrl K" aria-hidden="true"></kbd></button>
+        <button type="button" class="button button--icon" data-nav-toggle aria-label="Menu de navigation" aria-controls="global-nav" aria-expanded="false" hidden><i class="icon icon--menu" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="guide-crumbbar"><div class="shell guide-crumbbar__inner"><nav class="breadcrumb" aria-label="Fil d’Ariane"><ol><li><a href="[[ROOT]]">Accueil</a></li><li aria-current="page">Cartes</li></ol></nav><p class="guide-crumbbar__meta">Revu le <time datetime="[[VERIFIED_DAY]]">[[DATE_SHORT]]</time></p></div></div>
+    <section class="guide-hero maps-hub-hero" id="top" tabindex="-1" aria-labelledby="maps-title" data-motion-hero>
+      <img class="guide-hero__image" src="[[ROOT]][[IMAGE]]" width="1376" height="768" alt="[[IMAGE_ALT]]" fetchpriority="high" decoding="async">
+      <div class="shell guide-hero__inner"><div class="guide-hero__copy"><p class="guide-kicker"><span>04</span> Cartes · [[DATE_SHORT]]</p><h1 id="maps-title">[[HEADING]]</h1><p class="guide-hero__lead">[[LEAD]]</p><div class="guide-hero__actions"><a class="button button--primary" href="#map-index">Comparer les terrains <span aria-hidden="true">↓</span></a><a class="button button--quiet" href="#transit-network">Voir les transits <span aria-hidden="true">↘</span></a></div><p class="guide-hero__note">13 lieux principaux · 3 exports datés · aucun état de raid simulé</p></div><p class="guide-hero__locator" aria-hidden="true">[[IMAGE_CAPTION]]</p></div>
+    </section>
+    <div class="guide-quick" aria-label="Accès rapide" role="group"><div class="shell guide-quick__inner">
+      <a class="guide-quick__link" href="#map-index"><span class="guide-quick__no" aria-hidden="true">01</span><span class="guide-quick__copy"><small>Choisir</small><strong>13 lieux</strong></span><span class="guide-quick__arrow" aria-hidden="true">↓</span></a>
+      <a class="guide-quick__link" href="#compare"><span class="guide-quick__no" aria-hidden="true">02</span><span class="guide-quick__copy"><small>Comparer</small><strong>Deux cartes</strong></span><span class="guide-quick__arrow" aria-hidden="true">↓</span></a>
+      <a class="guide-quick__link" href="#transit-network"><span class="guide-quick__no" aria-hidden="true">03</span><span class="guide-quick__copy"><small>Comprendre</small><strong>Accès et transits</strong></span><span class="guide-quick__arrow" aria-hidden="true">↓</span></a>
+    </div></div>
+    <div class="shell maps-hub-layout">
+      <aside class="maps-hub-rail" aria-label="Dans ce dossier"><p class="guide-rail__tag">M–00 / Index</p><h2>Repères</h2><nav><ol><li><a href="#map-index">Choisir un lieu</a></li><li><a href="#compare">Comparer</a></li><li><a href="#transit-network">Transits</a></li><li><a href="#variants">Variantes</a></li><li><a href="#map-method">Méthode</a></li></ol></nav><div class="guide-rail__foot"><span>Dernier relevé</span><a href="#map-method">[[DATE_SHORT]] <span aria-hidden="true">↗</span></a></div></aside>
+      <div class="maps-hub-content">
+        <section class="guide-section map-section" id="map-index" tabindex="-1" aria-labelledby="map-index-title">
+          <div class="guide-section__heading"><p class="guide-kicker"><span>01</span> Sélection des lieux</p><h2 id="map-index-title">Choisir son prochain terrain</h2><p>Filtrez par forme du parcours et mode d’export. Le mode change les métadonnées affichées, pas une promesse que la carte ou une extraction est ouverte au compte.</p></div>
+          <form class="maps-filter-panel" data-map-filter hidden>
+            <label class="field" for="maps-query">Carte ou repère<span class="field__wrap"><i class="icon icon--search" aria-hidden="true"></i><input class="field__input" id="maps-query" type="search" autocomplete="off" placeholder="Ex. Resort, bunker, quai" data-map-query></span></label>
+            <label class="field" for="maps-difficulty">Lecture du terrain<span class="field__wrap"><select class="field__input" id="maps-difficulty" data-map-difficulty><option value="all">Toutes les formes</option>[[DIFFICULTY_OPTIONS]]</select></span></label>
+            <label class="field" for="maps-mode">Mode de référence<span class="field__wrap"><select class="field__input" id="maps-mode" data-map-mode-select>[[MODE_OPTIONS]]</select></span></label>
+            <button class="button button--quiet maps-filter-reset" type="reset" data-map-reset>Effacer les filtres</button>
+            <p class="maps-filter-status" role="status" aria-live="polite" data-map-filter-status>13 lieux principaux</p>
+          </form>
+          <p class="maps-filter-note">Le classement « lecture du terrain » est éditorial et non officiel. Les 13 lieux de base apparaissent dans les trois exports du snapshot ; les variantes restent séparées.</p>
+          <div class="maps-card-grid" id="map-cards" data-map-grid>[[MAP_CARDS]]</div>
+          <p class="maps-empty" data-map-empty hidden>Aucun lieu ne correspond à ces filtres. Modifiez la recherche ou effacez les filtres.</p>
+        </section>
+
+        <section class="guide-section map-section" id="compare" tabindex="-1" aria-labelledby="map-compare-title">
+          <div class="guide-section__heading"><p class="guide-kicker"><span>02</span> Comparateur</p><h2 id="map-compare-title">Comparer deux lieux</h2><p>Sélectionnez deux cartes dans la liste. Le tableau reprend le mode choisi et conserve une ligne de secours lisible sans JavaScript.</p></div>
+          <p class="maps-compare-status" role="status" aria-live="polite" data-map-compare-status>Choisissez deux lieux pour les comparer.</p>
+          <div class="map-table-wrap maps-compare-table-wrap" role="region" aria-label="Tableau comparatif des cartes" tabindex="0">
+            <table class="map-data-table maps-compare-table" data-map-compare-table>
+              <caption>Comparaison des métadonnées d’export · mode <span data-map-compare-mode-label>PvP permanent</span></caption>
+              <thead><tr><th scope="col">Repère</th><th scope="col" data-compare-heading="a">Lieu A</th><th scope="col" data-compare-heading="b">Lieu B</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Carte</th><td data-compare-cell="a-name">—</td><td data-compare-cell="b-name">—</td></tr>
+                <tr><th scope="row">Joueurs · API</th><td data-compare-cell="a-players">—</td><td data-compare-cell="b-players">—</td></tr>
+                <tr><th scope="row">Durée · API</th><td data-compare-cell="a-duration">—</td><td data-compare-cell="b-duration">—</td></tr>
+                <tr><th scope="row">Entrées d’extraction · API</th><td data-compare-cell="a-extracts">—</td><td data-compare-cell="b-extracts">—</td></tr>
+                <tr><th scope="row">Accès</th><td data-compare-cell="a-access">—</td><td data-compare-cell="b-access">—</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="map-smallprint">Le nombre d’entrées n’est pas un nombre de sorties disponibles. Les conditions varient selon le profil et l’état en raid.</p>
+        </section>
+
+        <section class="guide-section map-section" id="transit-network" tabindex="-1" aria-labelledby="transit-network-title">
+          <div class="guide-section__heading"><p class="guide-kicker"><span>03</span> Transitions</p><h2 id="transit-network-title">Les liens connus entre raids</h2><p>Un transit mène vers un autre lieu sans quitter nécessairement le raid. Ce graphe ne dessine que des liens pour lesquels une source a été consultée ; il n’est pas exhaustif.</p></div>
+          <figure class="maps-network-figure"><div class="maps-network-legend"><span>Trait plein · note BSG</span><span>Trait pointillé · wiki communautaire</span></div><ol class="maps-network-list">[[TRANSIT_ROWS]]</ol><figcaption>Schéma de relations, non à l’échelle · ne pas l’utiliser comme carte ou itinéraire.</figcaption></figure>
+          <div class="maps-risk-note"><strong>Sortie du raid ≠ transit</strong><p>Après un transfert, la destination, l’horloge, l’inventaire ou les règles du raid peuvent continuer ; la liste d’extractions affichée dans votre client reste la référence.</p></div>
+        </section>
+
+        <section class="guide-section map-section" id="variants" tabindex="-1" aria-labelledby="variants-title">
+          <div class="guide-section__heading"><p class="guide-kicker"><span>04</span> Variantes</p><h2 id="variants-title">Six enregistrements à garder à part</h2><p>Le snapshot compte 19 enregistrements de cartes par mode : 13 lieux principaux et ces variantes. Elles ne sont pas des lieux supplémentaires.</p></div>
+          <div class="map-table-wrap" role="region" aria-label="Tableau des variantes de cartes" tabindex="0"><table class="map-data-table"><caption>Variantes de carte recensées le [[DATE_LONG]]</caption><thead><tr><th scope="col">Variante</th><th scope="col">Lieu principal</th><th scope="col">Joueurs / durée</th><th scope="col">Note</th></tr></thead><tbody>[[VARIANT_ROWS]]</tbody></table></div>
+        </section>
+
+        <section class="guide-section map-section" id="map-method" tabindex="-1" aria-labelledby="map-method-title">
+          <div class="guide-section__heading"><p class="guide-kicker"><span>05</span> Fiabilité des informations</p><h2 id="map-method-title">Sources, date et limites</h2><p>Données arrêtées au [[DATE_LONG]]. Aucune connexion au client du jeu, aucun test de mode ou de sortie en direct n’a été réalisé pour ce relevé.</p></div>
+          <div class="maps-access-legend" aria-label="Légende des preuves">[[ACCESS_LEGEND]]</div>
+          <ul class="guide-sources__items maps-hub-sources">[[SOURCE_LIST]]</ul>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="home-footer guide-footer"><div class="shell guide-footer__inner"><div><a class="brand" href="[[ROOT]]"><span class="brand__mark" aria-hidden="true"></span><span><span class="brand__word">TARKOV</span><span class="brand__descriptor">Ultimate Guide</span></span></a><p>Fan-site francophone indépendant de Battlestate Games. Illustrations originales ; plans communautaires non recopiés.</p></div><div class="guide-footer__controls"><a href="[[ROOT]]">Retour à l’accueil <span aria-hidden="true">↗</span></a><div class="home-footer__settings"><button type="button" class="button button--quiet button--xs" data-contrast-toggle aria-pressed="false" hidden>Contraste renforcé</button><button type="button" class="button button--quiet button--xs" data-motion-toggle aria-pressed="false" hidden>Réduire les animations</button></div></div></div></footer>
+  <a class="button button--icon back-top" data-back-top href="#top" aria-label="Retour rapide en haut" hidden></a>
+  <dialog id="site-search" class="dialog home-search" data-modal data-site-search data-search-base="[[ROOT]]" data-search-source="[[ROOT]]js/data/search-index.json" aria-labelledby="search-title">
+    <header class="dialog__head"><div><p class="eyebrow">Index du guide</p><h2 class="dialog__title" id="search-title">Rechercher dans Tarkov Ultimate Guide</h2></div><button type="button" class="button button--icon" data-modal-close aria-label="Fermer la recherche"><i class="icon icon--close" aria-hidden="true"></i></button></header>
+    <div class="dialog__body"><label for="site-query" class="field">Sujet, lieu ou mode<span class="field__wrap"><i class="icon icon--search" aria-hidden="true"></i><input class="field__input field__input--search" id="site-query" type="search" placeholder="Ex. Ground Zero, Customs, Icebreaker" autocomplete="off" data-modal-initial data-search-input></span></label><p class="dialog__hint search-status" role="status" data-search-status></p><ul class="search-results" data-search-results aria-label="Résultats de recherche"></ul><p class="search-dialog__foot"><span><kbd>↑</kbd> <kbd>↓</kbd> Parcourir</span><span><kbd>Entrée</kbd> Ouvrir</span><span><kbd>Échap</kbd> Fermer</span></p></div>
+  </dialog>
+</body>
+</html>

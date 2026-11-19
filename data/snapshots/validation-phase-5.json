@@ -1,0 +1,1746 @@
+{
+  "schemaVersion": 1,
+  "status": "VALIDE",
+  "browser": {
+    "chromium": "159.0.8154.6",
+    "firefox": "159.0"
+  },
+  "checkedAt": "2026-11-18T23:46:12.965Z",
+  "checks": [
+    {
+      "name": "Chromium · pages/weapons/ · rendu, médias, erreurs, reflow initial et axe-core",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 694680,
+        "dclMs": 285,
+        "lcpMs": 284,
+        "cls": 0.0031
+      }
+    },
+    {
+      "name": "Chromium · pages/weapons/assault-rifles.html · rendu, médias, erreurs, reflow initial et axe-core",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 240672,
+        "dclMs": 165,
+        "lcpMs": 208,
+        "cls": 0.0031
+      }
+    },
+    {
+      "name": "Chromium · pages/weapons/smgs.html · rendu, médias, erreurs, reflow initial et axe-core",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 104012,
+        "dclMs": 191,
+        "lcpMs": 176,
+        "cls": 0.0031
+      }
+    },
+    {
+      "name": "Chromium · pages/weapons/shotguns.html · rendu, médias, erreurs, reflow initial et axe-core",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 83078,
+        "dclMs": 143,
+        "lcpMs": 176,
+        "cls": 0.0031
+      }
+    },
+    {
+      "name": "Chromium · pages/weapons/sniper-rifles.html · rendu, médias, erreurs, reflow initial et axe-core",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 61016,
+        "dclMs": 146,
+        "lcpMs": 180,
+        "cls": 0.0031
+      }
+    },
+    {
+      "name": "Chromium · pages/weapons/dmrs.html · rendu, médias, erreurs, reflow initial et axe-core",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 64560,
+        "dclMs": 116,
+        "lcpMs": 188,
+        "cls": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/weapons/lmgs.html · rendu, médias, erreurs, reflow initial et axe-core",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 53476,
+        "dclMs": 131,
+        "lcpMs": 152,
+        "cls": 0.0031
+      }
+    },
+    {
+      "name": "Chromium · pages/weapons/pistols.html · rendu, médias, erreurs, reflow initial et axe-core",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 129242,
+        "dclMs": 141,
+        "lcpMs": 180,
+        "cls": 0.0031
+      }
+    },
+    {
+      "name": "Chromium · pages/weapons/melee.html · rendu, médias, erreurs, reflow initial et axe-core",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 104065,
+        "dclMs": 139,
+        "lcpMs": 160,
+        "cls": 0.0031
+      }
+    },
+    {
+      "name": "Chromium · pages/weapons/grenade-launchers.html · rendu, médias, erreurs, reflow initial et axe-core",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 59887,
+        "dclMs": 120,
+        "lcpMs": 156,
+        "cls": 0.0031
+      }
+    },
+    {
+      "name": "Chromium · pages/weapons/weapon-mods.html · rendu, médias, erreurs, reflow initial et axe-core",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 1670176,
+        "dclMs": 163,
+        "lcpMs": 196,
+        "cls": 0.0031
+      }
+    },
+    {
+      "name": "Chromium · pages/ammo/ · rendu, médias, erreurs, reflow initial et axe-core",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 626468,
+        "dclMs": 285,
+        "lcpMs": 288,
+        "cls": 0.0031
+      }
+    },
+    {
+      "name": "Chromium · pages/ammo/ammo-chart.html · rendu, médias, erreurs, reflow initial et axe-core",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 695011,
+        "dclMs": 267,
+        "lcpMs": 280,
+        "cls": 0.0031
+      }
+    },
+    {
+      "name": "Arsenal · contrôles progressifs, modes et comparateur",
+      "passed": true,
+      "detail": "recherche M4A1"
+    },
+    {
+      "name": "Mêlée · colonnes slash/stab et comparaison dédiée",
+      "passed": true
+    },
+    {
+      "name": "Munitions · bascule de mode, craft, comparateur et tâche résolue",
+      "passed": true
+    },
+    {
+      "name": "Balistique · filtre graphique synchronisé avec le tableau accessible",
+      "passed": true
+    },
+    {
+      "name": "Modifications · filtres croisés slot/famille et liste compatible",
+      "passed": true,
+      "detail": "1391 IDs de pièces; tris alphabétique et compatibilité validés"
+    },
+    {
+      "name": "Reflow pages/weapons/ · 320–1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "viewport": 320,
+          "root": 320,
+          "body": 320
+        },
+        {
+          "viewport": 375,
+          "root": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "root": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1024,
+          "root": 1024,
+          "body": 1024
+        },
+        {
+          "viewport": 1440,
+          "root": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "name": "Reflow pages/weapons/weapon-mods.html · 320–1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "viewport": 320,
+          "root": 320,
+          "body": 320
+        },
+        {
+          "viewport": 375,
+          "root": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "root": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1024,
+          "root": 1024,
+          "body": 1024
+        },
+        {
+          "viewport": 1440,
+          "root": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "name": "Reflow pages/ammo/ · 320–1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "viewport": 320,
+          "root": 320,
+          "body": 320
+        },
+        {
+          "viewport": 375,
+          "root": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "root": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1024,
+          "root": 1024,
+          "body": 1024
+        },
+        {
+          "viewport": 1440,
+          "root": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "name": "Reflow pages/ammo/ammo-chart.html · 320–1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "viewport": 320,
+          "root": 320,
+          "body": 320
+        },
+        {
+          "viewport": 375,
+          "root": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "root": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1024,
+          "root": 1024,
+          "body": 1024
+        },
+        {
+          "viewport": 1440,
+          "root": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "name": "Navigation clavier · premier focus visible",
+      "passed": true,
+      "detail": {
+        "tag": "A",
+        "visible": true,
+        "outline": "solid"
+      }
+    },
+    {
+      "name": "Préférences système · forced-colors / reduced-motion",
+      "passed": true
+    },
+    {
+      "name": "Performance mobile 4G/CPU×4 · pages/weapons/weapon-mods.html · LCP ≤ 2.5 s, CLS ≤ 0.1",
+      "passed": true,
+      "detail": {
+        "dclMs": 1872,
+        "loadMs": 1877,
+        "lcpMs": 1520,
+        "cls": 0,
+        "transferBytes": 92501
+      }
+    },
+    {
+      "name": "Performance mobile 4G/CPU×4 · pages/ammo/ammo-chart.html · LCP ≤ 2.5 s, CLS ≤ 0.1",
+      "passed": true,
+      "detail": {
+        "dclMs": 2780,
+        "loadMs": 3159,
+        "lcpMs": 2028,
+        "cls": 0,
+        "transferBytes": 55456
+      }
+    },
+    {
+      "name": "Sans JavaScript · pages/weapons/ · données et tables de repli",
+      "passed": true,
+      "detail": {
+        "h1": 1,
+        "rows": 199,
+        "tableVisible": true,
+        "chartVisible": false,
+        "filtersHidden": true
+      }
+    },
+    {
+      "name": "Sans JavaScript · pages/weapons/weapon-mods.html · données et tables de repli",
+      "passed": true,
+      "detail": {
+        "h1": 1,
+        "rows": 1391,
+        "tableVisible": true,
+        "chartVisible": false,
+        "filtersHidden": true
+      }
+    },
+    {
+      "name": "Sans JavaScript · pages/ammo/ · données et tables de repli",
+      "passed": true,
+      "detail": {
+        "h1": 1,
+        "rows": 200,
+        "tableVisible": true,
+        "chartVisible": false,
+        "filtersHidden": true
+      }
+    },
+    {
+      "name": "Sans JavaScript · pages/ammo/ammo-chart.html · données et tables de repli",
+      "passed": true,
+      "detail": {
+        "h1": 1,
+        "rows": 200,
+        "tableVisible": true,
+        "chartVisible": true,
+        "filtersHidden": true
+      }
+    },
+    {
+      "name": "Accueil · liens Arsenal et Munitions disponibles",
+      "passed": true,
+      "detail": [
+        {
+          "href": "./pages/weapons/",
+          "text": ""
+        },
+        {
+          "href": "./pages/ammo/",
+          "text": ""
+        },
+        {
+          "href": "./pages/weapons/",
+          "text": "Armes et munitions"
+        },
+        {
+          "href": "./pages/weapons/",
+          "text": "Ouvrir le catalogue Arsenal ↗"
+        },
+        {
+          "href": "./pages/ammo/",
+          "text": "Lire les munitions et le tableau balistique ↗"
+        }
+      ]
+    },
+    {
+      "name": "Firefox · pages/weapons/ · rendu, médias, erreurs, reflow initial",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 694680,
+        "dclMs": 491,
+        "lcpMs": 337,
+        "cls": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/weapons/assault-rifles.html · rendu, médias, erreurs, reflow initial",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 240672,
+        "dclMs": 397,
+        "lcpMs": 353,
+        "cls": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/weapons/smgs.html · rendu, médias, erreurs, reflow initial",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 104012,
+        "dclMs": 418,
+        "lcpMs": 300,
+        "cls": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/weapons/shotguns.html · rendu, médias, erreurs, reflow initial",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 83078,
+        "dclMs": 329,
+        "lcpMs": 314,
+        "cls": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/weapons/sniper-rifles.html · rendu, médias, erreurs, reflow initial",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 61016,
+        "dclMs": 391,
+        "lcpMs": 368,
+        "cls": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/weapons/dmrs.html · rendu, médias, erreurs, reflow initial",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 64560,
+        "dclMs": 285,
+        "lcpMs": 255,
+        "cls": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/weapons/lmgs.html · rendu, médias, erreurs, reflow initial",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 53476,
+        "dclMs": 409,
+        "lcpMs": 392,
+        "cls": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/weapons/pistols.html · rendu, médias, erreurs, reflow initial",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 129242,
+        "dclMs": 322,
+        "lcpMs": 295,
+        "cls": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/weapons/melee.html · rendu, médias, erreurs, reflow initial",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 104065,
+        "dclMs": 350,
+        "lcpMs": 285,
+        "cls": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/weapons/grenade-launchers.html · rendu, médias, erreurs, reflow initial",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 59887,
+        "dclMs": 272,
+        "lcpMs": 261,
+        "cls": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/weapons/weapon-mods.html · rendu, médias, erreurs, reflow initial",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 1670176,
+        "dclMs": 296,
+        "lcpMs": 280,
+        "cls": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/ammo/ · rendu, médias, erreurs, reflow initial",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 626468,
+        "dclMs": 522,
+        "lcpMs": 428,
+        "cls": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/ammo/ammo-chart.html · rendu, médias, erreurs, reflow initial",
+      "passed": true,
+      "detail": {
+        "htmlBytes": 695011,
+        "dclMs": 565,
+        "lcpMs": 458,
+        "cls": 0
+      }
+    },
+    {
+      "name": "Arsenal · contrôles progressifs, modes et comparateur",
+      "passed": true,
+      "detail": "recherche M4A1"
+    },
+    {
+      "name": "Mêlée · colonnes slash/stab et comparaison dédiée",
+      "passed": true
+    },
+    {
+      "name": "Munitions · bascule de mode, craft, comparateur et tâche résolue",
+      "passed": true
+    },
+    {
+      "name": "Balistique · filtre graphique synchronisé avec le tableau accessible",
+      "passed": true
+    },
+    {
+      "name": "Modifications · filtres croisés slot/famille et liste compatible",
+      "passed": true,
+      "detail": "1391 IDs de pièces; tris alphabétique et compatibilité validés"
+    }
+  ],
+  "audits": [
+    {
+      "context": "Chromium · pages/weapons/",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase5-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#comparaison\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#catalogue\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#comparaison\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#methode\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"ammo/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "context": "Chromium · pages/weapons/assault-rifles.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase5-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#comparaison\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#catalogue\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#comparaison\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#methode\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"ammo/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "context": "Chromium · pages/weapons/smgs.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase5-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#comparaison\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#catalogue\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#comparaison\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#methode\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"ammo/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "context": "Chromium · pages/weapons/shotguns.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase5-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#comparaison\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#catalogue\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#comparaison\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#methode\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"ammo/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "context": "Chromium · pages/weapons/sniper-rifles.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase5-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#comparaison\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#catalogue\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#comparaison\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#methode\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"ammo/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "context": "Chromium · pages/weapons/dmrs.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase5-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#comparaison\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#catalogue\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#comparaison\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#methode\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"ammo/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "context": "Chromium · pages/weapons/lmgs.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase5-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#comparaison\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#catalogue\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#comparaison\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#methode\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"ammo/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "context": "Chromium · pages/weapons/pistols.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase5-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#comparaison\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#catalogue\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#comparaison\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#methode\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"ammo/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "context": "Chromium · pages/weapons/melee.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase5-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#comparaison\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#catalogue\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#comparaison\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#methode\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"ammo/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "context": "Chromium · pages/weapons/grenade-launchers.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase5-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#comparaison\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#catalogue\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#comparaison\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#methode\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"ammo/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "context": "Chromium · pages/weapons/weapon-mods.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase5-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#mod-catalogue\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#slots\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#mod-catalogue\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#methode\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"ammo/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "context": "Chromium · pages/ammo/",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase5-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#exemple\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#catalogue\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#exemple\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#methode\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"weapons/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "context": "Chromium · pages/ammo/ammo-chart.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase5-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#table\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#graphique\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#table\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#craft\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"weapons/\"]"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "performance": [
+    {
+      "engine": "Chromium",
+      "route": "pages/weapons/",
+      "dclMs": 285,
+      "loadMs": 387,
+      "lcpMs": 284,
+      "cls": 0.0031,
+      "htmlBytes": 694680,
+      "transferBytes": 54688,
+      "resources": 27
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/weapons/assault-rifles.html",
+      "dclMs": 165,
+      "loadMs": 183,
+      "lcpMs": 208,
+      "cls": 0.0031,
+      "htmlBytes": 240672,
+      "transferBytes": 20530,
+      "resources": 22
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/weapons/smgs.html",
+      "dclMs": 191,
+      "loadMs": 199,
+      "lcpMs": 176,
+      "cls": 0.0031,
+      "htmlBytes": 104012,
+      "transferBytes": 13771,
+      "resources": 22
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/weapons/shotguns.html",
+      "dclMs": 143,
+      "loadMs": 149,
+      "lcpMs": 176,
+      "cls": 0.0031,
+      "htmlBytes": 83078,
+      "transferBytes": 12516,
+      "resources": 22
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/weapons/sniper-rifles.html",
+      "dclMs": 146,
+      "loadMs": 154,
+      "lcpMs": 180,
+      "cls": 0.0031,
+      "htmlBytes": 61016,
+      "transferBytes": 11104,
+      "resources": 22
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/weapons/dmrs.html",
+      "dclMs": 116,
+      "loadMs": 136,
+      "lcpMs": 188,
+      "cls": 0,
+      "htmlBytes": 64560,
+      "transferBytes": 11570,
+      "resources": 22
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/weapons/lmgs.html",
+      "dclMs": 131,
+      "loadMs": 138,
+      "lcpMs": 152,
+      "cls": 0.0031,
+      "htmlBytes": 53476,
+      "transferBytes": 10344,
+      "resources": 22
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/weapons/pistols.html",
+      "dclMs": 141,
+      "loadMs": 155,
+      "lcpMs": 180,
+      "cls": 0.0031,
+      "htmlBytes": 129242,
+      "transferBytes": 15189,
+      "resources": 22
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/weapons/melee.html",
+      "dclMs": 139,
+      "loadMs": 147,
+      "lcpMs": 160,
+      "cls": 0.0031,
+      "htmlBytes": 104065,
+      "transferBytes": 12166,
+      "resources": 22
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/weapons/grenade-launchers.html",
+      "dclMs": 120,
+      "loadMs": 130,
+      "lcpMs": 156,
+      "cls": 0.0031,
+      "htmlBytes": 59887,
+      "transferBytes": 10546,
+      "resources": 22
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/weapons/weapon-mods.html",
+      "dclMs": 163,
+      "loadMs": 164,
+      "lcpMs": 196,
+      "cls": 0.0031,
+      "htmlBytes": 1670176,
+      "transferBytes": 92501,
+      "resources": 23
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/ammo/",
+      "dclMs": 285,
+      "loadMs": 390,
+      "lcpMs": 288,
+      "cls": 0.0031,
+      "htmlBytes": 626468,
+      "transferBytes": 43623,
+      "resources": 23
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/ammo/ammo-chart.html",
+      "dclMs": 267,
+      "loadMs": 374,
+      "lcpMs": 280,
+      "cls": 0.0031,
+      "htmlBytes": 695011,
+      "transferBytes": 55456,
+      "resources": 23
+    },
+    {
+      "engine": "Chromium mobile 4G/CPU×4",
+      "route": "pages/weapons/weapon-mods.html",
+      "dclMs": 1872,
+      "loadMs": 1877,
+      "lcpMs": 1520,
+      "cls": 0,
+      "transferBytes": 92501
+    },
+    {
+      "engine": "Chromium mobile 4G/CPU×4",
+      "route": "pages/ammo/ammo-chart.html",
+      "dclMs": 2780,
+      "loadMs": 3159,
+      "lcpMs": 2028,
+      "cls": 0,
+      "transferBytes": 55456
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/weapons/",
+      "dclMs": 491,
+      "loadMs": 584,
+      "lcpMs": 337,
+      "cls": 0,
+      "htmlBytes": 694680,
+      "transferBytes": 54688,
+      "resources": 23
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/weapons/assault-rifles.html",
+      "dclMs": 397,
+      "loadMs": 431,
+      "lcpMs": 353,
+      "cls": 0,
+      "htmlBytes": 240672,
+      "transferBytes": 20530,
+      "resources": 23
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/weapons/smgs.html",
+      "dclMs": 418,
+      "loadMs": 431,
+      "lcpMs": 300,
+      "cls": 0,
+      "htmlBytes": 104012,
+      "transferBytes": 13771,
+      "resources": 23
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/weapons/shotguns.html",
+      "dclMs": 329,
+      "loadMs": 364,
+      "lcpMs": 314,
+      "cls": 0,
+      "htmlBytes": 83078,
+      "transferBytes": 12516,
+      "resources": 23
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/weapons/sniper-rifles.html",
+      "dclMs": 391,
+      "loadMs": 443,
+      "lcpMs": 368,
+      "cls": 0,
+      "htmlBytes": 61016,
+      "transferBytes": 11104,
+      "resources": 23
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/weapons/dmrs.html",
+      "dclMs": 285,
+      "loadMs": 332,
+      "lcpMs": 255,
+      "cls": 0,
+      "htmlBytes": 64560,
+      "transferBytes": 11570,
+      "resources": 23
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/weapons/lmgs.html",
+      "dclMs": 409,
+      "loadMs": 483,
+      "lcpMs": 392,
+      "cls": 0,
+      "htmlBytes": 53476,
+      "transferBytes": 10344,
+      "resources": 23
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/weapons/pistols.html",
+      "dclMs": 322,
+      "loadMs": 376,
+      "lcpMs": 295,
+      "cls": 0,
+      "htmlBytes": 129242,
+      "transferBytes": 15189,
+      "resources": 23
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/weapons/melee.html",
+      "dclMs": 350,
+      "loadMs": 386,
+      "lcpMs": 285,
+      "cls": 0,
+      "htmlBytes": 104065,
+      "transferBytes": 12166,
+      "resources": 23
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/weapons/grenade-launchers.html",
+      "dclMs": 272,
+      "loadMs": 362,
+      "lcpMs": 261,
+      "cls": 0,
+      "htmlBytes": 59887,
+      "transferBytes": 10546,
+      "resources": 23
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/weapons/weapon-mods.html",
+      "dclMs": 296,
+      "loadMs": 362,
+      "lcpMs": 280,
+      "cls": 0,
+      "htmlBytes": 1670176,
+      "transferBytes": 92501,
+      "resources": 23
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/ammo/",
+      "dclMs": 522,
+      "loadMs": 593,
+      "lcpMs": 428,
+      "cls": 0,
+      "htmlBytes": 626468,
+      "transferBytes": 43623,
+      "resources": 23
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/ammo/ammo-chart.html",
+      "dclMs": 565,
+      "loadMs": 646,
+      "lcpMs": 458,
+      "cls": 0,
+      "htmlBytes": 695011,
+      "transferBytes": 55456,
+      "resources": 23
+    }
+  ],
+  "responsive": [
+    {
+      "route": "pages/weapons/",
+      "widths": [
+        {
+          "viewport": 320,
+          "root": 320,
+          "body": 320
+        },
+        {
+          "viewport": 375,
+          "root": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "root": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1024,
+          "root": 1024,
+          "body": 1024
+        },
+        {
+          "viewport": 1440,
+          "root": 1440,
+          "body": 1440
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "pages/weapons/weapon-mods.html",
+      "widths": [
+        {
+          "viewport": 320,
+          "root": 320,
+          "body": 320
+        },
+        {
+          "viewport": 375,
+          "root": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "root": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1024,
+          "root": 1024,
+          "body": 1024
+        },
+        {
+          "viewport": 1440,
+          "root": 1440,
+          "body": 1440
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "pages/ammo/",
+      "widths": [
+        {
+          "viewport": 320,
+          "root": 320,
+          "body": 320
+        },
+        {
+          "viewport": 375,
+          "root": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "root": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1024,
+          "root": 1024,
+          "body": 1024
+        },
+        {
+          "viewport": 1440,
+          "root": 1440,
+          "body": 1440
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "pages/ammo/ammo-chart.html",
+      "widths": [
+        {
+          "viewport": 320,
+          "root": 320,
+          "body": 320
+        },
+        {
+          "viewport": 375,
+          "root": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "root": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1024,
+          "root": 1024,
+          "body": 1024
+        },
+        {
+          "viewport": 1440,
+          "root": 1440,
+          "body": 1440
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "errors": []
+}

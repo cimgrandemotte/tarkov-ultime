@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="[[DESCRIPTION]]">
+  <meta name="keywords" content="Escape from Tarkov, guide Tarkov français, premier raid, cartes Tarkov, munitions, patch [[PATCH]], SP-Tushonka">
+  <title>[[SEO_TITLE]]</title>
+  [[CANONICAL_LINK]]
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Tarkov Ultimate Guide">
+  <meta property="og:title" content="[[SEO_TITLE]]">
+  <meta property="og:description" content="[[DESCRIPTION]]">
+  [[OG_URL_META]]
+  <meta property="og:image" content="[[OG_IMAGE]]">
+  <meta property="og:image:width" content="1376">
+  <meta property="og:image:height" content="768">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:alt" content="Un PMC de dos dans une rue de Norvinsk sous la pluie ; illustration originale">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="[[SEO_TITLE]]">
+  <meta name="twitter:description" content="[[DESCRIPTION]]">
+  <meta name="twitter:image" content="[[OG_IMAGE]]">
+  <meta name="twitter:image:alt" content="Un PMC de dos dans une rue de Norvinsk sous la pluie">
+  <script type="application/ld+json">[[JSON_LD]]</script>
+  <style>html{background:#0a0a0a;color:#e8e6e3;color-scheme:dark}body{margin:0}[hidden]{display:none!important}.home-hero{position:relative;isolation:isolate;background:#101715}.home-hero__image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-3}</style>
+  <link rel="icon" type="image/jpeg" href="./images/hero/norvinsk-rain.jpg">
+  <link rel="preload" href="./images/hero/norvinsk-rain.jpg" as="image" fetchpriority="high">
+  <link rel="preload" href="./fonts/orbitron-500-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./fonts/type.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/animations.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="./css/pages/home.css">
+  <script src="./vendor/howler.core.min.js" defer></script>
+  <script src="./js/main.js" type="module"></script>
+  <script src="./js/home.js" type="module"></script>
+</head>
+<body class="home-page">
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <header class="site-header home-header" data-site-header>
+    <div class="shell site-header__inner">
+      <a class="brand" href="#top"><span class="brand__mark" aria-hidden="true"></span><span><span class="brand__word">TARKOV</span> <span class="brand__descriptor">Ultimate Guide</span></span><span class="sr-only">, accueil</span></a>
+      <nav class="site-nav" id="global-nav" aria-label="Navigation principale" data-site-nav>
+        <a class="site-nav__link" href="#top" aria-current="page">Accueil</a>
+        <a class="site-nav__link" href="./pages/maps/">Cartes</a>
+        <a class="site-nav__link" href="./pages/arena/">Arena</a>
+        <a class="site-nav__link" href="./pages/events/">Événements</a>
+        <details class="mega-menu home-mega" data-nav-disclosure>
+          <summary class="mega-menu__summary">Explorer</summary>
+          <div class="mega-menu__panel home-mega__panel">
+            <div class="home-mega__group">
+              <p class="eyebrow">En raid</p>
+              <a class="mega-menu__item" href="./pages/maps/"><strong>Cartes et extractions</strong><span>13 lieux, comparaison, accès et transits.</span></a>
+              <a class="mega-menu__item" href="./pages/weapons/"><strong>Arsenal</strong><span>Familles, filtres et comparateur par mode.</span></a>
+              <a class="mega-menu__item" href="./pages/ammo/"><strong>Munitions et balistique</strong><span>Tableau, calibres et crafts datés.</span></a>
+              <a class="mega-menu__item" href="./pages/armor/"><strong>Armures et protection</strong><span>Gilets, plaques, casques et rigs par pièce.</span></a>
+              <a class="mega-menu__item" href="./pages/bosses/"><strong>Boss et factions</strong><span>Profils, lieux rapportés et notes BSG datées.</span></a>
+            </div>
+            <div class="home-mega__group">
+              <p class="eyebrow">Bien démarrer</p>
+              <a class="mega-menu__item" href="[[STARTER_URL]]"><strong>Guide du débutant</strong><span>10 étapes, soins et 24 réponses.</span></a>
+              <a class="mega-menu__item" href="[[LORE_URL]]"><strong>Lore et univers</strong><span>Norvinsk, factions et chronologie.</span></a>
+              <a class="mega-menu__item" href="#modes"><strong>Modes de jeu</strong><span>Permanent, Seasonal, PvE et Arena.</span></a>
+              <a class="mega-menu__item" href="#tushonka"><strong>Single Player Tushonka</strong><span>Projet solo communautaire.</span></a>
+              <a class="mega-menu__item" href="./pages/spt-tushonka/"><strong>Guide SP-Tushonka</strong><span>Installation, mods, Fika et diagnostic.</span></a>
+              <a class="mega-menu__item" href="./pages/arena/"><strong>Escape from Tarkov: Arena</strong><span>Modes, boutique et mises à jour Arena.</span></a>
+              <a class="mega-menu__item" href="./pages/events/"><strong>Événements 2026</strong><span>Actifs, annoncés, archivés et contenus durables.</span></a>
+            </div>
+            <div class="home-mega__group">
+              <p class="eyebrow">Progression</p>
+              <a class="mega-menu__item" href="./pages/traders/"><strong>Traders</strong><span>Profils et seuils par mode.</span></a>
+              <a class="mega-menu__item" href="./pages/quests/"><strong>Quêtes & Kappa</strong><span>Recherche, prérequis et checklist locale.</span></a>
+              <a class="mega-menu__item" href="./pages/hideout/"><strong>Planque & crafts</strong><span>Stations, matériaux et calcul manuel.</span></a>
+              <a class="mega-menu__item" href="./pages/patch-notes.html"><strong>Notes de patch</strong><span>Chronologie, hotfixes et annonces BSG datées.</span></a>
+              <a class="mega-menu__item" href="./pages/resources/"><strong>Ressources & outils</strong><span>Cartes, données, progression et communautés.</span></a>
+              <a class="mega-menu__item" href="./pages/resources/glossary.html"><strong>Glossaire EFT</strong><span>Plus de 200 termes anglais et français.</span></a>
+            </div>
+            <div class="home-mega__group">
+              <p class="eyebrow">Compétences & économie</p>
+              <a class="mega-menu__item" href="./pages/skills/"><strong>Compétences</strong><span>Changements officiels et journal local.</span></a>
+              <a class="mega-menu__item" href="./pages/economy/"><strong>Économie</strong><span>Comparer coûts, traders et progression.</span></a>
+              <a class="mega-menu__item" href="./pages/economy/flea-market.html"><strong>Flea Market</strong><span>Frais observés et comparaison de ventes.</span></a>
+              <a class="mega-menu__item" href="./pages/economy/money-making.html"><strong>Gagner des roubles</strong><span>Routes prudentes et calculateur manuel.</span></a>
+            </div>
+            <div class="home-mega__group">
+              <p class="eyebrow">Stratégies</p>
+              <a class="mega-menu__item" href="./pages/strategy/"><strong>Hub stratégies</strong><span>Choisir un guide selon le mode.</span></a>
+              <a class="mega-menu__item" href="./pages/strategy/beginner-tips.html"><strong>Astuces débutant</strong><span>61 repères avec favoris locaux.</span></a>
+              <a class="mega-menu__item" href="./pages/strategy/advanced-tactics.html"><strong>Tactiques avancées</strong><span>Décision, position et alternatives.</span></a>
+              <a class="mega-menu__item" href="./pages/strategy/pvp-guide.html"><strong>Guide PvP</strong><span>Profils et revue post-contact.</span></a>
+              <a class="mega-menu__item" href="./pages/strategy/pve-guide.html"><strong>PvE & Prestige</strong><span>Notes BSG et suivi local des paliers.</span></a>
+              <a class="mega-menu__item" href="./pages/strategy/meta-builds.html"><strong>Builds & méta</strong><span>Critères d’évaluation et budget saisi.</span></a>
+            </div>
+          </div>
+        </details>
+        <a class="site-nav__link" href="#actualites">Actualités</a>
+        <a class="site-nav__link" href="#premier-raid">Débuter</a>
+        <a class="site-nav__link" href="#tushonka">SP‑Tushonka</a>
+      </nav>
+      <div class="site-header__utilities">
+        <a class="badge badge--live home-header__patch" href="#etat-du-jeu" data-patch-badge aria-label="[[PATCH]], patch de référence">[[PATCH]]</a>
+        <button type="button" class="button button--quiet home-header__search" data-modal-open="site-search" data-site-search-trigger aria-label="Rechercher dans le guide" aria-haspopup="dialog" aria-controls="site-search" aria-keyshortcuts="Control+K Meta+K" hidden><i class="icon icon--search" aria-hidden="true"></i><span class="button__text">Rechercher</span><kbd class="search-key" data-keyhint="Ctrl K" aria-hidden="true"></kbd></button>
+        <button type="button" class="button button--icon" data-nav-toggle aria-label="Menu de navigation" aria-controls="global-nav" aria-expanded="false" hidden><i class="icon icon--menu" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="home-hero" id="top" tabindex="-1" aria-labelledby="home-title" data-motion-hero>
+      <img class="home-hero__image" src="./images/hero/norvinsk-rain.jpg" width="1376" height="768" alt="Un PMC de dos dans une rue de Norvinsk, entre façades de béton et reflets de lampadaires sous la pluie" fetchpriority="high" decoding="async">
+      <div class="particles home-particles" data-particles aria-hidden="true"></div>
+      <div class="shell home-hero__inner">
+        <div class="home-hero__copy">
+          <p class="home-hero__kicker"><span class="home-hero__diamond" aria-hidden="true"></span> Le guide francophone <span class="home-hero__kicker-rule" aria-hidden="true"></span></p>
+          <h1 class="home-hero__title" id="home-title"><span>Tarkov</span> <strong>Ultimate Guide</strong></h1>
+          <p class="home-hero__tagline">Votre prochain raid se prépare ici.</p>
+          <p class="home-hero__intro">De Ground Zero à Terminal : cartes, équipement, boss et mises à jour d’<em>Escape from Tarkov</em>. Retrouvez aussi les repères pour jouer en solo avec SP‑Tushonka.</p>
+          <div class="home-hero__actions">
+            <a class="button button--primary home-cta" href="#premier-raid">Préparer mon premier raid <span class="home-arrow" aria-hidden="true">↗</span></a>
+            <a class="button button--quiet home-secondary" href="./pages/maps/">Explorer les cartes <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="home-hero__signals">
+            <a href="#etat-du-jeu" class="home-hero__release"><span class="home-hero__mini-dot" aria-hidden="true"></span><span>Patch de référence <strong>[[PATCH]]</strong></span></a>
+            <button type="button" class="home-sound" data-audio-toggle aria-controls="ambiance" data-play-label="Écouter l’ambiance" data-pause-label="Mettre l’ambiance en pause" data-wait-label="Annuler le chargement audio" hidden><i class="icon icon--sound" aria-hidden="true"></i><span data-audio-toggle-text>Écouter l’ambiance</span></button>
+          </div>
+          <p class="home-hero__audio-error" data-audio-error role="status"></p>
+        </div>
+        <div class="home-hero__locator" aria-hidden="true">
+          <span class="home-hero__locator-mark"></span><span><b>RÉGION DE NORVINSK</b><small>Illustration · rues de Tarkov</small></span>
+        </div>
+        <span class="home-hero__edge" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <section class="home-metrics" aria-labelledby="metrics-title">
+      <div class="shell home-metrics__inner">
+        <h2 class="sr-only" id="metrics-title">Tarkov en chiffres</h2>
+        <dl class="home-metrics__list">
+          [[METRICS]]
+        </dl>
+        <a class="home-metrics__source" href="#sources"><span>Sources et périmètre des chiffres</span> <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <div class="home-main">
+      <section class="shell home-section" id="explorer" tabindex="-1" aria-labelledby="explore-title">
+        <div class="home-section__head">
+          <div><p class="home-eyebrow"><span>01</span> Dossiers de raid</p><h2 id="explore-title">Explorer Tarkov</h2><p class="home-section__lead">Cartes, équipement, rencontres et progression : entrez par le dossier utile à votre prochain raid.</p></div>
+          <a class="home-section__aside" href="#modes">Choisir son mode de jeu <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="home-dossiers">
+          <article class="dossier-tile dossier-tile--terrain">
+            <div class="dossier-tile__art dossier-tile__art--terrain" aria-hidden="true"><span>NORVINSK / FIELD NOTES</span><i></i></div>
+            <span class="dossier-tile__label" aria-hidden="true">01 / Terrain</span>
+            <div class="dossier-tile__body"><h3><a href="./pages/maps/" class="dossier-tile__link">Cartes et extractions</a></h3><p>Comparez 13 lieux, leurs variantes, les accès rapportés et les transits — sans confondre catalogue et disponibilité en raid.</p><span class="dossier-tile__arrow" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="dossier-tile dossier-tile--gear">
+            <figure class="dossier-tile__art"><img src="./images/weapons/arsenal-workbench.jpg" width="1376" height="768" alt="Carabine et équipement de raid posés sur un établi en bois éclairé par une lampe d’atelier" loading="lazy" decoding="async"></figure>
+            <span class="dossier-tile__label" aria-hidden="true">02 / Équipement</span>
+            <div class="dossier-tile__body"><h3><a href="./pages/weapons/" class="dossier-tile__link">Armes et munitions</a></h3><p>13 routes publiées : familles, comparateur par mode, compatibilités de mods et tableau des munitions.</p><span class="dossier-tile__arrow" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="dossier-tile dossier-tile--boss">
+            <figure class="dossier-tile__art"><img src="./images/bosses/killa-ambience.jpg" width="1376" height="768" alt="Silhouette inspirée de Killa, casque à bandes claires dans un centre commercial évacué" loading="lazy" decoding="async"></figure>
+            <span class="dossier-tile__label" aria-hidden="true">03 / Rencontres</span>
+            <div class="dossier-tile__body"><h3><a href="#boss" class="dossier-tile__link">Boss et factions</a></h3><p>Ce qui change d’un mode ou d’un événement à l’autre, sans confondre un boss et sa variante.</p><span class="dossier-tile__arrow" aria-hidden="true">↗</span></div>
+          </article>
+        </div>
+        <nav class="home-roadmap" aria-label="Dossiers de progression"><strong>Progression :</strong> <a href="./pages/armor/">armures</a> · <a href="./pages/traders/">traders</a> · <a href="./pages/quests/">quêtes et Kappa</a> · <a href="./pages/hideout/">planque et crafts</a>. Les fiches de cartes et leur comparateur sont disponibles dans le dossier dédié.</nav>
+      </section>
+
+      <section class="home-intel" id="actualites" tabindex="-1" aria-labelledby="news-title">
+        <div class="shell home-section">
+          <div class="home-section__head home-section__head--intel">
+            <div><p class="home-eyebrow"><span>02</span> Fréquence Norvinsk</p><h2 id="news-title">Dernières annonces</h2><p class="home-section__lead">Ce qui est publié, ce qui a changé et ce que Battlestate a seulement annoncé.</p></div>
+            <span class="home-intel__verified"><span aria-hidden="true"></span> Relevé du <time datetime="[[DATE_ISO]]">[[DATE_SHORT]]</time></span>
+          </div>
+          <div class="home-intel__grid">
+            <div class="news-feed" data-news>
+              <div class="news-feed__bar">
+                <div class="news-feed__pills" role="group" aria-label="Filtrer les annonces" data-news-filters hidden>
+                  <button type="button" aria-pressed="true" aria-controls="news-list" data-news-view="all">Tout</button>
+                  <button type="button" aria-pressed="false" aria-controls="news-list" data-news-view="patchs">Patchs</button>
+                  <button type="button" aria-pressed="false" aria-controls="news-list" data-news-view="evenements">Événements</button>
+                  <button type="button" aria-pressed="false" aria-controls="news-list" data-news-view="saisons">Saisons</button>
+                  <button type="button" aria-pressed="false" aria-controls="news-list" data-news-view="studio">Studio</button>
+                </div>
+                <p class="news-feed__count" role="status" data-news-count>[[NEWS_COUNT]] annonces</p>
+              </div>
+              <ul class="news-feed__list" id="news-list" data-news-list>
+                [[NEWS]]
+              </ul>
+            </div>
+            <aside class="patch-panel" id="etat-du-jeu" tabindex="-1" aria-labelledby="patch-title">
+              <p class="patch-panel__eyebrow"><span class="home-hero__mini-dot" aria-hidden="true"></span> État du jeu · EFT</p>
+              <h3 id="patch-title">Version de référence</h3>
+              <p class="patch-panel__version">[[PATCH]]</p>
+              <p class="patch-panel__date">Note du <time datetime="[[PATCH_DATE]]">[[PATCH_LABEL]]</time></p>
+              <dl class="patch-panel__rows">
+                <div><dt>Build répertorié · [[CLIENT_LABEL]]</dt><dd><a href="[[CLIENT_WIKI]]"><code>[[CLIENT_BUILD]]</code> <span aria-hidden="true">↗</span></a> <small>Changelog communautaire</small></dd></div>
+                <div><dt>Migration Unity 6 · [[NEXT_PATCH]]</dt><dd>BSG la prévoit pour [[NEXT_WINDOW]]. Déploiement non attesté au relevé du 18 novembre. <a href="[[NEXT_PATCH_URL]]">Annonce officielle <span aria-hidden="true">↗</span></a></dd></div>
+                <div><dt>Kord Breach · Seasonal</dt><dd>Fin annoncée : <a href="https://t.me/s/escapefromtarkovEN/6985"><time datetime="2026-12-07">7 décembre 2026</time> <span aria-hidden="true">↗</span></a></dd></div>
+              </dl>
+              <a class="button button--quiet patch-panel__link" href="[[PATCH_URL]]">Lire la note de patch <span aria-hidden="true">↗</span></a>
+              <p class="patch-panel__note">La référence du guide ne doit pas être confondue avec le numéro complet du client.</p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="shell home-section" id="guides" tabindex="-1" aria-labelledby="guide-title">
+        <div class="home-section__head"><div><p class="home-eyebrow"><span>03</span> Guides en vedette</p><h2 id="guide-title">Bien démarrer</h2><p class="home-section__lead">Un objectif simple, une sortie vérifiée et un kit que vous pouvez remplacer.</p></div></div>
+        <article class="first-raid" id="premier-raid" tabindex="-1" aria-labelledby="raid-title">
+          <figure class="first-raid__visual"><img src="./images/lore/premier-raid.jpg" width="1376" height="768" alt="Mains gantées, carte en papier et sac de raid sous la lumière d’une planque" loading="lazy" decoding="async"><figcaption>Illustration · préparation d’un raid</figcaption></figure>
+          <div class="first-raid__content" data-checklist="premier-raid">
+            <p class="eyebrow eyebrow--dot">Parcours débutant</p><h3 id="raid-title">Votre premier raid</h3>
+            <p class="first-raid__lead">Choisissez une carte accessible dans votre profil. Si l’entraînement est proposé, servez-vous-en pour reconnaître deux repères et une sortie de secours.</p>
+            <fieldset class="raid-list">
+              <legend class="sr-only">Checklist de préparation</legend>
+              <label class="raid-list__row"><input type="checkbox" data-raid-check="kit"><span><strong>Un kit remplaçable</strong><span>Prévoyez des soins et vérifiez l’équipement dans votre inventaire.</span></span></label>
+              <label class="raid-list__row"><input type="checkbox" data-raid-check="goal"><span><strong>Un seul objectif</strong><span>Apprenez une zone ou avancez une tâche, au lieu d’essayer les deux partout.</span></span></label>
+              <label class="raid-list__row"><input type="checkbox" data-raid-check="exit"><span><strong>Une sortie et un plan B</strong><span>Dans le raid, <kbd>O</kbd> deux fois par défaut affiche votre liste d’extractions.</span></span></label>
+            </fieldset>
+            <p class="first-raid__scav"><strong>Scav ou PMC ?</strong> Un raid Scav n’engage pas l’équipement du PMC. L’entraînement ne fait pas progresser votre profil, contrairement aux raids du PvE officiel.</p>
+            <div class="first-raid__foot"><p class="first-raid__progress" role="status" data-raid-progress hidden>0/3 repères prêts</p><button type="button" class="button button--quiet button--xs" data-raid-reset hidden>Effacer les coches</button><a href="https://escapefromtarkov.fandom.com/wiki/Controls#Default_Controls">Commandes EFT <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+        <div class="home-published" role="group" aria-label="Dossiers publiés">
+          <article class="home-published__card"><span class="home-published__code" aria-hidden="true">G–01</span><div><p class="eyebrow">Guide du débutant</p><h3><a href="[[STARTER_URL]]">Du premier raid au stash</a></h3><p>Dix étapes, une checklist de départ et 24 réponses sur les profils, les soins et l’extraction.</p></div><span class="home-published__arrow" aria-hidden="true">↗</span></article>
+          <article class="home-published__card"><span class="home-published__code" aria-hidden="true">D–01</span><div><p class="eyebrow">Lore et univers</p><h3><a href="[[LORE_URL]]">Tarkov, une ville sous blocus</a></h3><p>Les factions et la chronologie de Norvinsk. Les révélations de la campagne restent masquées.</p></div><span class="home-published__arrow" aria-hidden="true">↗</span></article>
+        </div>
+        <div class="home-briefs" role="group" aria-label="Repères des dossiers de raid">
+          <article class="home-brief" id="cartes" tabindex="-1"><span class="home-brief__code">01 / Terrain</span><h3>Cartes et extractions</h3><p>À Ground Zero comme à Customs, l’index des cartes ne dit pas quelle sortie est disponible pour <em>votre</em> PMC ou Scav. Recoupez la liste du raid et les conditions de la sortie.</p><p>Un transit mène à un autre lieu ; ne le prenez pas pour un retour au stash. Terminal et Icebreaker ne sont pas des cartes de départ ouvertes à tous.</p><a href="./pages/maps/">Ouvrir le hub Cartes — 13 fiches et comparateur <span aria-hidden="true">↗</span></a><a href="[[MAP_SOURCE]]">Voir aussi l’index communautaire des lieux <span aria-hidden="true">↗</span></a></article>
+          <article class="home-brief" id="equipement" tabindex="-1"><span class="home-brief__code">02 / Équipement</span><h3>Armes et munitions</h3><p>Vérifiez dans l’interface du jeu le calibre et la compatibilité du chargeur avant d’acheter un kit. Dans les tableaux, les dégâts et la pénétration sont deux valeurs distinctes.</p><p>Ne comparez pas le poids d’un boîtier seul au poids d’un preset complet, ni un prix PvP au prix Seasonal.</p><a href="./pages/weapons/">Ouvrir le catalogue Arsenal <span aria-hidden="true">↗</span></a><a href="./pages/ammo/">Lire les munitions et le tableau balistique <span aria-hidden="true">↗</span></a></article>
+          <article class="home-brief" id="boss" tabindex="-1"><span class="home-brief__code">03 / Rencontres</span><h3>Boss et factions</h3><p>Une fiche de boss vaut pour une carte et un mode donnés. Les annonces d’événement peuvent changer les rencontres et les taux ; le rééquilibrage du 12 novembre en est un exemple.</p><p>Killa et les variantes d’événements ne doivent pas être traités comme une seule rencontre.</p><a href="https://t.me/s/escapefromtarkovEN/6990">Relire l’équilibrage BSG <span aria-hidden="true">↗</span></a></article>
+        </div>
+      </section>
+
+      <section class="home-world" id="modes" tabindex="-1" aria-labelledby="modes-title">
+        <div class="shell home-section">
+          <div class="home-section__head"><div><p class="home-eyebrow"><span>04</span> Profils et branches</p><h2 id="modes-title">À chacun son Tarkov</h2><p class="home-section__lead">Choisissez votre profil avant d’appliquer les conseils, prix ou conditions d’accès d’un autre mode.</p></div></div>
+          <div class="home-world__grid">
+            <div class="mode-console" data-tabs>
+              <div class="mode-console__head"><span class="eyebrow eyebrow--dot">Escape from Tarkov</span><span class="badge">Modes officiels</span></div>
+              <div class="mode-console__body">
+                <div class="tabs__nav mode-console__tabs" data-tabs-nav aria-label="Modes dans Escape from Tarkov" hidden>
+                  <button type="button" id="mode-tab-pvp" class="button tabs__tab" data-tab="mode-pvp">PvP permanent</button>
+                  <button type="button" id="mode-tab-season" class="button tabs__tab" data-tab="mode-season">Seasonal</button>
+                  <button type="button" id="mode-tab-pve" class="button tabs__tab" data-tab="mode-pve">PvE Zone</button>
+                </div>
+                <div id="mode-pvp" class="tabs__panel mode-console__panel"><h3>Le profil PvP principal</h3><p>Le profil permanent oppose des joueurs et de l’IA dans les raids du jeu principal. Son stash et sa progression ne sont pas ceux du personnage Seasonal.</p><a href="https://store.steampowered.com/app/3932890/Escape_from_Tarkov/">Présentation du jeu par BSG <span aria-hidden="true">↗</span></a></div>
+                <div id="mode-season" class="tabs__panel mode-console__panel"><h3>Kord Breach · Saison 1</h3><p>Personnage et économie de saison séparés. Le Battle Pass est accessible dans les modes EFT ; la fin annoncée de Kord Breach n’est pas la date d’un wipe du profil principal.</p><a href="https://steamcommunity.com/games/3932890/announcements/detail/686386819418294181">Règles de lancement du Seasonal <span aria-hidden="true">↗</span></a></div>
+                <div id="mode-pve" class="tabs__panel mode-console__panel"><h3>Le PvE officiel</h3><p>Un profil distinct, solo ou coop, contre des adversaires IA. Le Prestige PvE est une mécanique volontaire, pas un retour au fonctionnement du PvP saisonnier.</p><a href="https://store.steampowered.com/news/app/3932890/view/708910525152495848">Notes sur le Prestige PvE <span aria-hidden="true">↗</span></a></div>
+              </div>
+              <div class="mode-console__arena"><span class="badge mode-console__arena-tag">Jeu distinct</span><div><h3>Escape from Tarkov: Arena</h3><p>Des matchs et un calendrier de mises à jour propres. Les passerelles de progression ne rendent pas ses règles identiques à celles d’EFT.</p><a href="https://x.com/tarkovarena/status/2118238453737353233">Dernier patch Arena repéré · 0.6.2.5 <span aria-hidden="true">↗</span></a></div></div>
+            </div>
+            <article class="tushonka-card" id="tushonka" tabindex="-1" aria-labelledby="tushonka-title">
+              <figure class="tushonka-card__visual"><img src="./images/spt/tushonka-hideout.jpg" width="1376" height="768" alt="Boîte de conserve, tasse et ordinateur à l’écran éteint sur une caisse en bois dans une planque" loading="lazy" decoding="async"></figure>
+              <div class="tushonka-card__body"><p class="eyebrow">Projet communautaire · Ancien SPT</p><h3 id="tushonka-title">Single Player Tushonka</h3><p>Une branche solo distincte du PvE officiel. La stable <strong>[[SPT_STABLE]]</strong> utilise le build EFT <code>[[SPT_BUILD]]</code>, pas le client live du patch de référence.</p><a class="button button--quiet button--xs" href="[[SPT_RELEASE]]">Voir la release du projet <span aria-hidden="true">↗</span></a> <a class="button button--quiet button--xs" href="./pages/spt-tushonka/">Guide SP-Tushonka <span aria-hidden="true">↗</span></a> <a href="./pages/arena/">Arena</a> · <a href="./pages/events/">Événements</a></div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="home-footer" id="sources" tabindex="-1">
+    <div class="shell home-footer__grid">
+      <div class="home-footer__intro">
+        <a class="brand" href="#top"><span class="brand__mark" aria-hidden="true"></span><span><span class="brand__word">TARKOV</span> <span class="brand__descriptor">Ultimate Guide</span></span><span class="sr-only">, retour à l’accueil</span></a>
+        <p>Guide francophone indépendant, sans affiliation à Battlestate Games ni au projet SP‑Tushonka. Les illustrations sont générées, pas des captures du jeu ; les ambiances sont originales.</p>
+        <nav class="breadcrumb home-footer__breadcrumb" aria-label="Fil d’Ariane"><ol><li>Tarkov Ultimate Guide</li><li aria-current="page">Accueil</li></ol></nav>
+      </div>
+      <div class="home-footer__sources">
+        <h2>Sources et méthode</h2>
+        <ul class="home-footer__links"><li><a href="https://steamcommunity.com/app/3932890/announcements/">Annonces Battlestate Games</a></li><li><a href="https://json.tarkov.dev/endpoints">Catalogues Tarkov.dev</a></li><li><a href="[[MAP_SOURCE]]">Index communautaire des cartes</a></li><li><a href="https://www.youtube.com/watch?v=w8ro-u_H8-8">Dev Stories 4 · Battlestate</a></li><li><a href="./pages/patch-notes.html">Notes de patch &amp; chronologie</a></li><li><a href="./pages/resources/">Ressources &amp; outils</a></li><li><a href="./pages/resources/glossary.html">Glossaire anglais / français</a></li></ul>
+        <details class="home-footer__method"><summary>Périmètre des chiffres</summary><p>Le catalogue PvP permanent a été collecté le <time datetime="[[CATALOG_DATE_ISO]]">[[CATALOG_DATE]]</time>. Les [[WEAPON_COUNT]] entrées d’armes incluent la mêlée et des dispositifs de signalement ; les armes, les munitions et le matériel de protection et de portage sont des sous-ensembles des objets. Les [[MAP_COUNT]] lieux du wiki ne comptent pas les variantes comme de nouvelles cartes. Aucun build client ni prix en temps réel n’est garanti par le flux.</p></details>
+      </div>
+      <div class="home-footer__prefs" id="ambiance" tabindex="-1" data-audio-deck data-audio-state="idle">
+        <h2>Ambiance et confort</h2>
+        <div class="home-audio" data-audio-controls hidden>
+          <div class="home-audio__row"><button class="button button--quiet button--xs" type="button" data-audio-toggle data-play-label="Lire" data-pause-label="Pause" data-wait-label="Annuler"><i class="icon icon--play" aria-hidden="true"></i><span data-audio-toggle-text>Lire</span></button><label class="field" for="home-track">Piste<select class="field__input" id="home-track" data-audio-select><option value="city">Ville abandonnée</option><option value="rain">Pluie sur les entrepôts</option><option value="forest">Forêt de nuit</option><option value="industrial">Ventilation de la planque</option></select></label></div>
+          <label for="home-volume" class="field home-audio__volume"><span>Volume <span data-audio-percent aria-hidden="true">24 %</span></span><input type="range" id="home-volume" class="field__range" min="0" max="100" value="24" data-audio-volume></label>
+          <p data-audio-status role="status">Prêt à écouter.</p>
+        </div>
+        <audio controls preload="none" class="home-audio__fallback" data-audio-fallback src="./audio/ambient/ambient_city.mp3" aria-label="Ambiance : Ville abandonnée">Votre navigateur ne peut pas lire cette piste.</audio>
+        <div class="home-footer__settings"><button type="button" class="button button--quiet button--xs" data-contrast-toggle aria-pressed="false" hidden>Contraste renforcé</button><button type="button" class="button button--quiet button--xs" data-motion-toggle aria-pressed="false" hidden>Réduire les animations</button></div>
+        <script type="application/json" data-audio-map>[[AUDIO_CONFIG]]</script>
+      </div>
+    </div>
+    <div class="home-footer__end"><div class="shell"><span>© 2026 · Tarkov Ultimate Guide v3.0</span><a href="#top">Retour en haut ↑</a><span>Relevé : <time datetime="[[DATE_ISO]]">[[DATE_LONG]]</time></span></div></div>
+  </footer>
+  <a class="button button--icon back-top" data-back-top href="#top" aria-label="Retour rapide en haut" hidden></a>
+
+  <dialog id="site-search" class="dialog home-search" data-modal data-site-search data-search-base="./" data-search-source="./js/data/search-index.json" aria-labelledby="search-title">
+    <header class="dialog__head"><div><p class="eyebrow">Index du guide</p><h2 class="dialog__title" id="search-title">Rechercher dans Tarkov Ultimate Guide</h2></div><button type="button" class="button button--icon" data-modal-close aria-label="Fermer la recherche"><i class="icon icon--close" aria-hidden="true"></i></button></header>
+    <div class="dialog__body">
+      <label for="site-query" class="field">Sujet, lieu ou mode<span class="field__wrap"><i class="icon icon--search" aria-hidden="true"></i><input class="field__input field__input--search" id="site-query" type="search" placeholder="Ex. Ground Zero, PvE, Killa" autocomplete="off" data-modal-initial data-search-input></span></label>
+      <p class="dialog__hint search-status" role="status" data-search-status></p>
+      <ul class="search-results" data-search-results aria-label="Résultats de recherche"></ul>
+      <p class="search-dialog__foot"><span><kbd>↑</kbd> <kbd>↓</kbd> Parcourir</span><span><kbd>Entrée</kbd> Ouvrir</span><span><kbd>Échap</kbd> Fermer</span></p>
+    </div>
+  </dialog>
+</body>
+</html>

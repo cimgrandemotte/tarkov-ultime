@@ -1,0 +1,92 @@
+<section class="guide-section" id="profils" tabindex="-1" aria-labelledby="profils-title">
+  <div class="guide-section__heading"><p class="guide-kicker"><span>01</span> Le bon profil</p><h2 id="profils-title">Choisir comment jouer</h2><p>Un raid est une session : vous entrez sur une carte, poursuivez un objectif et cherchez une sortie. Votre réserve, ou <em>stash</em>, est l’inventaire conservé entre les raids. Le choix du profil détermine ce que vous risquez et où vous progressez.</p></div>
+  <div class="guide-modes">
+    <article class="guide-mode"><span class="badge guide-badge">Profil principal</span><h3>PvP permanent</h3><p>Vous rencontrez des joueurs et des adversaires contrôlés par le jeu. L’équipement du PMC vient de votre réserve.</p></article>
+    <article class="guide-mode"><span class="badge guide-badge">Saison séparée</span><h3>PvP Seasonal</h3><p>Le personnage, la réserve et l’économie de saison sont distincts. Lisez les modificateurs en cours. La progression de saison repart au changement de saison ; le Battle Pass commun ne fusionne pas les profils.</p></article>
+    <article class="guide-mode"><span class="badge guide-badge">Face à l’IA</span><h3>PvE Zone</h3><p>Raids contre l’IA, seul ou avec vos amis selon votre accès. Progression propre, mais pertes possibles. Le solo peut tourner localement ; le groupe et certains lieux passent par les serveurs.</p></article>
+  </div>
+  <div class="guide-profile" data-tabs>
+    <div class="guide-profile__head"><div><p class="guide-kicker">Deux façons d’entrer en raid</p><h3>PMC ou Scav&nbsp;?</h3></div><div class="tabs__nav" data-tabs-nav aria-label="Personnages en raid" hidden><button class="button tabs__tab button--xs" type="button" id="profile-pmc-tab" data-tab="profile-pmc">PMC</button><button class="button tabs__tab button--xs" type="button" id="profile-scav-tab" data-tab="profile-scav">Scav</button></div></div>
+    <div class="tabs__panel guide-profile__body" id="profile-pmc"><h4>PMC · Votre personnage principal</h4><p>Vous choisissez le kit et avancez les tâches du profil. À la création, <strong>USEC</strong> et <strong>BEAR</strong> donnent des voix, des tenues et un équipement initial différents ; certaines interactions peuvent aussi varier. Aucun choix ne rend un raid sûr. L’objet conservé en conteneur sécurisé n’est pas nécessairement « trouvé en raid ».</p></div>
+    <div class="tabs__panel guide-profile__body" id="profile-scav"><h4>Scav · Kit fourni à l’entrée</h4><p>Vous n’engagez pas le kit de votre PMC. Vérifiez vos sorties et le temps restant, puis transférez le matériel retenu vers la réserve sur l’écran d’après-raid. Le délai avant le prochain Scav dépend notamment de votre réputation auprès de Fence ; ne présumez pas qu’un autre Scav est amical.</p></div>
+  </div>
+  <aside class="guide-callout" aria-labelledby="tutorial-title">
+    <h3 id="tutorial-title">Tutoriel, chapitre <i>Tour</i> et entraînement : trois choses différentes</h3>
+    <p><strong>Le tutoriel</strong> est la version guidée de Ground Zero, au début de <i>Tour</i>. Si le jeu vous le propose, suivez les invites puis l’extraction indiquée. Le wiki situe <b>Klimov Street</b> derrière Skyside <em>dans le tutoriel</em>, pas comme sortie à chercher sur la carte ordinaire. <strong>Le chapitre <i>Tour</i></strong> se poursuit dans l’onglet de l’histoire : consultez-le si une carte ou un marchand reste verrouillé, plutôt qu’une ancienne liste de quêtes. Le premier dialogue avec Therapist mène au déblocage de Streets ; d’autres étapes demandent de visiter une carte ou d’en sortir, selon le texte affiché.</p>
+    <p><strong>L’entraînement</strong> se choisit avant le départ lorsqu’il est proposé : ni butin, ni XP, ni validation de tâche conservés. Un raid du PvE officiel, même local, n’est pas de l’entraînement. Si l’introduction n’apparaît pas sur votre profil, repérez une carte disponible en entraînement plutôt que de réinitialiser votre progression.</p>
+    <p><strong>Sur Ground Zero ordinaire en PvP,</strong> le wiki sépare les PMC de niveau 20 ou moins de ceux de niveau 21 ou plus. Il indique que le niveau le plus élevé du groupe détermine le palier. Ce n’est ni un classement de compétence ni une garantie pour le PvE.</p>
+    <p class="guide-cite">À vérifier : <a href="#ref-tour">Tour</a> · <a href="#ref-ground-zero">Ground Zero</a> · <a href="#ref-game-modes">Modes de jeu</a> · <a href="#ref-patch110">Règles saisonnières</a></p>
+  </aside>
+</section>
+
+<section class="guide-section" id="etapes" tabindex="-1" aria-labelledby="etapes-title">
+  <div class="guide-section__heading"><p class="guide-kicker"><span>02</span> Avant, pendant, après</p><h2 id="etapes-title">Réussir son raid en 10 étapes</h2><p>Pour le premier, choisissez une carte accessible et visez une seule chose : savoir où vous êtes, puis savoir comment rentrer. Un raid sans butin mais avec une sortie comprise est une bonne répétition.</p></div>
+  <ol class="raid-steps">[[STEPS]]</ol>
+  <div class="guide-check" id="checklist" data-checklist="starter-raid" tabindex="-1">
+    <header class="guide-check__head"><div><p class="guide-kicker">Vérification avant départ</p><h3>Checklist de raid</h3></div><p class="guide-check__progress" role="status" data-raid-progress hidden></p></header>
+    <fieldset class="guide-check__items"><legend class="sr-only">Éléments à vérifier avant d’entrer en raid</legend>[[CHECKLIST]]</fieldset>
+    <div class="guide-check__foot"><small data-raid-storage-note hidden>Les coches restent dans ce navigateur si le stockage est autorisé. Rien n’est envoyé au jeu.</small><noscript><small>Le navigateur ne mémorise pas la checklist sans JavaScript.</small></noscript><button class="button button--quiet button--xs" type="button" data-raid-reset hidden>Réinitialiser la checklist</button></div>
+  </div>
+</section>
+
+<section class="guide-section" id="extraction" tabindex="-1" aria-labelledby="extraction-title">
+  <div class="guide-section__heading"><p class="guide-kicker"><span>03</span> Revenir avec le butin</p><h2 id="extraction-title">Trouver une sortie qui fonctionne</h2><p>Sur une carte ou dans un guide, les sorties sont des possibilités. Seule la liste en jeu indique celles attribuées à votre personnage dans ce raid. Appuyez deux fois sur <kbd>O</kbd> (par défaut) pour afficher votre liste. Si une sortie a une condition, vérifiez-la avant de vous y engager. Un transit mène à une autre carte, pas directement à votre réserve.</p></div>
+  <figure class="guide-figure guide-hud">
+    <div class="guide-hud__stage"><img src="[[ROOT]]images/beginners/ground-zero-interface.jpg" alt="Depuis un vestibule de béton, une ouverture donne sur une rue de Ground Zero sous la pluie" width="1376" height="768" loading="lazy" decoding="async"><div class="guide-hud__annotation"><span class="guide-kicker">Maquette non officielle</span><span class="guide-hud__timer" aria-hidden="true">12:40</span><strong>01 · Temps restant</strong><span>02 · Sorties assignées (<kbd>O</kbd> × 2)</span><ul class="guide-hud__exits" aria-label="Deux exemples de sorties, liste fictive" role="list"><li>Emercom Checkpoint <small>Si assignée</small></li><li>Mira Ave (Flare) <small>Signal requis</small></li></ul></div></div>
+    <figcaption>Illustration générée et annotation HTML. L’emplacement du panneau et le temps affiché sont des exemples, pas une capture du jeu.</figcaption>
+  </figure>
+  <dl class="guide-reference-list" aria-label="Exemples d’extractions sur Ground Zero ordinaire">
+    <div><dt>Sortie sans interaction</dt><dd><b>Emercom Checkpoint</b> et <b>Nakatani Basement Stairs</b> n’exigent pas de paiement d’après le wiki. Vérifiez qu’elles figurent dans votre liste et attendez le compteur dans la zone.</dd></div>
+    <div><dt>Véhicule ou signal</dt><dd><b>Police Cordon V-Ex</b> : cherchez le véhicule et le montant demandé par l’interface. <b>Mira Ave (Flare)</b> : le wiki indique un signal vert ; repérez la notification de zone et celle de réussite. Si la condition n’est pas remplie, changez de sortie.</dd></div>
+    <div><dt>Coopération ou objet</dt><dd><b>Scav Checkpoint (Co-op)</b> est décrit comme une sortie PMC + Scav pour le PvP. Vérifiez les modalités dans votre mode. <b>Tartowers Sales Office</b> demande, selon le wiki, la note portant le mot-code <i>Adaptation</i>.</dd></div>
+  </dl>
+  <div class="guide-status" role="group" aria-label="Principaux résultats de raid">
+    <article><h3><span class="guide-dot guide-dot--olive" aria-hidden="true"></span> Survived</h3><p>Extraction avec statut de survie. Le butin éligible peut recevoir la coche <i>Found in Raid</i>.</p></article>
+    <article><h3><span class="guide-dot guide-dot--gold" aria-hidden="true"></span> Run Through</h3><p>Vous sortez avec vos objets, mais le butin ordinaire n’obtient pas la coche FIR. Certaines tâches exigent explicitement <i>Survived</i>.</p></article>
+    <article><h3><span class="guide-dot guide-dot--rust" aria-hidden="true"></span> KIA, MIA ou abandon</h3><p>Mort, temps écoulé ou départ du raid : pas d’extraction réussie. Les règles de conteneur sécurisé et d’assurance sont distinctes du FIR.</p></article>
+  </div>
+  <p class="guide-emphasis"><strong>Si votre tâche exige « Survived » :</strong> pour un raid PMC standard, le wiki indique <strong>200 EXP gagnés en raid ou 7 minutes en raid</strong> pour éviter <i>Run Through</i>. C’est un repère, pas une règle pour chaque scénario. Ne risquez pas de manquer votre sortie pour atteindre un seuil ; lisez le bilan et la condition exacte de la tâche.</p>
+  <p>Dans le <strong>stash</strong>, inspectez la coche sur l’objet avant de le remettre ou de le vendre. Un objet amené par un autre PMC ne devient pas FIR parce que vous le ramassez. La fabrication et les récompenses de tâches peuvent attribuer le statut par une autre voie. <a href="#ref-fir">Vérifier le statut « trouvé en raid »</a>.</p>
+</section>
+
+<section class="guide-section" id="sante" tabindex="-1" aria-labelledby="sante-title">
+  <div class="guide-section__heading"><p class="guide-kicker"><span>04</span> Santé du personnage</p><h2 id="sante-title">Lire les états avant de choisir un soin</h2><p>Dans l’onglet Santé du jeu, regardez les points de vie par zone et les états affichés. Un kit qui restaure des PV ne traite pas forcément un saignement lourd. Vérifiez les effets et les charges dans l’infobulle de l’objet.</p></div>
+  <figure class="guide-figure guide-medical"><img src="[[ROOT]]images/beginners/raid-medical-inventory.jpg" alt="Trousse fermée, coffret et toile sur l’établi d’une planque" width="1376" height="768" loading="lazy" decoding="async"><figcaption>Illustration de l’inventaire de soins. Les effets ci-dessous sont exclusivement ceux du jeu.</figcaption></figure>
+  <div class="health-diagram">
+    <div class="health-diagram__zones" aria-hidden="true"><span class="health-diagram__vital health-diagram__head">Tête</span><span class="health-diagram__arm-start">Bras G.</span><span class="health-diagram__vital health-diagram__chest">Thorax</span><span class="health-diagram__arm-end">Bras D.</span><span class="health-diagram__belly">Ventre</span><span class="health-diagram__leg-start">Jambe G.</span><span class="health-diagram__leg-end">Jambe D.</span></div>
+    <dl class="health-zones" aria-label="Les sept zones de la santé du personnage">
+    <div><dt>Tête et thorax · 2 zones</dt><dd>Zones vitales. Le CMS et le Surv12 ne les restaurent pas quand elles sont à 0 PV.</dd></div>
+    <div><dt>Bras · 2 zones</dt><dd>Une blessure ou une fracture peut ralentir des actions du personnage.</dd></div>
+    <div><dt>Ventre · 1 zone</dt><dd>S’il est détruit, la dépense d’énergie et d’hydratation augmente.</dd></div>
+    <div><dt>Jambes · 2 zones</dt><dd>Les blessures et fractures peuvent gêner le déplacement du personnage.</dd></div>
+    </dl>
+  </div>
+  <dl class="guide-reference-list">
+    <div><dt>Saignement léger ou lourd&nbsp;?</dt><dd>Choisissez un objet dont l’infobulle mentionne le type affiché : <b>bandage aseptique</b> pour léger, <b>Esmarch</b> ou <b>CAT</b> en jeu pour lourd. Certains kits combinent soin des PV et arrêt d’un saignement si leur réserve suffit.</dd></div>
+    <div><dt>Fracture ou seulement des PV en moins&nbsp;?</dt><dd>L’<b>attelle</b> retire l’état fracture. Un <b>kit de soins</b> compatible restaure des PV ; les antidouleurs ne réparent pas la zone.</dd></div>
+    <div><dt>Zone à 0 PV&nbsp;?</dt><dd>Un <b>CMS</b> ou un <b>Surv12</b> peut rendre une zone non vitale soignable, avec un maximum de PV réduit. Le kit de chirurgie ne remplace pas le kit de soins.</dd></div>
+  </dl>
+  <p class="guide-cite">Références : <a href="#ref-health">système de santé</a> · <a href="#ref-medical">effets des objets</a>. En cas de doute, passez par l’onglet Santé pour sélectionner la zone voulue.</p>
+</section>
+
+<section class="guide-section" id="commandes" tabindex="-1" aria-labelledby="commandes-title">
+  <div class="guide-section__heading"><p class="guide-kicker"><span>05</span> Réglages utiles</p><h2 id="commandes-title">Les commandes à essayer hors d’un raid avec enjeu</h2><p>Les touches ci-dessous sont les valeurs par défaut documentées en QWERTY. Votre assignation dans <strong>Réglages → Commandes</strong> fait foi. Pour l’AZERTY, essayez <kbd>Z</kbd> <kbd>Q</kbd> <kbd>S</kbd> <kbd>D</kbd> en vérifiant les conflits, notamment <kbd>Q</kbd> si l’inclinaison y est encore liée.</p></div>
+  <div class="data-table__scroll guide-keys" tabindex="0" role="region" aria-label="Tableau des commandes, défilement si nécessaire">
+    <table class="data-table"><caption>Commandes documentées et vérifications en jeu</caption><thead><tr><th scope="col">Action</th><th scope="col">Par défaut</th><th scope="col">À vérifier ou à remapper</th></tr></thead><tbody>
+      <tr><th scope="row">Temps / sorties</th><td><kbd>O</kbd> / <kbd>O</kbd> × 2</td><td>Une pression pour le temps, deux pour la liste des extractions.</td></tr>
+      <tr><th scope="row">Inventaire</th><td><kbd>Tab</kbd></td><td>Depuis l’inventaire, ouvrez l’onglet Santé.</td></tr>
+      <tr><th scope="row">Interagir</th><td><kbd>F</kbd></td><td>Vérifiez le libellé de l’action contextuelle.</td></tr>
+      <tr><th scope="row">Objets rapides</th><td><kbd>4</kbd> à <kbd>9</kbd></td><td>Assignez un consommable depuis un emplacement accessible, puis testez la touche.</td></tr>
+      <tr><th scope="row">Déplacer un objet</th><td><kbd>Ctrl gauche</kbd> + clic gauche</td><td>Vérifiez la destination et la place dans la grille.</td></tr>
+      <tr><th scope="row">Faire pivoter l’objet</th><td><kbd>R</kbd> en le faisant glisser</td><td>Utile pour refaire de la place dans la réserve.</td></tr>
+    </tbody></table>
+  </div>
+  <p><strong>Pour un réglage difficile à diagnostiquer :</strong> changez un paramètre à la fois, comparez sur le même lieu en entraînement et revenez à la dernière configuration stable. Testez le périphérique audio effectivement sélectionné à volume confortable. Si un raccourci ne répond pas, vérifiez d’abord sa touche et son type d’appui. <a href="#ref-wiki-controls">Source : commandes du wiki</a>.</p>
+</section>
+
+<section class="guide-section" id="faq" tabindex="-1" aria-labelledby="faq-title" data-guide-faq>
+  <div class="guide-section__heading"><p class="guide-kicker"><span>06</span> Questions de débutant</p><h2 id="faq-title">FAQ · [[FAQ_COUNT]] réponses</h2><p>Du premier raid à la réserve. Les questions sont rangées par thème ; le filtre permet aussi de chercher dans les réponses.</p></div>
+  <div class="guide-faq__filter" data-faq-filter hidden><label class="field" for="faq-query">Rechercher dans les questions<input class="field__input" type="search" id="faq-query" placeholder="Ex. entraînement, FIR, assurance" autocomplete="off" data-faq-query></label><button class="button button--quiet" type="button" data-faq-clear>Effacer</button><p class="guide-faq__count" role="status" data-faq-status></p></div>
+  <p class="guide-callout" data-faq-empty hidden>Aucune réponse ne correspond. Essayez un autre mot ou effacez le filtre.</p>
+  [[FAQ]]
+</section>

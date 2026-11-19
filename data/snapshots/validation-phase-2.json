@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "status": "VALIDE",
+  "browser": "Chromium 159.0.8154.6",
+  "checkedAt": "2026-11-18T13:21:36.627Z",
+  "results": [
+    {
+      "name": "Aperçu HTTP : HTML, ressources autorisées, isolement, plages MP3 et SEO",
+      "passed": true
+    },
+    {
+      "name": "Bureau : lecture initiale sans requête MP3 ni catalogue, SEO visible et audit",
+      "passed": true
+    },
+    {
+      "name": "Clavier : lien d’évitement, méga-menu et accès directs Premier raid et Cartes",
+      "passed": true
+    },
+    {
+      "name": "Mobile 390 px : menu tactile, groupes, focus et Échap à deux niveaux",
+      "passed": true
+    },
+    {
+      "name": "Recherche : Ctrl/⌘+K, Fuse différé, coquille, états vide, boucle et restitution du focus",
+      "passed": true
+    },
+    {
+      "name": "Annonces : filtres, état annoncé, lien profond depuis /index.html, sans rechargement",
+      "passed": true
+    },
+    {
+      "name": "Recherche : messages d’erreur et nouvel essai ; repli sans Fuse",
+      "passed": true
+    },
+    {
+      "name": "Checklist : saisie locale, conservation, remise à zéro et focus",
+      "passed": true
+    },
+    {
+      "name": "Modes : sélection PvE/Saisonnier, flèches, Home/End, contraste",
+      "passed": true
+    },
+    {
+      "name": "Audio : premier geste, état accessible, volume mémorisé et changement à l’arrêt",
+      "passed": true
+    },
+    {
+      "name": "Audio : échec contrôlé avec message à l’emplacement du bouton",
+      "passed": true
+    },
+    {
+      "name": "Mouvements : effet plafonné, désactivation et prise en compte du système",
+      "passed": true
+    },
+    {
+      "name": "Reflow 320 à 1440 px, agrandissement 200 %, jamais de défilement horizontal",
+      "passed": true
+    },
+    {
+      "name": "Sans JavaScript : navigation, toutes les annonces, modes, liens et audio natif",
+      "passed": true
+    },
+    {
+      "name": "Couleurs système : repères de contrôle et navigation lisibles",
+      "passed": true
+    },
+    {
+      "name": "Chargement mobile simulé : RTT 100 ms, 4 Mbit/s descendant, CPU ×4",
+      "passed": true
+    }
+  ],
+  "audits": [
+    {
+      "context": "Accueil 1440 px",
+      "violations": [],
+      "needsReview": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "passes": 33
+    },
+    {
+      "context": "Menu mobile et méga-menu ouverts",
+      "violations": [],
+      "needsReview": [
+        {
+          "id": "color-contrast",
+          "count": 67
+        }
+      ],
+      "passes": 32
+    },
+    {
+      "context": "Recherche ouverte sans résultat",
+      "violations": [],
+      "needsReview": [
+        {
+          "id": "color-contrast",
+          "count": 2
+        }
+      ],
+      "passes": 19
+    },
+    {
+      "context": "Contraste renforcé, onglet PvE et cases interactives",
+      "violations": [],
+      "needsReview": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "passes": 33
+    },
+    {
+      "context": "Couleurs forcées à 390 px",
+      "violations": [],
+      "needsReview": [
+        {
+          "id": "color-contrast",
+          "count": 3
+        }
+      ],
+      "passes": 32
+    }
+  ],
+  "performance": {
+    "initial": {
+      "count": 25,
+      "transferBytes": 1185731,
+      "lcpMs": 252,
+      "cls": 0.009,
+      "shifts": [
+        {
+          "t": 288,
+          "v": 0.008895876597965697,
+          "sources": [
+            "site-nav",
+            "#text",
+            "home-hero__locator",
+            "button button--quiet home-secondary",
+            "site-header__utilities"
+          ]
+        }
+      ]
+    },
+    "fastMobile": {
+      "count": 24,
+      "transferBytes": 991147,
+      "lcpMs": 1488,
+      "cls": 0
+    }
+  },
+  "widths": [
+    320,
+    375,
+    390,
+    576,
+    768,
+    831,
+    832,
+    1024,
+    1440
+  ]
+}

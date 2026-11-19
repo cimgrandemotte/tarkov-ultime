@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "task": "publication-package",
+  "mode": "staging",
+  "status": "PASS",
+  "base": null,
+  "files": 217,
+  "htmlRoutes": 87,
+  "localReferences": 7846,
+  "localFragments": 1211,
+  "archiveGenerated": false,
+  "archivePresent": false,
+  "checks": [
+    "217 fichiers du paquet, inventaire exact",
+    "87 routes HTML présentes",
+    "87 pages: noindex, sans canonical/og:url/mainEntityOfPage ni URL de prévisualisation",
+    "Registre sources : contrôle du journal BSG du 18/11 et de l’index (1.3.0.0 dernière note numérotée)",
+    "PHASE_10 : 3 routes, sources liées et statut 1.3.5.0 distingué du déploiement",
+    "Accueil : mention Upgrade, date de vérification et source BSG reliées",
+    "aucun sitemap.xml/robots.txt E2B dans le paquet staging",
+    "7,846 références locales et 1,211 fragments vérifiés",
+    "QA du dossier uniquement; publication-package.zip absent et aucune archive générée"
+  ],
+  "errors": []
+}

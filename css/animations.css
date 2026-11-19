@@ -1,0 +1,17 @@
+/* Motion facultative. Le contenu et le focus ne dépendent jamais d'une révélation. */
+.button, .site-nav__link, .mega-menu__item, .shortcut, .field__input {
+  transition: color .17s var(--ease), background-color .17s var(--ease), border-color .17s var(--ease), box-shadow .17s var(--ease);
+}
+@keyframes interface-enter { from { opacity: 0; transform: translateY(.28rem) scale(.995); } to { opacity: 1; transform: none; } }
+@keyframes interface-rain { 0% { transform: translate3d(.55rem, -1rem, 0) rotate(14deg); opacity: 0; } 18% { opacity: .74; } 85% { opacity: .42; } 100% { transform: translate3d(-3.5rem, 31rem, 0) rotate(14deg); opacity: 0; } }
+@keyframes interface-wave { from { transform: scaleY(.62); } to { transform: scaleY(1.15); } }
+@media (prefers-reduced-motion: no-preference) {
+  :root:not([data-motion='reduce']) .dialog[open] { animation: interface-enter .18s var(--ease) both; }
+  :root:not([data-motion='reduce']) [data-motion-visible='true'] .particles__drop { animation: interface-rain var(--fall, 4s) var(--delay, 0s) linear 1 both; }
+  :root:not([data-motion='reduce']) [data-audio-state='playing'] .audio-wave i { animation: interface-wave var(--pulse, .65s) var(--wave-delay, 0s) ease-in-out alternate infinite; }
+  :root:not([data-motion='reduce']) .reveal-fallback.is-entering { animation: interface-enter .28s var(--ease) both; }
+}
+:root[data-motion='reduce'] *, :root[data-motion='reduce'] *::before, :root[data-motion='reduce'] *::after { animation: none !important; scroll-behavior: auto !important; transition: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; scroll-behavior: auto !important; transition: none !important; }
+}

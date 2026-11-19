@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "methode": "Synthèse procédurale; aucun échantillon externe.",
+  "tracks": [
+    {
+      "file": "audio/ambient/ambient_rain.mp3",
+      "title": "Pluie sur les entrepôts",
+      "seconds": 60.0,
+      "loop": true,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitRateKbps": 192,
+      "bytes": 1441531,
+      "peakDbFS": -5.75,
+      "sha256": "83e6907c348c97691f8134b4a848de4ed0e00ca6197fb5850fcfe2e7bb1d498a"
+    },
+    {
+      "file": "audio/ambient/ambient_industrial.mp3",
+      "title": "Ventilation de la planque",
+      "seconds": 60.0,
+      "loop": true,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitRateKbps": 192,
+      "bytes": 1441507,
+      "peakDbFS": -5.77,
+      "sha256": "bd5e63f27628aa07a59742218271d6f715e199efb5e8aa1616e433bf8ee05444"
+    },
+    {
+      "file": "audio/ambient/ambient_forest.mp3",
+      "title": "Forêt de nuit",
+      "seconds": 60.0,
+      "loop": true,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitRateKbps": 192,
+      "bytes": 1441511,
+      "peakDbFS": -4.87,
+      "sha256": "7436d199ba7e238973a8a92a182e6c1c507dfe53860c2f4ac575a257fc2e3403"
+    },
+    {
+      "file": "audio/ui/ui_click.mp3",
+      "title": "Clic radio",
+      "seconds": 0.27,
+      "loop": false,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitRateKbps": 192,
+      "bytes": 8310,
+      "peakDbFS": -7.95,
+      "sha256": "7a4556872ed153c1581d18ba1f515f71b5adf1a2c2c9462d36fa29874d3073fe"
+    },
+    {
+      "file": "audio/ui/ui_notification.mp3",
+      "title": "Signal de notification",
+      "seconds": 0.82,
+      "loop": false,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitRateKbps": 192,
+      "bytes": 21488,
+      "peakDbFS": -8.01,
+      "sha256": "326deba25cdd9ada94884b79d9f40551b80ab16cd113ade87a8291f501a12c43"
+    },
+    {
+      "file": "audio/ambient/ambient_city.mp3",
+      "title": "Ville abandonnée",
+      "seconds": 60.0,
+      "loop": true,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitRateKbps": 192,
+      "bytes": 1441517,
+      "peakDbFS": -5.09,
+      "sha256": "31b3592d5d44edda0d7f32664fa48086062cc7a84538b0be1cce1d4f2a8089ae"
+    }
+  ]
+}

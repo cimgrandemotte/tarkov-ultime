@@ -1,0 +1,11 @@
+{
+  "controle_le": "2026-11-18T13:27:43+01:00",
+  "commande": "python3 scripts/check_phase0.py",
+  "resultat": "OK",
+  "sortie": [
+    "regular: 5498 items, 199 weapons, 200 ammo, 423 armor",
+    "pve: 5498 items, 199 weapons, 200 ammo, 423 armor",
+    "pvp-season: 5498 items, 199 weapons, 200 ammo, 423 armor",
+    "OK · 87 routes · 46 sources et pistes · 12 catalogues vérifiés · workflow synchronisé"
+  ]
+}

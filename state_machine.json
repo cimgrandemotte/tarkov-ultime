@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "ordre_phases": [
+    "PHASE_0",
+    "PHASE_1",
+    "PHASE_2",
+    "PHASE_3",
+    "PHASE_4",
+    "PHASE_5",
+    "PHASE_6",
+    "PHASE_7",
+    "PHASE_8",
+    "PHASE_9",
+    "PHASE_10"
+  ],
+  "instantane": {
+    "etat": "COMPLETE",
+    "phase_active": "PHASE_10",
+    "derniere_phase_terminee": "PHASE_10",
+    "prochaine_phase": null,
+    "attend_confirmation": false,
+    "mot_de_confirmation": "CONTINUER",
+    "horodatage": "2026-11-18"
+  },
+  "normalisation": "trim().toUpperCase()",
+  "transitions": [
+    {
+      "depuis": "EN_COURS",
+      "evenement": "PHASE_VALIDEE",
+      "condition": "phase_active != PHASE_10 et critères de sortie satisfaits",
+      "vers": "ATTENTE_CONTINUE",
+      "actions": [
+        "noter résultats et réserves",
+        "marquer phase terminée",
+        "fixer prochaine phase"
+      ]
+    },
+    {
+      "depuis": "ATTENTE_CONTINUE",
+      "evenement": "CONTINUE",
+      "condition": "prochaine_phase existe et suit la dernière phase terminée",
+      "vers": "EN_COURS",
+      "actions": [
+        "rendre la prochaine phase active",
+        "effacer l’attente"
+      ]
+    },
+    {
+      "depuis": "EN_COURS",
+      "evenement": "BLOCAGE",
+      "condition": "un critère obligatoire ne peut pas être satisfait",
+      "vers": "BLOQUE",
+      "actions": [
+        "consigner la cause et la stratégie de reprise"
+      ]
+    },
+    {
+      "depuis": "BLOQUE",
+      "evenement": "REPRISE",
+      "condition": "la cause est résolue",
+      "vers": "EN_COURS",
+      "actions": [
+        "reprendre sans compter deux fois la production"
+      ]
+    },
+    {
+      "depuis": "EN_COURS",
+      "evenement": "PHASE_VALIDEE",
+      "condition": "phase_active == PHASE_10 et audit final satisfait",
+      "vers": "COMPLETE",
+      "actions": [
+        "consigner le bilan local et les preuves de QA",
+        "ne pas publier ni déployer sans autorisation explicite"
+      ]
+    }
+  ],
+  "garde_fous": {
+    "pause_uniquement_entre_phases": true,
+    "compter_uniquement_les_fichiers_livres": true,
+    "fichier_maitre_de_progression": "workflow.json",
+    "maximums_par_reponse": {
+      "jpg": 10,
+      "mp3": 10
+    }
+  },
+  "historique": [
+    {
+      "date": "2026-11-18T13:27:43+01:00",
+      "evenement": "PHASE_VALIDEE",
+      "phase": "PHASE_0",
+      "depuis": "EN_COURS",
+      "vers": "ATTENTE_CONTINUE",
+      "garde": "Arborescence en place, sources traitées et limites tracées, 12 catalogues importés et 87 routes vérifiées."
+    },
+    {
+      "date": "2026-11-18T13:33:55+01:00",
+      "evenement": "CONTINUE",
+      "commande_recue": "CONTINUER",
+      "phase": "PHASE_1",
+      "depuis": "ATTENTE_CONTINUE",
+      "vers": "EN_COURS"
+    },
+    {
+      "date": "2026-11-18T13:58:45+01:00",
+      "evenement": "PHASE_VALIDEE",
+      "phase": "PHASE_1",
+      "depuis": "EN_COURS",
+      "vers": "ATTENTE_CONTINUE",
+      "garde": "Atelier non indexé ; 12 groupes de tests Chromium et 5 audits axe-core sans violation détectée, contre-test Firefox, contrastes vérifiés, 3 JPG et 5 MP3 ; aucune page publique anticipée."
+    },
+    {
+      "date": "2026-11-18T14:01:58+01:00",
+      "evenement": "CONTINUE",
+      "commande_recue": "CONTINUER",
+      "phase": "PHASE_2",
+      "depuis": "ATTENTE_CONTINUE",
+      "vers": "EN_COURS"
+    },
+    {
+      "date": "2026-11-18T14:22:50+01:00",
+      "evenement": "PHASE_VALIDEE",
+      "phase": "PHASE_2",
+      "depuis": "EN_COURS",
+      "vers": "ATTENTE_CONTINUE",
+      "garde": "Une route éditoriale ; aucun lien vers une route future ; 6 JPG, 1 MP3 ; 16 groupes Chromium, 5 audits axe-core, 6 contrôles Firefox et 10 profils de contraste ; aperçu en service."
+    },
+    {
+      "date": "2026-11-18T14:30:34+01:00",
+      "evenement": "CONTINUE",
+      "commande_recue": "CONTINUER",
+      "phase": "PHASE_3",
+      "depuis": "ATTENTE_CONTINUE",
+      "vers": "EN_COURS"
+    },
+    {
+      "date": "2026-11-18T14:51:56+01:00",
+      "evenement": "PHASE_VALIDEE",
+      "phase": "PHASE_3",
+      "depuis": "EN_COURS",
+      "vers": "ATTENTE_CONTINUE",
+      "garde": "Deux dossiers éditoriaux ; 3 routes livrées au total, 29 entrées sans révélations, 5 JPG intégrés (1 en réserve), 14 groupes Chromium, 6 contrôles Firefox, 20 profils de contraste et contre-tests accueil/atelier."
+    },
+    {
+      "date": "2026-11-18T15:05:28+01:00",
+      "evenement": "CONTINUE",
+      "commande_recue": "CONTINUER",
+      "phase": "PHASE_4",
+      "depuis": "ATTENTE_CONTINUE",
+      "vers": "EN_COURS",
+      "alias_applique": "CONTINUER → CONTINUE"
+    },
+    {
+      "date": "2026-11-18T16:31:10+01:00",
+      "evenement": "PHASE_VALIDEE",
+      "phase": "PHASE_4",
+      "depuis": "EN_COURS",
+      "vers": "ATTENTE_CONTINUE",
+      "garde": "14 routes Cartes livrées, 17 routes au total ; 13 contrôles Chromium, 7 Firefox, cinq audits axe-core sans violation, 20 profils de contraste à 5,10:1 minimum, reflow 200 % et performances mobiles dans le budget. Les conditions client/raid EFT n’ont pas été testées."
+    },
+    {
+      "date": "2026-11-18T16:45:27+01:00",
+      "evenement": "CONTINUE",
+      "commande_recue": "CONTINUER",
+      "alias_applique": "CONTINUER → CONTINUE",
+      "phase": "PHASE_5",
+      "depuis": "ATTENTE_CONTINUE",
+      "vers": "EN_COURS"
+    },
+    {
+      "date": "2026-11-18T23:46:12.965Z",
+      "evenement": "PHASE_VALIDEE",
+      "phase": "PHASE_5",
+      "depuis": "EN_COURS",
+      "vers": "ATTENTE_CONTINUE",
+      "garde": "13 routes locales; QA 49/49, 13 audits axe-core sans violation, vignettes génériques JPG locales, nuage de points HTML/CSS et audit médias passés. La publication demeure bloquée séparément."
+    },
+    {
+      "date": "2026-11-18T23:46:13.000Z",
+      "evenement": "CONTINUE",
+      "commande_recue": "CONTINUER ET FINALISER LE GUIDE",
+      "alias_applique": "CONTINUER → CONTINUE",
+      "phase": "PHASE_6",
+      "depuis": "ATTENTE_CONTINUE",
+      "vers": "EN_COURS"
+    },
+    {
+      "date": "2026-11-18T23:48:30.540Z",
+      "evenement": "PHASE_VALIDEE",
+      "phase": "PHASE_6",
+      "depuis": "EN_COURS",
+      "vers": "ATTENTE_CONTINUE",
+      "garde": "21 routes Phase 6 livrées; QA 51/51 (21 routes Chromium, 8 Firefox, 21 audits axe-core sans violation, interactions, images et reflow contrôlés). 51 routes locales au total; prochaine phase 7. Déploiement bloqué par dépôt et domaine."
+    },
+    {
+      "date": "2026-11-19T00:58:54.228Z",
+      "evenement": "PHASE_VALIDEE",
+      "phase": "PHASE_7",
+      "depuis": "EN_COURS",
+      "vers": "ATTENTE_CONTINUE",
+      "garde": "16 routes traders/quêtes/Hideout livrées; 67 routes locales au total; QA PASS, 46 contrôles groupés, 32 rendus Chromium/Firefox, 16 audits axe-core sans violation; données par mode, repli sans JS et reflow contrôlés. Aucune publication. Prochaine phase PHASE_8 après CONTINUE."
+    },
+    {
+      "date": "2026-11-19T08:33:29Z",
+      "evenement": "CONTINUE",
+      "commande_recue": "CONTINUER et finalise le site pour qu’il soit publiable",
+      "alias_applique": "CONTINUER → CONTINUE",
+      "phase": "PHASE_8",
+      "depuis": "ATTENTE_CONTINUE",
+      "vers": "EN_COURS"
+    },
+    {
+      "date": "2026-11-19T09:15:59.733Z",
+      "evenement": "PHASE_VALIDEE",
+      "phase": "PHASE_8",
+      "depuis": "EN_COURS",
+      "vers": "ATTENTE_CONTINUE",
+      "garde": "10 routes PHASE_8 livrées; 77 routes statiques au total; index de recherche 1 294 entrées et sitemap 77 URLs. QA PASS : 48/48 contrôles groupés, 20 rendus Chromium/Firefox, 10 audits axe-core sans violation, 10 reflows et 7 replis sans JS. Audit statique : 624 références locales; dix JPG et 25 ressources publiques HTTP 200; snapshot et six chemins privés HTTP 404. Aucune publication; PHASE_9 attend CONTINUE."
+    },
+    {
+      "date": "2026-11-19T09:23:59.265Z",
+      "evenement": "CONTINUE",
+      "commande_recue": "CONTINUER — recherche des dernières informations sur Internet, forums, YouTube, GitHub, Reddit et réseaux sociaux; contraintes JPG, photoréalisme et maximum 10 images par réponse.",
+      "alias_applique": "CONTINUER → CONTINUE",
+      "phase": "PHASE_9",
+      "depuis": "ATTENTE_CONTINUE",
+      "vers": "EN_COURS"
+    },
+    {
+      "date": "2026-11-18",
+      "evenement": "PHASE_VALIDEE",
+      "phase": "PHASE_9",
+      "depuis": "EN_COURS",
+      "vers": "ATTENTE_CONTINUE",
+      "garde": "7 routes PHASE_9 livrées; 84 routes HTML statiques; index 1301 entrées, sitemap 84 URLs. Audit statique PASS (401 références locales, 20 ressources HTTP 200, 10 chemins privés HTTP 404). QA navigateur 39/39 PASS, 14 rendus Chromium/Firefox, 7 audits axe-core sans violation, 8 routes responsives et 7 replis sans JS. Sept JPG et SHA-256 vérifiés. Aucun déploiement; PHASE_10 attend CONTINUE et la publication demeure bloquée séparément."
+    },
+    {
+      "date": "2026-11-18T12:00:00+01:00",
+      "evenement": "CONTINUE",
+      "commande_recue": "CONTINUER — poursuivre la PHASE_10, recherches récentes, routes patchs/ressources/glossaire, intégration et QA locale sans déploiement.",
+      "alias_applique": "CONTINUER → CONTINUE",
+      "phase": "PHASE_10",
+      "depuis": "ATTENTE_CONTINUE",
+      "vers": "EN_COURS"
+    },
+    {
+      "date": "2026-11-18",
+      "evenement": "PHASE_VALIDEE",
+      "phase": "PHASE_10",
+      "depuis": "EN_COURS",
+      "vers": "COMPLETE",
+      "garde": "3 routes générées; 87/87 pages; index de recherche et sitemap à 87 routes; 272 sources; glossaire 314 termes/6 groupes; QA statique PASS (7 838 références locales, 1 210 fragments, 14 contrôles HTTP); QA Chromium PASS (15 largeurs, 3 audits axe-core sans violation, replis sans JS); aucune publication ni aucun déploiement."
+    }
+  ],
+  "alias_confirmation": {
+    "CONTINUER": "CONTINUE"
+  }
+}

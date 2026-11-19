@@ -1,0 +1,164 @@
+{
+  "phase": "PHASE_10",
+  "base": "http://127.0.0.1:4190",
+  "routes": [
+    {
+      "name": "patches",
+      "status": 200,
+      "title": "Notes de patch & chronologie",
+      "heroLoaded": true
+    },
+    {
+      "name": "resources",
+      "status": 200,
+      "title": "Ressources & outils",
+      "heroLoaded": true
+    },
+    {
+      "name": "glossary",
+      "status": 200,
+      "title": "Glossaire EFT — anglais / français",
+      "heroLoaded": true
+    }
+  ],
+  "interactions": [
+    {
+      "name": "timeline filters",
+      "filtered": 1,
+      "reset": 20,
+      "status": "Résultats : 1 sur 20 entrées."
+    },
+    {
+      "name": "resource purpose/trust/search/reset",
+      "maps": 2,
+      "combined": 1,
+      "query": 1,
+      "reset": 17,
+      "status": "Résultats : 1 sur 17 ressources."
+    },
+    {
+      "name": "glossary search/group/reset/keyboard alphabet",
+      "initial": 314,
+      "search": "desync",
+      "group": 65,
+      "letterT": 17,
+      "reset": 314
+    }
+  ],
+  "responsive": [
+    {
+      "name": "patches · 320px",
+      "client": 320,
+      "scroll": 320
+    },
+    {
+      "name": "patches · 390px",
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "name": "patches · 768px",
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "name": "patches · 1280px",
+      "client": 1280,
+      "scroll": 1280
+    },
+    {
+      "name": "patches · 1440px",
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "name": "resources · 320px",
+      "client": 320,
+      "scroll": 320
+    },
+    {
+      "name": "resources · 390px",
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "name": "resources · 768px",
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "name": "resources · 1280px",
+      "client": 1280,
+      "scroll": 1280
+    },
+    {
+      "name": "resources · 1440px",
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "name": "glossary · 320px",
+      "client": 320,
+      "scroll": 320
+    },
+    {
+      "name": "glossary · 390px",
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "name": "glossary · 768px",
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "name": "glossary · 1280px",
+      "client": 1280,
+      "scroll": 1280
+    },
+    {
+      "name": "glossary · 1440px",
+      "client": 1440,
+      "scroll": 1440
+    }
+  ],
+  "accessibility": [
+    {
+      "name": "patches",
+      "engine": "axe-core",
+      "violations": 0
+    },
+    {
+      "name": "resources",
+      "engine": "axe-core",
+      "violations": 0
+    },
+    {
+      "name": "glossary",
+      "engine": "axe-core",
+      "violations": 0
+    }
+  ],
+  "noJavaScript": [
+    {
+      "route": "/pages/patch-notes.html",
+      "visible": 20,
+      "expected": 20,
+      "filtersHidden": true
+    },
+    {
+      "route": "/pages/resources/",
+      "visible": 17,
+      "expected": 17,
+      "filtersHidden": true
+    },
+    {
+      "route": "/pages/resources/glossary.html",
+      "visible": 314,
+      "expected": 314,
+      "filtersHidden": true
+    }
+  ],
+  "errors": [],
+  "status": "PASS"
+}

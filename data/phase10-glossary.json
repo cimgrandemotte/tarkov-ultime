@@ -1,0 +1,1891 @@
+{
+  "schemaVersion": 1,
+  "language": "fr-FR",
+  "source": "PHASE_10 editorial glossary; official and community vocabulary are labelled in context",
+  "terms": [
+    {
+      "en": "EFT",
+      "fr": "Escape from Tarkov",
+      "group": "Modes & factions",
+      "definition": "Sigle usuel du jeu principal, à distinguer de Tarkov: Arena."
+    },
+    {
+      "en": "PvP",
+      "fr": "Joueur contre joueur",
+      "group": "Modes & factions",
+      "definition": "Mode où les joueurs humains peuvent s’affronter; les règles précises dépendent de la file et du patch."
+    },
+    {
+      "en": "PvE",
+      "fr": "Joueur contre environnement",
+      "group": "Modes & factions",
+      "definition": "Mode où les affrontements de raid reposent principalement sur l’IA, avec des règles qui peuvent différer du PvP."
+    },
+    {
+      "en": "PvP Zone",
+      "fr": "Zone PvP permanente",
+      "group": "Modes & factions",
+      "definition": "Nom d’un mode/personnage permanent; ne pas le confondre avec le personnage Seasonal."
+    },
+    {
+      "en": "PvE Zone",
+      "fr": "Zone PvE",
+      "group": "Modes & factions",
+      "definition": "Nom BSG du mode PvE; ses règles, tâches et données ne sont pas toujours identiques au PvP."
+    },
+    {
+      "en": "PvP Season",
+      "fr": "Saison PvP",
+      "group": "Modes & factions",
+      "definition": "File saisonnière distincte du personnage permanent; vérifier les règles de la saison en cours."
+    },
+    {
+      "en": "Seasonal character",
+      "fr": "Personnage saisonnier",
+      "group": "Modes & factions",
+      "definition": "Profil saisonnier séparé dont la progression suit la saison; calendrier et récompenses sont propres à chaque saison."
+    },
+    {
+      "en": "PMC",
+      "fr": "Société militaire privée (PMC)",
+      "group": "Modes & factions",
+      "definition": "Personnage de joueur engagé dans un raid comme opérateur; s’oppose notamment au rôle de Scav."
+    },
+    {
+      "en": "USEC",
+      "fr": "United Security (USEC)",
+      "group": "Modes & factions",
+      "definition": "L’une des factions de PMC sélectionnables; vêtements et certaines quêtes peuvent lui être propres."
+    },
+    {
+      "en": "BEAR",
+      "fr": "Battle Encounter Assault Regiment (BEAR)",
+      "group": "Modes & factions",
+      "definition": "L’autre faction de PMC sélectionnable; certains contenus et équipements peuvent différer de USEC."
+    },
+    {
+      "en": "Scav",
+      "fr": "Scavenger / récupérateur",
+      "group": "Modes & factions",
+      "definition": "Combattant local contrôlé par l’IA ou par un joueur selon le contexte."
+    },
+    {
+      "en": "Player Scav",
+      "fr": "Scav joueur",
+      "group": "Modes & factions",
+      "definition": "Joueur qui rejoint un raid comme Scav plutôt que comme son PMC."
+    },
+    {
+      "en": "AI Scav",
+      "fr": "Scav contrôlé par l’IA",
+      "group": "Modes & factions",
+      "definition": "Combattant Scav dirigé par le jeu; comportement et présence varient selon le lieu et le patch."
+    },
+    {
+      "en": "Rogue",
+      "fr": "Rogue",
+      "group": "Modes & factions",
+      "definition": "Combattant d’une faction IA; règles d’hostilité et emplacements dépendent du mode et du patch."
+    },
+    {
+      "en": "Raider",
+      "fr": "Raider",
+      "group": "Modes & factions",
+      "definition": "Ennemi IA d’élite; ne pas le confondre avec un Rogue ou un boss."
+    },
+    {
+      "en": "Boss",
+      "fr": "Boss",
+      "group": "Modes & factions",
+      "definition": "Ennemi IA nommé ou chef d’escouade; lieux et probabilités de présence évoluent."
+    },
+    {
+      "en": "Cultist",
+      "fr": "Cultiste",
+      "group": "Modes & factions",
+      "definition": "Combattant d’une faction particulière; apparition et conditions peuvent être limitées."
+    },
+    {
+      "en": "The Goons",
+      "fr": "Les Goons",
+      "group": "Modes & factions",
+      "definition": "Nom communautaire collectif pour Knight, Big Pipe et Birdeye; présence variable selon les lieux."
+    },
+    {
+      "en": "Black Division",
+      "fr": "Black Division",
+      "group": "Modes & factions",
+      "definition": "Unité/force IA de l’univers EFT; apparitions et règles changent selon les mises à jour."
+    },
+    {
+      "en": "Arena",
+      "fr": "Tarkov: Arena",
+      "group": "Modes & factions",
+      "definition": "Jeu compétitif distinct d’EFT principal; progression et mises à jour doivent être vérifiées séparément."
+    },
+    {
+      "en": "SPT",
+      "fr": "Single Player Tarkov (SPT)",
+      "group": "Modes & factions",
+      "definition": "Projet communautaire séparé du service EFT officiel; utiliser son installateur et sa documentation propres."
+    },
+    {
+      "en": "SP-Tushonka",
+      "fr": "SP-Tushonka",
+      "group": "Modes & factions",
+      "definition": "Branche communautaire dérivée de SPT; compatibilité des mods dépend de la branche et du build."
+    },
+    {
+      "en": "Project Fika",
+      "fr": "Project Fika",
+      "group": "Modes & factions",
+      "definition": "Projet communautaire de jeu coopératif autour de SPT; ce n’est pas un mode officiel BSG."
+    },
+    {
+      "en": "Hideout",
+      "fr": "Planque",
+      "group": "Modes & factions",
+      "definition": "Espace hors raid permettant des améliorations et activités; coûts et recettes sont sensibles au patch."
+    },
+    {
+      "en": "Trader",
+      "fr": "Marchand",
+      "group": "Modes & factions",
+      "definition": "PNJ ou service de commerce qui propose achats, ventes, tâches et parfois échanges."
+    },
+    {
+      "en": "Fence",
+      "fr": "Fence",
+      "group": "Modes & factions",
+      "definition": "Marchand lié aux Scavs; réputation et offres peuvent dépendre du mode."
+    },
+    {
+      "en": "Lightkeeper",
+      "fr": "Lightkeeper",
+      "group": "Modes & factions",
+      "definition": "Marchand/PNJ associé à Lighthouse et à une suite de tâches d’accès."
+    },
+    {
+      "en": "BTR",
+      "fr": "Transport blindé BTR",
+      "group": "Modes & factions",
+      "definition": "Véhicule utilisable dans certains lieux et circonstances; itinéraires et services varient."
+    },
+    {
+      "en": "Faction",
+      "fr": "Faction",
+      "group": "Modes & factions",
+      "definition": "Groupe de personnages ou d’unités ayant des relations et comportements propres."
+    },
+    {
+      "en": "Profile",
+      "fr": "Profil",
+      "group": "Modes & factions",
+      "definition": "Ensemble des données de progression d’un personnage ou d’un mode."
+    },
+    {
+      "en": "Character",
+      "fr": "Personnage",
+      "group": "Modes & factions",
+      "definition": "Avatar/progression utilisé pour un mode; le jeu distingue plusieurs profils."
+    },
+    {
+      "en": "Season",
+      "fr": "Saison",
+      "group": "Modes & factions",
+      "definition": "Période de progression Seasonal avec ses règles et son échéance; ne signifie pas nécessairement une remise à zéro des profils permanents."
+    },
+    {
+      "en": "Wipe",
+      "fr": "Réinitialisation",
+      "group": "Modes & factions",
+      "definition": "Remise à zéro de progression; préciser s’il s’agit d’un reset saisonnier, volontaire ou global."
+    },
+    {
+      "en": "Prestige",
+      "fr": "Prestige",
+      "group": "Modes & factions",
+      "definition": "Système optionnel de progression/reset; exigences et conservation des éléments sont propres au mode et à la version."
+    },
+    {
+      "en": "Game mode",
+      "fr": "Mode de jeu",
+      "group": "Modes & factions",
+      "definition": "Configuration de règles et de progression, par exemple PvP, PvE, Seasonal ou Arena."
+    },
+    {
+      "en": "PvP permanent",
+      "fr": "PvP permanent",
+      "group": "Modes & factions",
+      "definition": "Raccourci communautaire pour le profil PvP non saisonnier; vérifier les règles BSG actuelles."
+    },
+    {
+      "en": "Offline practice",
+      "fr": "Entraînement hors ligne",
+      "group": "Modes & factions",
+      "definition": "Raid d’entraînement sans matchmaking normal; options et récompenses diffèrent du raid en ligne."
+    },
+    {
+      "en": "Co-op practice",
+      "fr": "Entraînement coopératif",
+      "group": "Modes & factions",
+      "definition": "Session privée d’entraînement avec des coéquipiers; ce n’est pas une preuve de règles de raid public."
+    },
+    {
+      "en": "Launcher",
+      "fr": "Lanceur",
+      "group": "Modes & factions",
+      "definition": "Application BSG servant notamment à lancer le client et recevoir les mises à jour."
+    },
+    {
+      "en": "Raid",
+      "fr": "Raid",
+      "group": "Raid & navigation",
+      "definition": "Session de jeu sur un lieu avec une durée, des objectifs et des sorties possibles."
+    },
+    {
+      "en": "Deploy",
+      "fr": "Déploiement",
+      "group": "Raid & navigation",
+      "definition": "Début d’un raid après le matchmaking et le chargement."
+    },
+    {
+      "en": "Matchmaking",
+      "fr": "Matchmaking",
+      "group": "Raid & navigation",
+      "definition": "Processus de mise en relation avec une session/serveur; l’estimation de durée peut varier."
+    },
+    {
+      "en": "Lobby",
+      "fr": "Salon",
+      "group": "Raid & navigation",
+      "definition": "Espace d’attente ou de groupe avant le départ; le sens exact dépend de l’interface."
+    },
+    {
+      "en": "Queue time",
+      "fr": "Temps d’attente",
+      "group": "Raid & navigation",
+      "definition": "Durée passée dans la file avant l’accès à un raid ou une partie."
+    },
+    {
+      "en": "Spawn",
+      "fr": "Apparition",
+      "group": "Raid & navigation",
+      "definition": "Position d’entrée d’un joueur ou d’une unité dans le lieu."
+    },
+    {
+      "en": "Spawn point",
+      "fr": "Point d’apparition",
+      "group": "Raid & navigation",
+      "definition": "Emplacement de départ possible; les tables communautaires ne prouvent pas le choix réel d’un raid."
+    },
+    {
+      "en": "Spawn rush",
+      "fr": "Rush de spawn",
+      "group": "Raid & navigation",
+      "definition": "Argot pour une attaque très tôt dirigée vers les positions de départ probables."
+    },
+    {
+      "en": "Extraction",
+      "fr": "Extraction",
+      "group": "Raid & navigation",
+      "definition": "Sortie de raid dont l’accès peut demander un lieu, un objet, un paiement ou une condition."
+    },
+    {
+      "en": "Exfil",
+      "fr": "Exfiltration / sortie",
+      "group": "Raid & navigation",
+      "definition": "Terme anglais courant pour une extraction; disponibilité à confirmer dans l’interface du raid."
+    },
+    {
+      "en": "PMC extract",
+      "fr": "Sortie PMC",
+      "group": "Raid & navigation",
+      "definition": "Extraction attribuée à un PMC; conditions propres au personnage et au raid."
+    },
+    {
+      "en": "Scav extract",
+      "fr": "Sortie Scav",
+      "group": "Raid & navigation",
+      "definition": "Extraction accessible à un Scav dans un contexte donné; vérifier la liste en raid."
+    },
+    {
+      "en": "Co-op extract",
+      "fr": "Sortie coopérative",
+      "group": "Raid & navigation",
+      "definition": "Sortie nécessitant parfois des joueurs ou une faction partenaire; disponibilité non garantie."
+    },
+    {
+      "en": "Transit",
+      "fr": "Transit",
+      "group": "Raid & navigation",
+      "definition": "Passage vers un autre lieu/raid plutôt qu’une extraction directe au stash."
+    },
+    {
+      "en": "Extraction timer",
+      "fr": "Compte à rebours d’extraction",
+      "group": "Raid & navigation",
+      "definition": "Temps d’interaction ou attente restant avant de quitter; peut varier par sortie."
+    },
+    {
+      "en": "Raid timer",
+      "fr": "Minuteur de raid",
+      "group": "Raid & navigation",
+      "definition": "Temps affiché avant la fin de la session; peut être réduit pendant une maintenance serveur."
+    },
+    {
+      "en": "Raid duration",
+      "fr": "Durée du raid",
+      "group": "Raid & navigation",
+      "definition": "Temps passé dans la session; ne correspond pas nécessairement au temps réel de matchmaking."
+    },
+    {
+      "en": "Raid exit",
+      "fr": "Sortie de raid",
+      "group": "Raid & navigation",
+      "definition": "Fin de session par extraction, décès, abandon ou autre statut affiché."
+    },
+    {
+      "en": "Raid status",
+      "fr": "Statut de fin de raid",
+      "group": "Raid & navigation",
+      "definition": "Résultat indiqué par le client, par exemple Survived, KIA, MIA ou Run Through."
+    },
+    {
+      "en": "Survived",
+      "fr": "Extrait vivant",
+      "group": "Raid & navigation",
+      "definition": "Statut de fin attribué lorsque les conditions de survie/extraction du jeu sont remplies."
+    },
+    {
+      "en": "KIA",
+      "fr": "Killed in Action / tué au combat",
+      "group": "Raid & navigation",
+      "definition": "Statut de décès de PMC/Scav lors d’un raid; les effets sur progression dépendent du contexte."
+    },
+    {
+      "en": "MIA",
+      "fr": "Missing in Action / porté disparu",
+      "group": "Raid & navigation",
+      "definition": "Statut de fin lorsqu’un personnage reste dans le raid à son terme ou ne sort pas selon les règles."
+    },
+    {
+      "en": "AWOL",
+      "fr": "Absent sans autorisation",
+      "group": "Raid & navigation",
+      "definition": "Statut associé à un départ/abandon selon le système du jeu; vérifier ses effets actuels."
+    },
+    {
+      "en": "Run Through",
+      "fr": "Sortie trop rapide",
+      "group": "Raid & navigation",
+      "definition": "Terme de statut pour une sortie qui ne satisfait pas certains seuils de survie/progression; seuils à vérifier."
+    },
+    {
+      "en": "Raid instance",
+      "fr": "Instance de raid",
+      "group": "Raid & navigation",
+      "definition": "Session serveur ou locale distincte contenant les joueurs, l’IA et l’état du lieu."
+    },
+    {
+      "en": "Loot",
+      "fr": "Butin",
+      "group": "Raid & navigation",
+      "definition": "Objets récupérables en raid ou dans d’autres systèmes."
+    },
+    {
+      "en": "Loot route",
+      "fr": "Itinéraire de butin",
+      "group": "Raid & navigation",
+      "definition": "Parcours suggéré pour visiter plusieurs zones de butin; rendement jamais garanti."
+    },
+    {
+      "en": "Loot cache",
+      "fr": "Cache de butin",
+      "group": "Raid & navigation",
+      "definition": "Conteneur ou zone de butin cachée, selon le lieu."
+    },
+    {
+      "en": "Hidden cache",
+      "fr": "Cache cachée",
+      "group": "Raid & navigation",
+      "definition": "Conteneur dissimulé repéré sur certaines cartes communautaires; position à vérifier."
+    },
+    {
+      "en": "Container",
+      "fr": "Conteneur",
+      "group": "Raid & navigation",
+      "definition": "Objet interactif pouvant contenir du butin; tables et contenu évoluent."
+    },
+    {
+      "en": "Dead drop",
+      "fr": "Cache de dépôt",
+      "group": "Raid & navigation",
+      "definition": "Conteneur/zone de dépôt parfois utilisé par une tâche; consigne exacte dans la tâche."
+    },
+    {
+      "en": "Hotspot",
+      "fr": "Zone chaude",
+      "group": "Raid & navigation",
+      "definition": "Terme communautaire pour un secteur attirant des joueurs, combats ou butin."
+    },
+    {
+      "en": "High-value loot",
+      "fr": "Butin de grande valeur",
+      "group": "Raid & navigation",
+      "definition": "Objet/zone réputé intéressant; valeur et présence changent selon le marché et le patch."
+    },
+    {
+      "en": "Rotation",
+      "fr": "Rotation",
+      "group": "Raid & navigation",
+      "definition": "Déplacement d’un secteur ou d’un combat vers un autre pour changer l’angle ou le risque."
+    },
+    {
+      "en": "Flank",
+      "fr": "Contournement",
+      "group": "Raid & navigation",
+      "definition": "Déplacement latéral pour atteindre une position différente de l’adversaire."
+    },
+    {
+      "en": "Choke point",
+      "fr": "Point de passage obligé",
+      "group": "Raid & navigation",
+      "definition": "Zone étroite où les déplacements se concentrent et où le risque de contact augmente."
+    },
+    {
+      "en": "Line of sight",
+      "fr": "Ligne de vue",
+      "group": "Raid & navigation",
+      "definition": "Trajectoire visuelle directe entre observateur et cible; obstacles et hauteur comptent."
+    },
+    {
+      "en": "Cover",
+      "fr": "Abri",
+      "group": "Raid & navigation",
+      "definition": "Obstacle qui bloque ou réduit l’exposition aux tirs; ne pas confondre avec le camouflage visuel."
+    },
+    {
+      "en": "Concealment",
+      "fr": "Dissimulation visuelle",
+      "group": "Raid & navigation",
+      "definition": "Élément qui masque la vue sans nécessairement arrêter un projectile."
+    },
+    {
+      "en": "Angle",
+      "fr": "Angle de tir",
+      "group": "Raid & navigation",
+      "definition": "Position relative qui détermine ce qu’un joueur peut voir et exposer."
+    },
+    {
+      "en": "Crossfire",
+      "fr": "Tir croisé",
+      "group": "Raid & navigation",
+      "definition": "Deux directions de tir convergentes qui compliquent le déplacement d’une cible."
+    },
+    {
+      "en": "Third-party",
+      "fr": "Intervention d’un troisième groupe",
+      "group": "Raid & navigation",
+      "definition": "Argot pour l’arrivée d’un autre joueur/groupe pendant un combat déjà engagé."
+    },
+    {
+      "en": "Extract camping",
+      "fr": "Camp d’extraction",
+      "group": "Raid & navigation",
+      "definition": "Argot pour attendre près d’une sortie afin de surprendre des joueurs; n’est pas une classe officielle."
+    },
+    {
+      "en": "Sound cue",
+      "fr": "Indice sonore",
+      "group": "Raid & navigation",
+      "definition": "Son permettant d’inférer une action, une distance ou une position, avec des limites d’occlusion."
+    },
+    {
+      "en": "Footsteps",
+      "fr": "Bruits de pas",
+      "group": "Raid & navigation",
+      "definition": "Son de déplacement dont la perception dépend de la surface, de la distance et des réglages."
+    },
+    {
+      "en": "Map knowledge",
+      "fr": "Connaissance de carte",
+      "group": "Raid & navigation",
+      "definition": "Repères pratiques sur lieux, sorties et itinéraires; vérifier après une refonte."
+    },
+    {
+      "en": "Scav run",
+      "fr": "Raid Scav",
+      "group": "Raid & navigation",
+      "definition": "Raid joué comme Scav joueur plutôt qu’avec le PMC."
+    },
+    {
+      "en": "Scav karma",
+      "fr": "Karma Scav",
+      "group": "Raid & navigation",
+      "definition": "Nom communautaire de la réputation Fence liée à certains comportements de Scav."
+    },
+    {
+      "en": "Hostility",
+      "fr": "Hostilité",
+      "group": "Raid & navigation",
+      "definition": "Relation d’ennemi envers un joueur; règles dépendent de l’unité, de la faction et du mode."
+    },
+    {
+      "en": "AI behavior",
+      "fr": "Comportement IA",
+      "group": "Raid & navigation",
+      "definition": "Logique des ennemis contrôlés par le jeu; peut varier avec les mises à jour."
+    },
+    {
+      "en": "Night raid",
+      "fr": "Raid de nuit",
+      "group": "Raid & navigation",
+      "definition": "Raid lancé pendant la période nocturne du lieu; lumière et équipement requis diffèrent."
+    },
+    {
+      "en": "Day raid",
+      "fr": "Raid de jour",
+      "group": "Raid & navigation",
+      "definition": "Raid lancé pendant la période diurne du lieu."
+    },
+    {
+      "en": "Task",
+      "fr": "Tâche / quête",
+      "group": "Progression & économie",
+      "definition": "Objectif assigné par le jeu; traductions et conditions peuvent changer selon le patch."
+    },
+    {
+      "en": "Quest",
+      "fr": "Quête",
+      "group": "Progression & économie",
+      "definition": "Terme courant pour une tâche ou un fil narratif d’objectifs."
+    },
+    {
+      "en": "Objective",
+      "fr": "Objectif",
+      "group": "Progression & économie",
+      "definition": "Action, objet ou condition à valider dans une tâche."
+    },
+    {
+      "en": "Prerequisite",
+      "fr": "Prérequis",
+      "group": "Progression & économie",
+      "definition": "Condition à remplir avant qu’une tâche, un accès ou une fonction soit disponible."
+    },
+    {
+      "en": "Unlock",
+      "fr": "Déblocage",
+      "group": "Progression & économie",
+      "definition": "Accès rendu disponible après une condition; vérifier le message et le mode concernés."
+    },
+    {
+      "en": "Task chain",
+      "fr": "Chaîne de tâches",
+      "group": "Progression & économie",
+      "definition": "Suite de tâches liées où certaines conditions ouvrent les suivantes."
+    },
+    {
+      "en": "Daily task",
+      "fr": "Tâche quotidienne",
+      "group": "Progression & économie",
+      "definition": "Tâche renouvelée selon une période quotidienne définie par le jeu."
+    },
+    {
+      "en": "Weekly task",
+      "fr": "Tâche hebdomadaire",
+      "group": "Progression & économie",
+      "definition": "Tâche renouvelée selon une période hebdomadaire définie par le jeu."
+    },
+    {
+      "en": "Operational task",
+      "fr": "Tâche opérationnelle",
+      "group": "Progression & économie",
+      "definition": "Catégorie de tâches répétables ou contextualisées; objectifs varient."
+    },
+    {
+      "en": "Story task",
+      "fr": "Tâche scénaristique",
+      "group": "Progression & économie",
+      "definition": "Objectif lié à un chapitre narratif plutôt qu’à une simple tâche répétable."
+    },
+    {
+      "en": "Task item",
+      "fr": "Objet de tâche",
+      "group": "Progression & économie",
+      "definition": "Objet requis, trouvé ou utilisé pour valider une tâche."
+    },
+    {
+      "en": "Required item",
+      "fr": "Objet requis",
+      "group": "Progression & économie",
+      "definition": "Objet demandé par une tâche, une amélioration ou une recette."
+    },
+    {
+      "en": "Quest reward",
+      "fr": "Récompense de quête",
+      "group": "Progression & économie",
+      "definition": "Ressource, objet, réputation ou déblocage attribué après validation."
+    },
+    {
+      "en": "Kappa",
+      "fr": "Conteneur Kappa",
+      "group": "Progression & économie",
+      "definition": "Récompense de progression obtenue via des tâches; conditions détaillées sont sensibles au patch."
+    },
+    {
+      "en": "Collector",
+      "fr": "Collector / collectionneur",
+      "group": "Progression & économie",
+      "definition": "Nom d’une tâche tardive associée à des objets requis; liste et prérequis à vérifier."
+    },
+    {
+      "en": "Flea Market",
+      "fr": "Marché aux puces",
+      "group": "Progression & économie",
+      "definition": "Marché d’offres entre joueurs; filtres, frais et limites varient selon le mode."
+    },
+    {
+      "en": "Trader reset",
+      "fr": "Réinitialisation du stock marchand",
+      "group": "Progression & économie",
+      "definition": "Moment où certaines offres/limites de marchands se renouvellent."
+    },
+    {
+      "en": "Trader stock",
+      "fr": "Stock marchand",
+      "group": "Progression & économie",
+      "definition": "Quantité ou offres disponibles chez un marchand; peut être limité et réinitialisé."
+    },
+    {
+      "en": "Loyalty level",
+      "fr": "Niveau de fidélité",
+      "group": "Progression & économie",
+      "definition": "Palier de marchand qui peut conditionner des offres et tâches."
+    },
+    {
+      "en": "LL",
+      "fr": "Loyalty Level / niveau de fidélité",
+      "group": "Progression & économie",
+      "definition": "Abréviation communautaire du niveau de fidélité d’un marchand."
+    },
+    {
+      "en": "Reputation",
+      "fr": "Réputation",
+      "group": "Progression & économie",
+      "definition": "Valeur d’affinité avec un marchand ou une faction, utilisée pour certains accès."
+    },
+    {
+      "en": "Fence rep",
+      "fr": "Réputation Fence",
+      "group": "Progression & économie",
+      "definition": "Réputation associée à Fence; aussi appelée Scav karma par les joueurs."
+    },
+    {
+      "en": "Barter",
+      "fr": "Troc",
+      "group": "Progression & économie",
+      "definition": "Échange d’objets contre d’autres biens au lieu d’une somme directe."
+    },
+    {
+      "en": "Barter item",
+      "fr": "Objet de troc",
+      "group": "Progression & économie",
+      "definition": "Objet apporté pour compléter un échange ou une offre."
+    },
+    {
+      "en": "Listing",
+      "fr": "Annonce / offre",
+      "group": "Progression & économie",
+      "definition": "Offre publiée au marché, si les règles du mode l’autorisent."
+    },
+    {
+      "en": "Listing fee",
+      "fr": "Frais de mise en vente",
+      "group": "Progression & économie",
+      "definition": "Montant calculé lors d’une annonce au marché; formule et prix changent."
+    },
+    {
+      "en": "Buyout",
+      "fr": "Achat immédiat",
+      "group": "Progression & économie",
+      "definition": "Prix auquel une offre peut être achetée immédiatement."
+    },
+    {
+      "en": "Currency",
+      "fr": "Devise",
+      "group": "Progression & économie",
+      "definition": "Monnaie du jeu comme roubles, dollars ou euros; montants et taux de change varient."
+    },
+    {
+      "en": "Rouble",
+      "fr": "Rouble",
+      "group": "Progression & économie",
+      "definition": "Monnaie de base fréquemment appelée rouble ou ruble dans les interfaces/traductions."
+    },
+    {
+      "en": "RUB",
+      "fr": "Rouble russe (RUB)",
+      "group": "Progression & économie",
+      "definition": "Code de devise utilisé pour les roubles."
+    },
+    {
+      "en": "USD",
+      "fr": "Dollar américain (USD)",
+      "group": "Progression & économie",
+      "definition": "Devise acceptée dans certaines offres et conversions de marchands."
+    },
+    {
+      "en": "EUR",
+      "fr": "Euro (EUR)",
+      "group": "Progression & économie",
+      "definition": "Devise acceptée dans certaines offres et conversions de marchands."
+    },
+    {
+      "en": "Market price",
+      "fr": "Prix de marché",
+      "group": "Progression & économie",
+      "definition": "Estimation communautaire ou prix d’offre observé; ne constitue pas un prix garanti en jeu."
+    },
+    {
+      "en": "Flea reputation",
+      "fr": "Réputation du Flea",
+      "group": "Progression & économie",
+      "definition": "Valeur liée à l’activité du marché; effets et seuils peuvent changer."
+    },
+    {
+      "en": "Insurance",
+      "fr": "Assurance",
+      "group": "Progression & économie",
+      "definition": "Service qui peut permettre de récupérer certains équipements perdus, selon le mode et les conditions."
+    },
+    {
+      "en": "Insurance claim",
+      "fr": "Récupération d’assurance",
+      "group": "Progression & économie",
+      "definition": "Récupération d’objets assurés rendus disponibles par le jeu."
+    },
+    {
+      "en": "Insurance fraud",
+      "fr": "Fraude à l’assurance",
+      "group": "Progression & économie",
+      "definition": "Argot pour remplacer un objet assuré par un équipement trouvé avant de le laisser dans le raid."
+    },
+    {
+      "en": "Found in Raid (FIR)",
+      "fr": "Trouvé en raid (FIR)",
+      "group": "Progression & économie",
+      "definition": "État « trouvé en raid » attribué par le jeu; les critères d’obtention peuvent varier."
+    },
+    {
+      "en": "Not Found in Raid",
+      "fr": "Non trouvé en raid",
+      "group": "Progression & économie",
+      "definition": "Objet sans état FIR; certains objectifs ou échanges peuvent l’exiger ou l’exclure."
+    },
+    {
+      "en": "Loot value",
+      "fr": "Valeur du butin",
+      "group": "Progression & économie",
+      "definition": "Estimation d’objets récupérés; varie avec les offres, marchands et règles de vente."
+    },
+    {
+      "en": "Cash",
+      "fr": "Argent liquide",
+      "group": "Progression & économie",
+      "definition": "Monnaie portée ou stockée dans l’inventaire du personnage."
+    },
+    {
+      "en": "TarCoin",
+      "fr": "TarCoin",
+      "group": "Progression & économie",
+      "definition": "Monnaie mentionnée par BSG pour l’Expansion Hub; usages selon les conditions officielles en vigueur."
+    },
+    {
+      "en": "Battle Pass",
+      "fr": "Passe de combat",
+      "group": "Progression & économie",
+      "definition": "Système de progression/récompenses associé à certaines saisons ou offres."
+    },
+    {
+      "en": "Hideout station",
+      "fr": "Station de planque",
+      "group": "Progression & économie",
+      "definition": "Module de planque amélioré ou utilisé pour certaines productions."
+    },
+    {
+      "en": "Craft",
+      "fr": "Fabrication",
+      "group": "Progression & économie",
+      "definition": "Production d’un objet dans une station avec des matériaux et une durée."
+    },
+    {
+      "en": "Crafting recipe",
+      "fr": "Recette de fabrication",
+      "group": "Progression & économie",
+      "definition": "Liste d’objets et conditions nécessaire à une production."
+    },
+    {
+      "en": "Craft time",
+      "fr": "Durée de fabrication",
+      "group": "Progression & économie",
+      "definition": "Temps prévu pour produire un objet; dépend de la station et de la recette."
+    },
+    {
+      "en": "Generator",
+      "fr": "Générateur",
+      "group": "Progression & économie",
+      "definition": "Station ou système de planque qui consomme du carburant selon son état."
+    },
+    {
+      "en": "Fuel",
+      "fr": "Carburant",
+      "group": "Progression & économie",
+      "definition": "Ressource utilisée notamment pour faire fonctionner le générateur."
+    },
+    {
+      "en": "Bitcoin Farm",
+      "fr": "Ferme à bitcoins",
+      "group": "Progression & économie",
+      "definition": "Station de planque dont la production dépend des objets et réglages actuels."
+    },
+    {
+      "en": "Scav Case",
+      "fr": "Caisse Scav",
+      "group": "Progression & économie",
+      "definition": "Station de planque permettant une expédition/commande avec résultat aléatoire."
+    },
+    {
+      "en": "Cultist Circle",
+      "fr": "Cercle des cultistes",
+      "group": "Progression & économie",
+      "definition": "Station/activité de planque où le résultat dépend d’une offrande et de règles du jeu."
+    },
+    {
+      "en": "Loot table",
+      "fr": "Table de butin",
+      "group": "Progression & économie",
+      "definition": "Ensemble de résultats possibles selon un conteneur, un lieu ou une unité."
+    },
+    {
+      "en": "XP",
+      "fr": "Expérience (XP)",
+      "group": "Progression & économie",
+      "definition": "Valeur de progression attribuée aux actions et objectifs."
+    },
+    {
+      "en": "Experience modifier",
+      "fr": "Multiplicateur d’expérience",
+      "group": "Progression & économie",
+      "definition": "Coefficient qui ajuste l’expérience reçue dans une situation donnée."
+    },
+    {
+      "en": "K/D",
+      "fr": "Ratio éliminations/morts",
+      "group": "Progression & économie",
+      "definition": "Statistique de profil; ce que le jeu compte dans le numérateur peut varier selon l’écran et le patch."
+    },
+    {
+      "en": "Level requirement",
+      "fr": "Condition de niveau",
+      "group": "Progression & économie",
+      "definition": "Niveau minimal éventuellement demandé pour un marchand, une tâche ou une fonctionnalité."
+    },
+    {
+      "en": "RMT",
+      "fr": "Real-Money Trading / échange contre argent réel",
+      "group": "Progression & économie",
+      "definition": "Échange lié au jeu contre de l’argent réel; soumis aux règles et restrictions de BSG."
+    },
+    {
+      "en": "Loadout",
+      "fr": "Équipement préparé",
+      "group": "Armes & combat",
+      "definition": "Ensemble d’armes, protections, soins et objets apportés pour une partie."
+    },
+    {
+      "en": "Kit",
+      "fr": "Kit d’équipement",
+      "group": "Armes & combat",
+      "definition": "Argot pour une configuration d’équipement; « budget kit » désigne un équipement peu coûteux."
+    },
+    {
+      "en": "Weapon build",
+      "fr": "Configuration d’arme",
+      "group": "Armes & combat",
+      "definition": "Assemblage d’une arme avec pièces et accessoires."
+    },
+    {
+      "en": "Weapon preset",
+      "fr": "Préréglage d’arme",
+      "group": "Armes & combat",
+      "definition": "Configuration sauvegardée ou proposée pour construire une arme."
+    },
+    {
+      "en": "Gunsmith",
+      "fr": "Gunsmith / mécanicien d’armes",
+      "group": "Armes & combat",
+      "definition": "Nom de tâches portant sur la construction d’une arme; ne pas confondre avec le marchand Mechanic."
+    },
+    {
+      "en": "Attachment",
+      "fr": "Accessoire d’arme",
+      "group": "Armes & combat",
+      "definition": "Pièce ajoutée à l’arme, par exemple une optique, une poignée ou un silencieux."
+    },
+    {
+      "en": "Ammo",
+      "fr": "Munitions",
+      "group": "Armes & combat",
+      "definition": "Cartouches ou projectiles utilisés par une arme; performances dépendent du type et du patch."
+    },
+    {
+      "en": "Cartridge",
+      "fr": "Cartouche",
+      "group": "Armes & combat",
+      "definition": "Unité de munition comprenant projectile et charge, adaptée à un calibre."
+    },
+    {
+      "en": "Caliber",
+      "fr": "Calibre",
+      "group": "Armes & combat",
+      "definition": "Désignation de dimension/type de munition et d’arme."
+    },
+    {
+      "en": "Magazine",
+      "fr": "Chargeur",
+      "group": "Armes & combat",
+      "definition": "Contenant amovible alimentant une arme en cartouches."
+    },
+    {
+      "en": "Magazine capacity",
+      "fr": "Capacité du chargeur",
+      "group": "Armes & combat",
+      "definition": "Nombre de cartouches qu’un chargeur peut contenir selon son modèle."
+    },
+    {
+      "en": "Chamber",
+      "fr": "Chambre",
+      "group": "Armes & combat",
+      "definition": "Partie de l’arme où une cartouche est placée avant le tir."
+    },
+    {
+      "en": "Reload",
+      "fr": "Rechargement",
+      "group": "Armes & combat",
+      "definition": "Action de remplacer ou compléter le chargeur d’une arme."
+    },
+    {
+      "en": "Malfunction",
+      "fr": "Dysfonctionnement",
+      "group": "Armes & combat",
+      "definition": "État où une arme nécessite une action de dépannage avant de tirer normalement."
+    },
+    {
+      "en": "Weapon jam",
+      "fr": "Enrayage",
+      "group": "Armes & combat",
+      "definition": "Dysfonctionnement qui empêche temporairement le tir; procédure dépend de l’interface."
+    },
+    {
+      "en": "Recoil",
+      "fr": "Recul",
+      "group": "Armes & combat",
+      "definition": "Mouvement de l’arme provoqué par le tir; paramètres changent avec arme et accessoires."
+    },
+    {
+      "en": "Ergonomics",
+      "fr": "Ergonomie",
+      "group": "Armes & combat",
+      "definition": "Statistique résumant certains aspects de maniement de l’arme selon le jeu."
+    },
+    {
+      "en": "MOA",
+      "fr": "Minute d’angle (MOA)",
+      "group": "Armes & combat",
+      "definition": "Mesure angulaire de dispersion; valeur en jeu ne garantit pas la précision d’un tir réel."
+    },
+    {
+      "en": "FOV",
+      "fr": "Champ de vision (FOV)",
+      "group": "Armes & combat",
+      "definition": "Réglage de l’étendue visuelle; peut influencer la perception et certaines optiques."
+    },
+    {
+      "en": "Zeroing",
+      "fr": "Réglage de hausse",
+      "group": "Armes & combat",
+      "definition": "Ajustement de distance de visée pour compenser la trajectoire estimée d’un projectile."
+    },
+    {
+      "en": "ADS",
+      "fr": "Aim Down Sights / visée épaulée",
+      "group": "Armes & combat",
+      "definition": "Action de regarder à travers les organes de visée ou une optique."
+    },
+    {
+      "en": "Hip fire",
+      "fr": "Tir à la hanche",
+      "group": "Armes & combat",
+      "definition": "Tir sans entrer en visée épaulée; les règles de dispersion dépendent du jeu."
+    },
+    {
+      "en": "Point of aim",
+      "fr": "Point visé",
+      "group": "Armes & combat",
+      "definition": "Position du réticule ou de l’organe de visée au moment de tirer."
+    },
+    {
+      "en": "Point of impact",
+      "fr": "Point d’impact",
+      "group": "Armes & combat",
+      "definition": "Endroit où le projectile frappe; peut différer du point visé."
+    },
+    {
+      "en": "Muzzle velocity",
+      "fr": "Vitesse initiale",
+      "group": "Armes & combat",
+      "definition": "Vitesse du projectile à la sortie du canon, selon les données du jeu."
+    },
+    {
+      "en": "Penetration",
+      "fr": "Pénétration",
+      "group": "Armes & combat",
+      "definition": "Capacité d’une munition à traverser une protection selon le modèle du jeu."
+    },
+    {
+      "en": "Armor penetration",
+      "fr": "Pénétration d’armure",
+      "group": "Armes & combat",
+      "definition": "Statistique/effet de munition liée aux chances de traverser une armure."
+    },
+    {
+      "en": "Flesh damage",
+      "fr": "Dégâts aux chairs",
+      "group": "Armes & combat",
+      "definition": "Dégâts appliqués à une zone non protégée ou après pénétration, selon le modèle du jeu."
+    },
+    {
+      "en": "Armor damage",
+      "fr": "Dégâts d’armure",
+      "group": "Armes & combat",
+      "definition": "Dommages appliqués à la protection; valeur distincte de la pénétration."
+    },
+    {
+      "en": "Fragmentation",
+      "fr": "Fragmentation",
+      "group": "Armes & combat",
+      "definition": "Effet aléatoire ou mécanique de munition pouvant modifier les dégâts."
+    },
+    {
+      "en": "Projectile",
+      "fr": "Projectile",
+      "group": "Armes & combat",
+      "definition": "Partie de la munition qui se déplace vers la cible après le tir."
+    },
+    {
+      "en": "Tracer",
+      "fr": "Traçante",
+      "group": "Armes & combat",
+      "definition": "Munition ou projectile laissant un repère lumineux visible."
+    },
+    {
+      "en": "Subsonic",
+      "fr": "Subsonique",
+      "group": "Armes & combat",
+      "definition": "Munition conçue pour une vitesse inférieure à celle du son; données en jeu selon la cartouche."
+    },
+    {
+      "en": "AP",
+      "fr": "Armor-Piercing / perforante",
+      "group": "Armes & combat",
+      "definition": "Abréviation courante pour une munition perforante; les statistiques varient par cartouche."
+    },
+    {
+      "en": "HP",
+      "fr": "Hollow Point / pointe creuse",
+      "group": "Armes & combat",
+      "definition": "Désignation de projectile à pointe creuse, souvent orienté dégâts aux chairs dans le jeu."
+    },
+    {
+      "en": "FMJ",
+      "fr": "Full Metal Jacket / balle chemisée",
+      "group": "Armes & combat",
+      "definition": "Type de projectile chemisé; ne déduit pas à lui seul une valeur de pénétration."
+    },
+    {
+      "en": "Buckshot",
+      "fr": "Chevrotine",
+      "group": "Armes & combat",
+      "definition": "Charge de plusieurs projectiles tirée par un fusil à pompe."
+    },
+    {
+      "en": "Slug",
+      "fr": "Balle unique de fusil à pompe",
+      "group": "Armes & combat",
+      "definition": "Projectile unique tiré par un fusil à pompe, à distinguer de la chevrotine."
+    },
+    {
+      "en": "Suppressor",
+      "fr": "Silencieux",
+      "group": "Armes & combat",
+      "definition": "Accessoire qui atténue certains sons de tir et modifie des statistiques selon l’arme."
+    },
+    {
+      "en": "Muzzle brake",
+      "fr": "Frein de bouche",
+      "group": "Armes & combat",
+      "definition": "Accessoire au bout du canon influençant notamment le recul selon les données du jeu."
+    },
+    {
+      "en": "Muzzle device",
+      "fr": "Dispositif de bouche",
+      "group": "Armes & combat",
+      "definition": "Terme générique pour un frein de bouche, compensateur, cache-flamme ou silencieux."
+    },
+    {
+      "en": "Barrel",
+      "fr": "Canon",
+      "group": "Armes & combat",
+      "definition": "Pièce principale guidant le projectile; longueur et modèle affectent des statistiques."
+    },
+    {
+      "en": "Handguard",
+      "fr": "Garde-main",
+      "group": "Armes & combat",
+      "definition": "Pièce entourant une partie du canon et offrant des interfaces pour accessoires."
+    },
+    {
+      "en": "Stock",
+      "fr": "Crosse",
+      "group": "Armes & combat",
+      "definition": "Pièce d’appui arrière pouvant modifier le maniement et les statistiques."
+    },
+    {
+      "en": "Grip",
+      "fr": "Poignée",
+      "group": "Armes & combat",
+      "definition": "Accessoire de prise en main, par exemple une poignée avant ou pistolet."
+    },
+    {
+      "en": "Optic",
+      "fr": "Optique",
+      "group": "Armes & combat",
+      "definition": "Dispositif de visée optique fixé à une arme."
+    },
+    {
+      "en": "Red dot",
+      "fr": "Point rouge",
+      "group": "Armes & combat",
+      "definition": "Optique à réticule lumineux sans grossissement important."
+    },
+    {
+      "en": "Magnified optic",
+      "fr": "Optique grossissante",
+      "group": "Armes & combat",
+      "definition": "Optique offrant un grossissement pour observer des cibles éloignées."
+    },
+    {
+      "en": "Hybrid optic",
+      "fr": "Optique hybride",
+      "group": "Armes & combat",
+      "definition": "Optique combinant plusieurs niveaux ou dispositifs de visée."
+    },
+    {
+      "en": "Reticle",
+      "fr": "Réticule",
+      "group": "Armes & combat",
+      "definition": "Repère visible dans une optique utilisé pour viser."
+    },
+    {
+      "en": "Laser",
+      "fr": "Laser",
+      "group": "Armes & combat",
+      "definition": "Accessoire projetant un faisceau visible ou indicateur dans le jeu."
+    },
+    {
+      "en": "Flashlight",
+      "fr": "Lampe tactique",
+      "group": "Armes & combat",
+      "definition": "Source lumineuse fixée ou tenue par un personnage."
+    },
+    {
+      "en": "Foregrip",
+      "fr": "Poignée avant",
+      "group": "Armes & combat",
+      "definition": "Accessoire monté sous l’avant d’une arme."
+    },
+    {
+      "en": "Rail",
+      "fr": "Rail de montage",
+      "group": "Armes & combat",
+      "definition": "Interface permettant d’attacher des accessoires compatibles."
+    },
+    {
+      "en": "Semi-automatic",
+      "fr": "Semi-automatique",
+      "group": "Armes & combat",
+      "definition": "Mode de tir où une pression déclenche un coup puis l’arme se réarme."
+    },
+    {
+      "en": "Full-auto",
+      "fr": "Tir automatique",
+      "group": "Armes & combat",
+      "definition": "Mode maintenant le tir tant que la détente est actionnée et que l’arme fonctionne."
+    },
+    {
+      "en": "Burst fire",
+      "fr": "Rafale",
+      "group": "Armes & combat",
+      "definition": "Mode où une action déclenche un nombre limité de tirs."
+    },
+    {
+      "en": "Bolt-action",
+      "fr": "Verrou",
+      "group": "Armes & combat",
+      "definition": "Action de répétition manuelle d’une arme à verrou après le tir."
+    },
+    {
+      "en": "Weapon durability",
+      "fr": "Durabilité d’arme",
+      "group": "Armes & combat",
+      "definition": "État d’usure de l’arme, pouvant influencer certaines fonctions selon la version."
+    },
+    {
+      "en": "Body part",
+      "fr": "Partie du corps",
+      "group": "Santé & équipement",
+      "definition": "Zone corporelle suivie séparément par le système de santé."
+    },
+    {
+      "en": "Hitbox",
+      "fr": "Zone de collision",
+      "group": "Santé & équipement",
+      "definition": "Volume invisible utilisé par le jeu pour détecter un impact sur un corps ou un objet."
+    },
+    {
+      "en": "Thorax",
+      "fr": "Thorax",
+      "group": "Santé & équipement",
+      "definition": "Zone vitale du torse suivie séparément dans l’interface de santé."
+    },
+    {
+      "en": "Head",
+      "fr": "Tête",
+      "group": "Santé & équipement",
+      "definition": "Zone corporelle dont certaines sous-zones sont distinguées par le jeu."
+    },
+    {
+      "en": "Health pool",
+      "fr": "Réserve de santé",
+      "group": "Santé & équipement",
+      "definition": "Valeur de santé disponible pour une partie du corps ou un personnage."
+    },
+    {
+      "en": "Armor class",
+      "fr": "Classe d’armure",
+      "group": "Santé & équipement",
+      "definition": "Catégorie de protection; la classe seule ne résume pas matériau, état ou zone couverte."
+    },
+    {
+      "en": "Armor zone",
+      "fr": "Zone protégée",
+      "group": "Santé & équipement",
+      "definition": "Partie du corps couverte par un élément de protection."
+    },
+    {
+      "en": "Armor plate",
+      "fr": "Plaque balistique",
+      "group": "Santé & équipement",
+      "definition": "Élément de protection amovible inséré dans un porte-plaques compatible."
+    },
+    {
+      "en": "Plate carrier",
+      "fr": "Porte-plaques",
+      "group": "Santé & équipement",
+      "definition": "Équipement portant des plaques de protection et parfois d’autres éléments."
+    },
+    {
+      "en": "Helmet",
+      "fr": "Casque",
+      "group": "Santé & équipement",
+      "definition": "Protection portée sur la tête; couverture et accessoires varient."
+    },
+    {
+      "en": "Face shield",
+      "fr": "Visière de protection",
+      "group": "Santé & équipement",
+      "definition": "Écran monté sur certains casques pour protéger le visage selon sa couverture."
+    },
+    {
+      "en": "Mask",
+      "fr": "Masque",
+      "group": "Santé & équipement",
+      "definition": "Équipement couvrant le visage; la protection varie selon l’objet et le patch."
+    },
+    {
+      "en": "Tactical rig",
+      "fr": "Gilet tactique",
+      "group": "Santé & équipement",
+      "definition": "Équipement avec emplacements d’inventaire et parfois des zones de protection."
+    },
+    {
+      "en": "Backpack",
+      "fr": "Sac à dos",
+      "group": "Santé & équipement",
+      "definition": "Contenant porté pour transporter des objets en raid."
+    },
+    {
+      "en": "Inventory",
+      "fr": "Inventaire",
+      "group": "Santé & équipement",
+      "definition": "Emplacements où le joueur stocke armes, équipements et objets."
+    },
+    {
+      "en": "Secure container",
+      "fr": "Conteneur sécurisé",
+      "group": "Santé & équipement",
+      "definition": "Contenant de personnage dont le contenu suit des règles particulières à la mort et au mode."
+    },
+    {
+      "en": "Keycard holder",
+      "fr": "Porte-cartes",
+      "group": "Santé & équipement",
+      "definition": "Contenant de petits objets d’accès; règles de rangement dépendent de la version."
+    },
+    {
+      "en": "Dogtag",
+      "fr": "Plaque d’identification",
+      "group": "Santé & équipement",
+      "definition": "Objet récupérable associé à un PMC éliminé."
+    },
+    {
+      "en": "Headset",
+      "fr": "Casque audio",
+      "group": "Santé & équipement",
+      "definition": "Équipement qui modifie l’écoute du jeu selon le modèle et les réglages."
+    },
+    {
+      "en": "Night vision",
+      "fr": "Vision nocturne",
+      "group": "Santé & équipement",
+      "definition": "Équipement optique qui améliore la visibilité dans l’obscurité selon ses limites."
+    },
+    {
+      "en": "NVG",
+      "fr": "Night Vision Goggles / lunettes de vision nocturne",
+      "group": "Santé & équipement",
+      "definition": "Abréviation des lunettes de vision nocturne."
+    },
+    {
+      "en": "Thermal optic",
+      "fr": "Optique thermique",
+      "group": "Santé & équipement",
+      "definition": "Optique affichant une représentation thermique; disponibilité et performances dépendent du jeu."
+    },
+    {
+      "en": "Heavy bleeding",
+      "fr": "Hémorragie grave",
+      "group": "Santé & équipement",
+      "definition": "État de santé nécessitant un traitement adapté dans le jeu."
+    },
+    {
+      "en": "Light bleeding",
+      "fr": "Hémorragie légère",
+      "group": "Santé & équipement",
+      "definition": "Saignement nécessitant un soin approprié."
+    },
+    {
+      "en": "Fracture",
+      "fr": "Fracture",
+      "group": "Santé & équipement",
+      "definition": "État de blessure influençant le mouvement ou la visée selon la partie touchée."
+    },
+    {
+      "en": "Medkit",
+      "fr": "Trousse médicale",
+      "group": "Santé & équipement",
+      "definition": "Objet consommable servant à restaurer de la santé selon ses charges et fonctions."
+    },
+    {
+      "en": "CMS kit",
+      "fr": "Kit CMS",
+      "group": "Santé & équipement",
+      "definition": "Kit chirurgical qui traite certaines parties détruites selon les règles du jeu."
+    },
+    {
+      "en": "Surv12",
+      "fr": "Kit Surv12",
+      "group": "Santé & équipement",
+      "definition": "Kit chirurgical qui peut traiter certaines blessures et fractures; effets selon le client."
+    },
+    {
+      "en": "Splint",
+      "fr": "Attelle",
+      "group": "Santé & équipement",
+      "definition": "Objet de soin utilisé pour traiter une fracture dans le jeu."
+    },
+    {
+      "en": "Surgical kit",
+      "fr": "Kit chirurgical",
+      "group": "Santé & équipement",
+      "definition": "Objet de soin pour les parties du corps détruites, selon le kit et le mode."
+    },
+    {
+      "en": "Painkiller",
+      "fr": "Antidouleur",
+      "group": "Santé & équipement",
+      "definition": "Consommable qui atténue certains effets de douleur durant une période."
+    },
+    {
+      "en": "Stimulant",
+      "fr": "Stimulant",
+      "group": "Santé & équipement",
+      "definition": "Injectable produisant des effets temporaires parfois accompagnés d’effets secondaires."
+    },
+    {
+      "en": "Hydration",
+      "fr": "Hydratation",
+      "group": "Santé & équipement",
+      "definition": "Ressource suivie pour le personnage et affectant son état lorsqu’elle baisse."
+    },
+    {
+      "en": "Energy",
+      "fr": "Énergie",
+      "group": "Santé & équipement",
+      "definition": "Ressource de personnage consommée avec le temps ou certaines actions."
+    },
+    {
+      "en": "Stamina",
+      "fr": "Endurance",
+      "group": "Santé & équipement",
+      "definition": "Ressource limitant certains efforts comme courir ou retenir son souffle."
+    },
+    {
+      "en": "Overweight",
+      "fr": "Surcharge pondérale",
+      "group": "Santé & équipement",
+      "definition": "État lié au poids transporté; seuils et effets varient selon les compétences et le patch."
+    },
+    {
+      "en": "Soft armor",
+      "fr": "Armure souple",
+      "group": "Santé & équipement",
+      "definition": "Protection textile intégrée ou portée, distincte d’une plaque rigide."
+    },
+    {
+      "en": "Armored rig",
+      "fr": "Gilet pare-balles tactique",
+      "group": "Santé & équipement",
+      "definition": "Gilet d’inventaire intégrant certaines zones de protection."
+    },
+    {
+      "en": "Armor repair",
+      "fr": "Réparation d’armure",
+      "group": "Santé & équipement",
+      "definition": "Action ou service qui restaure une partie de la durabilité selon le matériau."
+    },
+    {
+      "en": "Durability",
+      "fr": "Durabilité",
+      "group": "Santé & équipement",
+      "definition": "État d’usure d’un objet; perte et réparation dépendent de sa catégorie."
+    },
+    {
+      "en": "Desync",
+      "fr": "Désynchronisation",
+      "group": "Technique & argot",
+      "definition": "Décalage entre les états affichés par le client et le serveur; rapport de joueur à confirmer."
+    },
+    {
+      "en": "Ping",
+      "fr": "Ping",
+      "group": "Technique & argot",
+      "definition": "Mesure du délai réseau vers un serveur; ne décrit pas à elle seule toute la qualité de connexion."
+    },
+    {
+      "en": "Packet loss",
+      "fr": "Perte de paquets",
+      "group": "Technique & argot",
+      "definition": "Paquets réseau qui n’arrivent pas à destination, pouvant perturber une session."
+    },
+    {
+      "en": "Latency",
+      "fr": "Latence",
+      "group": "Technique & argot",
+      "definition": "Délai de communication entre client et serveur."
+    },
+    {
+      "en": "FPS",
+      "fr": "Images par seconde",
+      "group": "Technique & argot",
+      "definition": "Nombre d’images affichées par seconde, influencé par le matériel et les réglages."
+    },
+    {
+      "en": "Frametime",
+      "fr": "Temps d’image",
+      "group": "Technique & argot",
+      "definition": "Durée nécessaire pour produire une image; ses variations peuvent se ressentir comme des saccades."
+    },
+    {
+      "en": "Stutter",
+      "fr": "Saccade",
+      "group": "Technique & argot",
+      "definition": "Interruption ou irrégularité momentanée de l’affichage."
+    },
+    {
+      "en": "Culling",
+      "fr": "Élimination d’objets hors vue",
+      "group": "Technique & argot",
+      "definition": "Technique graphique qui évite de calculer certains objets invisibles ou hors de portée de rendu."
+    },
+    {
+      "en": "Occlusion",
+      "fr": "Occlusion",
+      "group": "Technique & argot",
+      "definition": "Masquage visuel ou sonore par un obstacle, selon le système concerné."
+    },
+    {
+      "en": "Audio occlusion",
+      "fr": "Occlusion sonore",
+      "group": "Technique & argot",
+      "definition": "Atténuation ou filtrage d’un son par les pièces et obstacles."
+    },
+    {
+      "en": "Binaural audio",
+      "fr": "Audio binaural",
+      "group": "Technique & argot",
+      "definition": "Traitement sonore visant à aider à percevoir une direction avec un casque."
+    },
+    {
+      "en": "LOD",
+      "fr": "Level of Detail / niveau de détail",
+      "group": "Technique & argot",
+      "definition": "Technique qui utilise des modèles de complexité différente selon la distance."
+    },
+    {
+      "en": "DLSS",
+      "fr": "Deep Learning Super Sampling",
+      "group": "Technique & argot",
+      "definition": "Technologie NVIDIA de reconstruction/upscaling; disponibilité et options dépendent du client et du matériel."
+    },
+    {
+      "en": "FSR",
+      "fr": "FidelityFX Super Resolution",
+      "group": "Technique & argot",
+      "definition": "Technologie AMD d’upscaling; version et disponibilité dépendent du client."
+    },
+    {
+      "en": "Unity 6",
+      "fr": "Unity 6",
+      "group": "Technique & argot",
+      "definition": "Version de moteur annoncée par BSG pour une mise à jour future au relevé du 18/11/2026; ne pas la confondre avec une fonction déjà déployée."
+    },
+    {
+      "en": "Hotfix",
+      "fr": "Correctif à chaud",
+      "group": "Technique & argot",
+      "definition": "Mise à jour ciblée; un message de déploiement n’indique pas toujours un numéro de version."
+    },
+    {
+      "en": "Patch",
+      "fr": "Patch / mise à jour",
+      "group": "Technique & argot",
+      "definition": "Ensemble de changements publié; le numéro et la note officielle sont la référence."
+    },
+    {
+      "en": "Client build",
+      "fr": "Build du client",
+      "group": "Technique & argot",
+      "definition": "Numéro de compilation installé; peut différer du numéro de notes de patch."
+    },
+    {
+      "en": "Server maintenance",
+      "fr": "Maintenance serveur",
+      "group": "Technique & argot",
+      "definition": "Intervention sur les serveurs, parfois avec indisponibilité ou temps de raid réduit."
+    },
+    {
+      "en": "Bug",
+      "fr": "Bug / anomalie",
+      "group": "Technique & argot",
+      "definition": "Comportement non prévu ou problème logiciel; un témoignage isolé ne prouve pas sa fréquence."
+    },
+    {
+      "en": "Workaround",
+      "fr": "Solution de contournement",
+      "group": "Technique & argot",
+      "definition": "Méthode temporaire pour éviter un problème; vérifier sa sûreté et son actualité."
+    },
+    {
+      "en": "Meta",
+      "fr": "Méta",
+      "group": "Technique & argot",
+      "definition": "Argot pour les armes, équipements ou stratégies jugés dominants par une partie des joueurs à une période donnée."
+    },
+    {
+      "en": "Min-maxing",
+      "fr": "Optimisation fine",
+      "group": "Technique & argot",
+      "definition": "Recherche d’une configuration optimisée selon un objectif précis."
+    },
+    {
+      "en": "Chad",
+      "fr": "Joueur très offensif/équipé",
+      "group": "Technique & argot",
+      "definition": "Argot communautaire pour un style agressif ou un équipement haut de gamme; sens non officiel."
+    },
+    {
+      "en": "Rat",
+      "fr": "Joueur prudent et discret",
+      "group": "Technique & argot",
+      "definition": "Argot pour un style évitant les combats ou privilégiant l’embuscade; pas une classe du jeu."
+    },
+    {
+      "en": "Ratting",
+      "fr": "Jeu prudent/discret",
+      "group": "Technique & argot",
+      "definition": "Style communautaire de progression discrète ou d’embuscade."
+    },
+    {
+      "en": "Head-eyes",
+      "fr": "Tête, yeux",
+      "group": "Technique & argot",
+      "definition": "Raccourci communautaire reprenant une zone d’impact affichée dans certains décès."
+    },
+    {
+      "en": "Leg meta",
+      "fr": "Méta des jambes",
+      "group": "Technique & argot",
+      "definition": "Stratégie communautaire consistant à viser des zones non protégées; efficacité dépend de la munition et du patch."
+    },
+    {
+      "en": "One-tap",
+      "fr": "Élimination en un tir",
+      "group": "Technique & argot",
+      "definition": "Argot pour une élimination provoquée par un seul tir; ne décrit pas une garantie."
+    },
+    {
+      "en": "Zero to hero",
+      "fr": "De zéro à héros",
+      "group": "Technique & argot",
+      "definition": "Expression pour commencer avec peu d’équipement et repartir avec du butin."
+    },
+    {
+      "en": "Shift-W",
+      "fr": "Shift-W",
+      "group": "Technique & argot",
+      "definition": "Argot pour avancer en courant de façon très agressive; ce n’est pas une mécanique nommée officiellement."
+    },
+    {
+      "en": "Gear fear",
+      "fr": "Peur de perdre son équipement",
+      "group": "Technique & argot",
+      "definition": "Expression communautaire pour l’hésitation à utiliser un équipement précieux."
+    },
+    {
+      "en": "Timmy",
+      "fr": "Débutant / joueur inexpérimenté",
+      "group": "Technique & argot",
+      "definition": "Argot souvent taquin pour un nouveau joueur; terme non officiel et parfois péjoratif."
+    },
+    {
+      "en": "Scuffed",
+      "fr": "Bancal / imparfait",
+      "group": "Technique & argot",
+      "definition": "Argot pour une situation ou un équipement qui semble dégradé, improvisé ou dysfonctionnel."
+    },
+    {
+      "en": "QoL",
+      "fr": "Quality of Life / confort de jeu",
+      "group": "Technique & argot",
+      "definition": "Étiquette pour des améliorations de confort d’interface ou de flux de jeu."
+    },
+    {
+      "en": "Rouble stack",
+      "fr": "Pile de roubles",
+      "group": "Technique & argot",
+      "definition": "Pile de monnaie dans l’inventaire; taille maximale peut être modifiée par le patch."
+    },
+    {
+      "en": "FIR status",
+      "fr": "Statut FIR",
+      "group": "Progression & économie",
+      "definition": "Abréviation de l’état « Found in Raid » affiché par le jeu."
+    },
+    {
+      "en": "Extraction camper",
+      "fr": "Campeur de sortie",
+      "group": "Technique & argot",
+      "definition": "Terme communautaire pour un joueur qui attend près d’une extraction."
+    },
+    {
+      "en": "Loot goblin",
+      "fr": "Accumuleur de butin",
+      "group": "Technique & argot",
+      "definition": "Argot pour un joueur qui ramasse beaucoup d’objets ou retarde le départ."
+    },
+    {
+      "en": "Budget kit",
+      "fr": "Kit économique",
+      "group": "Armes & combat",
+      "definition": "Configuration d’équipement pensée pour limiter le coût de remplacement."
+    },
+    {
+      "en": "Full kit",
+      "fr": "Équipement complet",
+      "group": "Armes & combat",
+      "definition": "Argot pour un équipement fourni; le contenu exact n’est pas standard."
+    },
+    {
+      "en": "Modding",
+      "fr": "Modification d’arme",
+      "group": "Armes & combat",
+      "definition": "Assemblage et réglage d’accessoires sur une arme."
+    },
+    {
+      "en": "Quick reload",
+      "fr": "Rechargement rapide",
+      "group": "Armes & combat",
+      "definition": "Raccourci pour une action de rechargement rapide; durée et contrôle selon l’arme."
+    },
+    {
+      "en": "Mag check",
+      "fr": "Vérification du chargeur",
+      "group": "Armes & combat",
+      "definition": "Action ou lecture permettant d’estimer le nombre de cartouches restantes."
+    },
+    {
+      "en": "Weapon handling",
+      "fr": "Maniement d’arme",
+      "group": "Armes & combat",
+      "definition": "Ensemble de comportements de manipulation, visée, rechargement et stabilité."
+    },
+    {
+      "en": "Stance",
+      "fr": "Posture",
+      "group": "Santé & équipement",
+      "definition": "Position ou hauteur du personnage, par exemple debout, accroupi ou couché."
+    },
+    {
+      "en": "Lean",
+      "fr": "Déport latéral",
+      "group": "Santé & équipement",
+      "definition": "Mouvement qui incline le personnage pour observer ou tirer autour d’un couvert."
+    },
+    {
+      "en": "Vaulting",
+      "fr": "Franchissement",
+      "group": "Raid & navigation",
+      "definition": "Action de franchir certains obstacles, selon la géométrie et les capacités du personnage."
+    },
+    {
+      "en": "Prone",
+      "fr": "Position couchée",
+      "group": "Santé & équipement",
+      "definition": "Posture où le personnage est allongé au sol."
+    },
+    {
+      "en": "Crouch",
+      "fr": "Accroupissement",
+      "group": "Santé & équipement",
+      "definition": "Posture basse utilisée pour réduire la silhouette ou le bruit selon le contexte."
+    },
+    {
+      "en": "VOIP",
+      "fr": "Voice over Internet Protocol / voix en ligne",
+      "group": "Technique & argot",
+      "definition": "Fonction permettant aux joueurs de parler via le réseau dans certaines situations."
+    },
+    {
+      "en": "Ragfair",
+      "fr": "Marché aux puces",
+      "group": "Progression & économie",
+      "definition": "Autre nom communautaire du Flea Market, dérivé de son nom russe."
+    },
+    {
+      "en": "Tarkov time",
+      "fr": "Heure de Tarkov",
+      "group": "Raid & navigation",
+      "definition": "Heure affichée en jeu, distincte de l’horloge réelle."
+    },
+    {
+      "en": "Offline mode",
+      "fr": "Mode hors ligne",
+      "group": "Modes & factions",
+      "definition": "Session locale d’entraînement; ne pas confondre avec l’installation communautaire SPT."
+    },
+    {
+      "en": "Server tick",
+      "fr": "Cycle serveur",
+      "group": "Technique & argot",
+      "definition": "Rythme auquel le serveur traite certaines mises à jour d’état; valeur officielle non fournie ici."
+    },
+    {
+      "en": "Network error",
+      "fr": "Erreur réseau",
+      "group": "Technique & argot",
+      "definition": "Erreur de communication entre client et service; reprendre les instructions du jeu et des canaux BSG."
+    },
+    {
+      "en": "Reconnect",
+      "fr": "Reconnexion",
+      "group": "Technique & argot",
+      "definition": "Tentative de retour à une session interrompue; fonctionnalités dépendent du patch déployé."
+    },
+    {
+      "en": "Flea ban",
+      "fr": "Restriction du Flea",
+      "group": "Progression & économie",
+      "definition": "Restriction ou bannissement d’accès au marché; motif et durée doivent être vérifiés dans le message du jeu."
+    },
+    {
+      "en": "Airdrop",
+      "fr": "Ravitaillement aérien",
+      "group": "Raid & navigation",
+      "definition": "Conteneur ou largage signalé pendant une partie; contenu et risque ne sont pas garantis."
+    },
+    {
+      "en": "Keycard",
+      "fr": "Carte d’accès",
+      "group": "Progression & économie",
+      "definition": "Objet utilisé pour certains accès verrouillés; portes et conditions dépendent de la carte."
+    },
+    {
+      "en": "Marked room",
+      "fr": "Salle marquée",
+      "group": "Raid & navigation",
+      "definition": "Pièce verrouillée associée à une clé ou à du butin; résultat aléatoire et patch-sensible."
+    },
+    {
+      "en": "Key spawn",
+      "fr": "Apparition de clé",
+      "group": "Raid & navigation",
+      "definition": "Emplacement où une clé peut apparaître; cartes communautaires peuvent être incomplètes."
+    },
+    {
+      "en": "Quest key",
+      "fr": "Clé de tâche",
+      "group": "Progression & économie",
+      "definition": "Clé nécessaire pour entrer dans un lieu ou valider une tâche."
+    },
+    {
+      "en": "Tactical map",
+      "fr": "Carte tactique",
+      "group": "Raid & navigation",
+      "definition": "Représentation des lieux ou objectifs; carte externe non officielle à recouper en raid."
+    },
+    {
+      "en": "Map layer",
+      "fr": "Couche de carte",
+      "group": "Raid & navigation",
+      "definition": "Groupe de marqueurs activable sur une carte interactive."
+    },
+    {
+      "en": "Marker",
+      "fr": "Marqueur cartographique",
+      "group": "Raid & navigation",
+      "definition": "Repère placé sur une carte communautaire; ne prouve pas un point d’apparition actif."
+    }
+  ]
+}

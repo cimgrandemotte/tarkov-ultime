@@ -1,0 +1,89 @@
+<section class="guide-section map-section" id="mode" tabindex="-1" aria-labelledby="map-mode-title">
+  <div class="guide-section__heading">
+    <p class="guide-kicker"><span>01</span> Données du raid</p>
+    <h2 id="map-mode-title">Joueurs, durée et variantes par mode</h2>
+    <p>Snapshot Tarkov.dev du [[SNAPSHOT_DATE]]. Ce sont des métadonnées d’export, pas une confirmation de disponibilité pour votre compte ou votre raid.</p>
+  </div>
+  [[INTERACTIVE_TOOLS]]
+  <div class="map-mode-controls" role="group" aria-label="Choisir le mode pour le résumé" data-map-mode-switch hidden>[[MODE_BUTTONS]]</div>
+  <div class="map-mode-panels">[[MODE_PANELS]]</div>
+  <div class="map-table-wrap" role="region" aria-label="Tableau des métadonnées d’export par mode" tabindex="0">
+    <table class="map-data-table">
+      <caption>Valeurs conservées dans les trois exports, avec les écarts de source signalés</caption>
+      <thead><tr><th scope="col">Export</th><th scope="col">Joueurs</th><th scope="col">Durée API</th><th scope="col">Entrées d’extraction API</th></tr></thead>
+      <tbody>[[MODE_ROWS]]</tbody>
+    </table>
+  </div>
+  <p class="map-smallprint"><strong>Important.</strong> `extractEntries` compte des objets de données, pas des sorties actives. Les conditions, factions, prix, fenêtres et états de bouton doivent être lus dans la liste du raid.</p>
+  [[VARIANT_SECTION]]
+</section>
+
+<section class="guide-section map-section" id="acces" tabindex="-1" aria-labelledby="map-access-title">
+  <div class="guide-section__heading">
+    <p class="guide-kicker"><span>02</span> Accès et modes</p>
+    <h2 id="map-access-title">[[ACCESS_TITLE]]</h2>
+    <p>[[ACCESS_TEXT]] <span class="guide-cite">[[ACCESS_CITATION]]</span></p>
+  </div>
+  <div class="map-proof-strip" aria-label="Légende des niveaux de preuve">
+    <span class="map-proof map-proof--snapshot">Données · export daté</span>
+    <span class="map-proof map-proof--community">Wiki / outil communautaire</span>
+    <span class="map-proof map-proof--client">À vérifier dans le raid</span>
+  </div>
+  <div class="guide-callout map-warning"><strong>Une carte listée n’est pas forcément ouverte.</strong><p>La présence d’un identifiant dans une API ne valide pas la sélection du lieu, l’accès du compte, la disponibilité d’une sortie ou l’état du monde en direct.</p></div>
+</section>
+
+<section class="guide-section map-section" id="reperes" tabindex="-1" aria-labelledby="map-landmarks-title">
+  <div class="guide-section__heading">
+    <p class="guide-kicker"><span>03</span> Lecture du terrain</p>
+    <h2 id="map-landmarks-title">Repères avant le premier contact</h2>
+    <p>Les étiquettes ci-dessous sont des noms à reconnaître, pas des positions ni un itinéraire à l’échelle.</p>
+  </div>
+  <figure class="map-anchor-figure">
+    <div class="map-anchor-figure__top"><span class="map-anchor-figure__mark" aria-hidden="true">N</span><p>Repères cités dans les sources communautaires ou le plan éditorial</p></div>
+    <ul class="map-anchor-list">[[LANDMARKS]]</ul>
+    <figcaption>Schéma éditorial non géographique · ne sert pas à naviguer ni à déduire une coordonnée.</figcaption>
+  </figure>
+  <div class="map-risk-grid"><h3>Ce qui change la lecture</h3><ul>[[RISKS]]</ul></div>
+</section>
+
+[[BOSSES]]
+
+<section class="guide-section map-section" id="extractions" tabindex="-1" aria-labelledby="map-extract-title">
+  <div class="guide-section__heading">
+    <p class="guide-kicker"><span>05</span> Sorties et conditions</p>
+    <h2 id="map-extract-title">[[EXIT_TITLE]]</h2>
+    <p>[[EXIT_TEXT]]</p>
+  </div>
+  [[EXIT_CARDS]]
+  <figure class="map-exit-check" aria-labelledby="map-exit-check-title">
+    <figcaption id="map-exit-check-title">Lecture de secours · avant de quitter un repère</figcaption>
+    <ol>
+      <li><span>01</span><strong>Filiation</strong><small>PMC, Scav, partagé ou coop tel qu’affiché.</small></li>
+      <li><span>02</span><strong>Condition</strong><small>Objet, clé, levier, paiement, signal ou horaire.</small></li>
+      <li><span>03</span><strong>État</strong><small>Ouverture, compte à rebours et confirmation du raid.</small></li>
+    </ol>
+    <p>Ce schéma ne remplace pas le menu d’extractions ; les conditions varient selon la carte, le profil et le raid.</p>
+  </figure>
+</section>
+
+<section class="guide-section map-section" id="parcours" tabindex="-1" aria-labelledby="map-route-title">
+  <div class="guide-section__heading">
+    <p class="guide-kicker"><span>06</span> Itinéraire de préparation</p>
+    <h2 id="map-route-title">Un plan simple pour apprendre la carte</h2>
+  </div>
+  <div class="guide-callout map-route-advice"><p>[[ROUTE_ADVICE]]</p>[[ROUTE_ADVICE_CITATION]]</div>
+  <div class="map-route-steps" aria-label="Méthode de préparation">
+    <article><span>01</span><h3>Choisir</h3><p>Vérifiez le mode et la variante avant de comparer une durée ou un accès.</p></article>
+    <article><span>02</span><h3>Repérer</h3><p>Reliez un lieu nommé à une zone, un étage ou un axe que vous pouvez identifier.</p></article>
+    <article><span>03</span><h3>Revenir</h3><p>Contrôlez votre sortie et son état au début du raid ; gardez une option de secours.</p></article>
+  </div>
+</section>
+
+<section class="guide-section map-section" id="transits" tabindex="-1" aria-labelledby="map-transit-title">
+  <div class="guide-section__heading">
+    <p class="guide-kicker"><span>07</span> Transits</p>
+    <h2 id="map-transit-title">Passer à un autre lieu n’est pas extraire</h2>
+    <p>Chaque ligne ci-dessous porte son niveau de preuve. Le réseau est partiel : les transitions non vérifiées ne sont pas dessinées.</p>
+  </div>
+  [[TRANSITS]]
+</section>

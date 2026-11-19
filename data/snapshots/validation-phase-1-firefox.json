@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "status": "VALIDE",
+  "browser": "Firefox 159.0",
+  "checkedAt": "2026-11-18T12:57:27.630Z",
+  "viewportCssPx": 390,
+  "checks": [
+    "reflow",
+    "recherche avec accents",
+    "Échap et restitution du focus",
+    "filtres",
+    "comparateur",
+    "audio opt-in et pause"
+  ]
+}

@@ -1,0 +1,480 @@
+{
+  "schema_version": 1,
+  "title": "Référence compétences et Flea — instantané de recherche PHASE_8",
+  "retrieved_at_utc": "2026-11-19T08:39:24Z",
+  "retrieved_at_europe_paris": "2026-11-19T09:39:24+01:00",
+  "scope": "Métadonnées sans cours/prix : identifiants de compétences, règles statiques déclarées pour le Flea et provenance HTTP. Aucun cours de marché n’est figé dans le site.",
+  "source": {
+    "name": "Tarkov.dev JSON API",
+    "classification": "agrégation communautaire, non officielle Battlestate Games",
+    "endpoint_catalog": "https://json.tarkov.dev/endpoints",
+    "api_documentation": "https://tarkov.dev/api/",
+    "note": "Tarkov.dev indique agréger des données provenant notamment de Tarkov Changes, du wiki, de dépôts et de contributeurs/scanners. Les valeurs et les prix peuvent évoluer; l’interface du client fait autorité."
+  },
+  "modes": {
+    "regular": {
+      "endpoint": "https://json.tarkov.dev/regular/items",
+      "http_status": 200,
+      "last_modified": "Thu, 19 Nov 2026 08:30:23 GMT",
+      "etag": "\"ad5785bca0f4bfc06ff157b0c8165394\"",
+      "bytes": 17346580,
+      "sha256": "f5fb3ba55026576013dc3369e41d1d67b0bbd3c7828cb95e9689755d373754b5",
+      "flea_market": {
+        "name": "FleaMarket",
+        "normalizedName": "flea-market",
+        "minPlayerLevel": 15,
+        "enabled": true,
+        "sellOfferFeeRate": 0.05,
+        "sellRequirementFeeRate": 0.05,
+        "foundInRaidRequired": false,
+        "reputationLevels": 13
+      },
+      "skill_count": 49,
+      "skill_ids": [
+        "AimDrills",
+        "Assault",
+        "AttachedLauncher",
+        "Attention",
+        "Auctions",
+        "BearAksystems",
+        "BearAssaultoperations",
+        "BearAuthority",
+        "BearHeavycaliber",
+        "BearRawpower",
+        "Charisma",
+        "Cleanoperations",
+        "CovertMovement",
+        "Crafting",
+        "DMR",
+        "Endurance",
+        "FieldMedicine",
+        "FirstAid",
+        "HMG",
+        "Health",
+        "HeavyVests",
+        "HideoutManagement",
+        "Immunity",
+        "Intellect",
+        "LMG",
+        "Launcher",
+        "LightVests",
+        "Lockpicking",
+        "MagDrills",
+        "Melee",
+        "Metabolism",
+        "NightOps",
+        "Perception",
+        "Pistol",
+        "Revolver",
+        "SMG",
+        "Search",
+        "Shadowconnections",
+        "Shotgun",
+        "SilentOps",
+        "Sniper",
+        "Strength",
+        "StressResistance",
+        "Surgery",
+        "Taskperformance",
+        "Throwing",
+        "TroubleShooting",
+        "Vitality",
+        "WeaponTreatment"
+      ],
+      "mastering_count": 82
+    },
+    "pve": {
+      "endpoint": "https://json.tarkov.dev/pve/items",
+      "http_status": 200,
+      "last_modified": "Thu, 19 Nov 2026 08:30:42 GMT",
+      "etag": "\"4bda56c85de69234bc6789a4cc36b5e2\"",
+      "bytes": 17276620,
+      "sha256": "bdc6c72872c4a4caa3ad4dfc8d6c57f0c76c7dc17da310b8ee1efb18cbea637d",
+      "flea_market": {
+        "name": "FleaMarket",
+        "normalizedName": "flea-market",
+        "minPlayerLevel": 15,
+        "enabled": true,
+        "sellOfferFeeRate": 0.05,
+        "sellRequirementFeeRate": 0.05,
+        "foundInRaidRequired": false,
+        "reputationLevels": 13
+      },
+      "skill_count": 49,
+      "skill_ids": [
+        "AimDrills",
+        "Assault",
+        "AttachedLauncher",
+        "Attention",
+        "Auctions",
+        "BearAksystems",
+        "BearAssaultoperations",
+        "BearAuthority",
+        "BearHeavycaliber",
+        "BearRawpower",
+        "Charisma",
+        "Cleanoperations",
+        "CovertMovement",
+        "Crafting",
+        "DMR",
+        "Endurance",
+        "FieldMedicine",
+        "FirstAid",
+        "HMG",
+        "Health",
+        "HeavyVests",
+        "HideoutManagement",
+        "Immunity",
+        "Intellect",
+        "LMG",
+        "Launcher",
+        "LightVests",
+        "Lockpicking",
+        "MagDrills",
+        "Melee",
+        "Metabolism",
+        "NightOps",
+        "Perception",
+        "Pistol",
+        "Revolver",
+        "SMG",
+        "Search",
+        "Shadowconnections",
+        "Shotgun",
+        "SilentOps",
+        "Sniper",
+        "Strength",
+        "StressResistance",
+        "Surgery",
+        "Taskperformance",
+        "Throwing",
+        "TroubleShooting",
+        "Vitality",
+        "WeaponTreatment"
+      ],
+      "mastering_count": 82
+    },
+    "pvp-season": {
+      "endpoint": "https://json.tarkov.dev/pvp-season/items",
+      "http_status": 200,
+      "last_modified": "Thu, 19 Nov 2026 08:31:01 GMT",
+      "etag": "\"3c8619f04034528cb64b087053779469\"",
+      "bytes": 17125073,
+      "sha256": "560355c2bfbce159b120ddd486fae16cd82647d43bc9f37941f7928869d08a49",
+      "flea_market": {
+        "name": "FleaMarket",
+        "normalizedName": "flea-market",
+        "minPlayerLevel": 15,
+        "enabled": true,
+        "sellOfferFeeRate": 0.05,
+        "sellRequirementFeeRate": 0.05,
+        "foundInRaidRequired": false,
+        "reputationLevels": 13
+      },
+      "skill_count": 49,
+      "skill_ids": [
+        "AimDrills",
+        "Assault",
+        "AttachedLauncher",
+        "Attention",
+        "Auctions",
+        "BearAksystems",
+        "BearAssaultoperations",
+        "BearAuthority",
+        "BearHeavycaliber",
+        "BearRawpower",
+        "Charisma",
+        "Cleanoperations",
+        "CovertMovement",
+        "Crafting",
+        "DMR",
+        "Endurance",
+        "FieldMedicine",
+        "FirstAid",
+        "HMG",
+        "Health",
+        "HeavyVests",
+        "HideoutManagement",
+        "Immunity",
+        "Intellect",
+        "LMG",
+        "Launcher",
+        "LightVests",
+        "Lockpicking",
+        "MagDrills",
+        "Melee",
+        "Metabolism",
+        "NightOps",
+        "Perception",
+        "Pistol",
+        "Revolver",
+        "SMG",
+        "Search",
+        "Shadowconnections",
+        "Shotgun",
+        "SilentOps",
+        "Sniper",
+        "Strength",
+        "StressResistance",
+        "Surgery",
+        "Taskperformance",
+        "Throwing",
+        "TroubleShooting",
+        "Vitality",
+        "WeaponTreatment"
+      ],
+      "mastering_count": 82
+    }
+  },
+  "skills": [
+    {
+      "id": "AimDrills",
+      "slug": "aim-drills",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Aim_Drills"
+    },
+    {
+      "id": "Assault",
+      "slug": "assault-rifles",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Assault_Rifles"
+    },
+    {
+      "id": "AttachedLauncher",
+      "slug": "underbarrel-launchers",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Underbarrel_Launchers"
+    },
+    {
+      "id": "Attention",
+      "slug": "attention",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Attention"
+    },
+    {
+      "id": "Auctions",
+      "slug": "auctions",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Auctions"
+    },
+    {
+      "id": "BearAksystems",
+      "slug": "bear-ak-systems",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/BEAR_AK_Systems"
+    },
+    {
+      "id": "BearAssaultoperations",
+      "slug": "bear-assault-operations",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/BEAR_Assault_Operations"
+    },
+    {
+      "id": "BearAuthority",
+      "slug": "bear-authority",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/BEAR_Authority"
+    },
+    {
+      "id": "BearHeavycaliber",
+      "slug": "bear-heavy-caliber",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/BEAR_Heavy_Caliber"
+    },
+    {
+      "id": "BearRawpower",
+      "slug": "bear-raw-power",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/BEAR_Raw_Power"
+    },
+    {
+      "id": "Charisma",
+      "slug": "charisma",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Charisma"
+    },
+    {
+      "id": "Cleanoperations",
+      "slug": "clean-operations",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Clean_Operations"
+    },
+    {
+      "id": "CovertMovement",
+      "slug": "covert-movement",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Covert_Movement"
+    },
+    {
+      "id": "Crafting",
+      "slug": "crafting",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Crafting"
+    },
+    {
+      "id": "DMR",
+      "slug": "dmrs",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/DMRs"
+    },
+    {
+      "id": "Endurance",
+      "slug": "endurance",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Endurance"
+    },
+    {
+      "id": "FieldMedicine",
+      "slug": "field-medicine",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Field_Medicine"
+    },
+    {
+      "id": "FirstAid",
+      "slug": "first-aid",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/First_Aid"
+    },
+    {
+      "id": "HMG",
+      "slug": "heavy-machine-guns",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Heavy_Machine_Guns"
+    },
+    {
+      "id": "Health",
+      "slug": "health",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Health"
+    },
+    {
+      "id": "HeavyVests",
+      "slug": "heavy-vests",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Heavy_Vests"
+    },
+    {
+      "id": "HideoutManagement",
+      "slug": "hideout-management",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Hideout_Management"
+    },
+    {
+      "id": "Immunity",
+      "slug": "immunity",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Immunity"
+    },
+    {
+      "id": "Intellect",
+      "slug": "intellect",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Intellect"
+    },
+    {
+      "id": "LMG",
+      "slug": "light-machine-guns",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Light_Machine_Guns"
+    },
+    {
+      "id": "Launcher",
+      "slug": "grenade-launchers",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Grenade_Launchers"
+    },
+    {
+      "id": "LightVests",
+      "slug": "light-vests",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Light_Vests"
+    },
+    {
+      "id": "Lockpicking",
+      "slug": "lockpicking",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Lockpicking"
+    },
+    {
+      "id": "MagDrills",
+      "slug": "mag-drills",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Mag_Drills"
+    },
+    {
+      "id": "Melee",
+      "slug": "melee",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Melee"
+    },
+    {
+      "id": "Metabolism",
+      "slug": "metabolism",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Metabolism"
+    },
+    {
+      "id": "NightOps",
+      "slug": "night-ops",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Night_Ops"
+    },
+    {
+      "id": "Perception",
+      "slug": "perception",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Perception"
+    },
+    {
+      "id": "Pistol",
+      "slug": "pistols",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Pistols"
+    },
+    {
+      "id": "Revolver",
+      "slug": "revolvers",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Revolvers"
+    },
+    {
+      "id": "SMG",
+      "slug": "submachine-guns",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Submachine_Guns"
+    },
+    {
+      "id": "Search",
+      "slug": "search",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Search"
+    },
+    {
+      "id": "Shadowconnections",
+      "slug": "shadow-connections",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Shadow_Connections"
+    },
+    {
+      "id": "Shotgun",
+      "slug": "shotguns",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Shotguns"
+    },
+    {
+      "id": "SilentOps",
+      "slug": "silent-ops",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Silent_Ops"
+    },
+    {
+      "id": "Sniper",
+      "slug": "bolt-action-rifles",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Bolt-action_Rifles"
+    },
+    {
+      "id": "Strength",
+      "slug": "strength",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Strength"
+    },
+    {
+      "id": "StressResistance",
+      "slug": "stress-resistance",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Stress_Resistance"
+    },
+    {
+      "id": "Surgery",
+      "slug": "surgery",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Surgery"
+    },
+    {
+      "id": "Taskperformance",
+      "slug": "task-performance",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Task_Performance"
+    },
+    {
+      "id": "Throwing",
+      "slug": "throwables",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Throwables"
+    },
+    {
+      "id": "TroubleShooting",
+      "slug": "troubleshooting",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Troubleshooting"
+    },
+    {
+      "id": "Vitality",
+      "slug": "vitality",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Vitality"
+    },
+    {
+      "id": "WeaponTreatment",
+      "slug": "weapon-maintenance",
+      "wiki_url": "https://escapefromtarkov.fandom.com/wiki/Weapon_Maintenance"
+    }
+  ],
+  "comparisons": {
+    "skill_id_sets_identical": true,
+    "flea_settings_identical": true
+  }
+}

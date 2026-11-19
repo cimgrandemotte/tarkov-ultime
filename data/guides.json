@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-18T14:36:42+01:00",
+  "pages": [
+    {
+      "kind": "starter",
+      "file": "pages/getting-started.html",
+      "route": "pages/getting-started.html",
+      "code": "G–01",
+      "label": "Guide du débutant",
+      "short": "Débuter",
+      "heading": "Réussir son premier raid",
+      "title": "Guide du débutant : premier raid | Tarkov Ultimate Guide",
+      "description": "Débutez dans Escape from Tarkov : tutoriel et Tour, profils PMC et Scav, premier raid en 10 étapes, soins, extractions, raccourcis et 24 réponses utiles.",
+      "lead": "Choisissez un profil, préparez un kit que vous pouvez remplacer et apprenez à rentrer. De l’écran de départ au rangement du butin, voici quoi faire à chaque étape.",
+      "note": "Escape from Tarkov officiel · PvP, Seasonal et PvE",
+      "image": "images/beginners/first-deployment.jpg",
+      "imageAlt": "Un personnage range son sac près d’une carte, dans une planque éclairée par une lampe",
+      "imageCaption": "Illustration · avant le départ",
+      "neighborBlurb": "Le cycle du raid expliqué en dix étapes, avec des repères pour choisir un profil, se soigner et trouver une sortie.",
+      "primary": ["etapes", "Voir les 10 étapes"],
+      "secondary": ["profils", "Choisir mon mode"],
+      "quick": [
+        ["profils", "01", "Avant de jouer", "Choisir un profil"],
+        ["checklist", "02", "Avant le raid", "Cocher mon kit"],
+        ["extraction", "03", "Dans le raid", "Lire les sorties"]
+      ],
+      "toc": [
+        ["profils", "Profils et tutoriel"], ["etapes", "Les 10 étapes"], ["extraction", "Extraction et bilan"], ["sante", "Santé en jeu"], ["commandes", "Commandes et réglages"], ["faq", "Questions fréquentes"], ["sources", "Sources"]
+      ],
+      "sourceNote": "Référence : patch 1.3.0.0. Le correctif du 13/11 est confirmé par BSG ; le build 1.3.0.2.48779 vient du wiki. Le client n’a pas été testé : l’écran du raid et les conditions affichées sur votre profil priment sur les guides.",
+      "sources": ["patch130", "hotfix-13nov", "patch110", "game-modes", "tour", "ground-zero", "how-to-play", "scavs-mode", "insurance", "seasons-wiki", "wiki-controls", "fir", "health", "medical", "tracker190", "yt-beginner-pve"]
+    },
+    {
+      "kind": "lore",
+      "file": "pages/lore/index.html",
+      "route": "pages/lore/",
+      "code": "D–01",
+      "label": "Lore & univers de Tarkov",
+      "short": "Lore et univers",
+      "heading": "Tarkov, une ville sous blocus",
+      "title": "Lore de Tarkov : Norvinsk et les factions | Tarkov Ultimate Guide",
+      "description": "Découvrez Norvinsk, TerraGroup, USEC, BEAR et les Scavs. Suivez la chronologie des Contract Wars à la campagne d’Escape from Tarkov, sans spoilers par défaut.",
+      "lead": "Comment une zone économique est-elle devenue une ville coupée du monde ? Suivez les factions, les lieux et la chronologie. Les révélations de la campagne restent fermées par défaut.",
+      "note": "Synopsis et film officiels · chapitres recoupés avec le wiki",
+      "image": "images/lore/norvinsk-bay.jpg",
+      "imageAlt": "Vue au crépuscule sur une ville portuaire fictive, des grues et les lumières d’une baie de Norvinsk",
+      "imageCaption": "Illustration · baie de Norvinsk",
+      "neighborBlurb": "L’histoire de Norvinsk, le rôle des factions et les liens entre les lieux du jeu et sa campagne.",
+      "primary": ["chronologie", "Lire la chronologie"],
+      "secondary": ["factions", "Identifier les factions"],
+      "quick": [
+        ["norvinsk", "01", "Le cadre", "Norvinsk et TerraGroup"],
+        ["factions", "02", "Les acteurs", "USEC, BEAR et Scavs"],
+        ["chapitres", "03", "Le récit", "Les lieux de la campagne"]
+      ],
+      "toc": [
+        ["norvinsk", "La région de Norvinsk"], ["factions", "Les factions"], ["chronologie", "La chronologie"], ["chapitres", "Lieux et chapitres"], ["revelations", "Révélations masquées"], ["sources", "Sources"]
+      ],
+      "sourceNote": "Le synopsis et Raid établissent le cadre officiel. Le wiki recense les intitulés et les embranchements ; les liens les plus révélateurs sont dans le bloc fermé. Les illustrations ne représentent pas des traces ou documents du jeu.",
+      "sources": ["lore-officiel", "raid-film", "steam", "wiki-maps", "story-chapters", "tour", "patch105", "boreas-social", "rogues-lore", "black-division-lore"]
+    }
+  ],
+  "search": [
+    {"title":"Guide du débutant : le premier raid","href":"pages/getting-started.html","tag":"Débutants","summary":"Choisissez votre profil, préparez le kit et rentrez avec le butin.","keywords":["débuter","nouveau joueur","tutoriel","survie"]},
+    {"title":"Lore et univers de Tarkov","href":"pages/lore/","tag":"Lore","summary":"Norvinsk, la crise de TerraGroup et les premières pistes de la campagne.","keywords":["histoire","univers","lore","TerraGroup","Norvinsk","sans spoilers"]},
+    {"title":"Profils, PMC ou Scav et tutoriel","href":"pages/getting-started.html#profils","tag":"Débutants","summary":"PvP permanent, Seasonal, PvE officiel et entraînement. Quand consulter Tour ?","keywords":["Tour","tutoriel","USEC","BEAR","Ground Zero","Scav","PMC","PvE"]},
+    {"title":"Les 10 étapes du premier raid","href":"pages/getting-started.html#etapes","tag":"Débutants","summary":"De la préparation à la réserve : un objectif, une sortie, puis le bilan.","keywords":["raid","routine","planque","stash","deploiement"]},
+    {"title":"Checklist de raid","href":"pages/getting-started.html#checklist","tag":"Débutants","summary":"Vérifiez le profil, le kit, les soins, les commandes, l’objectif et la sortie de secours.","keywords":["check-list","checklist locale","avant le raid","préparation"]},
+    {"title":"Extraction, Survived et Found in Raid","href":"pages/getting-started.html#extraction","tag":"Débutants","summary":"Lire une extraction, distinguer Run Through et vérifier la coche FIR.","keywords":["exfil","extraction","transit","FIR","found in raid","Run Through","MIA"]},
+    {"title":"Santé du PMC et soins en jeu","href":"pages/getting-started.html#sante","tag":"Débutants","summary":"Saignements, fracture, zone à zéro PV et objets de soin.","keywords":["santé","soins","fracture","saignement lourd","attelle","CMS","Surv12"]},
+    {"title":"Commandes du joueur et clavier AZERTY","href":"pages/getting-started.html#commandes","tag":"Débutants","summary":"Touches par défaut pour inventaire, interaction, soins rapides et extractions.","keywords":["clavier","raccourcis","AZERTY","O deux fois","Tab","assignation"]},
+    {"title":"FAQ du guide du débutant","href":"pages/getting-started.html#faq","tag":"Débutants","summary":"Vingt-quatre réponses sur les profils, l’équipement, le butin et la progression.","keywords":["FAQ","questions fréquentes","aide débutant"]},
+    {"title":"Que faire si une carte est verrouillée ?","href":"pages/getting-started.html#faq-carte","tag":"Débutants","summary":"Lisez la condition dans Tour et vérifiez que vous êtes sur le bon profil.","keywords":["route unknown","Tour","accès carte","itinéraire inconnu","Ground Zero"]},
+    {"title":"Norvinsk et TerraGroup","href":"pages/lore/#norvinsk","tag":"Lore","summary":"La zone économique, le scandale et l’isolement de la ville fictive.","keywords":["TerraGroup","Norvinsk","blocus","port","baie","zone économique"]},
+    {"title":"Factions : USEC, BEAR et Scavs","href":"pages/lore/#factions","tag":"Lore","summary":"À qui répondent les opérateurs, et qui intervient dans la crise ?","keywords":["USEC","BEAR","Scavs","Rogues","Black Division","UNTAR","factions"]},
+    {"title":"Des Contract Wars à la version 1.0","href":"pages/lore/#chronologie","tag":"Lore","summary":"Les étapes du récit et les vraies dates de publication, sur deux calendriers.","keywords":["chronologie","Contract Wars","Raid","dates","2015","Hired Ops"]},
+    {"title":"Scénario : lieux et chapitres","href":"pages/lore/#chapitres","tag":"Lore","summary":"Du quartier de Ground Zero au navire d’Icebreaker, sans détailler les fins.","keywords":["Icebreaker","Boreas","Tour","Blue Fire","campagne","scénario"]}
+  ],
+  "steps": [
+    ["Pré-raid", "Vérifier le profil", "Permanent, Seasonal, PvE ou entraînement ? Sur un nouveau profil, suivez le tutoriel s’il est proposé. En raid ordinaire, prenez une carte déjà accessible."],
+    ["Pré-raid", "Choisir un objectif", "Une reconnaissance ou une tâche. Lisez son libellé : visiter un lieu, en sortir vivant et remettre un objet FIR sont des conditions différentes."],
+    ["Pré-raid", "Prendre un kit remplaçable", "Dans l’inventaire du jeu, vérifiez la compatibilité des chargeurs et munitions. Prévoyez des soins contre les deux types de saignement, une protection si disponible et de la place pour le butin."],
+    ["Pré-raid", "Vérifier santé et commandes", "Vérifiez PV, énergie et hydratation du PMC. Assignez les soins accessibles aux touches rapides, puis mémorisez deux repères de la carte et une deuxième sortie possible."],
+    ["Raid", "Se situer au départ", "Identifiez un repère : façade, carrefour ou panneau. Affichez temps et extractions avec O deux fois (par défaut). Changez de route si la sortie prévue n’est pas dans votre liste."],
+    ["Raid", "Aller à l’objectif", "En jeu, arrêtez-vous pour écouter et recaler votre itinéraire. Si un passage est occupé, décalez votre route ou renoncez à l’objectif : vous n’avez pas à courir après chaque tir entendu."],
+    ["Raid", "Trier et vérifier son état", "Gardez de la place pour l’objet recherché ou les ressources utiles à une tâche. Si vous êtes blessé, mettez votre personnage à couvert avant d’ouvrir Santé et choisissez le soin selon l’état affiché."],
+    ["Extraction", "Vérifier la condition de sortie", "Sortie simple, véhicule, signal, coopération ou autre condition : lisez la liste. Entrez dans la bonne zone, attendez le compteur de sortie et ne confondez pas extraction et transit."],
+    ["Bilan", "Lire le résultat du raid", "Vérifiez le statut, les objectifs validés et l’XP. Si vous jouiez Scav, transférez le butin vers la réserve avant de quitter l’écran de transfert, ou choisissez de vendre ce dont vous ne voulez pas."],
+    ["Réserve", "Ranger et noter un repère", "Dans le stash, vérifiez la coche FIR et gardez les objets d’une tâche proche. Préparez le prochain kit, puis notez une sortie trouvée ou un point où vous vous êtes perdu."]
+  ],
+  "checklist": [
+    ["profile", "Bon profil et bonne carte", "J’ai vérifié le mode et les accès dans le client."],
+    ["goal", "Un objectif pour ce raid", "Je sais si je dois visiter, extraire ou remettre un objet."],
+    ["loadout", "Un kit remplaçable", "Chargeurs compatibles, protection et place dans le sac."],
+    ["medical", "État du PMC et soins", "PV, énergie, hydratation et soin adapté à chaque saignement."],
+    ["keys", "Commandes vérifiées", "Interactions, inventaire, touches rapides et liste des sorties."],
+    ["exit", "Sortie et plan de repli", "Deux repères et une autre sortie possible, à confirmer en raid."]
+  ],
+  "faq": [
+    {
+      "id": "demarrer", "label": "Modes et déblocages",
+      "items": [
+        ["quel-mode", "Quel profil choisir pour commencer ?", "Si vous voulez apprendre contre l’IA et avez accès au PvE officiel, c’est une option avec progression séparée. Pour découvrir la boucle sans enjeu, choisissez l’entraînement sur une carte disponible. Prenez le permanent si vous voulez jouer en PvP sans recommencer à chaque saison.", "PvE PvP Seasonal practice"],
+        ["practice", "L’entraînement rend-il du butin ou de l’XP ?", "Non. Les objets, l’XP et les objectifs de la session d’entraînement ne sont pas conservés. Un raid PvE officiel peut être calculé sur votre ordinateur en solo et conserver votre progression : « local » ne veut pas dire « entraînement ».", "offline local coop pratique progression"],
+        ["coop", "Est-ce que l’entraînement en groupe est la même chose que le PvE coop ?", "Non. Cherchez l’option d’entraînement coop avant le départ et vérifiez vos droits si elle manque. La possession du PvE officiel ne permet pas à elle seule de conclure que cette option existe sur le profil. Un raid coop PvE est un vrai raid, avec progression et pertes possibles.", "co-op amis edition offline"],
+        ["tutoriel", "Je ne trouve pas le tutoriel : dois-je réinitialiser mon profil ?", "Non. Cherchez l’introduction ou l’étape en cours dans l’onglet de l’histoire, selon le profil sélectionné. Le wiki décrit le tutoriel sur un profil qui démarre ; il ne garantit pas une commande pour le rejouer. Si vous voulez seulement apprendre les commandes, essayez l’entraînement.", "Tour Ground Zero nouveau profil reset"],
+        ["carte", "Pourquoi une carte affiche-t-elle « Route unknown » ?", "Vérifiez que vous êtes sur le bon profil et ouvrez le chapitre Tour dans l’onglet de l’histoire. Le marchand ou l’objectif affiché peut débloquer la destination. Une liste d’accès d’avant la 1.0 ou un guide d’un autre mode ne permet pas de déduire votre prérequis.", "carte verrouillée accès itinéraire inconnu Tour Ground Zero"],
+        ["ground-zero", "Puis-je jouer sur Ground Zero avec un ami de niveau 21 ou plus ?", "Le wiki distingue le matchmaking PvP jusqu’au niveau 20 et à partir du niveau 21, sur la base du niveau le plus élevé dans le groupe. Vérifiez la variante affichée avant de partir. Ne déduisez pas de ces paliers la composition d’une session PvE ni sa difficulté.", "matchmaking débutants niveau joueur 20 21 Seasonal"]
+      ]
+    },
+    {
+      "id": "kit", "label": "Personnage et équipement",
+      "items": [
+        ["usec-bear", "USEC ou BEAR : qu’est-ce que cela change ?", "Selon la faction, les voix, les tenues et le kit de départ changent, ainsi que certaines interactions. Le matériel de départ ne fixe pas votre équipement pour la suite. Si vous débutez, prenez surtout la voix et l’apparence qui vous conviennent.", "faction personnage PMC démarrage"],
+        ["scav", "Quand privilégier un raid Scav ?", "Quand vous voulez récupérer des objets ou reconnaître une carte sans risquer le kit de votre PMC. Vous recevez un kit et n’avez pas forcément les mêmes sorties que le PMC. Si vous survivez, pensez au transfert avant de quitter l’écran d’après-raid.", "karma kit loot réserve équipement"],
+        ["fence", "Que signifie la réputation auprès de Fence ?", "C’est le « karma Scav ». Elle influe notamment sur le délai avant de rejouer Scav et sur ses conditions de raid. Traitez les autres Scavs comme des personnages dont vous ne connaissez pas le statut : agresser un Scav non hostile peut coûter de la réputation.", "karma cooldown réputation punition Scav"],
+        ["equipement", "Faut-il acheter un kit coûteux avant le premier raid ?", "Non. Commencez avec un kit dont vous pouvez absorber la perte. Vérifiez le calibre et la compatibilité des objets dans l’interface, emportez des soins, puis gardez une place libre dans le sac. Une liste d’achats copiée d’un autre mode ne garantit ni les prix ni les offres.", "compatibilité kit magasin équipement édition"],
+        ["assurance", "L’assurance me rend-elle tout mon équipement ?", "Non. Dans un profil où le service est proposé, un objet peut ne pas revenir si quelqu’un l’extrait ou si vous terminez MIA avec lui sur vous. Il existe des exclusions par carte et par type d’objet. BSG indique que l’assurance n’est pas proposée en Seasonal pendant Kord Breach ; vérifiez toujours le menu du raid.", "perte contrat trader équipement MIA"],
+        ["conteneur", "À quoi sert un conteneur sécurisé ?", "Il permet au PMC de conserver certains objets autorisés même quand il ne survit pas, sous réserve des restrictions du jeu. Sauver un objet ne lui conserve pas automatiquement la coche FIR. Vérifiez les règles de l’objet avant de bâtir tout votre raid autour de lui.", "pochette secure container mort objet FIR"]
+      ]
+    },
+    {
+      "id": "sorties", "label": "Extraction et butin",
+      "items": [
+        ["liste-sorties", "Pourquoi mon ami et moi n’avons-nous pas la même liste de sorties ?", "Le personnage (PMC ou Scav), la position de départ et la session comptent. Avant de suivre quelqu’un, ouvrez chacun la liste dans le raid : O deux fois par défaut. Une sortie sur une carte interactive peut ne pas être attribuée à votre personnage.", "O extraction exfil spawn position"],
+        ["compteur", "Je suis à l’extraction : pourquoi le compteur ne se lance-t-il pas ?", "Vérifiez le nom exact, le bon étage et votre liste. Si c’est une sortie conditionnelle, contrôlez l’état en jeu : véhicule présent, paiement validé, signal attendu ou autre condition. Si le temps baisse, prenez la sortie de secours que vous avez déjà repérée.", "fermé zone sortie rouge vehicle coop signal flare V-Ex"],
+        ["transit", "Un transit me ramène-t-il au stash ?", "Non. Vous continuez vers un autre lieu. Certains services peuvent envoyer des objets séparément à la réserve, mais ce n’est pas la même chose que s’extraire. Pour finir ce raid et ranger votre butin, cherchez une extraction assignée.", "carte trajet enchaîné transfert BTR"],
+        ["run-through", "Pourquoi ai-je « Run Through » alors que j’ai extrait ?", "La sortie est réussie mais le raid n’a pas atteint les critères habituels de survie. Pour les raids PMC standard, le wiki indique 200 EXP en raid ou 7 minutes en raid. Lisez la condition exacte de la tâche : certaines étapes de Tour acceptent d’autres résultats.", "Survived 200 EXP 7 minutes statut fuite"],
+        ["fir", "Pourquoi un objet récupéré n’est-il pas « trouvé en raid » ?", "Une extraction Run Through ou une mort peut empêcher la coche. Un objet déjà introduit dans le raid par un PMC ne devient pas FIR en changeant de main. Inspectez-le dans la réserve ; certaines récompenses ou fabrications obtiennent la coche autrement.", "Found in Raid FIR objet quête marché craft"],
+        ["transfert", "J’ai extrait en Scav : où est mon butin ?", "Il arrive dans l’interface de transfert, pas directement dans le stash. Déplacez les objets à garder et vérifiez l’espace libre. Si l’écran est encore ouvert, libérez de la place si nécessaire avant de valider. Ne comptez pas sur une récupération après avoir quitté l’écran.", "loot scav stash après-raid réserve stockage"]
+      ]
+    },
+    {
+      "id": "progresser", "label": "Santé, réglages et progression",
+      "items": [
+        ["soins", "Pourquoi mon kit ne stoppe-t-il pas le saignement ?", "Vérifiez si l’état est léger ou lourd. L’objet doit traiter ce type de saignement et disposer de suffisamment de points ou de charges. Les PV restaurés par un kit ne suffisent pas à prouver que le saignement s’est arrêté.", "bandage Esmarch CAT lourd léger points vie"],
+        ["zero-pv", "Puis-je soigner un membre à 0 PV ?", "Pas avec un kit de PV seul. En jeu, un CMS ou un Surv12 peut restaurer une zone non vitale à un faible niveau de PV et en abaisser le maximum. Réparez ensuite les PV avec un soin compatible. Tête et thorax ne sont pas des cibles pour ces kits.", "chirurgie noir CMS Surv12 tête soins thorax"],
+        ["apres-raid", "Comment préparer mon PMC après un raid raté ?", "Lisez le bilan puis l’état du personnage. Si un écran de soins est proposé, comparez-le aux objets dont vous disposez dans la réserve. Faites l’inventaire des pièces de kit et consommables à remplacer avant de relancer.", "santé mourir après raid Therapist KIA"],
+        ["azerty", "Mes touches ne correspondent pas au guide : que faire ?", "Les tableaux décrivent le réglage documenté par défaut. Vérifiez les commandes du client, notamment les conflits de touches et les actions qui attendent un double appui. Sur AZERTY, essayez le déplacement et le raccourci des extractions en entraînement.", "clavier AZERTY QWERTY remappage raccourcis"],
+        ["tache", "Mon objectif ne se valide pas : que vérifier ?", "Lisez le personnage requis, le lieu, le statut de sortie et l’éventuelle coche sur l’objet. Certaines étapes demandent aussi une remise ou un dialogue en dehors du raid. Le suivi du scénario et les tâches de marchand ne partagent pas toujours le même écran.", "quête débloquer storyline objectives Tour visite validation"],
+        ["stash", "Que garder dans la réserve ?", "Commencez par les objets d’une tâche proche, les ressources pour un module de planque que vous construisez et un kit complet de rechange. Rangez le reste par usage. Le stash stocke les objets ; la planque (Hideout) sert aussi aux modules et fabrications.", "planque stash craft inventaire trader trier"]
+      ]
+    }
+  ],
+  "factions": [
+    ["TerraGroup", "Multinationale", "Implantée dans la zone de Norvinsk, elle est au centre de l’enquête sur des activités illégales. Elle engage USEC. Ground Zero abrite le siège de la société dans Tarkov.", "lore-officiel"],
+    ["USEC", "United Security", "Cette société militaire privée travaille pour TerraGroup. Le synopsis la décrit comme chargée d’entraver les enquêtes et de couvrir les activités du groupe.", "lore-officiel"],
+    ["BEAR", "Battle Encounter Assault Regiment", "Cette société militaire privée est liée aux autorités russes selon le synopsis. Ses opérateurs recherchent des preuves sur TerraGroup. Dans le jeu, USEC et BEAR sont les deux factions proposées au PMC.", "lore-officiel"],
+    ["Scavs", "Survivants et bandes locales", "Le nom vient de scavengers, ceux qui récupèrent ce qui reste. Les Scavs ne forment pas une seule armée : le terme désigne notamment des groupes qui exploitent le vide laissé dans la ville évacuée.", "raid-film"],
+    ["ONU et forces russes", "Encadrement de la zone", "Le film situe ces forces autour de l’évacuation et du blocus. UNTAR apparaît comme présence onusienne dans l’univers ; l’annonce Seasonal UNTAR Control ne date pas le blocus fictif.", "raid-film"],
+    ["Rogues", "Anciens USEC", "Des anciens opérateurs USEC agissent pour leur propre groupe, notamment à Lighthouse. Ne confondez pas leur histoire avec celle de tous les PMC USEC, ou avec une règle d’IA stable de patch en patch.", "rogues-lore"],
+    ["Black Division", "Groupe distinct", "Le groupe intervient dans des contenus de campagne et de saison. Les publications de BSG le montrent en action ; elles ne suffisent pas à établir toutes ses intentions ni une hiérarchie complète.", "black-division-lore"],
+    ["Marchands", "Intermédiaires", "Therapist, Fence et les autres servent de relais pour les soins, l’équipement et l’accès à certains lieux. Ils ne constituent pas une faction unifiée. Leurs objectifs ne se confondent pas forcément avec ceux du PMC.", "tour"]
+  ],
+  "timeline": [
+    ["Avant le conflit", "La zone attire TerraGroup", "Norvinsk est créée pour faciliter les échanges. Le carton du film Raid situe l’implantation de la société à Tarkov en 2015 ; c’est un repère de ce film, pas la date de tous les événements du jeu.", "raid-film"],
+    ["Contract Wars", "Les sociétés militaires privées s’affrontent", "Des soupçons visent TerraGroup. USEC et BEAR opèrent pour des intérêts rivaux. Le passé de Factory, une usine passée sous le contrôle de TerraGroup, rattache le lieu aux combats des Contract Wars.", "wiki-maps"],
+    ["Blocus", "Évacuations puis isolement", "L’intervention des autorités russes et de l’ONU s’accompagne d’un bouclage de la région. Une partie des habitants et des opérateurs se retrouve prise dans la zone, tandis que les groupes locaux se réorganisent.", "raid-film"],
+    ["Départ du joueur", "Les ordres ne suffisent plus", "Coupé de sa chaîne de commandement, le PMC cherche des contacts et des sorties. Tour fait du quartier d’affaires de Ground Zero le premier repère de sa campagne.", "tour"],
+    ["Campagne 1.0", "Plusieurs pistes à suivre", "Les chapitres prolongent l’enquête et la recherche d’une fuite. Certains se croisent et les décisions du personnage ont des conséquences : la liste des épisodes ne fixe pas un ordre unique.", "story-chapters"]
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-18T15:27:37+00:00",
+  "profiles": [
+    {
+      "route": "pages/maps/",
+      "width": 1024,
+      "theme": "renforce",
+      "testedSamples": 8,
+      "lowestRatio": 12.0,
+      "at": ".guide-hero__actions .button",
+      "text": "Comparer les terrains"
+    },
+    {
+      "route": "pages/maps/",
+      "width": 1024,
+      "theme": "standard",
+      "testedSamples": 8,
+      "lowestRatio": 5.96,
+      "at": ".guide-hero h1",
+      "text": "Treize lieux. Une seule sortie fiable : celle de votre raid."
+    },
+    {
+      "route": "pages/maps/",
+      "width": 1440,
+      "theme": "renforce",
+      "testedSamples": 8,
+      "lowestRatio": 12.0,
+      "at": ".guide-hero__actions .button",
+      "text": "Comparer les terrains"
+    },
+    {
+      "route": "pages/maps/",
+      "width": 1440,
+      "theme": "standard",
+      "testedSamples": 8,
+      "lowestRatio": 6.79,
+      "at": ".guide-hero h1",
+      "text": "Treize lieux. Une seule sortie fiable : celle de votre raid."
+    },
+    {
+      "route": "pages/maps/",
+      "width": 320,
+      "theme": "renforce",
+      "testedSamples": 7,
+      "lowestRatio": 12.0,
+      "at": ".guide-hero__actions .button",
+      "text": "Comparer les terrains"
+    },
+    {
+      "route": "pages/maps/",
+      "width": 320,
+      "theme": "standard",
+      "testedSamples": 7,
+      "lowestRatio": 6.98,
+      "at": ".guide-hero .guide-kicker",
+      "text": "Cartes · 18.11.2026"
+    },
+    {
+      "route": "pages/maps/",
+      "width": 390,
+      "theme": "renforce",
+      "testedSamples": 7,
+      "lowestRatio": 12.0,
+      "at": ".guide-hero__actions .button",
+      "text": "Comparer les terrains"
+    },
+    {
+      "route": "pages/maps/",
+      "width": 390,
+      "theme": "standard",
+      "testedSamples": 7,
+      "lowestRatio": 6.98,
+      "at": ".guide-hero .guide-kicker",
+      "text": "Cartes · 18.11.2026"
+    },
+    {
+      "route": "pages/maps/",
+      "width": 768,
+      "theme": "renforce",
+      "testedSamples": 7,
+      "lowestRatio": 12.0,
+      "at": ".guide-hero__actions .button",
+      "text": "Comparer les terrains"
+    },
+    {
+      "route": "pages/maps/",
+      "width": 768,
+      "theme": "standard",
+      "testedSamples": 7,
+      "lowestRatio": 7.81,
+      "at": ".guide-hero h1",
+      "text": "Treize lieux. Une seule sortie fiable : celle de votre raid."
+    },
+    {
+      "route": "pages/maps/icebreaker.html",
+      "width": 1024,
+      "theme": "renforce",
+      "testedSamples": 8,
+      "lowestRatio": 12.12,
+      "at": ".guide-hero__actions .button",
+      "text": "Accès et modes"
+    },
+    {
+      "route": "pages/maps/icebreaker.html",
+      "width": 1024,
+      "theme": "standard",
+      "testedSamples": 8,
+      "lowestRatio": 5.1,
+      "at": ".guide-hero h1",
+      "text": "Icebreaker : une expédition PvE dans tous les modes"
+    },
+    {
+      "route": "pages/maps/icebreaker.html",
+      "width": 1440,
+      "theme": "renforce",
+      "testedSamples": 8,
+      "lowestRatio": 12.12,
+      "at": ".guide-hero__actions .button",
+      "text": "Accès et modes"
+    },
+    {
+      "route": "pages/maps/icebreaker.html",
+      "width": 1440,
+      "theme": "standard",
+      "testedSamples": 8,
+      "lowestRatio": 8.55,
+      "at": ".guide-hero__actions .button",
+      "text": "Accès et modes"
+    },
+    {
+      "route": "pages/maps/icebreaker.html",
+      "width": 320,
+      "theme": "renforce",
+      "testedSamples": 7,
+      "lowestRatio": 12.0,
+      "at": ".guide-hero__actions .button",
+      "text": "Accès et modes"
+    },
+    {
+      "route": "pages/maps/icebreaker.html",
+      "width": 320,
+      "theme": "standard",
+      "testedSamples": 7,
+      "lowestRatio": 8.18,
+      "at": ".guide-hero .guide-kicker",
+      "text": "Icebreaker"
+    },
+    {
+      "route": "pages/maps/icebreaker.html",
+      "width": 390,
+      "theme": "renforce",
+      "testedSamples": 7,
+      "lowestRatio": 12.12,
+      "at": ".guide-hero__actions .button",
+      "text": "Accès et modes"
+    },
+    {
+      "route": "pages/maps/icebreaker.html",
+      "width": 390,
+      "theme": "standard",
+      "testedSamples": 7,
+      "lowestRatio": 8.02,
+      "at": ".guide-hero .guide-kicker",
+      "text": "Icebreaker"
+    },
+    {
+      "route": "pages/maps/icebreaker.html",
+      "width": 768,
+      "theme": "renforce",
+      "testedSamples": 7,
+      "lowestRatio": 6.64,
+      "at": ".guide-hero h1",
+      "text": "Icebreaker : une expédition PvE dans tous les modes"
+    },
+    {
+      "route": "pages/maps/icebreaker.html",
+      "width": 768,
+      "theme": "standard",
+      "testedSamples": 7,
+      "lowestRatio": 6.55,
+      "at": ".guide-hero h1",
+      "text": "Icebreaker : une expédition PvE dans tous les modes"
+    }
+  ],
+  "palette": [
+    {
+      "label": "Texte principal sur surface Cartes",
+      "color": "#e8e6e3",
+      "background": "#151713",
+      "ratio": 14.49,
+      "minimum": 4.5
+    },
+    {
+      "label": "Texte secondaire sur surface Cartes",
+      "color": "#c2c0b5",
+      "background": "#151713",
+      "ratio": 9.88,
+      "minimum": 4.5
+    },
+    {
+      "label": "Teinte éditoriale sur surface Cartes",
+      "color": "#c7b47f",
+      "background": "#151713",
+      "ratio": 8.82,
+      "minimum": 4.5
+    },
+    {
+      "label": "Lien doré sur surface Cartes",
+      "color": "#e1c48d",
+      "background": "#151713",
+      "ratio": 10.72,
+      "minimum": 4.5
+    },
+    {
+      "label": "Texte actif du bouton de mode",
+      "color": "#f7e4ad",
+      "background": "#292316",
+      "ratio": 12.37,
+      "minimum": 4.5
+    },
+    {
+      "label": "Texte du réseau sur surface relevée",
+      "color": "#e8e6e3",
+      "background": "#1b1d17",
+      "ratio": 13.65,
+      "minimum": 4.5
+    },
+    {
+      "label": "Lien de citation sur fond de fiche",
+      "color": "#e1c48d",
+      "background": "#151713",
+      "ratio": 10.72,
+      "minimum": 4.5
+    },
+    {
+      "label": "Texte de statut filtré sur surface",
+      "color": "#c7b47f",
+      "background": "#151713",
+      "ratio": 8.82,
+      "minimum": 4.5
+    }
+  ],
+  "method": "Chromium DPR 1 ; prélèvement des pixels sous les boîtes de glyphes dans une capture JPEG qualité 100 du hero composé, texte masqué mais image et dégradés conservés ; 2 routes × 5 largeurs × 2 thèmes. Palette de texte et boutons calculée séparément selon le contraste relatif WCAG."
+}

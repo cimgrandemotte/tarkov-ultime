@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "phase": "PHASE_9",
+  "status": "PASS",
+  "base": "http://127.0.0.1:4180",
+  "checkedAt": "2026-11-18",
+  "checks": [
+    {
+      "name": "HTML, références locales, ancres et métadonnées",
+      "passed": true,
+      "detail": "7 pages · 401 liens/assets/fragments locaux résolus · 7 JPG liées · IDs, alts, SEO et JSON-LD contrôlés"
+    },
+    {
+      "name": "Illustrations et sources PHASE_9",
+      "passed": true,
+      "detail": {
+        "sources": 47,
+        "sourcesDocument": 250,
+        "images": [
+          {
+            "file": "images/phase9/arena-match.jpg",
+            "format": "JPEG",
+            "mode": "RGB",
+            "size": [
+              1376,
+              768
+            ],
+            "bytes": 176307,
+            "sha256": "f294fafc62c86c94e6d0dbe4877f07195bbda26f64f3a1b676cd5710980e1e78"
+          },
+          {
+            "file": "images/phase9/events-timeline.jpg",
+            "format": "JPEG",
+            "mode": "RGB",
+            "size": [
+              1376,
+              768
+            ],
+            "bytes": 150084,
+            "sha256": "8596c89af5af54d46a9dcf53cfa6d8b702ced7efb48a3b01ac96c0f7c5efe549"
+          },
+          {
+            "file": "images/phase9/fika-coop.jpg",
+            "format": "JPEG",
+            "mode": "RGB",
+            "size": [
+              1376,
+              768
+            ],
+            "bytes": 184991,
+            "sha256": "72c3b3f81006aaf67bc5d2195a881f1ed47136571a8bb0e49d934aa307691d2a"
+          },
+          {
+            "file": "images/phase9/spt-install.jpg",
+            "format": "JPEG",
+            "mode": "RGB",
+            "size": [
+              1376,
+              768
+            ],
+            "bytes": 158149,
+            "sha256": "3b7c2c4104434325a4e7e48627382b80bf055dd5b5c1ba2dea779fa5268e8afa"
+          },
+          {
+            "file": "images/phase9/spt-mods.jpg",
+            "format": "JPEG",
+            "mode": "RGB",
+            "size": [
+              1376,
+              768
+            ],
+            "bytes": 144038,
+            "sha256": "ee4531b8a090eaa91faa9f5bdbf255eb795d6b162da31a84c54354ad410846bf"
+          },
+          {
+            "file": "images/phase9/spt-raid.jpg",
+            "format": "JPEG",
+            "mode": "RGB",
+            "size": [
+              1376,
+              768
+            ],
+            "bytes": 182979,
+            "sha256": "3f15716ac333ca19ec166ab7f5c8c6e90404973ce052746eeaec551a908ba4af"
+          },
+          {
+            "file": "images/phase9/spt-troubleshoot.jpg",
+            "format": "JPEG",
+            "mode": "RGB",
+            "size": [
+              1376,
+              768
+            ],
+            "bytes": 188378,
+            "sha256": "04efe0f285ef2e45989c0e84a2454d05f298f681c6c546c5e2cf4ec4e5fc846c"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Recherche et sitemap",
+      "passed": true,
+      "detail": "1301 entrées de recherche · 84 URLs sitemap uniques · 7 routes PHASE_9 intégrées"
+    },
+    {
+      "name": "Liste blanche d’aperçu",
+      "passed": true,
+      "detail": "7 routes, 7 illustrations, CSS/JS PHASE_9 dans la liste blanche et 3 routes de répertoire"
+    },
+    {
+      "name": "Workflow, plan éditorial et empreintes enregistrées",
+      "passed": true,
+      "detail": "84/87 routes · PHASE_9 7/7 · 7 SHA-256 · PHASE_10 en attente de CONTINUE"
+    },
+    {
+      "name": "HTTP local et absence d’exposition de fichiers privés",
+      "passed": true,
+      "detail": "20 ressources publiques HTTP 200 · 10 chemins privés/quarantinés HTTP 404"
+    }
+  ],
+  "errors": []
+}

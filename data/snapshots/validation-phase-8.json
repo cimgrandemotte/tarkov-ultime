@@ -1,0 +1,1618 @@
+{
+  "schemaVersion": 1,
+  "phase": "PHASE_8",
+  "status": "PASS",
+  "base": "http://127.0.0.1:4180",
+  "checkedAt": "2026-11-19T09:12:12.601Z",
+  "routes": [
+    {
+      "engine": "Chromium",
+      "route": "pages/skills/",
+      "http": 200,
+      "title": "Compétences (Skills) · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 22493,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/economy/",
+      "http": 200,
+      "title": "Économie & Flea Market · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24065,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/economy/flea-market.html",
+      "http": 200,
+      "title": "Guide du Flea Market · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 23337,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/economy/money-making.html",
+      "http": 200,
+      "title": "Gagner des roubles · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 23788,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/strategy/",
+      "http": 200,
+      "title": "Stratégies & méta en jeu · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 22402,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/strategy/beginner-tips.html",
+      "http": 200,
+      "title": "61 astuces pour débuter · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 66618,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/strategy/advanced-tactics.html",
+      "http": 200,
+      "title": "Tactiques avancées en jeu · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 22380,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/strategy/pvp-guide.html",
+      "http": 200,
+      "title": "Guide PvP · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 21373,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/strategy/pve-guide.html",
+      "http": 200,
+      "title": "Guide PvE & Prestige · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 23279,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/strategy/meta-builds.html",
+      "http": 200,
+      "title": "Builds par budget & méta · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24902,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/skills/",
+      "http": 200,
+      "title": "Compétences (Skills) · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 22493,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/economy/",
+      "http": 200,
+      "title": "Économie & Flea Market · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24065,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/economy/flea-market.html",
+      "http": 200,
+      "title": "Guide du Flea Market · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 23337,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/economy/money-making.html",
+      "http": 200,
+      "title": "Gagner des roubles · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 23788,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/strategy/",
+      "http": 200,
+      "title": "Stratégies & méta en jeu · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 22402,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/strategy/beginner-tips.html",
+      "http": 200,
+      "title": "61 astuces pour débuter · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 66618,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/strategy/advanced-tactics.html",
+      "http": 200,
+      "title": "Tactiques avancées en jeu · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 22380,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/strategy/pvp-guide.html",
+      "http": 200,
+      "title": "Guide PvP · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 21373,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/strategy/pve-guide.html",
+      "http": 200,
+      "title": "Guide PvE & Prestige · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 23279,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/strategy/meta-builds.html",
+      "http": 200,
+      "title": "Builds par budget & méta · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24902,
+      "imageLoaded": true,
+      "canonical": ""
+    }
+  ],
+  "checks": [
+    {
+      "name": "Chromium · pages/skills/ · HTML, médias et aperçu + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 22493,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/economy/ · HTML, médias et aperçu + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 24065,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/economy/flea-market.html · HTML, médias et aperçu + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 23337,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/economy/money-making.html · HTML, médias et aperçu + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 23788,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/strategy/ · HTML, médias et aperçu + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 22402,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/strategy/beginner-tips.html · HTML, médias et aperçu + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 66618,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/strategy/advanced-tactics.html · HTML, médias et aperçu + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 22380,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/strategy/pvp-guide.html · HTML, médias et aperçu + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 21373,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/strategy/pve-guide.html · HTML, médias et aperçu + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 23279,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/strategy/meta-builds.html · HTML, médias et aperçu + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 24902,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/skills/ · HTML, médias et aperçu",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 22493,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/economy/ · HTML, médias et aperçu",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 24065,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/economy/flea-market.html · HTML, médias et aperçu",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 23337,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/economy/money-making.html · HTML, médias et aperçu",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 23788,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/strategy/ · HTML, médias et aperçu",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 22402,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/strategy/beginner-tips.html · HTML, médias et aperçu",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 66618,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/strategy/advanced-tactics.html · HTML, médias et aperçu",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 22380,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/strategy/pvp-guide.html · HTML, médias et aperçu",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 21373,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/strategy/pve-guide.html · HTML, médias et aperçu",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 23279,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/strategy/meta-builds.html · HTML, médias et aperçu",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 24902,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Responsive · pages/skills/ · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "name": "Responsive · pages/economy/ · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "name": "Responsive · pages/economy/flea-market.html · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "name": "Responsive · pages/economy/money-making.html · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "name": "Responsive · pages/strategy/ · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "name": "Responsive · pages/strategy/beginner-tips.html · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "name": "Responsive · pages/strategy/advanced-tactics.html · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "name": "Responsive · pages/strategy/pvp-guide.html · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "name": "Responsive · pages/strategy/pve-guide.html · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "name": "Responsive · pages/strategy/meta-builds.html · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "name": "Sans JavaScript · pages/skills/ · contenu et navigation statiques",
+      "passed": true,
+      "detail": {
+        "title": "Compétences (Skills) · Guide Tarkov | Tarkov Ultimate Guide",
+        "h1": "Compétences (Skills)",
+        "mainVisible": true,
+        "navVisible": true,
+        "visibleTips": 0,
+        "visibleSkillTopics": 4,
+        "tableRows": 0,
+        "introVisible": true
+      }
+    },
+    {
+      "name": "Sans JavaScript · pages/economy/ · contenu et navigation statiques",
+      "passed": true,
+      "detail": {
+        "title": "Économie & Flea Market · Guide Tarkov | Tarkov Ultimate Guide",
+        "h1": "Économie & Flea Market",
+        "mainVisible": true,
+        "navVisible": true,
+        "visibleTips": 0,
+        "visibleSkillTopics": 0,
+        "tableRows": 3,
+        "introVisible": true
+      }
+    },
+    {
+      "name": "Sans JavaScript · pages/economy/flea-market.html · contenu et navigation statiques",
+      "passed": true,
+      "detail": {
+        "title": "Guide du Flea Market · Guide Tarkov | Tarkov Ultimate Guide",
+        "h1": "Guide du Flea Market",
+        "mainVisible": true,
+        "navVisible": true,
+        "visibleTips": 0,
+        "visibleSkillTopics": 0,
+        "tableRows": 3,
+        "introVisible": true
+      }
+    },
+    {
+      "name": "Sans JavaScript · pages/economy/money-making.html · contenu et navigation statiques",
+      "passed": true,
+      "detail": {
+        "title": "Gagner des roubles · Guide Tarkov | Tarkov Ultimate Guide",
+        "h1": "Gagner des roubles",
+        "mainVisible": true,
+        "navVisible": true,
+        "visibleTips": 0,
+        "visibleSkillTopics": 0,
+        "tableRows": 0,
+        "introVisible": true
+      }
+    },
+    {
+      "name": "Sans JavaScript · pages/strategy/beginner-tips.html · contenu et navigation statiques",
+      "passed": true,
+      "detail": {
+        "title": "61 astuces pour débuter · Guide Tarkov | Tarkov Ultimate Guide",
+        "h1": "61 astuces pour débuter",
+        "mainVisible": true,
+        "navVisible": true,
+        "visibleTips": 61,
+        "visibleSkillTopics": 0,
+        "tableRows": 0,
+        "introVisible": true
+      }
+    },
+    {
+      "name": "Sans JavaScript · pages/strategy/pve-guide.html · contenu et navigation statiques",
+      "passed": true,
+      "detail": {
+        "title": "Guide PvE & Prestige · Guide Tarkov | Tarkov Ultimate Guide",
+        "h1": "Guide PvE & Prestige",
+        "mainVisible": true,
+        "navVisible": true,
+        "visibleTips": 0,
+        "visibleSkillTopics": 0,
+        "tableRows": 0,
+        "introVisible": true
+      }
+    },
+    {
+      "name": "Sans JavaScript · pages/strategy/meta-builds.html · contenu et navigation statiques",
+      "passed": true,
+      "detail": {
+        "title": "Builds par budget & méta · Guide Tarkov | Tarkov Ultimate Guide",
+        "h1": "Builds par budget & méta",
+        "mainVisible": true,
+        "navVisible": true,
+        "visibleTips": 0,
+        "visibleSkillTopics": 0,
+        "tableRows": 5,
+        "introVisible": true
+      }
+    },
+    {
+      "name": "Recherche globale · index PHASE_8 et lien Flea",
+      "passed": true,
+      "detail": "Requête Flea Market renvoie la route dédiée"
+    },
+    {
+      "name": "Compétences · filtre de patch et journal local",
+      "passed": true,
+      "detail": "filtre, ajout et retrait d’une note locale vérifiés"
+    },
+    {
+      "name": "Économie · calculateur hypothèses utilisateur + reset",
+      "passed": true,
+      "detail": "100000 × (1−5 %) − 20000 = 75000; mise à l’échelle 30 min = 150000/h; reset OK"
+    },
+    {
+      "name": "Flea · net simplifié contre trader, sans taux prérempli",
+      "passed": true,
+      "detail": "Flea 850 ₽ contre trader 700 ₽ selon les entrées; champ frais manuel"
+    },
+    {
+      "name": "Roubles · estimation de scénario explicitement probabiliste",
+      "passed": true,
+      "detail": "50 % × 100000 + 50 % × 0 − 20000 − 10000 = 20000; 30 min = 40000/h"
+    },
+    {
+      "name": "Build · addition des coûts et plafond de budget",
+      "passed": true,
+      "detail": "60000 ₽, sous budget utilisateur 100000 ₽; coûts vides explicités"
+    },
+    {
+      "name": "Stratégies · filtre de profil",
+      "passed": true,
+      "detail": "filtre PvE et statut de résultat corrects"
+    },
+    {
+      "name": "PvP · comparaison Permanent / Seasonal",
+      "passed": true,
+      "detail": "filtre Seasonal laisse visible sa carte et sa règle d’assurance"
+    },
+    {
+      "name": "Astuces · recherche, favori et état local",
+      "passed": true,
+      "detail": "61 astuces, recherche, étoile aria-pressed et reset favoris"
+    },
+    {
+      "name": "Prestige PvE · checklist locale séparée par palier",
+      "passed": true,
+      "detail": "case stockée par palier; rappel indique qu’elle ne vérifie pas le client"
+    },
+    {
+      "name": "Accueil · méga-menu vers les nouvelles routes",
+      "passed": true,
+      "detail": "22 liens dans le méga-menu; Compétences, Flea et PvE présents"
+    }
+  ],
+  "audits": [
+    {
+      "engine": "Chromium",
+      "route": "pages/skills/",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase8-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary.button[href$=\"#skills-filter\"]"
+            ],
+            [
+              ".button--primary.button[href$=\"#skills-filter\"] > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              "#skills-intro > div > .guide-kicker"
+            ],
+            [
+              "#skills-intro > div > h2"
+            ],
+            [
+              "#skills-intro > div > p:nth-child(3)"
+            ],
+            [
+              "#skills-intro > div > p:nth-child(4)"
+            ],
+            [
+              "p:nth-child(4) > strong"
+            ],
+            [
+              "article[data-p8-skill-topic=\"metabolism\"] > .phase8-card__eyebrow"
+            ],
+            [
+              "article[data-p8-skill-topic=\"metabolism\"] > h3"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/economy/",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase8-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary.button[href$=\"#economy-decide\"]"
+            ],
+            [
+              ".button--primary.button[href$=\"#economy-decide\"] > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              "#economy-intro > div > .guide-kicker"
+            ],
+            [
+              "#economy-intro > div > h2"
+            ],
+            [
+              "#economy-intro > div > p:nth-child(3)"
+            ],
+            [
+              "#economy-intro > div > p:nth-child(4)"
+            ],
+            [
+              ".phase8-card:nth-child(1) > .phase8-card__eyebrow"
+            ],
+            [
+              ".phase8-card:nth-child(1) > h3"
+            ],
+            [
+              ".phase8-card:nth-child(1) > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/economy/flea-market.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase8-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary.button[href$=\"#flea-rules\"]"
+            ],
+            [
+              ".button--primary.button[href$=\"#flea-rules\"] > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              "#flea-intro > div > .guide-kicker"
+            ],
+            [
+              "#flea-intro > div > h2"
+            ],
+            [
+              "#flea-intro > div > p:nth-child(3)"
+            ],
+            [
+              ".phase8-card:nth-child(1) > h3"
+            ],
+            [
+              ".phase8-card:nth-child(1) > p"
+            ],
+            [
+              ".phase8-card:nth-child(2) > h3"
+            ],
+            [
+              ".phase8-card:nth-child(2) > p"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/economy/money-making.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase8-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary.button[href$=\"#money-loops\"]"
+            ],
+            [
+              ".button--primary.button[href$=\"#money-loops\"] > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              "#money-intro > div > .guide-kicker"
+            ],
+            [
+              "#money-intro > div > h2"
+            ],
+            [
+              "#money-intro > div > p:nth-child(3)"
+            ],
+            [
+              ".phase8-card:nth-child(1) > .phase8-card__eyebrow"
+            ],
+            [
+              ".phase8-card:nth-child(1) > h3"
+            ],
+            [
+              ".phase8-card:nth-child(1) > p:nth-child(3)"
+            ],
+            [
+              ".phase8-card:nth-child(1) > ul > li:nth-child(1)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/strategy/",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase8-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              "#strategy-intro > div > .guide-kicker"
+            ],
+            [
+              "#strategy-intro > div > h2"
+            ],
+            [
+              "#strategy-intro > div > p:nth-child(3)"
+            ],
+            [
+              "article[data-p8-mode-card=\"regular\"] > .phase8-card__eyebrow"
+            ],
+            [
+              "article[data-p8-mode-card=\"regular\"] > h3"
+            ],
+            [
+              "article[data-p8-mode-card=\"regular\"] > p:nth-child(3)"
+            ],
+            [
+              "article[data-p8-mode-card=\"pvp-season\"] > .phase8-card__eyebrow"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/strategy/beginner-tips.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase8-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              "#tips-intro > div > .guide-kicker"
+            ],
+            [
+              "#tips-intro > div > h2"
+            ],
+            [
+              "#tips-intro > div > p:nth-child(3)"
+            ],
+            [
+              "button[data-p8-favorite=\"tip-01\"]"
+            ],
+            [
+              "button[data-p8-favorite=\"tip-02\"]"
+            ],
+            [
+              "button[data-p8-favorite=\"tip-03\"]"
+            ],
+            [
+              "button[data-p8-favorite=\"tip-04\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/strategy/advanced-tactics.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase8-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              "#tactics-intro > div > .guide-kicker"
+            ],
+            [
+              "#tactics-intro > div > h2"
+            ],
+            [
+              "#tactics-intro > div > p:nth-child(3)"
+            ],
+            [
+              ".phase8-card:nth-child(1) > .phase8-step-index"
+            ],
+            [
+              ".phase8-card:nth-child(1) > h3"
+            ],
+            [
+              ".phase8-card:nth-child(1) > p"
+            ],
+            [
+              ".phase8-card:nth-child(2) > .phase8-step-index"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/strategy/pvp-guide.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase8-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              "#pvp-intro > div > .guide-kicker"
+            ],
+            [
+              "#pvp-intro > div > h2"
+            ],
+            [
+              "#pvp-intro > div > p:nth-child(3)"
+            ],
+            [
+              "article[data-p8-pvp-panel=\"regular\"] > .phase8-card__eyebrow"
+            ],
+            [
+              "article[data-p8-pvp-panel=\"regular\"] > h3"
+            ],
+            [
+              "article[data-p8-pvp-panel=\"regular\"] > p:nth-child(3)"
+            ],
+            [
+              "article[data-p8-pvp-panel=\"pvp-season\"] > .phase8-card__eyebrow"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/strategy/pve-guide.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase8-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              "#pve-intro > div > .guide-kicker"
+            ],
+            [
+              "#pve-intro > div > h2"
+            ],
+            [
+              "#pve-intro > div > p:nth-child(3)"
+            ],
+            [
+              ".phase8-card:nth-child(1) > .phase8-card__eyebrow"
+            ],
+            [
+              ".phase8-card:nth-child(1) > h3"
+            ],
+            [
+              ".phase8-card:nth-child(1) > p:nth-child(3)"
+            ],
+            [
+              ".phase8-card:nth-child(2) > .phase8-card__eyebrow"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/strategy/meta-builds.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase8-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary.button[href$=\"#build-rubric\"]"
+            ],
+            [
+              ".button--primary.button[href$=\"#build-rubric\"] > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              "#builds-intro > div > .guide-kicker"
+            ],
+            [
+              "#builds-intro > div > h2"
+            ],
+            [
+              "#builds-intro > div > p:nth-child(3)"
+            ],
+            [
+              ".phase8-card:nth-child(1) > .phase8-card__eyebrow"
+            ],
+            [
+              ".phase8-card:nth-child(1) > h3"
+            ],
+            [
+              ".phase8-card:nth-child(1) > p:nth-child(3)"
+            ],
+            [
+              ".phase8-card:nth-child(2) > .phase8-card__eyebrow"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "responsive": [
+    {
+      "route": "pages/skills/",
+      "sizes": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "route": "pages/economy/",
+      "sizes": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "route": "pages/economy/flea-market.html",
+      "sizes": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "route": "pages/economy/money-making.html",
+      "sizes": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "route": "pages/strategy/",
+      "sizes": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "route": "pages/strategy/beginner-tips.html",
+      "sizes": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "route": "pages/strategy/advanced-tactics.html",
+      "sizes": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "route": "pages/strategy/pvp-guide.html",
+      "sizes": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "route": "pages/strategy/pve-guide.html",
+      "sizes": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    },
+    {
+      "route": "pages/strategy/meta-builds.html",
+      "sizes": [
+        {
+          "viewport": 375,
+          "document": 375,
+          "body": 375
+        },
+        {
+          "viewport": 768,
+          "document": 768,
+          "body": 768
+        },
+        {
+          "viewport": 1440,
+          "document": 1440,
+          "body": 1440
+        }
+      ]
+    }
+  ],
+  "noJs": [
+    {
+      "route": "pages/skills/",
+      "title": "Compétences (Skills) · Guide Tarkov | Tarkov Ultimate Guide",
+      "h1": "Compétences (Skills)",
+      "mainVisible": true,
+      "navVisible": true,
+      "visibleTips": 0,
+      "visibleSkillTopics": 4,
+      "tableRows": 0,
+      "introVisible": true
+    },
+    {
+      "route": "pages/economy/",
+      "title": "Économie & Flea Market · Guide Tarkov | Tarkov Ultimate Guide",
+      "h1": "Économie & Flea Market",
+      "mainVisible": true,
+      "navVisible": true,
+      "visibleTips": 0,
+      "visibleSkillTopics": 0,
+      "tableRows": 3,
+      "introVisible": true
+    },
+    {
+      "route": "pages/economy/flea-market.html",
+      "title": "Guide du Flea Market · Guide Tarkov | Tarkov Ultimate Guide",
+      "h1": "Guide du Flea Market",
+      "mainVisible": true,
+      "navVisible": true,
+      "visibleTips": 0,
+      "visibleSkillTopics": 0,
+      "tableRows": 3,
+      "introVisible": true
+    },
+    {
+      "route": "pages/economy/money-making.html",
+      "title": "Gagner des roubles · Guide Tarkov | Tarkov Ultimate Guide",
+      "h1": "Gagner des roubles",
+      "mainVisible": true,
+      "navVisible": true,
+      "visibleTips": 0,
+      "visibleSkillTopics": 0,
+      "tableRows": 0,
+      "introVisible": true
+    },
+    {
+      "route": "pages/strategy/beginner-tips.html",
+      "title": "61 astuces pour débuter · Guide Tarkov | Tarkov Ultimate Guide",
+      "h1": "61 astuces pour débuter",
+      "mainVisible": true,
+      "navVisible": true,
+      "visibleTips": 61,
+      "visibleSkillTopics": 0,
+      "tableRows": 0,
+      "introVisible": true
+    },
+    {
+      "route": "pages/strategy/pve-guide.html",
+      "title": "Guide PvE & Prestige · Guide Tarkov | Tarkov Ultimate Guide",
+      "h1": "Guide PvE & Prestige",
+      "mainVisible": true,
+      "navVisible": true,
+      "visibleTips": 0,
+      "visibleSkillTopics": 0,
+      "tableRows": 0,
+      "introVisible": true
+    },
+    {
+      "route": "pages/strategy/meta-builds.html",
+      "title": "Builds par budget & méta · Guide Tarkov | Tarkov Ultimate Guide",
+      "h1": "Builds par budget & méta",
+      "mainVisible": true,
+      "navVisible": true,
+      "visibleTips": 0,
+      "visibleSkillTopics": 0,
+      "tableRows": 5,
+      "introVisible": true
+    }
+  ],
+  "errors": []
+}

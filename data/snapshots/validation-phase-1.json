@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-18T13:20:11.700Z",
+  "versions": {
+    "browser": "159.0.8154.6",
+    "playwright": "1.65.1",
+    "axeCore": "4.14.1"
+  },
+  "status": "VALIDE",
+  "results": [
+    {
+      "name": "Serveur : accueil technique, ressources locales et non-indexation",
+      "passed": true
+    },
+    {
+      "name": "Clavier : évitement, méga-menu, fermeture et retour en haut",
+      "passed": true
+    },
+    {
+      "name": "Recherche : Fuse différé, accents, coquille, clavier et destinations",
+      "passed": true
+    },
+    {
+      "name": "Recherche : dégradation sans Fuse et message si index indisponible",
+      "passed": true
+    },
+    {
+      "name": "Catalogue : filtre composé, tri réel, état vide et réinitialisation",
+      "passed": true
+    },
+    {
+      "name": "Comparateur : deux à trois entrées, retrait, focus et tableau",
+      "passed": true
+    },
+    {
+      "name": "Onglets et accordéons au clavier ; classement local et remise à zéro",
+      "passed": true
+    },
+    {
+      "name": "Infobulle : au survol, sur le texte, au focus, Échap et toucher",
+      "passed": true
+    },
+    {
+      "name": "Audio : aucune requête avant action, pause, piste, volume et signal opt-in",
+      "passed": true
+    },
+    {
+      "name": "Préférences : mouvement système, commande manuelle et contraste persistant",
+      "passed": true
+    },
+    {
+      "name": "Reflow : 320, 375, 390, 768, 832, 1024 et 1440 px, texte agrandi",
+      "passed": true
+    },
+    {
+      "name": "Progressif : données, navigation, accordéons et audio natif sans JavaScript",
+      "passed": true
+    }
+  ],
+  "audits": [
+    {
+      "context": "Bureau 1440 px · interface initiale",
+      "violations": [],
+      "needsReview": [
+        {
+          "id": "color-contrast",
+          "count": 107
+        }
+      ],
+      "passes": 35
+    },
+    {
+      "context": "Modale de recherche ouverte",
+      "violations": [],
+      "needsReview": [
+        {
+          "id": "color-contrast",
+          "count": 2
+        }
+      ],
+      "passes": 22
+    },
+    {
+      "context": "Comparateur ouvert · trois entrées",
+      "violations": [],
+      "needsReview": [],
+      "passes": 19
+    },
+    {
+      "context": "Contraste renforcé et animations réduites",
+      "violations": [],
+      "needsReview": [
+        {
+          "id": "color-contrast",
+          "count": 113
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "count": 1
+        }
+      ],
+      "passes": 35
+    },
+    {
+      "context": "Mobile 320 px · interface initiale",
+      "violations": [],
+      "needsReview": [
+        {
+          "id": "color-contrast",
+          "count": 100
+        }
+      ],
+      "passes": 34
+    }
+  ],
+  "assets": {
+    "initial": {
+      "count": 28,
+      "transferBytes": 782621,
+      "lcpMs": 220,
+      "cls": 0.02
+    }
+  }
+}

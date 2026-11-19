@@ -1,0 +1,3142 @@
+{
+  "schema_version": 1,
+  "projet": {
+    "nom": "TARKOV ULTIMATE GUIDE",
+    "version_cahier_des_charges": "3.0",
+    "langue": "fr-FR",
+    "date_de_reference": "2026-11-18",
+    "fuseau": "Europe/Paris"
+  },
+  "phase_active": "PHASE_10",
+  "phases_terminees": [
+    "PHASE_0",
+    "PHASE_1",
+    "PHASE_2",
+    "PHASE_3",
+    "PHASE_4",
+    "PHASE_5",
+    "PHASE_6",
+    "PHASE_7",
+    "PHASE_8",
+    "PHASE_9",
+    "PHASE_10"
+  ],
+  "etat_global": "COMPLETE",
+  "prochaine_etape": "PHASE_10 est livrée et validée localement. Aucune publication ni aucun déploiement n’est autorisé sans demande explicite; toute actualisation ultérieure doit revalider les sources et le domaine.",
+  "production": {
+    "pages_planifiees": 87,
+    "pages_generees": 87,
+    "images_creees": [
+      {
+        "fichier": "images/ui/design-ops-rain.jpg",
+        "phase": "PHASE_1",
+        "usage": "Visuel principal : entrepôts de nuit, cour ferroviaire sous la pluie",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 196763,
+        "sha256": "47711bcc83e6a2e13c8457eef00294d1b1077c52ccc8b6ed92404f07456ceef9"
+      },
+      {
+        "fichier": "images/ui/design-field-kit.jpg",
+        "phase": "PHASE_1",
+        "usage": "Dossier catalogue : gilet, radio et établi",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 192564,
+        "sha256": "7d170105463d8e382997cabc5bc1e3d66de8c1e76c5ad2d5b1409a3d24b63a64"
+      },
+      {
+        "fichier": "images/ui/design-hideout.jpg",
+        "phase": "PHASE_1",
+        "usage": "Lecteur audio : radio et établi de planque",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 145790,
+        "sha256": "0b6501cb72abb4210436782aaa36140a2ef5af632741302f63fc1bb75474a19c"
+      },
+      {
+        "fichier": "images/hero/norvinsk-rain.jpg",
+        "phase": "PHASE_2",
+        "usage": "Visuel principal de l’accueil : PMC de dos, rue de Norvinsk sous la pluie",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 189170,
+        "sha256": "6cf206e24af9494113d111d4f0095eb3fe307d18e31a4bd8cc398edbba14d51c"
+      },
+      {
+        "fichier": "images/maps/norvinsk-overlook.jpg",
+        "phase": "PHASE_2",
+        "usage": "Panorama ferroviaire et urbain de PHASE_2, réutilisé par le hub Cartes et Ground Zero, Streets of Tarkov et Terminal.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 213820,
+        "sha256": "d5ca0278f33a3ca8ca4306ffacf203dfd4bc371c6b1b2eca0fd16d8e942cb395"
+      },
+      {
+        "fichier": "images/weapons/arsenal-workbench.jpg",
+        "phase": "PHASE_2",
+        "usage": "Dossier Armes et munitions : équipement de jeu sur établi",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 219524,
+        "sha256": "c28d320816342d6cdc8ad27dc86206d66b3984d3cafc39e878f6ef1d5269defc"
+      },
+      {
+        "fichier": "images/bosses/killa-ambience.jpg",
+        "phase": "PHASE_2",
+        "usage": "Dossier Boss : silhouette inspirée de Killa en centre commercial",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 154728,
+        "sha256": "512b05ce56dde5973a7c01971e01a68c964018f676845fe25ab2d690bc2ce9e6"
+      },
+      {
+        "fichier": "images/lore/premier-raid.jpg",
+        "phase": "PHASE_2",
+        "usage": "Checklist Premier raid : carte en papier et sac dans une planque",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 194284,
+        "sha256": "e5074020801b20a190859471616fc90dda125312d64c06d406c92990fb5fabfb"
+      },
+      {
+        "fichier": "images/spt/tushonka-hideout.jpg",
+        "phase": "PHASE_2",
+        "usage": "Dossier solo : conserve, tasse et ordinateur en planque",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 148889,
+        "sha256": "b0de47207d35ac6901c30d53166695cf7daf230f90c378a766b34fefe0adfd59"
+      },
+      {
+        "fichier": "images/beginners/first-deployment.jpg",
+        "phase": "PHASE_3",
+        "usage": "Personnage préparant son sac dans la planque, visuel principal du guide",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "statut": "INTEGREE",
+        "octets": 146750,
+        "sha256": "07dafb114de8fafe4ddbdcd9ac0cb31bbca9438657b8e57e78908d4db94dcca5"
+      },
+      {
+        "fichier": "images/beginners/ground-zero-interface.jpg",
+        "phase": "PHASE_3",
+        "usage": "Ground Zero imaginaire, support du HUD annoté en HTML",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "statut": "INTEGREE",
+        "octets": 176783,
+        "sha256": "7d51900bb7d74161788ab093d10ba6de00328438237519c5be695e820ad7adaa"
+      },
+      {
+        "fichier": "images/beginners/raid-medical-inventory.jpg",
+        "phase": "PHASE_3",
+        "usage": "Rangement de soins, à côté du repère des sept zones",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "statut": "INTEGREE",
+        "octets": 187885,
+        "sha256": "2e226a07b6fd8b79eef8780a68f6ddc710f360759a0b2955670dffc3c7314400"
+      },
+      {
+        "fichier": "images/lore/norvinsk-bay.jpg",
+        "phase": "PHASE_3",
+        "usage": "Baie de Norvinsk au crépuscule, visuel principal du dossier",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "statut": "INTEGREE",
+        "octets": 185263,
+        "sha256": "033df10d7f2d3b085ef60297b708419e3d8b544f268ea997b821a7640114b498"
+      },
+      {
+        "fichier": "images/lore/norvinsk-archive.jpg",
+        "phase": "PHASE_3",
+        "usage": "Dossier cartographique fictif",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "statut": "INTEGREE",
+        "octets": 235207,
+        "sha256": "e238ddc36d9c5864afd584d84c82e76b01b9d496e738602aed1d2c3d6f252d4c"
+      },
+      {
+        "fichier": "images/lore/quarantine-street.jpg",
+        "phase": "PHASE_3",
+        "usage": "Accès sous blocus, réserve non intégrée ni servie",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "statut": "RESERVE_NON_PUBLIEE",
+        "octets": 275076,
+        "sha256": "6bf9f0ec4eaaccff0fa2b083971c7e38be7355033b0fb2354114358510164d10"
+      },
+      {
+        "fichier": "images/maps/customs.jpg",
+        "phase": "PHASE_4",
+        "usage": "Illustration d’ambiance originale de la fiche Customs ; pas un plan tactique navigable.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 193543,
+        "sha256": "3ba84c8e5d57bce984c05475bf3f742c0d789b8c38c04f6558874713c8d7b66e"
+      },
+      {
+        "fichier": "images/maps/factory.jpg",
+        "phase": "PHASE_4",
+        "usage": "Illustration d’ambiance originale de la fiche Factory ; pas un plan tactique navigable.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 271926,
+        "sha256": "e2fdd486f60252f5980a3c0f99567c320606cb81b0e28c4edac9ad8dc889747b"
+      },
+      {
+        "fichier": "images/maps/woods.jpg",
+        "phase": "PHASE_4",
+        "usage": "Illustration d’ambiance originale de la fiche Woods ; pas un plan tactique navigable.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 291891,
+        "sha256": "0411dfd40ce3df0a1485311df1c5311bd16d64ce6d788124d39af009b88007cf"
+      },
+      {
+        "fichier": "images/maps/shoreline.jpg",
+        "phase": "PHASE_4",
+        "usage": "Illustration d’ambiance originale de la fiche Shoreline ; pas un plan tactique navigable.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 252556,
+        "sha256": "70dd090756d711d94ed1a58eb60c222ef56811c6235e717dba492b83674f004b"
+      },
+      {
+        "fichier": "images/maps/interchange.jpg",
+        "phase": "PHASE_4",
+        "usage": "Illustration d’ambiance originale de la fiche Interchange ; pas un plan tactique navigable.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 247233,
+        "sha256": "cb077cd53130b861a701ce4eecc7c4e218065370efa9e125081daf3750f0cd51"
+      },
+      {
+        "fichier": "images/maps/reserve.jpg",
+        "phase": "PHASE_4",
+        "usage": "Illustration d’ambiance originale de la fiche Reserve ; pas un plan tactique navigable.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 265226,
+        "sha256": "b802f610742ed0d5b3fa4eb0b6efc0968b0d6f704977b5b129b864f9f7e9aa74"
+      },
+      {
+        "fichier": "images/maps/the-lab.jpg",
+        "phase": "PHASE_4",
+        "usage": "Illustration d’ambiance originale de la fiche The Lab ; pas un plan tactique navigable.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 242088,
+        "sha256": "bd3e9c21cd6b572a9cab49b11044342a852b8fec80ba85d77715dcab3b2f20e3"
+      },
+      {
+        "fichier": "images/maps/lighthouse.jpg",
+        "phase": "PHASE_4",
+        "usage": "Illustration d’ambiance originale de la fiche Lighthouse ; pas un plan tactique navigable.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 257159,
+        "sha256": "fbbd7aa201606bbee87bb63b54088e877772c2bf04d59416b09b78defee72b8a"
+      },
+      {
+        "fichier": "images/maps/the-labyrinth.jpg",
+        "phase": "PHASE_4",
+        "usage": "Illustration d’ambiance originale de la fiche The Labyrinth ; pas un plan tactique navigable.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 252312,
+        "sha256": "0102f94c60295448f3359d13509ae1b3c6e6e7b6c79c4cfe6a1ea5fe9bdf4bd6"
+      },
+      {
+        "fichier": "images/maps/icebreaker.jpg",
+        "phase": "PHASE_4",
+        "usage": "Illustration d’ambiance originale de la fiche Icebreaker ; pas un plan tactique navigable.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "qualite": 85,
+        "octets": 246562,
+        "sha256": "24101deba829b5256457ce690d141fd6ea03605b0744cf9cb73565c43973f805"
+      },
+      {
+        "fichier": "images/ammo/ammo-chart-detail.jpg",
+        "phase": "PHASE_5",
+        "usage": "Illustration de munitions · valeurs séparées de l’image",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 184792,
+        "sha256": "c6c923cea8671691cee2054f9c094cee71b08f51641b093c0eb2750baa0c8e96"
+      },
+      {
+        "fichier": "images/weapons/assault-rifles-detail.jpg",
+        "phase": "PHASE_5",
+        "usage": "Illustration · la configuration d’un objet varie en jeu",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 175788,
+        "sha256": "c2eacc062ca27d7cb1290e085b8944330615c3447ac7f2afeca459fc78f19f35"
+      },
+      {
+        "fichier": "images/weapons/grenade-launcher-detail.jpg",
+        "phase": "PHASE_5",
+        "usage": "Illustration · ne décrit pas un équipement réel",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 142032,
+        "sha256": "68dfdff9cadbd006c3ba26ad50d2b1566e2620793d97d444f3c20f30e2a9889d"
+      },
+      {
+        "fichier": "images/weapons/lmg-detail.jpg",
+        "phase": "PHASE_5",
+        "usage": "Illustration · aucun chargement ou rôle de raid n’est simulé",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 175162,
+        "sha256": "3651afca6ada1e01e4edda9778d82b20fa5b4f9cf42647d5cada97898cf98ce6"
+      },
+      {
+        "fichier": "images/weapons/melee-detail.jpg",
+        "phase": "PHASE_5",
+        "usage": "Illustration · valeurs de jeu non transposables au réel",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 179589,
+        "sha256": "ce33e1563e15537e2ab8634d6d1d0032806fe1775c193b0f7dfd50b3a03e8897"
+      },
+      {
+        "fichier": "images/weapons/pistols-detail.jpg",
+        "phase": "PHASE_5",
+        "usage": "Illustration · valeurs propres au jeu uniquement",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 163307,
+        "sha256": "31577b5e79f6939eb49b32883dd0a8ce92e30158eed665775e5caa84bb59a2dd"
+      },
+      {
+        "fichier": "images/weapons/precision-detail.jpg",
+        "phase": "PHASE_5",
+        "usage": "Illustration · aucune caractéristique réelle n’est donnée",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 172845,
+        "sha256": "60e9d7d5ddf881242d964d42d9d5c2fa9b64c6fa21b1620a3fd3b6918e24d08d"
+      },
+      {
+        "fichier": "images/weapons/shotguns-detail.jpg",
+        "phase": "PHASE_5",
+        "usage": "Illustration · la charge utile n’est pas représentée",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 233557,
+        "sha256": "23d10a8e0ff510d88829770bb18810d77de95076979fb22eebbf12e15f508f22"
+      },
+      {
+        "fichier": "images/weapons/smg-detail.jpg",
+        "phase": "PHASE_5",
+        "usage": "Illustration · données de jeu, pas modèle réel",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 165774,
+        "sha256": "dcf4f62ecad6753f1c24a6320254fda434aad0dc07d5ddcc80eed9e03a3768f5"
+      },
+      {
+        "fichier": "images/weapons/weapon-family-rack.jpg",
+        "phase": "PHASE_5",
+        "usage": "Illustration de familles d’armes · non issue du client",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 245595,
+        "sha256": "84145c548669a9c9d296c7acc0f07a1a3755363d76eef1686d4464c6009a3e72"
+      },
+      {
+        "fichier": "images/armor/armor-hub.jpg",
+        "phase": "PHASE_6",
+        "usage": "Illustration éditoriale d’équipement de protection fictif pour le hub Armures; pas une capture EFT.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 178146,
+        "sha256": "0f8a3453fda0247f2c5334e3851de6f7aa72dfe0ebbd0daa147cf67588aa8e9f"
+      },
+      {
+        "fichier": "images/armor/armor-body-plates.jpg",
+        "phase": "PHASE_6",
+        "usage": "Porte-plaques et plaques fictifs sans texte ni marque; illustration générée, sans statistiques de jeu encodées.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 158970,
+        "sha256": "3751675bc26319fa35b424b9d0e67da585744ab881da173783d3a8d96ba52866"
+      },
+      {
+        "fichier": "images/armor/armor-helmet-visor.jpg",
+        "phase": "PHASE_6",
+        "usage": "Casque et visière fictifs; illustration éditoriale, compatibilités vérifiées par le texte exporté.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 136404,
+        "sha256": "78ec4329f4d492c007b1b5d08b719f282ca607aceebd5ccaf89bff4d8d1201e9"
+      },
+      {
+        "fichier": "images/armor/armor-materials.jpg",
+        "phase": "PHASE_6",
+        "usage": "Plaques fictives de matériaux variés; l’image n’établit pas de supériorité ni de valeur de durabilité.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 155551,
+        "sha256": "f9378118e18d211e94b33ee43ff1293e407a567aa119b1212dc29cd60e60b807"
+      },
+      {
+        "fichier": "images/armor/armor-rig-storage.jpg",
+        "phase": "PHASE_6",
+        "usage": "Rig et poches fictifs; la grille d’inventaire du jeu n’est pas représentée.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 207232,
+        "sha256": "9ff1ade3837948145e170876676700b1f53659b8ab09b614bce3440e264e7dbf"
+      },
+      {
+        "fichier": "images/bosses/bosses-hub.jpg",
+        "phase": "PHASE_6",
+        "usage": "Silhouette anonyme et fictive pour le hub Boss; non associée à un boss précis.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 99181,
+        "sha256": "ee60e5b8925b98a2276daec0d4fd524e52799efe3fe633c3142fad536e24add2"
+      },
+      {
+        "fichier": "images/bosses/boss-operator.jpg",
+        "phase": "PHASE_6",
+        "usage": "Opérateur fictif utilisé comme portrait d’ambiance générique; pas une représentation exacte d’un boss.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 180374,
+        "sha256": "09cef3da8c5f8a88530f6c610139e0a28e46984ef9c3cdb41cbfbeddbca0b67c"
+      },
+      {
+        "fichier": "images/bosses/boss-goons.jpg",
+        "phase": "PHASE_6",
+        "usage": "Trio fictif en ambiance de terrain; illustration éditoriale, non capture du jeu.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 275033,
+        "sha256": "27bac7456e463376c9595e179f735739390e1f8ad800ad545b0ac290987c22e5"
+      },
+      {
+        "fichier": "images/bosses/boss-labyrinth.jpg",
+        "phase": "PHASE_6",
+        "usage": "Environnement fictif du Labyrinth; aucun spawn ni équipement n’est encodé dans l’image.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 142761,
+        "sha256": "94a9052ab339b3dd5e82af459e989b58e86310eb7b1676f4098f984b2c6e761f"
+      },
+      {
+        "fichier": "images/bosses/boss-icebreaker.jpg",
+        "phase": "PHASE_6",
+        "usage": "Scène fictive d’Icebreaker; illustration éditoriale, pas une preuve de spawn ou de mécanisme.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 177011,
+        "sha256": "237f6cbf3922daa9a47862ed1226b1634c4251c16674b2b3ba1a7e9b4acfe441"
+      },
+      {
+        "fichier": "images/phase7/traders-market.jpg",
+        "phase": "PHASE_7",
+        "usage": "Comptoir de marché fictif, caisses et éclairage d’atelier.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 205718,
+        "sha256": "bd7d58146c06d4558d5fb6f3c24cf493eabc796f43a2603e0161bc0c70ac376f"
+      },
+      {
+        "fichier": "images/phase7/trader-ledger.jpg",
+        "phase": "PHASE_7",
+        "usage": "Registre de comptoir fictif, sans portrait ni inventaire officiel.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 210908,
+        "sha256": "0d5f37388ed7360a1dc68b0009908cc1d0abc60030602a53d7144d20fa6b1a76"
+      },
+      {
+        "fichier": "images/phase7/quest-dossier.jpg",
+        "phase": "PHASE_7",
+        "usage": "Dossier de terrain fictif, sans texte d’interface du jeu.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 193149,
+        "sha256": "eca963f8ee5f858b145e0eac5fc73fe70e0bbfbc376e1780e9ab012d55c9e8c7"
+      },
+      {
+        "fichier": "images/phase7/quest-board.jpg",
+        "phase": "PHASE_7",
+        "usage": "Tableau de planification fictif, sans carte de jeu.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 182283,
+        "sha256": "c078d1b866bd2eb666bae47b01a1338200b55973f0b0991aa460ba01f2a7a341"
+      },
+      {
+        "fichier": "images/phase7/kappa-case.jpg",
+        "phase": "PHASE_7",
+        "usage": "Conteneur de rangement fictif dans une planque; image non officielle.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 152355,
+        "sha256": "459c2c4dc55f1200b1c07804098377992770ccf5f996a52f01ec2c6a296e764b"
+      },
+      {
+        "fichier": "images/phase7/hideout-crafting.jpg",
+        "phase": "PHASE_7",
+        "usage": "Atelier improvisé dans une planque fictive, outils sous une lampe.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 210285,
+        "sha256": "3b56458e400e888d01c1ae3eb10fea668f31d29bcccae9a7ff7d75404bbf512f"
+      },
+      {
+        "fichier": "images/phase7/hideout-plan.jpg",
+        "phase": "PHASE_7",
+        "usage": "Plan dessiné d’une planque modulaire fictive, non à l’échelle.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 205712,
+        "sha256": "1198c739a1399d093ace44529a37c4319cc756eb9cb2218f84ffa678324955ce"
+      },
+      {
+        "fichier": "images/phase7/crafting-recipe.jpg",
+        "phase": "PHASE_7",
+        "usage": "Recette d’atelier fictive et composants sous une lampe.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 163975,
+        "sha256": "74d709d5077acf1121e6087440f4d800eeb6959a5284a937b9e0f58e3095c101"
+      },
+      {
+        "fichier": "images/phase8/advanced-tactics.jpg",
+        "phase": "PHASE_8",
+        "usage": "Deux opérateurs fictifs utilisent les côtés d’une rue urbaine comme couvert. Illustration éditoriale originale; ni capture, ni preuve de prix, de statistique ou de mécanique.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 144226,
+        "sha256": "b98748b66797587596675dffe9f47c6f907915277ff520d3dadcfdae7d96f465"
+      },
+      {
+        "fichier": "images/phase8/economy-ledger.jpg",
+        "phase": "PHASE_8",
+        "usage": "Registre fictif et crayon sur un bureau de planque. Illustration éditoriale originale; ni capture, ni preuve de prix, de statistique ou de mécanique.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 205074,
+        "sha256": "806efd254c114c0bcbd63cf0dcdfc9951d692c20fc375cde8a392b732b9500f4"
+      },
+      {
+        "fichier": "images/phase8/economy-loot.jpg",
+        "phase": "PHASE_8",
+        "usage": "Sac de raid ouvert avec des objets de récupération génériques, sans logo ni interface de jeu. Illustration éditoriale originale; ni capture, ni preuve de prix, de statistique ou de mécanique.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 230060,
+        "sha256": "be3afb7db17a3815e286ded9f7cf20016d72f65085665667270e7d384cba2062"
+      },
+      {
+        "fichier": "images/phase8/flea-market.jpg",
+        "phase": "PHASE_8",
+        "usage": "Comptoir de troc souterrain fictif dans un entrepôt reconverti. Illustration éditoriale originale; ni capture, ni preuve de prix, de statistique ou de mécanique.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 213755,
+        "sha256": "d929aee4cb22e0ce6564aca1dbad0ff9890fb7d8396f13d209a25537661be5c7"
+      },
+      {
+        "fichier": "images/phase8/money-run.jpg",
+        "phase": "PHASE_8",
+        "usage": "Survivant fictif à la lisière d’une cour urbaine détrempée, observant une sortie lointaine. Illustration éditoriale originale; ni capture, ni preuve de prix, de statistique ou de mécanique.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 265575,
+        "sha256": "c6ae69e68567d654b1482089503a3154383b96558c218e7819df37e3489ab171"
+      },
+      {
+        "fichier": "images/phase8/pve-prestige.jpg",
+        "phase": "PHASE_8",
+        "usage": "Carnet, sac et objets conservés dans un coin de planque fictif avant un nouveau départ. Illustration éditoriale originale; ni capture, ni preuve de prix, de statistique ou de mécanique.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 163830,
+        "sha256": "13da37d62f253ca1c4a042cf175156ac184ff4910ea15d39d09f15a4e92b6296"
+      },
+      {
+        "fichier": "images/phase8/pvp-loadout.jpg",
+        "phase": "PHASE_8",
+        "usage": "Configurations génériques d’équipement disposées sur un établi, sans noms ni statistiques. Illustration éditoriale originale; ni capture, ni preuve de prix, de statistique ou de mécanique.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 187077,
+        "sha256": "2b4dda056a70baa17e7c31b455b996399eafe3cf8e26f7db1c6e17a322b2f344"
+      },
+      {
+        "fichier": "images/phase8/skills-field-manual.jpg",
+        "phase": "PHASE_8",
+        "usage": "Carnet de terrain, gants et chronomètre sur un établi de planque fictif. Illustration éditoriale originale; ni capture, ni preuve de prix, de statistique ou de mécanique.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 165662,
+        "sha256": "a3efce4759aa253b099eed66b10c19fdaf0bc2e6918138881c0b2101db946a0d"
+      },
+      {
+        "fichier": "images/phase8/skills-training-range.jpg",
+        "phase": "PHASE_8",
+        "usage": "Opérateur fictif en entraînement de déplacement sous la pluie. Illustration éditoriale originale; ni capture, ni preuve de prix, de statistique ou de mécanique.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 225262,
+        "sha256": "79207c48bbb36d45a224756a4a434b7c85975793001f07e05261471b6dda3d92"
+      },
+      {
+        "fichier": "images/phase8/strategy-brief.jpg",
+        "phase": "PHASE_8",
+        "usage": "Table de briefing fictive, carte abstraite et jetons. Illustration éditoriale originale; ni capture, ni preuve de prix, de statistique ou de mécanique.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 186449,
+        "sha256": "1969aac315700f87a579d16c0b63e04d22559212689da1da92c7e0766dc2dd7a"
+      },
+      {
+        "fichier": "images/phase9/spt-raid.jpg",
+        "phase": "PHASE_9",
+        "usage": "Opérateur fictif dans une rue industrielle; illustration éditoriale originale, non capture du jeu.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 182979,
+        "sha256": "3f15716ac333ca19ec166ab7f5c8c6e90404973ce052746eeaec551a908ba4af"
+      },
+      {
+        "fichier": "images/phase9/spt-install.jpg",
+        "phase": "PHASE_9",
+        "usage": "Poste informatique générique évoquant une installation; aucun logo ni binaire visible.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 158149,
+        "sha256": "3b7c2c4104434325a4e7e48627382b80bf055dd5b5c1ba2dea779fa5268e8afa"
+      },
+      {
+        "fichier": "images/phase9/events-timeline.jpg",
+        "phase": "PHASE_9",
+        "usage": "Table de briefing fictive illustrant une chronologie d’événements.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 150084,
+        "sha256": "8596c89af5af54d46a9dcf53cfa6d8b702ced7efb48a3b01ac96c0f7c5efe549"
+      },
+      {
+        "fichier": "images/phase9/spt-troubleshoot.jpg",
+        "phase": "PHASE_9",
+        "usage": "Carnet technique fictif pour le diagnostic, sans identifiants ni logs réels.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 188378,
+        "sha256": "04efe0f285ef2e45989c0e84a2454d05f298f681c6c546c5e2cf4ec4e5fc846c"
+      },
+      {
+        "fichier": "images/phase9/fika-coop.jpg",
+        "phase": "PHASE_9",
+        "usage": "Deux opérateurs fictifs dans un couloir, illustration éditoriale de jeu coopératif.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 184991,
+        "sha256": "72c3b3f81006aaf67bc5d2195a881f1ed47136571a8bb0e49d934aa307691d2a"
+      },
+      {
+        "fichier": "images/phase9/spt-mods.jpg",
+        "phase": "PHASE_9",
+        "usage": "Établi de modding fictif avec carnet et ordinateur, sans contenu de jeu lisible.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 144038,
+        "sha256": "ee4531b8a090eaa91faa9f5bdbf255eb795d6b162da31a84c54354ad410846bf"
+      },
+      {
+        "fichier": "images/phase9/arena-match.jpg",
+        "phase": "PHASE_9",
+        "usage": "Arène tactique fictive, sans interface officielle ni logos de Battlestate Games.",
+        "dimensions_px": [
+          1376,
+          768
+        ],
+        "format": "JPG",
+        "octets": 176307,
+        "sha256": "f294fafc62c86c94e6d0dbe4877f07195bbda26f64f3a1b676cd5710980e1e78"
+      }
+    ],
+    "audios_crees": [
+      {
+        "fichier": "audio/ambient/ambient_rain.mp3",
+        "phase": "PHASE_1",
+        "titre": "Pluie sur les entrepôts",
+        "duree_secondes": 60.0,
+        "boucle": true,
+        "format": "MP3",
+        "octets": 1441531,
+        "sha256": "83e6907c348c97691f8134b4a848de4ed0e00ca6197fb5850fcfe2e7bb1d498a"
+      },
+      {
+        "fichier": "audio/ambient/ambient_industrial.mp3",
+        "phase": "PHASE_1",
+        "titre": "Ventilation de la planque",
+        "duree_secondes": 60.0,
+        "boucle": true,
+        "format": "MP3",
+        "octets": 1441507,
+        "sha256": "bd5e63f27628aa07a59742218271d6f715e199efb5e8aa1616e433bf8ee05444"
+      },
+      {
+        "fichier": "audio/ambient/ambient_forest.mp3",
+        "phase": "PHASE_1",
+        "titre": "Forêt de nuit",
+        "duree_secondes": 60.0,
+        "boucle": true,
+        "format": "MP3",
+        "octets": 1441511,
+        "sha256": "7436d199ba7e238973a8a92a182e6c1c507dfe53860c2f4ac575a257fc2e3403"
+      },
+      {
+        "fichier": "audio/ui/ui_click.mp3",
+        "phase": "PHASE_1",
+        "titre": "Clic radio",
+        "duree_secondes": 0.27,
+        "boucle": false,
+        "format": "MP3",
+        "octets": 8310,
+        "sha256": "7a4556872ed153c1581d18ba1f515f71b5adf1a2c2c9462d36fa29874d3073fe"
+      },
+      {
+        "fichier": "audio/ui/ui_notification.mp3",
+        "phase": "PHASE_1",
+        "titre": "Signal de notification",
+        "duree_secondes": 0.82,
+        "boucle": false,
+        "format": "MP3",
+        "octets": 21488,
+        "sha256": "326deba25cdd9ada94884b79d9f40551b80ab16cd113ade87a8291f501a12c43"
+      },
+      {
+        "fichier": "audio/ambient/ambient_city.mp3",
+        "phase": "PHASE_2",
+        "titre": "Ville abandonnée",
+        "duree_secondes": 60.0,
+        "boucle": true,
+        "format": "MP3",
+        "octets": 1441517,
+        "sha256": "31b3592d5d44edda0d7f32664fa48086062cc7a84538b0be1cce1d4f2a8089ae"
+      }
+    ],
+    "inventaire_pages": "docs/plan-editorial.json",
+    "pages_livrees": [
+      {
+        "fichier": "index.html",
+        "phase": "PHASE_2",
+        "titre": "Tarkov Ultimate Guide",
+        "chemin_apercu": "/",
+        "releve": "2026-11-18T14:04:02+01:00",
+        "images": [
+          "images/hero/norvinsk-rain.jpg",
+          "images/maps/norvinsk-overlook.jpg",
+          "images/weapons/arsenal-workbench.jpg",
+          "images/bosses/killa-ambience.jpg",
+          "images/lore/premier-raid.jpg",
+          "images/spt/tushonka-hideout.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/getting-started.html",
+        "phase": "PHASE_3",
+        "titre": "Guide du débutant",
+        "chemin_apercu": "/pages/getting-started.html",
+        "releve": "2026-11-18T14:36:42+01:00",
+        "images": [
+          "images/beginners/first-deployment.jpg",
+          "images/beginners/ground-zero-interface.jpg",
+          "images/beginners/raid-medical-inventory.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/lore/index.html",
+        "phase": "PHASE_3",
+        "titre": "Lore & univers de Tarkov",
+        "chemin_apercu": "/pages/lore/",
+        "releve": "2026-11-18T14:36:42+01:00",
+        "images": [
+          "images/lore/norvinsk-bay.jpg",
+          "images/lore/norvinsk-archive.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/maps/customs.html",
+        "phase": "PHASE_4",
+        "titre": "Customs",
+        "chemin_apercu": "/pages/maps/customs.html",
+        "releve": "2026-11-18T16:31:10+01:00",
+        "images": [
+          "images/maps/customs.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/maps/factory.html",
+        "phase": "PHASE_4",
+        "titre": "Factory",
+        "chemin_apercu": "/pages/maps/factory.html",
+        "releve": "2026-11-18T16:31:10+01:00",
+        "images": [
+          "images/maps/factory.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/maps/ground-zero.html",
+        "phase": "PHASE_4",
+        "titre": "Ground Zero",
+        "chemin_apercu": "/pages/maps/ground-zero.html",
+        "releve": "2026-11-18T16:31:10+01:00",
+        "images": [
+          "images/maps/ground-zero-district.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/maps/icebreaker.html",
+        "phase": "PHASE_4",
+        "titre": "Icebreaker",
+        "chemin_apercu": "/pages/maps/icebreaker.html",
+        "releve": "2026-11-18T16:31:10+01:00",
+        "images": [
+          "images/maps/icebreaker.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/maps/index.html",
+        "phase": "PHASE_4",
+        "titre": "Cartes de Tarkov",
+        "chemin_apercu": "/pages/maps/index.html",
+        "releve": "2026-11-18T16:31:10+01:00",
+        "images": [
+          "images/maps/norvinsk-overlook.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/maps/interchange.html",
+        "phase": "PHASE_4",
+        "titre": "Interchange",
+        "chemin_apercu": "/pages/maps/interchange.html",
+        "releve": "2026-11-18T16:31:10+01:00",
+        "images": [
+          "images/maps/interchange.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/maps/lighthouse.html",
+        "phase": "PHASE_4",
+        "titre": "Lighthouse",
+        "chemin_apercu": "/pages/maps/lighthouse.html",
+        "releve": "2026-11-18T16:31:10+01:00",
+        "images": [
+          "images/maps/lighthouse.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/maps/reserve.html",
+        "phase": "PHASE_4",
+        "titre": "Reserve",
+        "chemin_apercu": "/pages/maps/reserve.html",
+        "releve": "2026-11-18T16:31:10+01:00",
+        "images": [
+          "images/maps/reserve.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/maps/shoreline.html",
+        "phase": "PHASE_4",
+        "titre": "Shoreline",
+        "chemin_apercu": "/pages/maps/shoreline.html",
+        "releve": "2026-11-18T16:31:10+01:00",
+        "images": [
+          "images/maps/shoreline.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/maps/streets-of-tarkov.html",
+        "phase": "PHASE_4",
+        "titre": "Streets of Tarkov",
+        "chemin_apercu": "/pages/maps/streets-of-tarkov.html",
+        "releve": "2026-11-18T16:31:10+01:00",
+        "images": [
+          "images/maps/streets-of-tarkov-district.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/maps/terminal.html",
+        "phase": "PHASE_4",
+        "titre": "Terminal",
+        "chemin_apercu": "/pages/maps/terminal.html",
+        "releve": "2026-11-18T16:31:10+01:00",
+        "images": [
+          "images/maps/terminal-port.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/maps/the-lab.html",
+        "phase": "PHASE_4",
+        "titre": "The Lab",
+        "chemin_apercu": "/pages/maps/the-lab.html",
+        "releve": "2026-11-18T16:31:10+01:00",
+        "images": [
+          "images/maps/the-lab.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/maps/the-labyrinth.html",
+        "phase": "PHASE_4",
+        "titre": "The Labyrinth",
+        "chemin_apercu": "/pages/maps/the-labyrinth.html",
+        "releve": "2026-11-18T16:31:10+01:00",
+        "images": [
+          "images/maps/the-labyrinth.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/maps/woods.html",
+        "phase": "PHASE_4",
+        "titre": "Woods",
+        "chemin_apercu": "/pages/maps/woods.html",
+        "releve": "2026-11-18T16:31:10+01:00",
+        "images": [
+          "images/maps/woods.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/ammo/ammo-chart.html",
+        "phase": "PHASE_5",
+        "titre": "Tableau balistique interactif",
+        "chemin_apercu": "/pages/ammo/ammo-chart.html",
+        "releve": "2026-11-18T19:06:33+01:00",
+        "images": [
+          "images/ammo/ammo-chart-detail.jpg",
+          "images/ammo/ammo-chart-detail-640.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/ammo/index.html",
+        "phase": "PHASE_5",
+        "titre": "Munitions & balistique en jeu",
+        "chemin_apercu": "/pages/ammo/index.html",
+        "releve": "2026-11-18T19:06:33+01:00",
+        "images": [
+          "images/ammo/ammo-catalogue-tray.jpg",
+          "images/ammo/ammo-chart-detail-640.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/weapons/assault-rifles.html",
+        "phase": "PHASE_5",
+        "titre": "Fusils d’assaut",
+        "chemin_apercu": "/pages/weapons/assault-rifles.html",
+        "releve": "2026-11-18T19:06:33+01:00",
+        "images": [
+          "images/weapons/assault-rifles-detail.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/weapons/dmrs.html",
+        "phase": "PHASE_5",
+        "titre": "Fusils de tireur désigné (DMR)",
+        "chemin_apercu": "/pages/weapons/dmrs.html",
+        "releve": "2026-11-18T19:06:33+01:00",
+        "images": [
+          "images/weapons/dmr-field-rifle.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/weapons/grenade-launchers.html",
+        "phase": "PHASE_5",
+        "titre": "Lanceurs en jeu",
+        "chemin_apercu": "/pages/weapons/grenade-launchers.html",
+        "releve": "2026-11-18T19:06:33+01:00",
+        "images": [
+          "images/weapons/grenade-launcher-detail.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/weapons/index.html",
+        "phase": "PHASE_5",
+        "titre": "Arsenal",
+        "chemin_apercu": "/pages/weapons/index.html",
+        "releve": "2026-11-18T19:06:33+01:00",
+        "images": [
+          "images/weapons/weapon-family-rack.jpg",
+          "images/weapons/assault-rifles-detail.jpg",
+          "images/weapons/pistols-detail.jpg",
+          "images/weapons/melee-detail.jpg",
+          "images/weapons/shotguns-detail.jpg",
+          "images/weapons/precision-detail.jpg",
+          "images/weapons/dmr-field-rifle.jpg",
+          "images/weapons/smg-detail.jpg",
+          "images/weapons/lmg-detail.jpg",
+          "images/weapons/grenade-launcher-detail.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/weapons/lmgs.html",
+        "phase": "PHASE_5",
+        "titre": "Mitrailleuses légères (LMG)",
+        "chemin_apercu": "/pages/weapons/lmgs.html",
+        "releve": "2026-11-18T19:06:33+01:00",
+        "images": [
+          "images/weapons/lmg-detail.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/weapons/melee.html",
+        "phase": "PHASE_5",
+        "titre": "Armes de mêlée",
+        "chemin_apercu": "/pages/weapons/melee.html",
+        "releve": "2026-11-18T19:06:33+01:00",
+        "images": [
+          "images/weapons/melee-detail.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/weapons/pistols.html",
+        "phase": "PHASE_5",
+        "titre": "Pistolets et revolvers",
+        "chemin_apercu": "/pages/weapons/pistols.html",
+        "releve": "2026-11-18T19:06:33+01:00",
+        "images": [
+          "images/weapons/pistols-detail.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/weapons/shotguns.html",
+        "phase": "PHASE_5",
+        "titre": "Fusils à pompe",
+        "chemin_apercu": "/pages/weapons/shotguns.html",
+        "releve": "2026-11-18T19:06:33+01:00",
+        "images": [
+          "images/weapons/shotguns-detail.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/weapons/smgs.html",
+        "phase": "PHASE_5",
+        "titre": "Pistolets-mitrailleurs (SMG)",
+        "chemin_apercu": "/pages/weapons/smgs.html",
+        "releve": "2026-11-18T19:06:33+01:00",
+        "images": [
+          "images/weapons/smg-detail.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/weapons/sniper-rifles.html",
+        "phase": "PHASE_5",
+        "titre": "Fusils de précision",
+        "chemin_apercu": "/pages/weapons/sniper-rifles.html",
+        "releve": "2026-11-18T19:06:33+01:00",
+        "images": [
+          "images/weapons/precision-detail.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/weapons/weapon-mods.html",
+        "phase": "PHASE_5",
+        "titre": "Modifications d’armes",
+        "chemin_apercu": "/pages/weapons/weapon-mods.html",
+        "releve": "2026-11-18T19:06:33+01:00",
+        "images": [
+          "images/weapons/weapon-mods-inspection.jpg",
+          "images/weapons/weapon-mods-inspection-640.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/armor/armor-chart.html",
+        "phase": "PHASE_6",
+        "titre": "Comparateur d’armures",
+        "chemin_apercu": "/pages/armor/armor-chart.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/armor/armor-materials.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/armor/body-armor.html",
+        "phase": "PHASE_6",
+        "titre": "Gilets & plaques",
+        "chemin_apercu": "/pages/armor/body-armor.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/armor/armor-body-plates.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/armor/helmets.html",
+        "phase": "PHASE_6",
+        "titre": "Casques & visières",
+        "chemin_apercu": "/pages/armor/helmets.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/armor/armor-helmet-visor.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/armor/index.html",
+        "phase": "PHASE_6",
+        "titre": "Armures & protection en jeu",
+        "chemin_apercu": "/pages/armor/index.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/armor/armor-hub.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/armor/rigs.html",
+        "phase": "PHASE_6",
+        "titre": "Rigs tactiques",
+        "chemin_apercu": "/pages/armor/rigs.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/armor/armor-rig-storage.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/cultist-priest.html",
+        "phase": "PHASE_6",
+        "titre": "Cultist Priest",
+        "chemin_apercu": "/pages/bosses/cultist-priest.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/boss-operator.jpg",
+          "images/maps/woods.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/glukhar.html",
+        "phase": "PHASE_6",
+        "titre": "Glukhar",
+        "chemin_apercu": "/pages/bosses/glukhar.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/boss-operator.jpg",
+          "images/maps/reserve.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/index.html",
+        "phase": "PHASE_6",
+        "titre": "Boss de Tarkov",
+        "chemin_apercu": "/pages/bosses/index.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/bosses-hub.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/kaban.html",
+        "phase": "PHASE_6",
+        "titre": "Kaban",
+        "chemin_apercu": "/pages/bosses/kaban.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/boss-operator.jpg",
+          "images/maps/streets-of-tarkov-district.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/killa.html",
+        "phase": "PHASE_6",
+        "titre": "Killa",
+        "chemin_apercu": "/pages/bosses/killa.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/killa-ambience.jpg",
+          "images/maps/interchange.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/kollontay.html",
+        "phase": "PHASE_6",
+        "titre": "Kollontay",
+        "chemin_apercu": "/pages/bosses/kollontay.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/boss-operator.jpg",
+          "images/maps/streets-of-tarkov-district.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/partisan.html",
+        "phase": "PHASE_6",
+        "titre": "Partisan",
+        "chemin_apercu": "/pages/bosses/partisan.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/boss-operator.jpg",
+          "images/maps/woods.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/reshala.html",
+        "phase": "PHASE_6",
+        "titre": "Reshala",
+        "chemin_apercu": "/pages/bosses/reshala.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/boss-operator.jpg",
+          "images/maps/customs.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/sanitar.html",
+        "phase": "PHASE_6",
+        "titre": "Sanitar",
+        "chemin_apercu": "/pages/bosses/sanitar.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/boss-operator.jpg",
+          "images/maps/shoreline.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/shadow-of-tagilla.html",
+        "phase": "PHASE_6",
+        "titre": "Shadow of Tagilla",
+        "chemin_apercu": "/pages/bosses/shadow-of-tagilla.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/boss-labyrinth.jpg",
+          "images/maps/the-labyrinth.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/shturman.html",
+        "phase": "PHASE_6",
+        "titre": "Shturman",
+        "chemin_apercu": "/pages/bosses/shturman.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/boss-operator.jpg",
+          "images/maps/woods.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/tagilla.html",
+        "phase": "PHASE_6",
+        "titre": "Tagilla",
+        "chemin_apercu": "/pages/bosses/tagilla.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/boss-operator.jpg",
+          "images/maps/factory.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/the-goons.html",
+        "phase": "PHASE_6",
+        "titre": "The Goons",
+        "chemin_apercu": "/pages/bosses/the-goons.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/boss-goons.jpg",
+          "images/maps/lighthouse.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/the-wedge.html",
+        "phase": "PHASE_6",
+        "titre": "The Wedge",
+        "chemin_apercu": "/pages/bosses/the-wedge.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/boss-icebreaker.jpg",
+          "images/maps/icebreaker.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/vengeful-killa.html",
+        "phase": "PHASE_6",
+        "titre": "Vengeful Killa",
+        "chemin_apercu": "/pages/bosses/vengeful-killa.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/boss-labyrinth.jpg",
+          "images/maps/the-labyrinth.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/bosses/zryachiy.html",
+        "phase": "PHASE_6",
+        "titre": "Zryachiy",
+        "chemin_apercu": "/pages/bosses/zryachiy.html",
+        "releve": "2026-11-18T23:48:30.540Z",
+        "images": [
+          "images/bosses/boss-operator.jpg",
+          "images/maps/lighthouse.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/traders/index.html",
+        "phase": "PHASE_7",
+        "titre": "Traders & interlocuteurs",
+        "chemin_apercu": "/pages/traders/",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/traders-market.jpg",
+          "images/phase7/trader-ledger.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/traders/prapor.html",
+        "phase": "PHASE_7",
+        "titre": "Prapor",
+        "chemin_apercu": "/pages/traders/prapor.html",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/traders-market.jpg",
+          "images/phase7/trader-ledger.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/traders/therapist.html",
+        "phase": "PHASE_7",
+        "titre": "Therapist",
+        "chemin_apercu": "/pages/traders/therapist.html",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/traders-market.jpg",
+          "images/phase7/trader-ledger.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/traders/skier.html",
+        "phase": "PHASE_7",
+        "titre": "Skier",
+        "chemin_apercu": "/pages/traders/skier.html",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/traders-market.jpg",
+          "images/phase7/trader-ledger.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/traders/peacekeeper.html",
+        "phase": "PHASE_7",
+        "titre": "Peacekeeper",
+        "chemin_apercu": "/pages/traders/peacekeeper.html",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/traders-market.jpg",
+          "images/phase7/trader-ledger.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/traders/mechanic.html",
+        "phase": "PHASE_7",
+        "titre": "Mechanic",
+        "chemin_apercu": "/pages/traders/mechanic.html",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/traders-market.jpg",
+          "images/phase7/trader-ledger.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/traders/ragman.html",
+        "phase": "PHASE_7",
+        "titre": "Ragman",
+        "chemin_apercu": "/pages/traders/ragman.html",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/traders-market.jpg",
+          "images/phase7/trader-ledger.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/traders/jaeger.html",
+        "phase": "PHASE_7",
+        "titre": "Jaeger",
+        "chemin_apercu": "/pages/traders/jaeger.html",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/traders-market.jpg",
+          "images/phase7/trader-ledger.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/traders/fence.html",
+        "phase": "PHASE_7",
+        "titre": "Fence",
+        "chemin_apercu": "/pages/traders/fence.html",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/traders-market.jpg",
+          "images/phase7/trader-ledger.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/traders/lightkeeper.html",
+        "phase": "PHASE_7",
+        "titre": "Lightkeeper",
+        "chemin_apercu": "/pages/traders/lightkeeper.html",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/traders-market.jpg",
+          "images/phase7/trader-ledger.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/traders/ref.html",
+        "phase": "PHASE_7",
+        "titre": "Ref",
+        "chemin_apercu": "/pages/traders/ref.html",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/traders-market.jpg",
+          "images/phase7/trader-ledger.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/quests/index.html",
+        "phase": "PHASE_7",
+        "titre": "Quêtes de Tarkov",
+        "chemin_apercu": "/pages/quests/",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/quest-dossier.jpg",
+          "images/phase7/quest-board.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/quests/quest-tree.html",
+        "phase": "PHASE_7",
+        "titre": "Arbre des quêtes",
+        "chemin_apercu": "/pages/quests/quest-tree.html",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/quest-board.jpg",
+          "images/phase7/quest-dossier.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/quests/kappa-guide.html",
+        "phase": "PHASE_7",
+        "titre": "Guide du conteneur Kappa",
+        "chemin_apercu": "/pages/quests/kappa-guide.html",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/kappa-case.jpg",
+          "images/phase7/quest-dossier.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/hideout/index.html",
+        "phase": "PHASE_7",
+        "titre": "Planque (Hideout)",
+        "chemin_apercu": "/pages/hideout/",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/hideout-crafting.jpg",
+          "images/phase7/hideout-plan.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/hideout/crafting.html",
+        "phase": "PHASE_7",
+        "titre": "Atelier & recettes",
+        "chemin_apercu": "/pages/hideout/crafting.html",
+        "releve": "2026-11-19T00:58:54.228Z",
+        "images": [
+          "images/phase7/crafting-recipe.jpg",
+          "images/phase7/hideout-crafting.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/skills/index.html",
+        "phase": "PHASE_8",
+        "titre": "Compétences (Skills)",
+        "chemin_apercu": "/pages/skills/",
+        "releve": "2026-11-19T09:15:59.733Z",
+        "images": [
+          "images/phase8/skills-field-manual.jpg",
+          "images/phase8/skills-training-range.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/economy/index.html",
+        "phase": "PHASE_8",
+        "titre": "Économie & Flea Market",
+        "chemin_apercu": "/pages/economy/",
+        "releve": "2026-11-19T09:15:59.733Z",
+        "images": [
+          "images/phase8/economy-ledger.jpg",
+          "images/phase8/economy-loot.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/economy/flea-market.html",
+        "phase": "PHASE_8",
+        "titre": "Guide du Flea Market",
+        "chemin_apercu": "/pages/economy/flea-market.html",
+        "releve": "2026-11-19T09:15:59.733Z",
+        "images": [
+          "images/phase8/flea-market.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/economy/money-making.html",
+        "phase": "PHASE_8",
+        "titre": "Gagner des roubles",
+        "chemin_apercu": "/pages/economy/money-making.html",
+        "releve": "2026-11-19T09:15:59.733Z",
+        "images": [
+          "images/phase8/money-run.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/strategy/index.html",
+        "phase": "PHASE_8",
+        "titre": "Stratégies & méta en jeu",
+        "chemin_apercu": "/pages/strategy/",
+        "releve": "2026-11-19T09:15:59.733Z",
+        "images": [
+          "images/phase8/pvp-loadout.jpg",
+          "images/phase8/strategy-brief.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/strategy/beginner-tips.html",
+        "phase": "PHASE_8",
+        "titre": "61 astuces pour débuter",
+        "chemin_apercu": "/pages/strategy/beginner-tips.html",
+        "releve": "2026-11-19T09:15:59.733Z",
+        "images": [
+          "images/phase8/skills-training-range.jpg",
+          "images/phase8/strategy-brief.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/strategy/advanced-tactics.html",
+        "phase": "PHASE_8",
+        "titre": "Tactiques avancées en jeu",
+        "chemin_apercu": "/pages/strategy/advanced-tactics.html",
+        "releve": "2026-11-19T09:15:59.733Z",
+        "images": [
+          "images/phase8/advanced-tactics.jpg",
+          "images/phase8/strategy-brief.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/strategy/pvp-guide.html",
+        "phase": "PHASE_8",
+        "titre": "Guide PvP",
+        "chemin_apercu": "/pages/strategy/pvp-guide.html",
+        "releve": "2026-11-19T09:15:59.733Z",
+        "images": [
+          "images/phase8/advanced-tactics.jpg",
+          "images/phase8/pvp-loadout.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/strategy/pve-guide.html",
+        "phase": "PHASE_8",
+        "titre": "Guide PvE & Prestige",
+        "chemin_apercu": "/pages/strategy/pve-guide.html",
+        "releve": "2026-11-19T09:15:59.733Z",
+        "images": [
+          "images/phase8/pve-prestige.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/strategy/meta-builds.html",
+        "phase": "PHASE_8",
+        "titre": "Builds par budget & méta",
+        "chemin_apercu": "/pages/strategy/meta-builds.html",
+        "releve": "2026-11-19T09:15:59.733Z",
+        "images": [
+          "images/phase8/economy-ledger.jpg",
+          "images/phase8/pvp-loadout.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/spt-tushonka/index.html",
+        "phase": "PHASE_9",
+        "titre": "SP-Tushonka : guide, installation et coop",
+        "chemin_apercu": "/pages/spt-tushonka/",
+        "releve": "2026-11-18",
+        "images": [
+          "images/phase9/spt-raid.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/spt-tushonka/installation.html",
+        "phase": "PHASE_9",
+        "titre": "Installer SP-Tushonka (SPT)",
+        "chemin_apercu": "/pages/spt-tushonka/installation.html",
+        "releve": "2026-11-18",
+        "images": [
+          "images/phase9/spt-install.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/spt-tushonka/mods.html",
+        "phase": "PHASE_9",
+        "titre": "Mods SPT & The Forge",
+        "chemin_apercu": "/pages/spt-tushonka/mods.html",
+        "releve": "2026-11-18",
+        "images": [
+          "images/phase9/spt-mods.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/spt-tushonka/fika.html",
+        "phase": "PHASE_9",
+        "titre": "Project Fika : coopératif avec SPT",
+        "chemin_apercu": "/pages/spt-tushonka/fika.html",
+        "releve": "2026-11-18",
+        "images": [
+          "images/phase9/fika-coop.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/spt-tushonka/troubleshooting.html",
+        "phase": "PHASE_9",
+        "titre": "Dépanner SP-Tushonka",
+        "chemin_apercu": "/pages/spt-tushonka/troubleshooting.html",
+        "releve": "2026-11-18",
+        "images": [
+          "images/phase9/spt-troubleshoot.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/arena/index.html",
+        "phase": "PHASE_9",
+        "titre": "Escape from Tarkov: Arena — modes & stratégies",
+        "chemin_apercu": "/pages/arena/",
+        "releve": "2026-11-18",
+        "images": [
+          "images/phase9/arena-match.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      },
+      {
+        "fichier": "pages/events/index.html",
+        "phase": "PHASE_9",
+        "titre": "Événements Escape from Tarkov 2026",
+        "chemin_apercu": "/pages/events/",
+        "releve": "2026-11-18",
+        "images": [
+          "images/phase9/events-timeline.jpg"
+        ],
+        "indexee_dans_recherche_locale": true,
+        "apercu_indexable": false
+      }
+    ],
+    "ateliers_techniques": [
+      {
+        "fichier": "lab/index.html",
+        "chemin_apercu": "/lab/",
+        "phase": "PHASE_1",
+        "indexable": false
+      }
+    ],
+    "images_derivees": [
+      {
+        "fichier": "images/weapons/weapon-family-rack-640.jpg",
+        "source": "images/weapons/weapon-family-rack.jpg",
+        "phase": "PHASE_5",
+        "usage": "Dérivé responsive réencodé; même illustration, non compté comme nouvelle création d’image.",
+        "dimensions_px": [
+          640,
+          357
+        ],
+        "format": "JPG",
+        "qualite_jpeg": 78,
+        "octets": 61042,
+        "sha256": "e62978932bee15c1a077c723d5e96f658860da1b630f256e8a0a8172cb98d615"
+      },
+      {
+        "fichier": "images/ammo/ammo-chart-detail-640.jpg",
+        "source": "images/ammo/ammo-chart-detail.jpg",
+        "phase": "PHASE_5",
+        "usage": "Dérivé responsive réencodé; même illustration, non compté comme nouvelle création d’image.",
+        "dimensions_px": [
+          640,
+          357
+        ],
+        "format": "JPG",
+        "qualite_jpeg": 78,
+        "octets": 45209,
+        "sha256": "e77f8cc57af0ba5e4ef5ec4c93b256b3083b789d8592bdb8f9fb1847b586d7cc"
+      }
+    ]
+  },
+  "contraintes": {
+    "pages_html_minimum": 25,
+    "pages_html_objectif": 40,
+    "illustrations_minimum_par_page": 2,
+    "max_images_par_reponse": 10,
+    "max_audios_par_reponse": 10,
+    "images": "JPG exclusivement ; illustrations originales générées, photoréalistes",
+    "audio": "MP3",
+    "formats_interdits": [
+      "ZIP",
+      "PDF"
+    ],
+    "formats_image_interdits": [
+      "PNG",
+      "SVG"
+    ]
+  },
+  "politique_editoriale": {
+    "verification_avant_redaction": true,
+    "donnees_en_jeu_uniquement": true,
+    "sources_primaires": [
+      "Notes BSG et annonces officielles Steam pour les versions EFT",
+      "Tarkov.dev / exports JSON pour les catalogues (GraphQL indisponible au dernier test)",
+      "Releases du dépôt du projet pour les versions communautaires"
+    ],
+    "qualificatifs": [
+      "CONFIRME",
+      "CORROBORE",
+      "CONTRADIT",
+      "ANNONCE",
+      "NON_CONFIRME",
+      "A_REVALIDER"
+    ],
+    "separer": [
+      "EFT live PvP",
+      "EFT PvE officiel",
+      "EFT Arena",
+      "Projet communautaire et compatibilité exacte",
+      "Événement daté"
+    ],
+    "note": "Un contexte fourni n’est pas une preuve. Noter la date, le mode et la source des chiffres. Ne jamais inventer de version, de catalogue complet ou de prix en temps réel."
+  },
+  "phases": [
+    {
+      "id": "PHASE_0",
+      "titre": "Initialisation et planification",
+      "objectif": "Vérifier les sources, constituer le socle de données et cadrer toutes les pages.",
+      "confirmation_suivante": "CONTINUE",
+      "statut": "TERMINE",
+      "pages_planifiees": 0,
+      "pages_generees": 0,
+      "terminee_le": "2026-11-18T13:27:43+01:00",
+      "controle_local": "python3 scripts/check_phase0.py",
+      "livrable": "docs/phase-0.md"
+    },
+    {
+      "id": "PHASE_1",
+      "titre": "Fondations techniques",
+      "objectif": "Styles, navigation, composants JS et lecteur audio sans lecture automatique.",
+      "confirmation_suivante": "CONTINUE",
+      "statut": "TERMINE",
+      "pages_planifiees": 0,
+      "pages_generees": 0,
+      "criteres_de_sortie": [
+        "Styles, thèmes, responsive et composants réutilisables écrits sans rendre les futurs guides dépendants du JS.",
+        "Navigation, recherche de démonstration et test clavier, focale de modal et préférence reduced-motion contrôlés.",
+        "Premières ambiances MP3, sans autoplay ; limites de formats et de volume respectées.",
+        "État du projet synchronisé ; aucun lien public vers une page future vide."
+      ],
+      "demarree_le": "2026-11-18T13:33:55+01:00",
+      "terminee_le": "2026-11-18T13:58:45+01:00",
+      "controle_local": "python3 scripts/check_phase1.py",
+      "livrable": "docs/phase-1.md",
+      "preuves": [
+        "lab/index.html",
+        "data/snapshots/validation-phase-1.json",
+        "data/snapshots/validation-phase-1-firefox.json",
+        "data/snapshots/contraste-phase-1.json"
+      ]
+    },
+    {
+      "id": "PHASE_2",
+      "titre": "Accueil et navigation",
+      "objectif": "Accueil, menu, recherche globale et lancement de la prévisualisation.",
+      "confirmation_suivante": "CONTINUE",
+      "statut": "TERMINE",
+      "pages_planifiees": 1,
+      "pages_generees": 1,
+      "demarree_le": "2026-11-18T14:01:58+01:00",
+      "criteres_de_sortie": [
+        "Accueil public autonome, illustré en JPG, avec chiffres documentés et annonces datées.",
+        "Navigation, recherche locale et audio sur action explicite, aucune route éditoriale future liée.",
+        "Responsive, clavier et tests navigateur ; vérifier références, SEO et états de pilotage."
+      ],
+      "terminee_le": "2026-11-18T14:22:50+01:00",
+      "controle_local": "python3 scripts/check_phase2.py",
+      "livrable": "docs/phase-2.md",
+      "preuves": [
+        "index.html",
+        "js/data/search-index.json",
+        "docs/verifications-phase-2.md",
+        "data/snapshots/validation-phase-2.json",
+        "data/snapshots/validation-phase-2-firefox.json",
+        "data/snapshots/contraste-phase-2.json"
+      ]
+    },
+    {
+      "id": "PHASE_3",
+      "titre": "Guide du débutant et lore",
+      "objectif": "Cycle de raid, FAQ, santé en jeu et univers de Norvinsk.",
+      "confirmation_suivante": "CONTINUE",
+      "statut": "TERMINE",
+      "pages_planifiees": 2,
+      "pages_generees": 2,
+      "demarree_le": "2026-11-18T14:30:34+01:00",
+      "criteres_de_sortie": [
+        "Publier le Guide du débutant et Lore & univers, avec informations recoupées avant rédaction et JPG originaux.",
+        "Parcours en 10 étapes, checklist, onglets de profils, santé et contrôles en jeu, FAQ d’au moins 20 questions ; lore avec factions, chronologie et révélations masquées.",
+        "Intégrer à l’accueil, la navigation, la recherche et au sitemap ; préserver accessibilité et isolement des routes futures.",
+        "Consigner les contrôles et attendre CONTINUE avant PHASE_4."
+      ],
+      "terminee_le": "2026-11-18T14:51:56+01:00",
+      "controle_local": "python3 scripts/check_phase3.py",
+      "livrable": "docs/phase-3.md",
+      "preuves": [
+        "pages/getting-started.html",
+        "pages/lore/index.html",
+        "docs/verifications-phase-3.md",
+        "data/snapshots/validation-phase-3.json",
+        "data/snapshots/validation-phase-3-firefox.json",
+        "data/snapshots/contraste-phase-3.json",
+        "data/snapshots/regression-accueil-phase-3.json",
+        "data/snapshots/regression-accueil-firefox-phase-3.json",
+        "data/snapshots/regression-atelier-phase-3.json"
+      ]
+    },
+    {
+      "id": "PHASE_4",
+      "titre": "Cartes",
+      "objectif": "Hub, guides par carte, filtres et comparateur.",
+      "confirmation_suivante": "CONTINUE",
+      "statut": "TERMINE",
+      "pages_planifiees": 14,
+      "pages_generees": 14,
+      "demarree_le": "2026-11-18T15:05:28+01:00",
+      "terminee_le": "2026-11-18T16:31:10+01:00",
+      "controle_local": "python3 scripts/check_phase3.py --phase4 --artefacts-seuls",
+      "livrable": "docs/phase-4.md",
+      "criteres_de_sortie": [
+        "Hub Cartes et treize fiches canoniques générés ; les six variantes sont distinguées des treize lieux principaux.",
+        "Filtres, comparateur de deux lieux, clavier, recherches, navigation, reflow et repli sans JavaScript contrôlés.",
+        "Accès, transits, sources, limites et actualité BSG du 18/11 consignés sans présenter l’export comme état du client.",
+        "17 routes, sitemap, 43 entrées de recherche, 29 transits, images et ancres validés ; preuves Chromium, Firefox et contraste archivées."
+      ],
+      "preuves": [
+        "pages/maps/index.html",
+        "pages/maps/",
+        "data/maps.json",
+        "docs/verifications-phase-4.md",
+        "docs/sources.json",
+        "data/snapshots/validation-phase-4.json",
+        "data/snapshots/validation-phase-4-firefox.json",
+        "data/snapshots/contraste-phase-4.json",
+        "js/data/search-index.json",
+        "sitemap.xml"
+      ]
+    },
+    {
+      "id": "PHASE_5",
+      "titre": "Armes et munitions",
+      "objectif": "Livrer treize routes Arsenal/Munitions avec données datées, interactions accessibles, limites explicites et QA navigateur.",
+      "confirmation_suivante": "CONTINUE",
+      "statut": "TERMINE",
+      "pages_planifiees": 13,
+      "pages_generees": 13,
+      "demarree_le": "2026-11-18T16:45:27+01:00",
+      "criteres_de_sortie": [
+        "Hub Arsenal, neuf pages de familles et une page Modifications, plus deux routes Munitions/Balistique : 13 routes effectivement générées.",
+        "Séparer PvP permanent, PvE Zone et PvP Seasonal; distinguer valeurs d’objets, offres datées, prix flea périmés/manquants et données non vérifiées en client.",
+        "Filtres et comparateurs par ID validés; graphique dégâts/pénétration muni d’une table accessible; le catalogue ne se présente pas comme tier list ou simulateur de build.",
+        "Sources officielles, exports communautaires et témoignages datés et séparés; snapshots et réserves documentés.",
+        "Recherche, navigation et sitemap validés; responsive, clavier, axe-core Chromium, Firefox, forced-colors/reduced-motion et repli sans JavaScript passés.",
+        "QA mobile simulée 390×844, 4G/150 ms, CPU×4 : LCP ≤ 2 500 ms et CLS ≤ 0,1 sur weapon-mods et ammo-chart.",
+        "Le prérequis de publication (base publique confirmée et gzip/Brotli sur l’hôte réel) est suivi séparément et reste EN_ATTENTE; il ne qualifie pas les données ou la QA locale."
+      ],
+      "livrable": "docs/phase-5.md",
+      "preuves": [
+        "data/phase5.json",
+        "data/snapshots/phase-5-catalogue-2026-11-18.json",
+        "data/snapshots/phase-5-crafts-2026-11-18.json",
+        "data/snapshots/phase-5-traders-hideout-2026-11-18.json",
+        "docs/verifications-phase-5.md",
+        "docs/sources.json",
+        "pages/weapons/",
+        "pages/ammo/",
+        "js/data/search-index.json",
+        "sitemap.xml",
+        "data/snapshots/validation-phase-5.json",
+        "scripts/tests/test_site_urls.py",
+        "docs/publication-github-pages.md"
+      ],
+      "terminee_le": "2026-11-18T23:46:12.965Z",
+      "controle_local": "PLAYWRIGHT_BROWSERS_PATH=/tmp/tarkov-browsers PHASE5_BASE_URL=http://127.0.0.1:4180 node scripts/qa_phase5_browser.cjs"
+    },
+    {
+      "id": "PHASE_6",
+      "titre": "Armures et boss",
+      "objectif": "Catalogue défensif, comparateur et profils des boss en jeu.",
+      "confirmation_suivante": "CONTINUE",
+      "statut": "TERMINE",
+      "pages_planifiees": 21,
+      "pages_generees": 21,
+      "terminee_le": "2026-11-18T23:48:30.540Z",
+      "controle_local": "PLAYWRIGHT_BROWSERS_PATH=/tmp/tarkov-browsers PHASE6_BASE_URL=http://127.0.0.1:4180 node scripts/qa_phase6_browser.cjs",
+      "livrable": "docs/phase-6.md",
+      "preuves": [
+        "data/phase6.json",
+        "data/snapshots/phase-6-armor-2026-11-18.json",
+        "pages/armor/",
+        "pages/bosses/",
+        "docs/verifications-phase-6.md",
+        "data/snapshots/validation-phase-6.json",
+        "js/data/search-index.json",
+        "sitemap.xml"
+      ],
+      "criteres_de_sortie": [
+        "Les 21 routes Armures/Boss sont générées, reliées à la navigation et à la recherche locale; les tableaux gardent un repli sans JavaScript.",
+        "Les valeurs des trois modes et leurs limites sont explicitées; sources officielles, exports/wiki communautaires et éléments non testés en jeu restent distingués.",
+        "Les interactions, responsive, axe-core, Chromium/Firefox, images principales et SEO d’aperçu passent la QA navigateur 51/51.",
+        "Les visuels sont des JPG éditoriaux; aucune classe, statistique ou compatibilité n’est déduite d’une illustration.",
+        "La publication réelle est bloquée indépendamment par le dépôt et le domaine non confirmés; le sitemap d’aperçu n’est pas publiable."
+      ]
+    },
+    {
+      "id": "PHASE_7",
+      "titre": "Traders, quêtes et planque",
+      "objectif": "Profils traders, arbre de progression, Kappa et planque.",
+      "confirmation_suivante": "CONTINUE",
+      "statut": "TERMINE",
+      "pages_planifiees": 16,
+      "pages_generees": 16,
+      "terminee_le": "2026-11-19T00:58:54.228Z",
+      "controle_local": "PLAYWRIGHT_BROWSERS_PATH=/tmp/tarkov-browsers PHASE7_BASE_URL=http://127.0.0.1:4180 node scripts/qa_phase7_browser.cjs",
+      "livrable": "docs/phase-7.md",
+      "criteres_de_sortie": [
+        "Les 16 routes traders/quêtes/Hideout sont générées, reliées à la navigation, à la recherche, au sitemap et à la liste blanche d’aperçu.",
+        "Les snapshots regular, PvE Zone et PvP Seasonal restent séparés; divergences, provenance communautaire et inconnues client sont documentées.",
+        "Interactions, repli statique, Chromium/Firefox, axe-core et reflow passent : 46 contrôles groupés, 32 rendus de routes, 16 audits axe-core sans violation.",
+        "Les huit JPG sont locaux et éditoriaux; aucune illustration ne sert de preuve d’objet, portrait officiel ou statistique.",
+        "La publication réelle reste bloquée indépendamment; aucune URL/canonical publique ni sitemap d’aperçu ne sont publiés."
+      ],
+      "preuves": [
+        "scripts/phase7_pages.py",
+        "js/data/phase7.json",
+        "data/snapshots/phase-7-regular-2026-11-18.json",
+        "data/snapshots/phase-7-pve-2026-11-18.json",
+        "data/snapshots/phase-7-pvp-season-2026-11-18.json",
+        "pages/traders/",
+        "pages/quests/",
+        "pages/hideout/",
+        "images/phase7/",
+        "js/phase7.js",
+        "css/pages/phase7.css",
+        "js/data/search-index.json",
+        "sitemap.xml",
+        "docs/sources.json",
+        "docs/phase-7.md",
+        "docs/verifications-phase-7.md",
+        "data/snapshots/validation-phase-7.json",
+        "scripts/qa_phase7_browser.cjs",
+        "scripts/serve_home.py"
+      ]
+    },
+    {
+      "id": "PHASE_8",
+      "titre": "Compétences, économie et stratégies",
+      "objectif": "Progression, rentabilité en jeu, conseils et builds.",
+      "confirmation_suivante": "CONTINUE",
+      "statut": "TERMINE",
+      "pages_planifiees": 10,
+      "pages_generees": 10,
+      "demarree_le": "2026-11-19T08:33:29Z",
+      "criteres_de_sortie": [
+        "Les 10 routes Compétences, Économie/Flea et Stratégies sont générées, sourcées, intégrées à navigation/recherche/sitemap et au serveur à liste blanche.",
+        "Les mécaniques de compétences et d’économie sont étayées par des sources datées; règles BSG, outils communautaires, marché et témoignages restent distingués.",
+        "Aucun multiplicateur, ROI, prix stable ou taux universel n’est fabriqué; les calculateurs explicitent leurs hypothèses et utilisent les entrées de l’utilisateur.",
+        "Filtres, modes, calculateurs et états locaux passent les tests; le repli statique, Chromium/Firefox, axe-core et responsive sont contrôlés.",
+        "Aucun canonical/sitemap de production n’est publié tant que domaine et hébergement réels ne sont pas confirmés."
+      ],
+      "terminee_le": "2026-11-19T09:15:59.733Z",
+      "controle_local": "python3 scripts/phase8_pages.py; python3 scripts/build_home.py --check --base-url \"$PREVIEW_BASE_URL\"; PHASE8_BASE_URL=http://127.0.0.1:4180 python3 scripts/qa_phase8_static.py; PHASE8_BASE_URL=http://127.0.0.1:4180 node scripts/qa_phase8_browser.cjs",
+      "livrable": "docs/phase-8.md",
+      "preuves": [
+        "scripts/phase8_pages.py",
+        "pages/skills/",
+        "pages/economy/",
+        "pages/strategy/",
+        "images/phase8/",
+        "css/pages/phase8.css",
+        "js/phase8.js",
+        "scripts/build_home.py",
+        "scripts/serve_home.py",
+        "templates/index.html.in",
+        "js/data/search-index.json",
+        "sitemap.xml",
+        "docs/sources.json",
+        "data/snapshots/phase-8-reference-2026-11-19.json",
+        "scripts/qa_phase8_static.py",
+        "scripts/qa_phase8_browser.cjs",
+        "data/snapshots/validation-phase-8-static.json",
+        "data/snapshots/validation-phase-8.json",
+        "docs/phase-8.md",
+        "docs/verifications-phase-8.md"
+      ]
+    },
+    {
+      "id": "PHASE_9",
+      "titre": "SP-Tushonka, Arena et événements",
+      "objectif": "Distinguer le jeu officiel, le PvE officiel et les projets communautaires.",
+      "confirmation_suivante": "CONTINUE",
+      "statut": "TERMINE",
+      "pages_planifiees": 7,
+      "pages_generees": 7,
+      "demarree_le": "2026-11-19T09:23:59.265Z",
+      "terminee_le": "2026-11-18",
+      "criteres_de_sortie": [
+        "Les sept routes SP-Tushonka, Arena et événements sont générées, sourcées, intégrées à la navigation, à la recherche, au sitemap et à la liste blanche de l’aperçu.",
+        "Les règles officielles EFT/Arena sont séparées des projets communautaires SPT/Fika et des fiches de mods; aucun binaire de jeu n’est redistribué.",
+        "Les versions, dépendances, dates et limites de vérification sont explicites; les échéances inconnues restent inconnues.",
+        "Filtres, onglets clavier, recherche, navigation mobile et replis sans JavaScript passent la QA; aucun débordement aux largeurs contrôlées.",
+        "Audit statique PASS : 401 références locales, 7 illustrations et 20 ressources publiques HTTP 200; chemins privés HTTP 404.",
+        "QA navigateur PASS : 39/39 contrôles, 14 rendus Chromium/Firefox, 7 audits axe-core sans violation; aperçu non canonique et non indexable.",
+        "Aucune publication : dépôt, propriétaire, domaine, DNS, TLS et routage GitHub Pages restent à vérifier avant un build public."
+      ],
+      "controle_local": "python3 scripts/phase9_pages.py; python3 scripts/build_home.py --check; PHASE9_BASE_URL=http://127.0.0.1:4180 python3 scripts/qa_phase9_static.py; PHASE9_BASE_URL=http://127.0.0.1:4180 node scripts/qa_phase9_browser.cjs",
+      "livrable": "docs/phase-9.md",
+      "preuves": [
+        "scripts/phase9_pages.py",
+        "pages/spt-tushonka/",
+        "pages/arena/",
+        "pages/events/",
+        "images/phase9/",
+        "css/pages/phase9.css",
+        "js/phase9.js",
+        "scripts/build_home.py",
+        "scripts/serve_home.py",
+        "templates/index.html.in",
+        "js/data/search-index.json",
+        "sitemap.xml",
+        "docs/sources.json",
+        "scripts/qa_phase9_static.py",
+        "scripts/qa_phase9_browser.cjs",
+        "data/snapshots/validation-phase-9-static.json",
+        "data/snapshots/validation-phase-9.json",
+        "docs/phase-9.md",
+        "docs/verifications-phase-9.md"
+      ]
+    },
+    {
+      "id": "PHASE_10",
+      "titre": "Patchs, ressources, glossaire et finalisation",
+      "objectif": "Chronologie sourcée, répertoire d’outils, glossaire bilingue et QA locale. Publication et déploiement hors périmètre sans autorisation explicite.",
+      "confirmation_suivante": null,
+      "statut": "TERMINE",
+      "pages_planifiees": 3,
+      "pages_generees": 3,
+      "demarree_le": "2026-11-18T12:00:00+01:00",
+      "terminee_le": "2026-11-18",
+      "criteres_de_sortie": [
+        "Les trois routes Notes de patch, Ressources & outils et Glossaire sont générées et sourcées.",
+        "Le glossaire contient 314 entrées anglais/français en six groupes, au-delà du minimum de 200.",
+        "Les sources officielles, les outils/données communautaires et les limites de vérification restent distingués.",
+        "Navigation, recherche, sitemap, build et liste blanche du serveur local incluent les trois routes.",
+        "QA statique PASS : 87/87 routes, sitemap, sources, images, ancres et 14 ressources HTTP contrôlés.",
+        "QA Chromium PASS : filtres, recherche, clavier, responsive, replis sans JavaScript et trois audits axe-core sans violation.",
+        "Aucune publication ou aucun déploiement n’est effectué; cela exige une autorisation explicite séparée."
+      ],
+      "controle_local": "python3 scripts/phase10_pages.py; python3 scripts/build_home.py --base-url \"$PREVIEW_BASE_URL\" --check; PHASE10_BASE_URL=http://127.0.0.1:4190 python3 scripts/qa_phase10_static.py; PHASE10_BASE_URL=http://127.0.0.1:4190 node scripts/qa_phase10_browser.cjs; python3 -m unittest discover -s scripts/tests -v",
+      "livrable": "docs/phase-10.md",
+      "preuves": [
+        "scripts/phase10_pages.py",
+        "pages/patch-notes.html",
+        "pages/resources/index.html",
+        "pages/resources/glossary.html",
+        "data/phase10-glossary.json",
+        "docs/sources.json",
+        "images/phase10/",
+        "css/pages/phase10.css",
+        "js/phase10.js",
+        "scripts/build_home.py",
+        "scripts/serve_home.py",
+        "templates/index.html.in",
+        "js/data/search-index.json",
+        "sitemap.xml",
+        "scripts/qa_phase10_static.py",
+        "scripts/qa_phase10_browser.cjs",
+        "data/snapshots/validation-phase-10-static.json",
+        "data/snapshots/validation-phase-10.json",
+        "docs/phase-10.md",
+        "docs/verifications-phase-10.md"
+      ]
+    }
+  ],
+  "suivi_phase_0": [
+    {
+      "id": "00-workflow",
+      "tache": "Créer workflow.json et state_machine.json",
+      "statut": "TERMINE",
+      "preuves": [
+        "workflow.json",
+        "state_machine.json"
+      ]
+    },
+    {
+      "id": "01-arborescence",
+      "tache": "Créer l’arborescence complète",
+      "statut": "TERMINE",
+      "preuves": [
+        "css/pages",
+        "js/components",
+        "pages/maps",
+        "pages/resources",
+        "images/hero",
+        "audio/ambient"
+      ]
+    },
+    {
+      "id": "02-eft",
+      "tache": "Vérifier les notes de patch EFT et les annonces liées",
+      "statut": "TERMINE",
+      "preuves": [
+        "docs/verifications-2026-11-18.md",
+        "data/snapshots/versions-2026-11-18.json"
+      ]
+    },
+    {
+      "id": "03-catalogues",
+      "tache": "Importer les données publiques de tarkov.dev",
+      "statut": "TERMINE",
+      "preuves": [
+        "js/data/catalog-manifest.json",
+        "data/snapshots/catalogue-2026-11-18.json",
+        "scripts/import_tarkov_dev.py"
+      ]
+    },
+    {
+      "id": "04-solo",
+      "tache": "Vérifier les releases du projet SPT / SP-Tushonka",
+      "statut": "TERMINE",
+      "preuves": [
+        "docs/sources.json",
+        "data/snapshots/versions-2026-11-18.json"
+      ]
+    },
+    {
+      "id": "05-plan",
+      "tache": "Rédiger le plan détaillé des pages et le protocole de vérification",
+      "statut": "TERMINE",
+      "preuves": [
+        "docs/plan-editorial.json",
+        "docs/plan-editorial.md",
+        "docs/architecture.md"
+      ]
+    }
+  ],
+  "derniere_mise_a_jour": "2026-11-18",
+  "prochaine_phase": null,
+  "dossier_phase_0": "docs/phase-0.md",
+  "donnees": {
+    "manifest_catalogues": "js/data/catalog-manifest.json",
+    "releve_versions": "data/snapshots/versions-2026-11-18.json",
+    "registre_sources": "docs/sources.json",
+    "modes_importes": [
+      "regular",
+      "pve",
+      "pvp-season"
+    ],
+    "fichiers_catalogues": 12,
+    "methode": "Exports publics JSON de Tarkov.dev ; GraphQL a répondu HTTP 422",
+    "releve_phase_1": "docs/verifications-phase-1.md"
+  },
+  "points_a_reverifier": [
+    "1.3.5.0 : Unity 6 annoncé, déploiement non attesté au 18 novembre 2026.",
+    "Build EFT 1.3.0.2.48779 : attribution au changelog communautaire ; rechercher confirmation du numéro complet dans le lanceur pour l’historique des patchs.",
+    "Halloween : clôture annoncée sans jour précis au dernier message vérifié.",
+    "Le flux Tarkov.dev ne déclare pas le build client ; prix, spawn et éventualité d’accès se vérifient par mode.",
+    "Tushonka 5.0 : distinguer la version de composant NuGet et l’archive jouable Bleeding Edge.",
+    "Accessibilité du guide public : compléments sur lecteurs d’écran, Safari et appareils réels lors des phases éditoriales et de l’audit final.",
+    "Guide du débutant : accès au tutoriel sur les profils existants et conditions d’extraction variables ; aucun test dans le client EFT.",
+    "Phase Cartes : recouper accès et tarifs dans chaque profil, notamment Ground Zero, les dialogues de Tour et les transits d’Icebreaker."
+  ],
+  "dossier_phase_1": "docs/phase-1.md",
+  "suivi_phase_1": [
+    {
+      "id": "01-verification",
+      "tache": "Recontrôler les annonces, les versions et le sens des données affichées.",
+      "statut": "TERMINE",
+      "preuves": [
+        "docs/verifications-phase-1.md",
+        "js/data/weapons.json"
+      ]
+    },
+    {
+      "id": "02-styles",
+      "tache": "Livrer les styles, polices locales, effets et mise en page responsive.",
+      "statut": "TERMINE",
+      "preuves": [
+        "css/main.css",
+        "css/components.css",
+        "css/animations.css",
+        "css/responsive.css",
+        "fonts/type.css",
+        "vendor/manifest.json"
+      ]
+    },
+    {
+      "id": "03-composants",
+      "tache": "Tester navigation, recherche, accessibilité et interactions sur les données de jeu.",
+      "statut": "TERMINE",
+      "preuves": [
+        "lab/index.html",
+        "js/main.js",
+        "js/search.js",
+        "js/components",
+        "lab/search-index.json"
+      ]
+    },
+    {
+      "id": "04-medias",
+      "tache": "Créer trois JPG et cinq MP3 et tester la lecture opt-in.",
+      "statut": "TERMINE",
+      "preuves": [
+        "images/ui/design-ops-rain.jpg",
+        "images/ui/design-field-kit.jpg",
+        "images/ui/design-hideout.jpg",
+        "audio/manifest.json",
+        "js/audio.js"
+      ]
+    },
+    {
+      "id": "05-qualite",
+      "tache": "Exécuter les vérifications locales et documenter les limites.",
+      "statut": "TERMINE",
+      "preuves": [
+        "docs/phase-1.md",
+        "scripts/check_phase1.py",
+        "data/snapshots/validation-phase-1.json",
+        "data/snapshots/validation-phase-1-firefox.json",
+        "data/snapshots/contraste-phase-1.json"
+      ]
+    }
+  ],
+  "dossier_phase_2": "docs/phase-2.md",
+  "apercu_accueil": {
+    "libelle": "Tarkov Ultimate Guide",
+    "port": 4180,
+    "route": "/",
+    "commande": "python3 scripts/serve_home.py --host 0.0.0.0 --port 4180",
+    "indexable": false,
+    "acces": "Interface Arena",
+    "pid_de_session": "tarkov-ultimate-guide-7853743d",
+    "routes": [
+      "/",
+      "/pages/getting-started.html",
+      "/pages/lore/"
+    ]
+  },
+  "suivi_phase_2": [
+    {
+      "id": "01-revalidation",
+      "tache": "Relire les sources prioritaires et séparer versions, annonces et conseils communautaires.",
+      "statut": "TERMINE",
+      "preuves": [
+        "docs/verifications-phase-2.md",
+        "data/home.json"
+      ]
+    },
+    {
+      "id": "02-accueil",
+      "tache": "Servir un accueil illustré avec repères débutants et cartes, compteurs documentés, actualités et fan-site.",
+      "statut": "TERMINE",
+      "preuves": [
+        "templates/index.html.in",
+        "index.html",
+        "css/pages/home.css"
+      ]
+    },
+    {
+      "id": "03-navigation",
+      "tache": "Vérifier la navigation, la recherche locale et les préférences en ne liant que les contenus livrés.",
+      "statut": "TERMINE",
+      "preuves": [
+        "js/data/search-index.json",
+        "js/home.js",
+        "js/main.js"
+      ]
+    },
+    {
+      "id": "04-medias",
+      "tache": "Contrôler les six JPG et la nouvelle boucle MP3 déclenchée volontairement.",
+      "statut": "TERMINE",
+      "preuves": [
+        "images/hero/norvinsk-rain.jpg",
+        "images/maps/norvinsk-overlook.jpg",
+        "images/weapons/arsenal-workbench.jpg",
+        "images/bosses/killa-ambience.jpg",
+        "images/lore/premier-raid.jpg",
+        "images/spt/tushonka-hideout.jpg",
+        "audio/ambient/ambient_city.mp3",
+        "audio/manifest.json"
+      ]
+    },
+    {
+      "id": "05-apercu-qualite",
+      "tache": "Vérifier le serveur d’aperçu, le rendu, l’accessibilité, le SEO et les budgets de chargement.",
+      "statut": "TERMINE",
+      "preuves": [
+        "scripts/serve_home.py",
+        "scripts/check_phase2.py",
+        "sitemap.xml",
+        "data/snapshots/validation-phase-2.json",
+        "data/snapshots/validation-phase-2-firefox.json",
+        "data/snapshots/contraste-phase-2.json"
+      ]
+    }
+  ],
+  "dossier_phase_3": "docs/phase-3.md",
+  "suivi_phase_3": [
+    {
+      "id": "01-revalidation",
+      "tache": "Recouper profil, tutoriel, raids, santé et chronologie avant rédaction.",
+      "statut": "TERMINE",
+      "preuves": [
+        "docs/verifications-phase-3.md",
+        "docs/sources.json"
+      ]
+    },
+    {
+      "id": "02-debutant",
+      "tache": "Publier le parcours en dix étapes, la checklist, les onglets, les soins et les 24 réponses.",
+      "statut": "TERMINE",
+      "preuves": [
+        "data/guides.json",
+        "pages/getting-started.html",
+        "images/beginners/first-deployment.jpg",
+        "images/beginners/ground-zero-interface.jpg",
+        "images/beginners/raid-medical-inventory.jpg"
+      ]
+    },
+    {
+      "id": "03-lore",
+      "tache": "Publier factions, chronologie et liens lieux/chapitres ; fermer les révélations.",
+      "statut": "TERMINE",
+      "preuves": [
+        "pages/lore/index.html",
+        "images/lore/norvinsk-bay.jpg",
+        "images/lore/norvinsk-archive.jpg"
+      ]
+    },
+    {
+      "id": "04-integration-et-qa",
+      "tache": "Vérifier les deux routes, le SEO et les liens, le rendu, le clavier, le repli sans JS et les régressions.",
+      "statut": "TERMINE",
+      "preuves": [
+        "scripts/check_phase3.py",
+        "js/data/search-index.json",
+        "sitemap.xml",
+        "data/snapshots/validation-phase-3.json",
+        "data/snapshots/validation-phase-3-firefox.json",
+        "data/snapshots/contraste-phase-3.json",
+        "data/snapshots/regression-accueil-phase-3.json",
+        "data/snapshots/regression-accueil-firefox-phase-3.json",
+        "data/snapshots/regression-atelier-phase-3.json"
+      ]
+    }
+  ],
+  "contraintes_utilisateur": [
+    "Toutes les images nouvellement générées sont des JPG haute qualité, photoréalistes, cinématographiques et immersives ; aucune génération PNG ou SVG.",
+    "Maximum de 10 créations d’image et 10 créations audio par réponse.",
+    "Toutes les images générées doivent être des JPG haute qualité, photoréalistes, cinématographiques et immersives; ne pas générer de PNG ni de SVG.",
+    "Rechercher les informations récentes sur Internet, forums, YouTube, GitHub, Reddit et réseaux sociaux.",
+    "Distinguer clairement sources officielles, données communautaires et informations non vérifiées en jeu; ne pas présenter les données communautaires comme officielles.",
+    "Ne jamais émettre canonical, og:url ou mainEntityOfPage sur une prévisualisation ou une base non publique/non confirmée.",
+    "Aucune publication ni aucun déploiement PHASE_10 sans autorisation explicite."
+  ],
+  "dossier_phase_4": "docs/phase-4.md",
+  "suivi_phase_4": [
+    {
+      "id": "01-revalidation",
+      "tache": "Recouper les données, variantes, transits et annonces ; dater les sources et expliciter les limites.",
+      "statut": "TERMINE",
+      "preuves": [
+        "docs/verifications-phase-4.md",
+        "docs/sources.json",
+        "data/snapshots/cartes-2026-11-18.json",
+        "data/snapshots/versions-2026-11-18.json"
+      ]
+    },
+    {
+      "id": "02-hub-et-fiches",
+      "tache": "Publier le hub et les treize fiches ; séparer les variantes, modes, accès et schémas éditoriaux.",
+      "statut": "TERMINE",
+      "preuves": [
+        "data/maps.json",
+        "pages/maps/index.html",
+        "pages/maps/ground-zero.html",
+        "pages/maps/icebreaker.html",
+        "images/maps"
+      ]
+    },
+    {
+      "id": "03-integration-seo",
+      "tache": "Intégrer les Cartes à la navigation, la recherche et au sitemap, sans publier les routes futures.",
+      "statut": "TERMINE",
+      "preuves": [
+        "index.html",
+        "pages/maps/",
+        "js/data/search-index.json",
+        "sitemap.xml",
+        "scripts/check_phase3.py"
+      ]
+    },
+    {
+      "id": "04-validation-navigateur",
+      "tache": "Contrôler Chromium, axe-core, Firefox, clavier, tactile, reflow, couleurs système, absence de JS et performance mobile.",
+      "statut": "TERMINE",
+      "preuves": [
+        "data/snapshots/validation-phase-4.json",
+        "data/snapshots/validation-phase-4-firefox.json",
+        "data/snapshots/contraste-phase-4.json"
+      ]
+    }
+  ],
+  "dossier_phase_5": "docs/phase-5.md",
+  "suivi_phase_5": [
+    {
+      "id": "01-sources-et-donnees",
+      "tache": "Horodater les exports des trois modes, recouper annonce BSG et sources communautaires; expliciter les limites des prix et presets.",
+      "statut": "TERMINE",
+      "preuves": [
+        "data/phase5.json",
+        "data/snapshots/phase-5-catalogue-2026-11-18.json",
+        "data/snapshots/phase-5-crafts-2026-11-18.json",
+        "docs/sources.json",
+        "docs/verifications-phase-5.md"
+      ]
+    },
+    {
+      "id": "02-routes-et-integration",
+      "tache": "Générer les treize routes, lier accueil/recherche/sitemap et maintenir les tableaux utilisables sans JavaScript.",
+      "statut": "TERMINE",
+      "preuves": [
+        "pages/weapons/",
+        "pages/ammo/",
+        "index.html",
+        "js/data/search-index.json",
+        "sitemap.xml"
+      ]
+    },
+    {
+      "id": "03-fonctionnalites-et-qa",
+      "tache": "Valider filtres, comparateurs, graphique, tri, clavier, responsive, accessibilité, Firefox et performance mobile.",
+      "statut": "TERMINE",
+      "preuves": [
+        "scripts/qa_phase5_browser.cjs",
+        "data/snapshots/validation-phase-5.json"
+      ]
+    },
+    {
+      "id": "04-base-canonique-et-publication",
+      "tache": "Obtenir l’URL canonique HTTPS et l’hébergement; reconstruire les URL SEO et confirmer gzip/Brotli avant publication.",
+      "statut": "BLOQUE",
+      "preuves": [
+        "docs/phase-5.md",
+        "docs/verifications-phase-5.md",
+        "docs/publication-github-pages.md",
+        "scripts/site_urls.py"
+      ]
+    }
+  ],
+  "dossier_phase_6": "docs/phase-6.md",
+  "suivi_phase_6": [
+    {
+      "id": "01-sources-et-snapshot",
+      "tache": "Recouper les exports de protection et les informations communautaires de boss; conserver provenance et inconnues.",
+      "statut": "TERMINE",
+      "preuves": [
+        "data/phase6.json",
+        "data/snapshots/phase-6-armor-2026-11-18.json",
+        "docs/sources.json",
+        "docs/verifications-phase-6.md"
+      ]
+    },
+    {
+      "id": "02-routes-integration-images",
+      "tache": "Générer les 21 routes, intégrer les JPG locaux, raccorder navigation/recherche/sitemap et préserver le repli HTML.",
+      "statut": "TERMINE",
+      "preuves": [
+        "pages/armor/",
+        "pages/bosses/",
+        "images/armor/armor-body-plates.jpg",
+        "js/data/search-index.json",
+        "sitemap.xml"
+      ]
+    },
+    {
+      "id": "03-qa-locale",
+      "tache": "Valider Chromium, Firefox, axe-core, interactions, responsive, images, métadonnées d’aperçu et reflow.",
+      "statut": "TERMINE",
+      "preuves": [
+        "scripts/qa_phase6_browser.cjs",
+        "data/snapshots/validation-phase-6.json",
+        "docs/verifications-phase-6.md"
+      ]
+    },
+    {
+      "id": "04-publication-domaine-repo",
+      "tache": "Confirmer dépôt/propriétaire, DNS compatible, TLS et routage GitHub Pages; seulement ensuite reconstruire le sitemap public.",
+      "statut": "BLOQUE",
+      "preuves": [
+        "docs/publication-github-pages.md",
+        "workflow.json",
+        "scripts/site_urls.py"
+      ]
+    }
+  ],
+  "dossier_phase_7": "docs/phase-7.md",
+  "suivi_phase_7": [
+    {
+      "id": "01-sources-et-snapshots",
+      "tache": "Recueillir les exports des trois modes séparément et consigner provenance, horodatages, contradictions et lacunes.",
+      "statut": "TERMINE",
+      "preuves": [
+        "docs/sources.json",
+        "docs/recherche-tarkov-2026-11-18.md",
+        "data/snapshots/phase-7-regular-2026-11-18.json",
+        "data/snapshots/phase-7-pve-2026-11-18.json",
+        "data/snapshots/phase-7-pvp-season-2026-11-18.json"
+      ]
+    },
+    {
+      "id": "02-routes-et-fonctionnalites",
+      "tache": "Générer 16 routes traders, quêtes et Hideout avec HTML de repli, données par mode, recherche, filtres et huit JPG génériques.",
+      "statut": "TERMINE",
+      "preuves": [
+        "scripts/phase7_pages.py",
+        "pages/traders/",
+        "pages/quests/",
+        "pages/hideout/",
+        "js/data/phase7.json",
+        "js/phase7.js",
+        "css/pages/phase7.css",
+        "images/phase7/"
+      ]
+    },
+    {
+      "id": "03-build-et-integration",
+      "tache": "Raccorder navigation, recherche, sitemap et whitelist; synchroniser le plan éditorial et les compteurs de workflow.",
+      "statut": "TERMINE",
+      "preuves": [
+        "scripts/build_home.py",
+        "scripts/serve_home.py",
+        "templates/index.html.in",
+        "css/pages/home.css",
+        "js/data/search-index.json",
+        "sitemap.xml",
+        "docs/plan-editorial.json",
+        "workflow.json"
+      ]
+    },
+    {
+      "id": "04-qa-locale",
+      "tache": "Valider les routes, médias, axe-core, interactions, modes, liens profonds, repli sans JavaScript et reflow Chromium/Firefox.",
+      "statut": "TERMINE",
+      "preuves": [
+        "scripts/qa_phase7_browser.cjs",
+        "data/snapshots/validation-phase-7.json",
+        "docs/verifications-phase-7.md"
+      ]
+    },
+    {
+      "id": "05-publication-domaine-repo",
+      "tache": "Confirmer dépôt/propriétaire, DNS, TLS et routage GitHub Pages avant canonical/sitemap public.",
+      "statut": "BLOQUE",
+      "preuves": [
+        "docs/publication-github-pages.md",
+        "workflow.json",
+        "scripts/site_urls.py"
+      ]
+    }
+  ],
+  "dossier_phase_8": "docs/phase-8.md",
+  "suivi_phase_8": [
+    {
+      "id": "01-sources-et-provenance",
+      "tache": "Valider les sources par page, distinguer règles BSG, agrégateurs et anecdotes; conserver le snapshot du 19/11 en quarantaine.",
+      "statut": "TERMINE",
+      "preuves": [
+        "docs/sources.json",
+        "scripts/phase8_pages.py",
+        "data/snapshots/phase-8-reference-2026-11-19.json"
+      ]
+    },
+    {
+      "id": "02-contenu-et-illustrations",
+      "tache": "Générer dix routes, 61 astuces, outils à saisie utilisateur et dix illustrations éditoriales génériques.",
+      "statut": "TERMINE",
+      "preuves": [
+        "pages/skills/",
+        "pages/economy/",
+        "pages/strategy/",
+        "images/phase8/",
+        "js/phase8.js",
+        "css/pages/phase8.css"
+      ]
+    },
+    {
+      "id": "03-build-et-integration",
+      "tache": "Relier menu, recherche, sitemap et liste blanche; synchroniser les artefacts statiques et le plan éditorial.",
+      "statut": "TERMINE",
+      "preuves": [
+        "scripts/build_home.py",
+        "scripts/serve_home.py",
+        "templates/index.html.in",
+        "js/data/search-index.json",
+        "sitemap.xml",
+        "docs/plan-editorial.json",
+        "workflow.json"
+      ]
+    },
+    {
+      "id": "04-qa-locale",
+      "tache": "Contrôler liens et fragments, médias, HTTP, snapshot privé, Chromium/Firefox, axe-core, interactions, reflow et repli sans JavaScript.",
+      "statut": "TERMINE",
+      "preuves": [
+        "scripts/qa_phase8_static.py",
+        "scripts/qa_phase8_browser.cjs",
+        "data/snapshots/validation-phase-8-static.json",
+        "data/snapshots/validation-phase-8.json",
+        "docs/verifications-phase-8.md"
+      ]
+    },
+    {
+      "id": "05-publication-domaine-repo",
+      "tache": "Confirmer dépôt et propriétaire, DNS, TLS et routage Pages avant de produire des canonical ou un sitemap de production.",
+      "statut": "BLOQUE",
+      "preuves": [
+        "docs/publication-github-pages.md",
+        "scripts/site_urls.py",
+        "workflow.json"
+      ]
+    }
+  ],
+  "dossier_phase_9": "docs/phase-9.md",
+  "suivi_phase_9": [
+    {
+      "id": "01-sources-et-relecture",
+      "tache": "Vérifier les sources officielles et communautaires, les versions, événements et limites; distinguer sources directes et témoignages.",
+      "statut": "TERMINE",
+      "preuves": [
+        "docs/sources.json",
+        "scripts/phase9_pages.py",
+        "docs/verifications-phase-9.md"
+      ]
+    },
+    {
+      "id": "02-pages-et-illustrations",
+      "tache": "Produire les cinq dossiers SP-Tushonka et les routes Arena/événements, avec sept JPG et contenu utilisable sans JavaScript.",
+      "statut": "TERMINE",
+      "preuves": [
+        "pages/spt-tushonka/",
+        "pages/arena/",
+        "pages/events/",
+        "images/phase9/",
+        "css/pages/phase9.css",
+        "js/phase9.js"
+      ]
+    },
+    {
+      "id": "03-build-et-navigation",
+      "tache": "Intégrer les routes à la navigation, recherche, sitemap et liste blanche du serveur d’aperçu.",
+      "statut": "TERMINE",
+      "preuves": [
+        "scripts/build_home.py",
+        "scripts/serve_home.py",
+        "templates/index.html.in",
+        "js/data/search-index.json",
+        "sitemap.xml"
+      ]
+    },
+    {
+      "id": "04-qa-locale",
+      "tache": "Contrôler liens, ancres, médias, HTTP, filtres, clavier, axe-core, Chromium/Firefox, responsive et repli sans JavaScript.",
+      "statut": "TERMINE",
+      "preuves": [
+        "scripts/qa_phase9_static.py",
+        "scripts/qa_phase9_browser.cjs",
+        "data/snapshots/validation-phase-9-static.json",
+        "data/snapshots/validation-phase-9.json",
+        "docs/verifications-phase-9.md"
+      ]
+    },
+    {
+      "id": "05-publication-domaine-repo",
+      "tache": "Vérifier le dépôt, son propriétaire, le domaine, le DNS, le TLS et le routage Pages avant tout artefact canonical ou déploiement.",
+      "statut": "BLOQUE",
+      "preuves": [
+        "docs/publication-github-pages.md",
+        "scripts/site_urls.py",
+        "workflow.json"
+      ]
+    }
+  ],
+  "dossier_phase_10": "docs/phase-10.md",
+  "suivi_phase_10": [
+    {
+      "id": "01-recherche-et-registre",
+      "tache": "Dater les notes, séparer messages officiels, builds communautaires et roadmap; consigner les limites de récupération des sources.",
+      "statut": "TERMINE",
+      "preuves": [
+        "docs/recherche-phase-10.md",
+        "docs/sources.json"
+      ]
+    },
+    {
+      "id": "02-routes-et-contenu",
+      "tache": "Générer la chronologie, le répertoire de ressources et le glossaire bilingue de plus de 200 entrées.",
+      "statut": "TERMINE",
+      "preuves": [
+        "pages/patch-notes.html",
+        "pages/resources/",
+        "data/phase10-glossary.json",
+        "images/phase10/"
+      ]
+    },
+    {
+      "id": "03-integration-locale",
+      "tache": "Intégrer navigation, recherche, sitemap, build et serveur local à liste blanche.",
+      "statut": "TERMINE",
+      "preuves": [
+        "scripts/build_home.py",
+        "scripts/serve_home.py",
+        "templates/index.html.in",
+        "js/data/search-index.json",
+        "sitemap.xml"
+      ]
+    },
+    {
+      "id": "04-qa-locale",
+      "tache": "Contrôler ancres, liens, médias, HTTP, filtres, clavier, responsive, axe-core et repli sans JavaScript.",
+      "statut": "TERMINE",
+      "preuves": [
+        "scripts/qa_phase10_static.py",
+        "scripts/qa_phase10_browser.cjs",
+        "data/snapshots/validation-phase-10-static.json",
+        "data/snapshots/validation-phase-10.json",
+        "docs/verifications-phase-10.md"
+      ]
+    },
+    {
+      "id": "05-publication-et-deploiement",
+      "tache": "Ne pas publier ou déployer sans demande explicite; vérifier domaine, DNS, TLS et hébergement si une autorisation future est accordée.",
+      "statut": "BLOQUE",
+      "motif": "Aucune publication ni aucun déploiement autorisé par la demande PHASE_10.",
+      "preuves": [
+        "docs/publication-github-pages.md",
+        "workflow.json"
+      ]
+    }
+  ]
+}

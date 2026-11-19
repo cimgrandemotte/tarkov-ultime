@@ -1,0 +1,2213 @@
+{
+  "schema_version": 1,
+  "releve_le": "2026-11-18",
+  "sources": {
+    "eft": {
+      "titre": "Battlestate Games — site officiel",
+      "url": "https://www.escapefromtarkov.com",
+      "type": "primaire",
+      "statut_phase_0": "acces_direct_restreint",
+      "usage": "Accueil et actualités : compléter par le fil officiel Steam et le canal EN."
+    },
+    "steam": {
+      "titre": "Escape from Tarkov — fiche de jeu Steam",
+      "url": "https://store.steampowered.com/app/3932890/Escape_from_Tarkov/",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Éditeur et date de sortie : 15 novembre 2025.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md"
+    },
+    "steam-news": {
+      "titre": "Battlestate Games — annonces officielles Steam",
+      "url": "https://steamcommunity.com/app/3932890/announcements/",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Fil daté des annonces pour EFT, distinct d’Arena.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "usage_phase_10": "Fil officiel d’annonces BSG sur Steam récupéré directement le 18/11/2026 : l’entrée pertinente la plus récente est le journal développeur daté du 18/11, qui prévoit 1.3.5.0 pour la seconde moitié de novembre. Le fil consulté ne contient pas d’annonce de démarrage ou de fin d’installation de 1.3.5.0; le journal est une annonce, pas une note de déploiement.",
+      "date_releve_phase_10": "Fil et annonce du 18 novembre 2026 récupérés directement; date d’installation non publiée dans le journal consulté."
+    },
+    "steam-rss": {
+      "titre": "Battlestate Games — flux officiel Steam",
+      "url": "https://store.steampowered.com/feeds/news/app/3932890/?l=english",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Contrôle de titres, dates et liens ; à compléter avec le canal officiel pour les hotfixes.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_3": "docs/verifications-phase-3.md"
+    },
+    "bsg-social": {
+      "titre": "Battlestate Games — canal public EN",
+      "url": "https://t.me/s/escapefromtarkovEN",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Ajustements sans nouveau numéro, événement, roadmap et confirmations de déploiement.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_3": "docs/verifications-phase-3.md"
+    },
+    "patch130": {
+      "titre": "Battlestate Games — patch 1.3.0.0",
+      "url": "https://steamcommunity.com/games/3932890/announcements/detail/719046160957833875",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Patch officiel 1.3.0.0 du 29/10/2026 : Halloween, changements de progression et correctifs visuels de géométrie/colliders sur Icebreaker, Interchange et Shoreline ; pas de tableau d’extractions actives.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "revalidation_phase_5": "docs/verifications-phase-5.md",
+      "usage_phase_9": "Note Steam officielle publiée le 29 octobre 2026 : patch 1.3.0.0 annonce un nouvel événement Halloween; point de départ public utilisé pour dater la période.",
+      "date_releve_phase_9": "Consulté directement le 18 novembre 2026."
+    },
+    "patch120": {
+      "titre": "Battlestate Games — patch 1.2.0.0",
+      "url": "https://store.steampowered.com/news/app/3932890/view/708910525152495848",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Patch officiel 1.2.0.0, 6 octobre 2026 : BSG confirme des extractions PMC/Scav ajustées et de nouvelles sorties sur Customs sans les nommer ; loot et clés mises à jour à Customs ; nouveaux emplacements de loot et corrections géométriques à Interchange ; audio environnemental revu à Shoreline. Ne pas attribuer à Interchange des clés inédites sur la seule base de cette note.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_4": "docs/verifications-phase-4.md",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "patch115": {
+      "titre": "Battlestate Games — patch 1.1.5.0",
+      "url": "https://steamcommunity.com/games/3932890/announcements/detail/712285688032135503",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Patch officiel 1.1.5.0, 8 septembre 2026 : refonte Lighthouse (Rogues aux chalets, armes fixes et mines retirées de la station de traitement seulement, routes/couverture retravaillées, BTR multi-routes et passages souterrains). BSG confirme les transits Icebreaker depuis Shoreline et Lighthouse et le kit Sudak-tudak à usage unique à la place des roubles.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "patch110": {
+      "titre": "Battlestate Games — patch 1.1.0.0",
+      "url": "https://steamcommunity.com/games/3932890/announcements/detail/686386819418294181",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "3 août 2026 ; Kord Breach, Battle Pass, réputation, quêtes et économie.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "patch106": {
+      "titre": "Battlestate Games — patch 1.0.6.0",
+      "url": "https://steamcommunity.com/games/3932890/announcements/detail/708901647665861072",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "3 juillet 2026 ; repère de chronologie."
+    },
+    "patch105": {
+      "titre": "Battlestate Games — patch 1.0.5.0",
+      "url": "https://steamcommunity.com/games/3932890/announcements/detail/703268976281519055",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Patch officiel 1.0.5.0, 25 mai 2026 : Icebreaker est une carte séparée de 1–3 joueurs, disponible dans tous les modes EFT, contre l’IA, en solo ou groupe préformé, sans matchmaking aléatoire.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "revalidation_phase_4": "docs/verifications-phase-4.md",
+      "usage_phase_9": "Note Steam officielle publiée le 25 mai 2026 : l’événement Icebreaker et le chapitre Boreas ajoutent un lieu séparé pour 1–3 joueurs, disponible dans tous les modes; la note consultée ne donne pas d’échéance de retrait. La page les classe comme contenu durable avec vérification en jeu.",
+      "date_releve_phase_9": "Consulté directement le 18 novembre 2026."
+    },
+    "leagues": {
+      "titre": "Battlestate Games — lancement des Leagues",
+      "url": "https://store.steampowered.com/news/app/3932890/view/695397823941707149",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "15 septembre 2026 ; distinguer du début de saison."
+    },
+    "balance-nov": {
+      "titre": "Battlestate Games — équilibrage du 12 novembre (canal officiel X)",
+      "url": "https://x.com/tarkov/status/2120935917351289274",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Message officiel BSG du 12/11/2026, sans numéro de patch : tâches Seasonal simplifiées et prérequis de départ assouplis ; Black Division à 100 % sur les lieux concernés en Seasonal seulement, avec réaction/précision/santé réduites ; davantage de kits Sudak-Tudak et de documents Battle Pass sur Icebreaker en Seasonal. Le plafond journalier de documents augmente en PvP et PvP Season (sans valeurs données). Tous modes : Wedge et gardes affaiblis et munitions modifiées, cartouches non nommées ; documents médicaux Battle Pass désormais possibles sur Icebreaker. BSG invite à finir Kord Breach pour débloquer des offres d’équipement uniques permanentes dans tous les modes. Aucun taux par carte, nombre exact ou test client n’est fourni.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_4": "docs/verifications-phase-4.md",
+      "revalidation_phase_5": "docs/verifications-phase-5.md",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md",
+      "usage_phase_10": "Publication BSG du 12/11/2026 sur X, sans numéro de patch. Décrire seulement les catégories de changements publiées; aucun taux, nom de cartouche ou résultat de test non donné par BSG ne doit être ajouté.",
+      "date_releve_phase_10": "Publication officielle repérée le 18/11/2026."
+    },
+    "halloween": {
+      "titre": "Battlestate Games — suivi Halloween du 16 novembre",
+      "url": "https://x.com/tarkov/status/2122283819667464473",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Variantes Infected, choix de quêtes et fin annoncée la semaine suivante, sans jour exact.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_4": "docs/verifications-phase-4.md",
+      "usage_phase_9": "Post BSG du 16 novembre : les deux parcours « Triumph of Science » / « Shields Up! » débloquent le fond Halloween; l’événement doit finir « la semaine prochaine », sans jour ni heure précisés.",
+      "date_releve_phase_9": "Consulté directement le 18 novembre 2026."
+    },
+    "season-end": {
+      "titre": "Battlestate Games — fin Kord Breach et transfert des récompenses",
+      "url": "https://t.me/s/escapefromtarkovEN/6985",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Message du canal officiel EN BSG, 11/11/2026 : Kord Breach se termine le 7 décembre; les récompenses déjà gagnées resteront disponibles dans tous les modes après la saison, et les succès uniques acquis en Seasonal seront transférés aux personnages PvP et PvE. L’annonce ne donne pas l’heure de fin ni la date de lancement de la saison suivante.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md"
+    },
+    "terminal": {
+      "titre": "Battlestate Games — lien Telegram vérifié ; ne renvoie pas à l’article Terminal",
+      "url": "https://t.me/s/escapefromtarkovEN/7001",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Le fetch direct de https://t.me/s/escapefromtarkovEN/7001 renvoie des messages Drops/Arena des 6–8 novembre, pas le relais Terminal attendu. Conserver la trace historique, mais ne pas citer cette URL pour l’entretien, un accès ou une règle de carte.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "statut_phase_4": "NON_UTILISABLE_COMME_PREUVE_TERMINAL",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "drops": {
+      "titre": "Battlestate Games — Tarkov City Drops",
+      "url": "https://store.steampowered.com/news/app/3932890/view/677389277779199054",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Annonce du 16 novembre et campagne annoncée jusqu’au 23, distincte de la date de fin Halloween.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "usage_phase_9": "Annonce BSG Steam du 16 novembre : Tarkov City Drops jusqu’au 23 novembre, 15:00 GMT / 10:00 EST; chemises USEC les 16/18/20/22 et BEAR les 17/19/21. Les récompenses exigent un compte de jeu actif.",
+      "date_releve_phase_9": "Consulté directement le 18 novembre 2026."
+    },
+    "tarcoin": {
+      "titre": "Battlestate Games — Expansions Hub and TarCoin",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165581325",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Annonce du 8 juillet ; bien distinguer monnaie et marché des modes live."
+    },
+    "tdev": {
+      "titre": "Tarkov.dev — catalogue des endpoints JSON",
+      "url": "https://json.tarkov.dev/endpoints",
+      "type": "donnees_communautaires",
+      "statut_phase_0": "importe",
+      "usage": "Snapshot data community par mode (regular, pve, pvp-season) ; présence de map IDs et nombres d’extracts/bosses ne prouve pas l’accès, la présence live ou le build.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_4": "docs/verifications-phase-4.md",
+      "usage_phase_10": "Service, interface et exports communautaires. Pour les données structurées, privilégier le catalogue JSON json.tarkov.dev/endpoints; les exports/cache ne confirment ni build client, ni état live, ni disponibilité pour un profil. Ancien GraphQL signalé indisponible dans l’incident the-hideout/tarkov-api #474 (29/07/2026).",
+      "date_releve_phase_10": "Recherche GitHub et résultats d’indexation le 18/11/2026; accès direct au site/API refusé dans le sandbox."
+    },
+    "tdev-status": {
+      "titre": "The Hideout — incident GraphQL et alternative JSON",
+      "url": "https://github.com/the-hideout/tarkov-api/issues/474",
+      "type": "donnees_communautaires",
+      "statut_phase_0": "verifie",
+      "usage": "Incident amont ; HTTP 422 reproduit dans le sandbox. Le JSON est disponible.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "usage_phase_10": "Issue GitHub communautaire de juillet 2026 indiquant que l’API GraphQL n’était plus disponible et recommandant les endpoints JSON. Témoignage technique du mainteneur, non preuve que chaque export JSON est complet ou à jour.",
+      "date_releve_phase_10": "Recherche GitHub le 18/11/2026."
+    },
+    "wiki": {
+      "titre": "The Official Escape from Tarkov Wiki",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki",
+      "type": "wiki",
+      "statut_phase_0": "repere",
+      "usage": "Détails mécaniques et entités ; vérifier la date de chaque article et son accord avec les notes.",
+      "usage_phase_10": "Wiki de bénévoles hébergé par Fandom. Le mot « Official » dans le nom du wiki ne signifie pas qu’il s’agit d’un site géré par BSG. Les contributions sont annoncées CC BY-NC-SA sauf mention contraire; vérifier la licence par page et ne pas recopier textes, cartes ou images sans respecter attribution, non-commercial et partage à l’identique.",
+      "date_releve_phase_10": "Portail communautaire Fandom consulté via recherche le 18/11/2026."
+    },
+    "wiki-maps": {
+      "titre": "EFT Wiki — Map of Tarkov",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Map_of_Tarkov",
+      "type": "wiki",
+      "statut_phase_0": "verifie",
+      "usage": "Index communautaire consulté : 13 lieux principaux. Ouvrir les pages spécifiques ; variantes d’événement et cartes listées par API sont séparées.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "wiki-bosses": {
+      "titre": "EFT Wiki — Bosses",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Bosses",
+      "type": "wiki",
+      "statut_phase_0": "verifie",
+      "usage": "Page communautaire relue le 18/11/2026 pour les lieux associés aux boss et sa table d’événements. Ne prouve ni disponibilité dans un mode/raid ni taux de présence ; les mentions d’événement sont séparées. Ne pas compter les entrées Tarkov.dev comme des boss uniques.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "mapgenie": {
+      "titre": "MapGenie — cartes Tarkov",
+      "url": "https://mapgenie.io/tarkov",
+      "type": "outil_communautaire",
+      "statut_phase_0": "verifie",
+      "usage": "Outil de comparaison des repères et étages ; l’index consulté expose 12 cartes, omet Terminal et réserve certaines couches à PRO. Non exhaustif, fonds non copiés.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md",
+      "usage_phase_10": "Cartographie interactive communautaire, non affiliée à BSG. La couverture, les filtres et les couches premium peuvent changer; des joueurs rapportent en 2026 des repères absents ou en retard. Vérifier chaque extraction et chaque marqueur en jeu; aucune exhaustivité, fraîcheur générale ni tarification n’est garantie. Les fonds et marqueurs ne sont pas copiés.",
+      "date_releve_phase_10": "Recherche de la page et retours Reddit/app le 18/11/2026; récupération directe du site refusée."
+    },
+    "tracker": {
+      "titre": "TarkovTracker.org — suivi de progression communautaire",
+      "url": "https://tarkovtracker.org/",
+      "type": "outil_communautaire",
+      "statut_phase_0": "verifie",
+      "usage": "Outil communautaire de progression; distinguer mode PvP, PvE et Seasonal, et revalider objectifs/état dans le client.",
+      "usage_phase_10": "Le site actif indiqué par son équipe et ses dépôts est tarkovtracker.org. TarkovTracker.io est présenté par l’équipe .org comme une ancienne instance non maintenue depuis 2024. Cela décrit le projet, pas une garantie de disponibilité, d’exactitude ou d’approbation par BSG.",
+      "date_releve_phase_10": "Guide de migration, page GitHub d’organisation et activité du dépôt consultés via recherche le 18/11/2026; accès direct au site refusé."
+    },
+    "market": {
+      "titre": "Tarkov Market — prix et événements",
+      "url": "https://tarkov-market.com/",
+      "type": "outil_communautaire",
+      "statut_phase_0": "verifie",
+      "usage": "Seconde lecture pour les prix et l’archive d’événements.",
+      "usage_phase_10": "Outil tiers d’indication des prix et données de marché; cours volatils, dépendants du mode, du cache et de l’heure. À consulter comme estimation, jamais comme prix garanti par BSG ou valeur persistante. Aucun prix non daté n’est repris dans le guide.",
+      "date_releve_phase_10": "Lien enregistré; accès direct au site refusé dans le sandbox le 18/11/2026."
+    },
+    "kappaguide": {
+      "titre": "KappaGuide — cartes et progression",
+      "url": "https://kappaguide.com/maps",
+      "type": "outil_communautaire",
+      "statut_phase_0": "repere",
+      "usage": "Point de départ seulement : certains chiffres et le périmètre cartes divergent.",
+      "usage_phase_10": "Guide communautaire de progression/cartes; repérage uniquement. Les pages et compteurs peuvent diverger des notes et du client, à recouper. Pas de valeurs de Kappa garanties dans cette fiche de ressources.",
+      "date_releve_phase_10": "Lien repéré via le registre existant; accès direct non récupéré."
+    },
+    "tarkovhead": {
+      "titre": "TarkovHead — actualités et base",
+      "url": "https://www.tarkovhead.com/en",
+      "type": "outil_communautaire",
+      "statut_phase_0": "verifie",
+      "usage": "Repérage et triangulation ; pas une source éditoriale unique.",
+      "usage_phase_10": "Agrégateur/guide communautaire utile pour découvrir une annonce ou comparer un résumé. Remonter au lien BSG d’origine et contrôler la date et le mode. Accès direct non récupéré; pas de citation comme source primaire.",
+      "date_releve_phase_10": "Résultats de recherche le 18/11/2026; accès direct refusé."
+    },
+    "patched": {
+      "titre": "Patched.gg — explorateur de notes de patch",
+      "url": "https://patched.gg/games/escape-from-tarkov",
+      "type": "outil_communautaire",
+      "statut_phase_0": "repere",
+      "usage": "Index de recherche ; confirmer l’original plutôt que reprendre les notes d’impact."
+    },
+    "reddit-eft": {
+      "titre": "r/EscapefromTarkov",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/",
+      "type": "communaute",
+      "statut_phase_0": "piste",
+      "usage": "Tester les retours de joueurs et remonter aux fiches ou au client ; jamais preuve unique.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md"
+    },
+    "yt-dev": {
+      "titre": "Battlestate Games — Dev Stories, épisode 4",
+      "url": "https://youtu.be/w8ro-u_H8-8",
+      "type": "primaire",
+      "statut_phase_0": "repere",
+      "usage": "Vidéo liée depuis le canal officiel : PvE, communauté et support des mods, à visionner à la phase dédiée.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "usage_phase_10": "Vidéo Dev Stories publiée par Battlestate Games et liée depuis un canal BSG. Contenu officiel comme média, mais une vidéo d’archive ne remplace pas la note de patch datée et peut concerner une version antérieure.",
+      "date_releve_phase_10": "Lien du registre recontrôlé le 18/11/2026."
+    },
+    "yt-beginner": {
+      "titre": "YouTube — guide débutant 2026",
+      "url": "https://www.youtube.com/watch?v=P5hyxI-cbb4",
+      "type": "communaute",
+      "statut_phase_0": "piste",
+      "usage": "Vidéo repérée ; la phase 3 vérifiera auteur, chapitres et fraîcheur avant de citer.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_3": "docs/verifications-phase-3.md"
+    },
+    "forum": {
+      "titre": "Forums EFT — Battlestate Games",
+      "url": "https://forum.escapefromtarkov.com/",
+      "type": "communaute",
+      "statut_phase_0": "indexe",
+      "usage": "Site indexé ; accès direct HTTP 403 depuis le sandbox. Recherche ciblée PHASE_5 du 18/11/2026 sans fil récent exploitable sur les valeurs d’armes ou munitions.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_5": "docs/verifications-phase-5.md",
+      "usage_phase_10": "Forum sur le domaine officiel EFT, mais les fils d’utilisateurs restent des discussions communautaires. Utiliser pour découvrir un problème ou un retour, puis vérifier la note BSG ou reproduire en jeu; l’accès direct est refusé par le sandbox.",
+      "date_releve_phase_10": "Indexation consultée le 18/11/2026; aucun fil n’est cité comme preuve d’une mécanique."
+    },
+    "spt-build": {
+      "titre": "SP-Tushonka — liste des distributions publiques",
+      "url": "https://api.github.com/repos/SP-Tushonka/build/releases/latest",
+      "type": "primaire_projet",
+      "statut_phase_0": "verifie",
+      "usage": "API GitHub publique : 4.1.6 est la dernière release stable affichée."
+    },
+    "spt-release": {
+      "titre": "SP-Tushonka — SPT 4.1.6 (40743)",
+      "url": "https://github.com/SP-Tushonka/build/releases/tag/4.1.6",
+      "type": "primaire_projet",
+      "statut_phase_0": "verifie",
+      "usage": "18 septembre 2026 ; build EFT et prérequis explicitement documentés.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "usage_phase_9": "Release stable consultée : SPT 4.1.6 (40743), publiée le 18 septembre; cible EFT 0.16.9.5.40743 et runtimes .NET Desktop 10.0.9 + ASP.NET Core 10.0.9. Les mods 4.0.X sont incompatibles; les mods 4.1.X généralement compatibles, avec exceptions.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "spt-wiki": {
+      "titre": "SP-Tushonka Wiki — documentation de mise à jour SPT 4.x",
+      "url": "https://wiki.sp-tushonka.com/en/SPT_4x/Updating_SPT",
+      "type": "primaire_projet",
+      "statut_phase_0": "verifie",
+      "usage": "Rester sur la documentation de la branche et sauvegarder le profil.",
+      "usage_phase_9": "Guide officiel de mise à jour : patch dans la même branche mineure; version majeure/mineure = nouvelle installation. Consulter aussi la release active."
+    },
+    "spt-be": {
+      "titre": "SP-Tushonka — instructions Bleeding Edge 5.0",
+      "url": "https://github.com/SP-Tushonka/wiki/blob/main/SPT_50/bleeding-edge-install-instructions.md",
+      "type": "primaire_projet",
+      "statut_phase_0": "verifie",
+      "usage": "Chaque archive de test cible un build live exact ; ne pas universaliser.",
+      "usage_phase_9": "Bleeding Edge 5.0 est destiné aux tests et non pris en charge. Copie complète du client live au build exact puis archive BE; pas d’installateur ni de downgrade patcher. Ne pas recommander pour jouer casual.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "spt-nuget": {
+      "titre": "NuGet — SPTushonka.Server.Core 5.0.0-pre.202611061606",
+      "url": "https://www.nuget.org/packages/SPTushonka.Server.Core/5.0.0-pre.202611061606",
+      "type": "registre_paquets",
+      "statut_phase_0": "verifie",
+      "usage": "Composant serveur prérelease ; ce n’est pas le contenu d’un installeur jouable.",
+      "usage_phase_9": "Le paquet 5.0.0-pre.202611061606 est un composant serveur prérelease, pas un installateur stable ni la preuve d’une version publique prête à jouer."
+    },
+    "spt-history": {
+      "titre": "Insider Gaming — fermeture annoncée de l’ancienne infrastructure SPT",
+      "url": "https://insider-gaming.com/sp-tarkov-shutting-down-legal-action-battlestate-games/",
+      "type": "presse",
+      "statut_phase_0": "corrobore",
+      "usage": "Article d’août citant l’annonce d’arrêt ; distinguer ancienne équipe, code et marque."
+    },
+    "spt-transition": {
+      "titre": "Extraction Compass — transition vers Tushonka",
+      "url": "https://extraction-compass.com/en/blog/single-player-tarkov-is-back",
+      "type": "presse",
+      "statut_phase_0": "corrobore",
+      "usage": "Recoupement du récit d’août ; ne certifie pas la migration de tous les mods.",
+      "usage_phase_9": "Source secondaire sur l’arrêt de l’ancienne infrastructure et la transition communautaire vers SP-Tushonka/Forge. Contexte historique uniquement, pas source BSG ni guide d’installation."
+    },
+    "forge": {
+      "titre": "The Forge — SP-Tushonka",
+      "url": "https://sp-mod.com/",
+      "type": "primaire_projet",
+      "statut_phase_0": "verifie",
+      "usage": "Index et installateur officiels du projet ; compatibilité mod par mod.",
+      "usage_phase_9": "Catalogue communautaire SP-Tushonka; vérifier le filtre de version, les dépendances et la fiche du mainteneur. Présence dans le catalogue n’est ni approbation ni garantie."
+    },
+    "reddit-spt": {
+      "titre": "r/SPTarkov",
+      "url": "https://www.reddit.com/r/SPTarkov/",
+      "type": "communaute",
+      "statut_phase_0": "piste",
+      "usage": "Archives et discussions ; liens d’installation à vérifier chez le mainteneur."
+    },
+    "reddit-tushonka": {
+      "titre": "r/sptushonka",
+      "url": "https://www.reddit.com/r/sptushonka/",
+      "type": "communaute",
+      "statut_phase_0": "repere",
+      "usage": "Repérage d’annonces et retours, distinct des sources officielles.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md"
+    },
+    "fika": {
+      "titre": "Project Fika — release v2.4.6",
+      "url": "https://github.com/project-fika/Fika-Plugin/releases/tag/v2.4.6",
+      "type": "primaire_projet",
+      "statut_phase_0": "verifie",
+      "usage": "Tag du client ; confirmer aussi version serveur et compatibilité de chaque mod.",
+      "usage_phase_9": "Le tag du plugin client 2.4.6 est distinct du composant serveur Fika 2.4.2. Les deux fiches indiquent SPT 4.1.6; les vérifier ensemble avec la documentation."
+    },
+    "arena": {
+      "titre": "Escape from Tarkov: Arena — notes de patch",
+      "url": "https://arena.tarkov.com/news/category/patchnotes",
+      "type": "primaire",
+      "statut_phase_0": "indexe",
+      "usage": "Notes officielles indexées (dont 0.6.2.5), version à revérifier avant rédaction.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "usage_phase_9": "Rubrique officielle des mises à jour Arena; dernière note numérotée relevée le 18/11 : 0.6.2.5 du 5 novembre. Ne certifie pas l’absence d’un hotfix silencieux."
+    },
+    "arena-modes": {
+      "titre": "Escape from Tarkov: Arena — patch 0.6.0 et économie BlastGang",
+      "url": "https://arena.tarkov.com/news/patch-060",
+      "type": "primaire",
+      "statut_phase_0": "indexe",
+      "usage": "Boutique en match, règles spécifiques à Arena, pas au jeu principal.",
+      "usage_phase_9": "Patch Arena du 18 septembre : économie d’achat par manche et refonte BlastGang; règles propres à Arena, non à EFT."
+    },
+    "hotfix-13nov": {
+      "titre": "Battlestate — correctif technique installé",
+      "url": "https://t.me/s/escapefromtarkovEN/6994",
+      "type": "primaire",
+      "usage": "Message du canal officiel EN BSG, daté du 13/11/2026 à 12:23 : confirme l’installation d’une mise à jour technique et demande son téléchargement via le launcher. Le message ne donne aucun numéro de version/build. Le numéro 1.3.0.2.48779 est rapporté séparément par le changelog communautaire `wiki-changelog`; ne pas l’attribuer à BSG.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "revalidation_phase_5": "docs/recherche-tarkov-2026-11-18.md",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md",
+      "usage_phase_10": "Canal officiel Telegram EN : message du 13/11/2026 confirmant une mise à jour technique et le téléchargement via Launcher, sans numéro de version dans le message consulté. Ne pas attribuer à BSG les numéros 1.3.0.1/1.3.0.2 du changelog communautaire.",
+      "date_releve_phase_10": "Message repéré via indexation le 18/11/2026; numéro absent de l’annonce citée."
+    },
+    "wiki-changelog": {
+      "titre": "Wiki — changelog EFT",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Changelog",
+      "type": "communautaire",
+      "usage": "Changelog communautaire, non équivalent aux notes officielles : version de build rapportée 1.3.0.2.48779 au 13/11/2026 et plusieurs entrées 1.3.0.1. Le site BSG consulté le 18/11 liste toujours 1.3.0.0 comme dernière note de patch publiée ; ne pas faire passer les builds wiki pour une annonce BSG.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_3": "docs/verifications-phase-3.md"
+    },
+    "untar-control": {
+      "titre": "Battlestate — annonce UNTAR Control",
+      "url": "https://t.me/s/escapefromtarkovEN/6987",
+      "type": "primaire",
+      "usage": "Teaser de la prochaine saison du 12/11, sans date exacte.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "usage_phase_9": "BSG a annoncé le nom UNTAR Control pour une prochaine saison en novembre 2026. Le nom et l’annonce ne confirment pas un jour de lancement; séparer de la clôture de Kord Breach."
+    },
+    "terminal-80level": {
+      "titre": "80 Level — entretien de conception sur Terminal avec Battlestate Games",
+      "url": "https://80.lv/articles/full-circle-building-terminal-escape-from-tarkov-s-final-location",
+      "type": "entretien",
+      "usage": "Entretien publié le 16/11 et consulté lors du relevé précédent : décrit Terminal comme aboutissement narratif, transit depuis Shoreline avec fenêtre limitée et Zubr comme issue. Ce n’est pas une note de patch ni un tableau de sorties par mode. Le fetch direct de l’URL renvoie 404 au contrôle du 18/11 ; réserver ces faits à une attribution explicite et conserver wiki-terminal comme corroboration communautaire.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "wiki-controls": {
+      "titre": "Wiki — commandes EFT",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Controls#Default_Controls",
+      "type": "communautaire",
+      "usage": "Appuyer deux fois sur O par défaut pour voir les extractions du raid.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md",
+      "revalidation_phase_3": "docs/verifications-phase-3.md"
+    },
+    "arena0625-social": {
+      "titre": "Battlestate Arena — patch 0.6.2.5",
+      "url": "https://x.com/tarkovarena/status/2118238453737353233",
+      "type": "primaire",
+      "usage": "Note officielle Arena du 5/11, distincte d’EFT.",
+      "revalidation_phase_2": "docs/verifications-phase-2.md"
+    },
+    "game-modes": {
+      "titre": "Wiki EFT — modes et entraînement",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Game_modes",
+      "type": "wiki",
+      "usage": "Progression distincte, serveurs PvE et Practice sans sauvegarde.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "tour": {
+      "titre": "Wiki EFT — le début de Tour",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Tour#Escape_Ground_Zero",
+      "type": "wiki",
+      "usage": "Tutoriel Ground Zero, dialogues et déblocages. La suite de la page décrit des étapes de campagne.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "ground-zero": {
+      "titre": "Wiki EFT — Ground Zero",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Ground_Zero",
+      "type": "wiki",
+      "usage": "Matchmaking ≤20 ou ≥21 par niveau maximal du groupe ; sorties conditionnelles.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "how-to-play": {
+      "titre": "Wiki EFT — débuter et choisir une faction",
+      "url": "https://escapefromtarkov.fandom.com/wiki/How_to_Play_Guide_for_Escape_from_Tarkov",
+      "type": "wiki",
+      "usage": "Kit initial et voix ; distinctions extractions PMC et Scav.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "scavs-mode": {
+      "titre": "Wiki EFT — jouer Scav",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Scavs#Scav_game_mode",
+      "type": "wiki",
+      "usage": "Équipement attribué, réputation auprès de Fence et transfert des objets.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "insurance": {
+      "titre": "Wiki EFT — assurance",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Insurance",
+      "type": "wiki",
+      "usage": "Retour conditionnel, restrictions selon objets, cartes et saison, cas MIA.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "fir": {
+      "titre": "Wiki EFT — Found in Raid",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Found_in_raid",
+      "type": "wiki",
+      "usage": "Seuils documentés de Survived, coche FIR et exceptions.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "the-guide-task": {
+      "titre": "Wiki EFT — The Guide",
+      "url": "https://escapefromtarkov.fandom.com/wiki/The_Guide",
+      "type": "wiki",
+      "usage": "Exemple de tâche exigeant spécifiquement Survived.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "health": {
+      "titre": "Wiki EFT — système de santé",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Health_system",
+      "type": "wiki",
+      "usage": "Zones du personnage et états distincts.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "medical": {
+      "titre": "Wiki EFT — effets des soins en jeu",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Medical",
+      "type": "wiki",
+      "usage": "Classes d’objets, états ciblés et charges.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "tracker190": {
+      "titre": "TarkovTracker — version 1.90.0",
+      "url": "https://github.com/tarkovtracker-org/TarkovTracker/releases/tag/v1.90.0",
+      "type": "outil_communautaire",
+      "usage": "14/11 : étapes du scénario et conditions d’extraction par mode. Ce n’est pas le client.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "release_consultee",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "tracker-story-pr": {
+      "titre": "TarkovTracker — éditeur de parcours Storyline #1182",
+      "url": "https://github.com/tarkovtracker-org/TarkovTracker/pull/1182",
+      "type": "outil_communautaire",
+      "usage": "Journal communautaire et interface de suivi du scénario.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "api_github_et_page_publique"
+    },
+    "yt-beginner-pve": {
+      "titre": "Happy To Game — débuter en PvE",
+      "url": "https://www.youtube.com/watch?v=RIUR3E10xcg",
+      "type": "communaute",
+      "usage": "Transcription du 24/01/2026 : une carte, une sortie de repli, un kit remplaçable.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "transcription_et_metadonnees"
+    },
+    "steam-route-unknown": {
+      "titre": "Communauté Steam — carte verrouillée « Route unknown »",
+      "url": "https://steamcommunity.com/app/3932890/discussions/1/695373728984594672/",
+      "type": "forum",
+      "usage": "Témoignages de décembre 2025, pas une règle actuelle d’accès.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "forum-ground-zero": {
+      "titre": "Forum EFT — Ground Zero",
+      "url": "https://forum.escapefromtarkov.com/topic/176926-ground-zero/",
+      "type": "forum",
+      "usage": "Témoignages indexés ; accès direct 403, pas de vérification pour le build courant.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "extraits_indexes_http_403"
+    },
+    "reddit-new-player": {
+      "titre": "Reddit — apprendre une seule carte",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1k4hye7/new_player_how_am_i_supposed_to_play_the_game_as/",
+      "type": "forum",
+      "usage": "Retours de joueurs du 21/04/2025, conseil de méthode uniquement.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "extraits_indexes"
+    },
+    "party-exfil-types": {
+      "titre": "Tarkov Party — types d’extraction",
+      "url": "https://escapefromtarkov.party/en/guides/extraction-types-explained/",
+      "type": "communaute",
+      "usage": "17/09/2026. Conditions générales à vérifier sur le raid courant.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "party-tour": {
+      "titre": "Tarkov Party — guide Tour",
+      "url": "https://escapefromtarkov.party/en/guides/tour-quest-walkthrough/",
+      "type": "communaute",
+      "usage": "17/09/2026. Tarif Lighthouse contradictoire avec le wiki : non repris.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "discord-invite": {
+      "titre": "Discord — invitation publique EFT",
+      "url": "https://discord.com/api/v10/invites/escapefromtarkovofficial?with_counts=false",
+      "type": "primaire",
+      "usage": "Existence du serveur confirmée par l’API. Aucun salon consulté.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "invitation_publique_seule"
+    },
+    "lore-officiel": {
+      "titre": "Battlestate — présentation de la région et du conflit",
+      "url": "https://www.escapefromtarkov.com/?at=1001lHmT",
+      "type": "primaire",
+      "usage": "Section About via le texte indexé : Norvinsk, TerraGroup, USEC, BEAR et blocus.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "extraits_indexes_acces_direct_restreint"
+    },
+    "raid-film": {
+      "titre": "Battlestate — Raid, le film intégral",
+      "url": "https://www.youtube.com/watch?v=q9OIT7W24V8",
+      "type": "primaire",
+      "usage": "Transcription du prologue : implantation en 2015 dans le film, évacuations et zone isolée.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "transcription_et_metadonnees"
+    },
+    "story-chapters": {
+      "titre": "Wiki EFT — chapitres du scénario",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Story_chapters",
+      "type": "wiki",
+      "usage": "Index des dix intitulés. Certains articles liés contiennent des révélations.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "blue-fire": {
+      "titre": "Wiki EFT — Blue Fire",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Blue_Fire",
+      "type": "wiki",
+      "usage": "Lieux du chapitre ; page externe révélatrice.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "lore-labyrinth": {
+      "titre": "Wiki EFT — The Labyrinth (chapitre)",
+      "url": "https://escapefromtarkov.fandom.com/wiki/The_Labyrinth_(story_chapter)",
+      "type": "wiki",
+      "usage": "Chapitre homonyme d’un lieu ; ne pas confondre avec The Lab.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "boreas-story": {
+      "titre": "Wiki EFT — Boreas",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Boreas",
+      "type": "wiki",
+      "usage": "Étapes et branches du chapitre, détails révélateurs non indexés localement.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "boreas-social": {
+      "titre": "Battlestate sur X — le chapitre Boreas",
+      "url": "https://x.com/tarkov/status/2058806492518646020",
+      "type": "primaire",
+      "usage": "Annonce du nouveau chapitre, distinct de la carte Icebreaker.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "rogues-lore": {
+      "titre": "Wiki EFT — Rogues",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Rogues",
+      "type": "wiki",
+      "usage": "Groupe constitué d’anciens USEC, distinct des PMC de cette faction.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "black-division-lore": {
+      "titre": "Wiki EFT — Black Division",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Black_Division",
+      "type": "wiki",
+      "usage": "Apparitions documentées ; ne pas extrapoler son agenda ou des probabilités.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "lore-ticket": {
+      "titre": "Wiki EFT — The Ticket",
+      "url": "https://escapefromtarkov.fandom.com/wiki/The_Ticket",
+      "type": "wiki",
+      "usage": "Branches finales et pièces de preuve. Révélations majeures.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "lore-endings": {
+      "titre": "Wiki EFT — issues de la campagne",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Endings",
+      "type": "wiki",
+      "usage": "Conséquences récapitulées dans le bloc spoilers, pas dans la recherche.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "forum-lore-thread": {
+      "titre": "Forum EFT — débat TerraGroup",
+      "url": "https://forum.escapefromtarkov.com/topic/101030-lore-discussion-so-what-were-tg-actually-doing/",
+      "type": "forum",
+      "usage": "Débat de 2019, utile pour séparer les théories des faits confirmés.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "extraits_indexes"
+    },
+    "reddit-lore-compilation": {
+      "titre": "Reddit — compilation Vision of Tarkov",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/nl08vb/the_vison_of_tarkov_from_tobiassolem_bsg_crew/",
+      "type": "forum",
+      "usage": "Compilation de 2021, non autorité pour les dates diégétiques.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "extraits_indexes"
+    },
+    "seasons-wiki": {
+      "titre": "Wiki EFT — Kord Breach et règles de saison",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Seasons",
+      "type": "wiki",
+      "usage": "Assurance non offerte pendant Kord Breach selon le wiki ; règles et jalons à dater.",
+      "revalidation_phase_3": "docs/verifications-phase-3.md",
+      "acces_phase_3": "page_ou_extraits_consultes"
+    },
+    "tdev-maps": {
+      "titre": "Tarkov.dev — export JSON regular des cartes",
+      "url": "https://json.tarkov.dev/regular/maps",
+      "type": "donnees_communautaires",
+      "statut_phase_4": "snapshot local du 18 novembre 2026",
+      "usage": "Export community regular/maps, associé au snapshot local daté 18/11/2026. Fournit métadonnées et identifiants d’entrées, pas état live, accès du profil, build client, extract activé, ni exhaustivité du mode.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "wiki-factory": {
+      "titre": "Escape from Tarkov Wiki (communautaire) — Factory",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Factory",
+      "type": "wiki",
+      "usage": "Wiki communautaire consultée le 18/11/2026 : repères, extractions (noms, factions et exigences de clés/notes), et transits vers Customs, The Lab et Woods. Les tables peuvent être obsolètes ; ni activation ni disponibilité du raid courant ne sont prouvées.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "wiki-customs": {
+      "titre": "Escape from Tarkov Wiki (communautaire) — Customs",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Customs",
+      "type": "wiki",
+      "usage": "Wiki communautaire consultée le 18/11/2026 : repères, conditions rapportées et table de transits vers Factory, Interchange, Reserve et Shoreline. BSG 1.2.0.0 a ajusté les extractions ; le tableau wiki ne remplace pas les sorties affichées en raid.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "wiki-woods": {
+      "titre": "Escape from Tarkov Wiki (communautaire) — Woods",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Woods",
+      "type": "wiki",
+      "usage": "Wiki communautaire consultée le 18/11/2026 : repères, extractions conditionnelles et transits. La table ZB-014 la liste PMC, associe la clé et indique « Green flares = Open » ; elle ne précise pas ici si les deux conditions se cumulent. Disponibilité live non prouvée.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "wiki-shoreline": {
+      "titre": "Escape from Tarkov Wiki (communautaire) — Shoreline",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Shoreline",
+      "type": "wiki",
+      "usage": "Wiki communautaire consultée le 18/11/2026 : Resort, extractions conditionnelles et transits vers Icebreaker, Labyrinth, Lighthouse et Terminal. Les règles de Tour, items et fenêtres demeurent communautaires, sauf faits précis attestés par BSG.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "wiki-interchange": {
+      "titre": "Escape from Tarkov Wiki (communautaire) — Interchange",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Interchange",
+      "type": "wiki",
+      "usage": "Wiki communautaire consultée le 18/11/2026 : extractions (dont la séquence Saferoom) et transits vers Customs et Streets. Conditions, prix et état d’ouverture peuvent varier ; la page ne confirme pas le raid courant.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "wiki-reserve": {
+      "titre": "Escape from Tarkov Wiki (communautaire) — Reserve",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Reserve",
+      "type": "wiki",
+      "usage": "Wiki communautaire consultée le 18/11/2026 : extractions conditionnelles (train, levier, alimentation, sac/équipement) et transits vers Customs, Lighthouse et Woods. Horaires et activation rapportés ne sont pas testés en client.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "wiki-lab": {
+      "titre": "Escape from Tarkov Wiki (communautaire) — The Lab",
+      "url": "https://escapefromtarkov.fandom.com/wiki/The_Lab",
+      "type": "wiki",
+      "usage": "Wiki communautaire consultée le 18/11/2026 : accès par carte, extractions activables et transit vers Streets. Ces données ne valident ni sélection du compte ni activation dans un raid.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "wiki-lighthouse": {
+      "titre": "Escape from Tarkov Wiki (communautaire) — Lighthouse",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Lighthouse",
+      "type": "wiki",
+      "usage": "Wiki communautaire consultée le 18/11/2026 : repères, extractions et transits vers Icebreaker, Reserve, Shoreline et Woods. Pour les changements précis de 1.1.5.0, priorité aux notes BSG ; données wiki non live.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "wiki-streets": {
+      "titre": "Escape from Tarkov Wiki (communautaire) — Streets of Tarkov",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Streets_of_Tarkov",
+      "type": "wiki",
+      "usage": "Wiki communautaire consultée le 18/11/2026 : sorties et transits vers Ground Zero, Interchange et The Lab. Factions, fenêtres et exigences sont rapportées, pas testées dans le client.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "wiki-ground-zero": {
+      "titre": "Escape from Tarkov Wiki (communautaire) — Ground Zero",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Ground_Zero",
+      "type": "wiki",
+      "usage": "Wiki communautaire consultée le 18/11/2026 : groupes <21/21+, quatre familles d’extraction citées et transit vers Streets. Le palier et les conditions ne sont pas validés pour chaque profil/mode en client.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "wiki-labyrinth": {
+      "titre": "Escape from Tarkov Wiki (communautaire) — The Labyrinth",
+      "url": "https://escapefromtarkov.fandom.com/wiki/The_Labyrinth",
+      "type": "wiki",
+      "usage": "Wiki communautaire consultée le 18/11/2026 : accès par transit depuis Shoreline, prérequis de clés et de carte, pièges et boss. La plage de joueurs contredit l’API ; aucune condition live n’est prouvée.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "wiki-icebreaker": {
+      "titre": "Escape from Tarkov Wiki (communautaire) — Icebreaker",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Icebreaker",
+      "type": "wiki",
+      "usage": "Wiki communautaire consultée le 18/11/2026 : extraction Helicopter (signal vert et coût rapporté), déverrouillage direct et progression. Les notes BSG priment pour les faits 1.0.5.0/1.1.5.0 ; disponibilité et prix live non testés.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "wiki-terminal": {
+      "titre": "Escape from Tarkov Wiki (communautaire) — Terminal",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Terminal",
+      "type": "wiki",
+      "usage": "Wiki communautaire consultée le 18/11/2026 : Zubr Boat, conditions rapportées et transit depuis Shoreline sous fenêtre/présentation d’objet. Le JSON API indique 50 min et zéro entrée d’extraction, contre 45 min et Zubr dans le wiki ; conflit non résolu.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "tarkov-party-transits": {
+      "titre": "Tarkov Party — guide communautaire des transits",
+      "url": "https://escapefromtarkov.party/en/guides/transit-system-guide/",
+      "type": "communaute",
+      "usage": "Carte de connexions et conditions, mise à jour repérée le 17/09/2026. Source communautaire : confirmer fenêtres, objets et transitions dans le raid courant.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "tracker-map-rules": {
+      "titre": "TarkovTracker — PR #1401, conditions d’extraction et étages",
+      "url": "https://github.com/tarkovtracker-org/TarkovTracker/pull/1401",
+      "type": "outil_communautaire",
+      "usage": "PR communautaire consultée, novembre 2026 : enrichit les exigences de sorties et les marqueurs de niveaux à partir d’une capture régulière du 06/11 (client 1.3.0.0.48484) et Seasonal du 11/11 (1.3.0.1.48558). La capture PvE s’appuie sur des champs CountPVE/ChancePVE, pas une capture PvE distincte. Le PR dit que coûts, exigences, chance, états et données de mode manquent au JSON public et que son outil ne détecte pas l’état live. Ce n’est pas une règle BSG.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "customs-reddit-oct": {
+      "titre": "r/EscapefromTarkov — changements communautaires des sorties Customs",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1x14tna/discussion_customs_3d_map_updated_to_reflect_the/",
+      "type": "forum",
+      "usage": "Discussion du 09/10/2026 et extrait indexé : Railroad to Reserve, Reserve Checkpoint, Old Gas Station et RUAF cités avec différences PvE/PvP. Accès direct HTTP 403 ; signalement communautaire à recouper dans le jeu.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "customs-reemr-x": {
+      "titre": "REƎMR sur X — corrections des sorties Customs",
+      "url": "https://x.com/re3mr/status/2108637072344977657",
+      "type": "communaute",
+      "usage": "Message du 09/10/2026 : Railroad to Reserve utilisable par PMC ; autre message du 08/10 sur Reserve Checkpoint et Old Gas Station. Cartographe communautaire, pas annonce BSG.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "bsg-lighthouse-x": {
+      "titre": "Battlestate Games sur X — refonte Lighthouse 1.1.5.0",
+      "url": "https://x.com/tarkov/status/2094425255238304122",
+      "type": "primaire",
+      "usage": "Complément social officiel sur la refonte : chalets, points d’intérêt, passages souterrains, checkpoint/BTR, limites des mines et accès Lightkeeper. La note Steam 1.1.5.0 reste la référence principale.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "yt-customs-map-2026": {
+      "titre": "YouTube — guide communautaire Customs (9 novembre 2026)",
+      "url": "https://www.youtube.com/watch?v=Noe2RHvFO0k",
+      "type": "video",
+      "usage": "Transcription consultée ; repères et itinéraires de joueur. Les clés, conditions et dénominations d’extractions sont à revalider avec les notes 1.2.0.0 et la liste du raid.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "yt-icebreaker-map-2026": {
+      "titre": "YouTube — guide communautaire Icebreaker (8 juillet 2026)",
+      "url": "https://www.youtube.com/watch?v=FBgVkorr9YA",
+      "type": "video",
+      "usage": "Guide vidéo du 08/07/2026 : itinéraire et combats d’Icebreaker. Antérieur aux règles 1.1.5.0 (kit marin à la place des roubles) et à l’équilibrage BSG du 12/11 ; détails d’accès et de combat à revalider, aucune règle live attribuée à la vidéo.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "tdev-maps-pve": {
+      "titre": "Tarkov.dev — export JSON PvE des cartes",
+      "url": "https://json.tarkov.dev/pve/maps",
+      "type": "donnees_communautaires",
+      "usage": "Export du mode pve utilisé dans le snapshot local 18/11/2026. Métadonnées d’inventaire seulement ; présence d’une map, d’une sortie ou d’un boss dans le JSON ne prouve pas sa sélection/disponibilité en raid.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "tdev-maps-seasonal": {
+      "titre": "Tarkov.dev — export JSON PvP Seasonal des cartes",
+      "url": "https://json.tarkov.dev/pvp-season/maps",
+      "type": "donnees_communautaires",
+      "usage": "Export pvp-season utilisé dans le snapshot local 18/11/2026. Ne pas le confondre avec PvP permanent, Arena ou PvE ; métadonnées d’inventaire, pas état live.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "bsg-tech-diary-135": {
+      "titre": "Battlestate Games — Dev diary technique et mise à jour 1.3.5.0",
+      "url": "https://www.escapefromtarkov.com/news/id/420",
+      "type": "primaire",
+      "usage": "Article officiel du 18/11/2026 : BSG prévoit la sortie de 1.3.5.0 pour la seconde moitié de novembre, sans jour précis ; Unity 6, chargement/reconnexion et optimisations sont présentés comme objectifs de cette mise à jour. DirectX 12, génération d’images DLSS, Reflex et FSR 4 sont des pistes futures distinctes ; la végétation est reportée. Cette annonce ne prouve pas le déploiement de 1.3.5.0 et ne mentionne aucun changement de carte ou d’extraction.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "yt-icebreaker-wedge-1.3": {
+      "titre": "YouTube — Tarkov Wedge Guide 1.3: How To Kill Him Every Time",
+      "url": "https://www.youtube.com/watch?v=1YJDTIUjVIo",
+      "type": "video",
+      "usage": "Vidéo du 04/11/2026, antérieure à l’équilibrage BSG du 12/11. Conseils de joueur (écoute, couvert, angles étroits, grenades) ; seuils de dégâts/pénétration et route ne sont pas recoupés ni présentés comme règles live.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "yt-icebreaker-smoke-1.3": {
+      "titre": "YouTube — Ultimate Smoke trick for every fight on Icebreaker",
+      "url": "https://www.youtube.com/watch?v=Menwvj4YT7Q",
+      "type": "video",
+      "usage": "Vidéo du 13/11/2026 : décrit tir répété dans la fumée comme interaction involontaire/bug d’IA et reconnaît des échecs sur plusieurs zones. Non reproduit par le projet ; ne pas recommander comme tactique fiable ou permanente.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "reddit-patch-1300": {
+      "titre": "Reddit — discussion communautaire des notes 1.3.0.0",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1xicxsn/discussion_1300_patch_notes/",
+      "type": "forum",
+      "usage": "Discussion du 29/10/2026, consultée via les résultats de recherche ; accès direct HTTP 403. Commentaires anecdotiques sur les correctifs de géométrie/colliders et les performances PvE. Aucune mécanique d’extraction n’en est déduite.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "github-tarkovtracker-sayser": {
+      "titre": "GitHub — Sayser/TarkovTracker, outil cartographique communautaire",
+      "url": "https://github.com/sayser/TarkovTracker",
+      "type": "outil_communautaire",
+      "usage": "Dépôt consulté le 18/11/2026 : les outils de maintenance peuvent reconstruire sorties, apparitions et transits depuis json.tarkov.dev ; le dépôt ne remplace ni les notes BSG ni la liste d’extractions affichée par le client.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "github-tarkovtracker-org": {
+      "titre": "GitHub — TarkovTracker.org, dépôt public",
+      "url": "https://github.com/tarkovtracker-org/TarkovTracker",
+      "type": "outil_communautaire",
+      "usage": "Dépôt public consulté le 18/11/2026 ; son dernier changement repéré concerne le défilement d’ancre, pas les règles de carte. Activité logicielle ne vaut pas validation de données de raid.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "yt-icebreaker-smoke-1.3-nov12": {
+      "titre": "YouTube — Vidéo communautaire sur fumée et IA à Icebreaker (12 novembre)",
+      "url": "https://www.youtube.com/watch?v=eTDtCdLF69Y",
+      "type": "video",
+      "usage": "Vidéo du 12/11/2026 : l’auteur présente l’usage répété de la fumée comme exploitation incertaine de la vision IA et signale que la reproduction échoue parfois. Ce n’est ni un test indépendant ni une stratégie fiable ; non recommandé comme méthode permanente.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "tdev-phase5-catalog": {
+      "titre": "Tarkov.dev — exports communautaires des objets par mode",
+      "url": "https://json.tarkov.dev/endpoints",
+      "type": "donnees_communautaires",
+      "usage": "Exports regular, pve et pvp-season, capturés le 18/11/2026 à 17:08:28 (Europe/Paris) ; le flux ne fournit pas de gameBuild et n’est pas certifié BSG. Le manifest et les SHA-256 sont archivés dans data/snapshots/phase-5-catalogue-2026-11-18.json. Prix flea non affichés comme actuels lorsqu’ils sont absents ou âgés de plus de 7 jours ; ce seuil est un garde-fou éditorial, pas une règle du jeu.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "tdev-phase5-crafts": {
+      "titre": "Tarkov.dev — recettes de craft par mode",
+      "url": "https://json.tarkov.dev/regular/crafts",
+      "type": "donnees_communautaires",
+      "usage": "Snapshot comparatif du 18/11/2026 à 16:59:57 (Europe/Paris), avec 214 recettes pour chacun des trois modes. Les URL pve/crafts et pvp-season/crafts et leurs empreintes sont consignées dans data/snapshots/phase-5-crafts-2026-11-18.json. Le snapshot ne conserve que des IDs de déblocage; certains noms sont résolus séparément sur les pages de tâche Tarkov.dev (voir tdev-drip-out-bear, tdev-drip-out-usec et tdev-special-equipment). Donnée communautaire, sans build client.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "tdev-phase5-traders": {
+      "titre": "Tarkov.dev — niveaux traders et données Hideout",
+      "url": "https://json.tarkov.dev/regular/traders",
+      "type": "donnees_communautaires",
+      "usage": "Capture du 18/11/2026 à 17:01:09 (Europe/Paris) : 16 traders et niveaux requis pour chaque mode ; le snapshot ne conserve ni offres, ni prix. Le Hideout regular est archivé séparément et sa date Last-Modified est ancienne. Ne pas lire cette capture comme un inventaire actuel de marchand.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "bsg-balance-nov": {
+      "titre": "Battlestate Games — équilibrage du 12 novembre 2026 (canal officiel X)",
+      "url": "https://x.com/tarkov/status/2120935917351289274",
+      "type": "primaire",
+      "usage": "Publication BSG du 12/11/2026 : dans tous les modes, les munitions utilisées par The Wedge et ses gardes ont changé ; le message ne nomme aucune cartouche et ne fournit pas de table de stats. Il vise cet ennemi, pas les statistiques des munitions de joueur.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "bsg-135-diary": {
+      "titre": "Battlestate Games — Developer’s diary: Technical improvements",
+      "url": "https://www.escapefromtarkov.com/news/id/420",
+      "type": "primaire",
+      "usage": "Journal technique publié sur le site officiel BSG le 18/11/2026 : 1.3.5.0 est prévue pour la seconde moitié de novembre, sans jour précis ni confirmation de déploiement. Unity 6 ; connexion serveur parallèle au chargement de la carte, libération de RAM après raid, stabilité serveur/hit registration/pertes de paquets, fluidité en raid/Hideout et reconnexion rapide après coupure sont annoncés pour cette mise à jour. DX12, DLSS Frame Generation x2/x4, Reflex et végétation relèvent de travaux ultérieurs ; végétation reportée ; FSR 4 visé avant fin 2026. Ne pas présenter les projets futurs comme livrés.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "reddit-patch130-pve": {
+      "titre": "Reddit — discussion des notes 1.3.0.0 par des joueurs PvE",
+      "url": "https://www.reddit.com/r/EscapeFromTarkovPvE/comments/1xidn32/discussion_1300_patch_notes/",
+      "type": "communaute",
+      "usage": "Discussion d’octobre 2026 consultée pour repérer des retours sur les loadouts d’IA après les changements. Commentaires anecdotiques et non reproductibles ; ne pas les appliquer aux stats ou aux offres des munitions des joueurs.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "youtube-ammo-2026": {
+      "titre": "Snap and Boom Gaming — Why Your Bullets Aren’t Working?",
+      "url": "https://www.youtube.com/watch?v=Z2Q-L9KyAUU",
+      "type": "communaute",
+      "usage": "Vidéo de 24:12 publiée le 09/10/2026, transcript consulté : guide général de compétences, munitions, armures et personnalisation, mais pas un test identifié des valeurs de 1.3.0.2 ; non utilisée pour chiffrer les pages.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "github-tarkovgunsmith-pr249": {
+      "titre": "TarkovGunsmith — PR #249 sur les statistiques de build",
+      "url": "https://github.com/UnderMyBed/TarkovGunsmith/pull/249",
+      "type": "outil_communautaire",
+      "usage": "PR communautaire mise à jour en octobre 2026 : vérifie MOA contre 399 presets upstream et décrit une reconstruction de vitesse, distance et chargeur. Son auteur signale aussi des facteurs non attestés et un optimiseur incomplet ; repère de méthode seulement, aucune valeur de build n’est importée dans PHASE_5.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "wiki-ammo-2026": {
+      "titre": "TarkovWiki — tableau communautaire des munitions",
+      "url": "https://tarkovwiki.com/ammo",
+      "type": "wiki",
+      "usage": "Consulté le 18/11/2026. La page annonce 199 rounds, signale l’indisponibilité temporaire des prix flea Tarkov.dev et précise que l’estimation de classe d’armure à partir de la pénétration est heuristique. Source communautaire, pas un test dans le client.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "wiki-m855a1-2026": {
+      "titre": "TarkovWiki — fiche communautaire 5.56x45mm M855A1",
+      "url": "https://tarkovwiki.com/items/556x45mm-m855a1",
+      "type": "wiki",
+      "usage": "Consultée le 18/11/2026. Les dégâts, pénétration, dégâts d’armure et vitesse correspondent aux valeurs de l’export local. La recette Workbench 3 (180 M855, deux poudres, Leatherman, 2 h 20, sortie 90 M855A1) concorde avec le snapshot craft. La page affiche aussi des offres traders alors que buyFromTrader est vide dans l’export retenu : prix/offres non publiés comme validés par mode.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "lfcarry-ammo-2026": {
+      "titre": "LFCarry — guide commercial des munitions, version du 17 novembre 2026",
+      "url": "https://lfcarry.com/guides/tarkov-ammo-chart",
+      "type": "communaute",
+      "usage": "Guide commercial consulté le 18/11/2026, mis à jour le 17/11 pour 1.3.0.2. Il reprend plusieurs valeurs (dont M855A1 et DVC12), mais ses tiers S/A/B et conseils de « méta » ne sont ni des données BSG ni une preuve reproductible ; ils ne sont pas repris comme classement.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "ascheron-ammo-2026": {
+      "titre": "Ascheron — graphique communautaire des munitions",
+      "url": "https://tarkov.ascheron.dev/",
+      "type": "outil_communautaire",
+      "usage": "Graphique interactif communautaire consulté le 18/11/2026. L’extraction textuelle expose des noms et des axes, pas assez pour vérifier toutes les valeurs ; utilisé comme repère de visualisation, non comme référence chiffrée.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "tdev-drip-out-bear": {
+      "titre": "Tarkov.dev — tâche Drip-Out - Part 1 (Bear)",
+      "url": "https://tarkov.dev/task/drip-out-part-1-bear",
+      "type": "donnees_communautaires",
+      "usage": "Page de tâche consultée le 18/11/2026 pour résoudre l’ID 6613f3007f6666d56807c929 du craft Strandhogg dans regular/PvE. Tarkov.dev présente le titre Drip-Out - Part 1 et le slug de variante Bear. Résolution communautaire d’ID, pas validation d’une règle de faction dans le client.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "tdev-drip-out-usec": {
+      "titre": "Tarkov.dev — tâche Drip-Out - Part 1 (USEC)",
+      "url": "https://tarkov.dev/task/drip-out-part-1-usec",
+      "type": "donnees_communautaires",
+      "usage": "Page de tâche consultée le 18/11/2026 pour résoudre l’ID 66151401efb0539ae10875ae du craft Strandhogg dans pvp-season. Tarkov.dev présente le même titre Drip-Out - Part 1 et le slug de variante USEC. Résolution communautaire d’ID, pas validation d’une règle de faction dans le client.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "tdev-special-equipment": {
+      "titre": "Tarkov.dev — tâche Special Equipment",
+      "url": "https://tarkov.dev/task/special-equipment",
+      "type": "donnees_communautaires",
+      "usage": "Page de tâche consultée le 18/11/2026 : ID 60e71ce009d7c801eb0c0ec6 affiché comme Special Equipment, avec un déblocage de craft M855A1 Workbench niveau 3. Source communautaire; ne prouve pas la disponibilité du craft dans le client du lecteur.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "spt-duplicate-task-ids": {
+      "titre": "SPT — issue communautaire sur des tâches dupliquées à identifiants distincts",
+      "url": "https://github.com/sp-tarkov/server-csharp/issues/740",
+      "type": "forum",
+      "usage": "Issue SPT 4.0 ouverte le 11/03/2026, consultée le 18/11/2026; elle signale séparément des paires d’IDs de Textile/Drip-Out et pose la question des variantes USEC/BEAR. Contexte d’un projet solo communautaire uniquement : ce n’est pas une preuve pour EFT officiel ni la source du nom des quêtes.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "tdev-interactive-maps": {
+      "titre": "Tarkov.dev — index des cartes interactives",
+      "url": "https://tarkov.dev/maps/",
+      "type": "outil_communautaire",
+      "usage": "Index relu le 18/11/2026 : il expose des liens Interactive pour chacun des 13 lieux principaux et des variantes Night Factory, Factory infectée, Ground Zero 21+, Lab (Dark) et Infected Lab. Les 13 liens principaux et 5 variantes ont répondu HTTP 200 lors d’un contrôle HEAD ; les pages Terminal et Icebreaker ont aussi été consultées. Son texte introductif indique toutefois 11 lieux / 10 publiés, en conflit avec sa propre liste : seul l’existence et l’accès HTTP des liens sont retenus, pas l’exhaustivité, l’actualité ni la précision des marqueurs. Aucun test dans le client EFT.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "tdev-item-images": {
+      "titre": "Tarkov.dev — liens d’images d’objets par ID",
+      "url": "https://json.tarkov.dev/endpoints",
+      "type": "donnees_communautaires",
+      "usage": "Les six champs iconLink, gridImageLink, baseImageLink, inspectImageLink, image512pxLink et image8xLink ont été ajoutés sans actualiser les champs de gameplay : 5 498 IDs alignés dans chacun des exports regular/pve/pvp-season; 18 960 enregistrements enrichis dans items/weapons/ammo/armor. L’audit initial repérait 96 IDs avec au moins une URL unknown-item et 89 IDs sans aucune image non-placeholder par mode; ces placeholders ne sont pas rendus. Après la QA PHASE_5, le renderer n’intègre plus et ne hotlinke plus ces images distantes. Les pages utilisent des illustrations éditoriales locales JPG choisies par famille, annoncées comme génériques et non spécifiques à l’ID; l’ID et les données communautaires restent la référence de la fiche. Les champs d’URL restent conservés dans l’export comme provenance, mais leurs ressources et leurs droits ne sont pas validés ni affichés.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "tdev-project-license": {
+      "titre": "Tarkov.dev — dépôt de code et licence MIT",
+      "url": "https://github.com/the-hideout/tarkov-dev/blob/main/LICENSE",
+      "type": "outil_communautaire",
+      "usage": "Le dépôt du logiciel tarkov.dev affiche une licence MIT pour le code (consultée le 18/11/2026). Cette licence ne démontre pas que les images d’objets extraites du client EFT ou servies sur assets.tarkov.dev sont incluses dans la licence ou réutilisables; les droits sur ces assets restent non établis.",
+      "revalidation_phase_5": "docs/verifications-phase-5.md"
+    },
+    "tartrak-map-audit": {
+      "titre": "GitHub — TarTrak, avertissement de maintenance des extractions",
+      "url": "https://github.com/cthpAiden/TarTrak",
+      "type": "outil_communautaire",
+      "usage": "Dépôt et README relus le 18/11/2026; l’auteur déclare maintenir séparément data/extracts.json et rapporte des problèmes lors de la régénération Tarkov.dev de septembre (cinq entrées d’extraction Lighthouse manquantes et UN Roadblock de Woods classé sous Ground Zero). Signalement d’un mainteneur, non vérifié indépendamment dans le client et non utilisé comme vérité de données; renforce la réserve sur l’exhaustivité des exports.",
+      "revalidation_phase_4": "docs/verifications-phase-4.md"
+    },
+    "balance-13nov": {
+      "titre": "Battlestate Games — largages Seasonal et offres Black Division (13 novembre)",
+      "url": "https://x.com/tarkov/status/2121284426583716242",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Message officiel X/Telegram du 13/11/2026, sans numéro de patch annoncé : les largages Seasonal peuvent désormais contenir des mallettes avec documents ; dans tous les modes, les offres d’équipement Black Division exigent maintenant de l’argent ou des objets de troc au lieu des dogtags spéciaux. Le message ne donne ni taux de largage, ni nombre de documents, ni liste d’objets.",
+      "revalidation_phase_5": "docs/recherche-tarkov-2026-11-18.md",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md"
+    },
+    "yt-icebreaker-hotfix-14nov": {
+      "titre": "YouTube — Tarkov 1.3 Hotfix: Wedge And Black Division Changes Explained",
+      "url": "https://www.youtube.com/watch?v=mUUikgqdfLA",
+      "type": "video",
+      "statut_phase_0": "piste",
+      "usage": "Vidéo communautaire de josh757 publiée le 14/11/2026 (19:35) ; métadonnées, transcription et une partie des commentaires consultés. La vidéo discute les changements BSG du 12/11 et relaie aussi des valeurs attribuées à Discord, des hypothèses et des retours de raids ; ces détails ne sont pas officiels ni vérifiés en client. Les commentaires après le nerf restent partagés : certains signalent un combat plus accessible, d’autres le trouvent encore difficile. À utiliser comme échantillon d’expérience communautaire, pas comme règle ou mesure.",
+      "revalidation_phase_5": "docs/recherche-tarkov-2026-11-18.md",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md"
+    },
+    "reddit-icebreaker-wedge-oct": {
+      "titre": "r/EscapefromTarkov — retours sur The Wedge et la fumée",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1wzkf6t/discussion_hows_icebreaker_post_update/",
+      "type": "communaute",
+      "statut_phase_0": "piste",
+      "usage": "Discussion communautaire du 07/10/2026, antérieure à l’équilibrage BSG du 12/11. Les joueurs rapportent des résultats contradictoires sur la fumée, la vision IA et les angles de l’engine room. Fil utile pour repérer des difficultés, mais ni test indépendant, ni tactique reproductible ou état actuel.",
+      "revalidation_phase_5": "docs/recherche-tarkov-2026-11-18.md",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md"
+    },
+    "reddit-icebreaker-route": {
+      "titre": "r/EscapefromTarkov — retours joueurs sur l’accès direct à Icebreaker",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1tsn8hs/discussion_for_anyone_still_wondering_how_to_get/",
+      "type": "communaute",
+      "statut_phase_0": "piste",
+      "usage": "Fil Reddit identifié par son titre autour de l’accès direct à Icebreaker. Le fetch direct a renvoyé HTTP 403 : contenu et commentaires non vérifiés. Piste communautaire seulement; ne pas en dériver une procédure. Consulter les objectifs affichés en jeu.",
+      "revalidation_phase_5": "docs/recherche-tarkov-2026-11-18.md",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md"
+    },
+    "community-kord-guide-nov16": {
+      "titre": "LFCarry — guide communautaire Kord Breach mis à jour le 16 novembre",
+      "url": "https://lfcarry.com/guides/tarkov-kord-breach-quests",
+      "type": "guide_communautaire",
+      "statut_phase_0": "piste",
+      "usage": "Guide communautaire/commercial mis à jour le 16/11/2026 : matrice des tâches, nombres d’objectifs et conseils de progression après les changements du 12–13/11. Les nombres précis et effets de méta ne sont pas tous corroborés par un communiqué BSG ou un test du client ; vérifier l’intitulé et le compteur affichés dans la tâche Seasonal.",
+      "revalidation_phase_5": "docs/recherche-tarkov-2026-11-18.md",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md"
+    },
+    "lootmap-atlas": {
+      "titre": "Lootmap.gg — atlas communautaire des cartes Tarkov",
+      "url": "https://lootmap.gg/escape-from-tarkov/",
+      "type": "outil_communautaire",
+      "statut_phase_0": "repere",
+      "usage": "Index consulté le 18/11/2026 ; le site revendique 13 cartes (dont Terminal, Icebreaker et Labyrinth), catégories d’extraction, transit, portes, repères et étages. Outil externe utile à comparer, non officiel ; nombres de marqueurs et disponibilité réelle ne sont pas validés en client. Vérifier les sorties affichées dans le raid.",
+      "revalidation_phase_5": "docs/recherche-tarkov-2026-11-18.md",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md"
+    },
+    "tdev-pr1339": {
+      "titre": "Tarkov.dev — PR #1339, affichage des objets requis pour certaines extractions",
+      "url": "https://github.com/the-hideout/tarkov-dev/pull/1339",
+      "type": "donnees_communautaires",
+      "statut_phase_0": "verifie",
+      "usage": "Pull request du 12/10/2026, déployée en production selon les Actions GitHub : corrige l’affichage de l’objet nécessaire sur certaines extractions. Amélioration d’un outil communautaire, pas changement de règle de jeu ; toujours confirmer l’extraction en raid.",
+      "revalidation_phase_5": "docs/recherche-tarkov-2026-11-18.md",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md"
+    },
+    "tdev-pr1351": {
+      "titre": "Tarkov.dev — PR #1351, efficacité des mises à jour API",
+      "url": "https://github.com/the-hideout/tarkov-dev/pull/1351",
+      "type": "donnees_communautaires",
+      "statut_phase_0": "verifie",
+      "usage": "Pull request du 05/11/2026 : évite des rendus d’éléments lorsque les données API n’ont pas changé. Amélioration de l’application web; ne change ni règle de jeu, ni données officielles d’équilibrage.",
+      "revalidation_phase_5": "docs/recherche-tarkov-2026-11-18.md",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md"
+    },
+    "bsg-game-rules": {
+      "titre": "Battlestate Games — Rules of the Game",
+      "url": "https://www.escapefromtarkov.com/legals/rules_of_the_game",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Règles officielles consultées le 18/11/2026, sections 2.6.2–2.6.7 : les droits sur les contenus appartiennent à BSG ou ses concédants ; seules certaines ressources spécifiquement désignées « for user websites » ont des conditions de réutilisation, notamment restrictions de reproduction/adaptation et d’usage commercial. La licence MIT du code Tarkov.dev ne concède pas les images d’objets du jeu ni les droits sur le CDN.",
+      "revalidation_phase_5": "docs/recherche-tarkov-2026-11-18.md",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md"
+    },
+    "arena-patch-0625-official": {
+      "titre": "Battlestate Games — Escape from Tarkov: Arena, patch 0.6.2.5",
+      "url": "https://arena.tarkov.com/news/patch-0625",
+      "type": "primaire",
+      "statut_phase_0": "verifie",
+      "usage": "Notes officielles du 05/11/2026. Ajuste le Metascore des lunettes/grips tactiques/gas blocks/silencieux; ajoute dans BlastGang remboursement du matériel intact acheté pendant la manche, compensation si en infériorité numérique, personnalisation des chargeurs et backfill des premières manches; rééquilibre armes/prix et ajoute de nouveaux items/armes. Correctifs techniques dont fuites mémoire et hit registration. Dernière note numérotée retrouvée dans le flux officiel consulté le 18/11; ne pas confondre Arena et l’EFT principal.",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md",
+      "usage_phase_9": "Note officielle Arena publiée le 5 novembre 2026 : retours d’équipement inutilisé/intact, compensation des rounds en sous-nombre, personnalisation des chargeurs et backfill; comprend aussi les listes de nouveaux éléments synchronisés et correctifs. Règles propres à Arena.",
+      "date_releve_phase_9": "Consulté directement le 18 novembre 2026."
+    },
+    "youtube-wedge-smoke-12nov": {
+      "titre": "YouTube — Millennial ManCave, tactique fumée/Wedge du 12 novembre",
+      "url": "https://www.youtube.com/watch?v=eTDtCdLF69Y",
+      "type": "video",
+      "statut_phase_0": "piste",
+      "usage": "Vidéo du 12/11/2026 (10:31), transcript consulté. L’auteur affirme qu’un comportement de vision lié aux buissons/fumigènes pourrait gêner le tir de l’IA en tirant à intervalles, mais précise qu’il ne parvient pas à reproduire certains combats (chaufferie/héliports) et renvoie à un autre créateur. Hypothèse de bug/interaction exploitable, non confirmée par BSG et non testée en client; ne pas en faire une technique fiable ni une recommandation.",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md"
+    },
+    "reddit-wedge-tips-oct14": {
+      "titre": "r/EscapefromTarkov — retours joueurs sur la progression contre Wedge",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1x5v2u3/discussion_tips_for_progressing_wedge_on/",
+      "type": "communaute",
+      "statut_phase_0": "piste",
+      "usage": "Discussion datée du 14/10/2026, avant l’équilibrage BSG du 12/11. Les commentaires proposent des fumigènes, grenades et angles, avec résultats et opinions contradictoires; un joueur rapporte une réussite partielle, d’autres jugent la rencontre très difficile. Page Reddit non relue intégralement; ces conseils ne décrivent pas l’état post-12/11 et ne sont pas une procédure garantie.",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md"
+    },
+    "tdev-pr1355": {
+      "titre": "Tarkov.dev — PR #1355, traduction espagnole",
+      "url": "https://github.com/the-hideout/tarkov-dev/pull/1355",
+      "type": "donnees_communautaires",
+      "statut_phase_0": "verifie",
+      "usage": "PR du 11/11/2026, approuvée et déployée le même jour : ajoute des traductions es/es-MX sur tâches, pages d’objets et listes. Changement de localisation uniquement, sans changement de données de jeu, règles ou équilibrage.",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md"
+    },
+    "spt-issue145-quest-icons": {
+      "titre": "SP-Tushonka — Issue #145, icônes de quêtes manquantes sur BE 5.0",
+      "url": "https://github.com/SP-Tushonka/server-csharp/issues/145",
+      "type": "donnees_communautaires",
+      "statut_phase_0": "verifie",
+      "usage": "Issue de novembre 2026 signalant des requêtes d’icônes de quête non servies sur SPT 5.0 BE build 48558. Un commit `d90ec71` ajoute des icônes de quêtes/succès et l’issue est clôturée; un build BE ultérieur `SPT-BLEEDINGEDGEMODS-5.0.0-48558-048e0aa-20261107` est montré dans l’activité. Indice de correctif communautaire, pas une nouvelle release stable ni preuve que toutes les installations l’incluent.",
+      "note_veille": "docs/recherche-tarkov-2026-11-18.md"
+    },
+    "tdev-armor-regular": {
+      "titre": "Tarkov.dev — équipement défensif PvP permanent",
+      "url": "https://json.tarkov.dev/regular/items",
+      "type": "donnees_communautaires",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Export `regular/items` sélectionné pour 423 enregistrements du groupe armures/défense dans le snapshot local du 18/11/2026. Données communautaires, build non déclaré; les prix flea sont par entrée et peuvent être anciens.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "tdev-armor-pve": {
+      "titre": "Tarkov.dev — équipement défensif PvE Zone",
+      "url": "https://json.tarkov.dev/pve/items",
+      "type": "donnees_communautaires",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Export `pve/items` sélectionné pour 423 enregistrements dans le snapshot local du 18/11/2026. Ne prouve ni disponibilité en raid ni valeur testée dans le client; prix flea indépendants du PvP.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "tdev-armor-seasonal": {
+      "titre": "Tarkov.dev — équipement défensif PvP Seasonal",
+      "url": "https://json.tarkov.dev/pvp-season/items",
+      "type": "donnees_communautaires",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Export `pvp-season/items` sélectionné pour 423 enregistrements dans le snapshot local du 18/11/2026. Mode Seasonal distinct; données communautaires et prix propres à l’export, pas une observation live.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-armor-vests-2026": {
+      "titre": "EFT Wiki — Armor vests",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Armor_vests",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Page communautaire consultée le 18/11/2026 : porte-plaques, couches de protection et champs de tableau. Ne confirme pas les slots ou statistiques du client actuel.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-armor-plates-2026": {
+      "titre": "EFT Wiki — Armor plates",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Armor_plates",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Page communautaire consultée le 18/11/2026 : plaques à insérer dans certains gilets/rigs, classes, zones et durabilité tabulées. Ne constitue pas un test balistique en client.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-chest-rigs-2026": {
+      "titre": "EFT Wiki — Chest rigs",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Chest_rigs",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Page communautaire consultée le 18/11/2026 : capacités et grilles des rigs; certains modèles sont armoured rigs. Ne confondre ni cases ni plaques, et vérifier le client.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-headwear-2026": {
+      "titre": "EFT Wiki — Headwear",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Headwear",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Page communautaire consultée le 18/11/2026 : headwear de protection, zones de tête et atténuation sonore. Les compatibilités et performances ne sont pas testées dans le client.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-helmet-mods-2026": {
+      "titre": "EFT Wiki — Helmet mods",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Helmet_mods",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Page communautaire consultée le 18/11/2026 : composants et modularité des casques. Ne garantit pas la compatibilité de chaque accessoire dans le build courant.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "bsg-partisan-2026-10": {
+      "titre": "Battlestate Games sur X — chance de base de Partisan",
+      "url": "https://x.com/tarkov/status/2108578339778617608",
+      "type": "primaire",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Message technique BSG du 09/10/2026, récupéré directement. Annonce 25 % de chance de base sur Lighthouse, Shoreline, Woods et Customs; en PvP et Seasonal, la chance finale dépend de la présence de PMCs à karma bas. Ne donne aucun taux final garanti.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "bsg-zryachiy-2026-10": {
+      "titre": "Battlestate Games sur X — correctifs techniques du 9 octobre",
+      "url": "https://x.com/tarkov/status/2108454596465119415",
+      "type": "primaire",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Message technique BSG du 09/10/2026, récupéré directement. Annonce correction d’une position incorrecte de Zryachiy sur Lighthouse et du comportement de boss envers les player Scavs à réputation Fence supérieure à 6; ne remplace pas un test en raid.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-reshala": {
+      "titre": "EFT Wiki — Reshala",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Reshala",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté par chunks le 18/11/2026. Lieux, gardes, équipement et HP sont des relevés wiki potentiellement sensibles au patch; disponibilité et taux par raid non confirmés.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-killa": {
+      "titre": "EFT Wiki — Killa",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Killa",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté le 18/11/2026. Ne pas confondre Killa standard avec Vengeful Killa au Labyrinth; lieux, HP et équipement ne sont pas vérifiés en client.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-shturman": {
+      "titre": "EFT Wiki — Shturman",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Shturman",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté le 18/11/2026. Repères de Woods, gardes et santé tabulés par la wiki; aucun spawn ou comportement live n’est confirmé.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-glukhar": {
+      "titre": "EFT Wiki — Glukhar",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Glukhar",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté le 18/11/2026. Lieux, rôles des gardes et santé sont des données wiki; ne pas assimiler un compteur d’API à un nombre de boss.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-sanitar": {
+      "titre": "EFT Wiki — Sanitar",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Sanitar",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté le 18/11/2026. Repères de lieux, gardes, équipement et santé; aucune disponibilité ou probabilité par mode vérifiée.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-tagilla": {
+      "titre": "EFT Wiki — Tagilla",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Tagilla",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté le 18/11/2026. À distinguer des variantes Infected et des bosses du Labyrinth; les chiffres ne sont pas testés en client.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-kaban": {
+      "titre": "EFT Wiki — Kaban",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Kaban",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté le 18/11/2026. LexOs, gardes et données HP rapportés par la wiki; composition exacte du raid et disponibilité non garanties.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-kollontay": {
+      "titre": "EFT Wiki — Kollontay",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Kollontay",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté le 18/11/2026. Secteurs, gardes et santé restent des repères wiki non vérifiés en jeu.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-zryachiy": {
+      "titre": "EFT Wiki — Zryachiy",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Zryachiy",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté le 18/11/2026. La page ne remplace pas le correctif BSG du 09/10/2026; les positions et chiffres wiki ne sont pas un état live.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-partisan": {
+      "titre": "EFT Wiki — Partisan",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Partisan",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté le 18/11/2026. La page liste quatre lieux et 950 HP dans sa table; la chance d’apparition est citée séparément selon le message BSG, sans valeur finale garantie.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-cultists-2026": {
+      "titre": "EFT Wiki — Cultists",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Cultists",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Page communautaire de faction consultée le 18/11/2026. Elle rapporte notamment Night Factory, Customs, Woods, Shoreline et Ground Zero (21+); la fiche Cultist Priest dédiée était vide lors du contrôle. Lieux et disponibilité sont des repères wiki, non vérifiés dans le client.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-knight": {
+      "titre": "EFT Wiki — Knight",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Knight",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté le 18/11/2026; utilisé avec Big Pipe et Birdeye pour décrire le trio des Goons. La désambiguïsation The Goons n’est pas utilisée comme fiche source.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-big-pipe": {
+      "titre": "EFT Wiki — Big Pipe",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Big_Pipe",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté le 18/11/2026 : Rogue, lieux et appartenance au groupe des Goons; santé et comportements ne sont pas des valeurs live.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-birdeye": {
+      "titre": "EFT Wiki — Birdeye",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Birdeye",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté le 18/11/2026 : Rogue, lieux, observation à distance et appartenance aux Goons; les comportements restent communautaires.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-shadow-tagilla": {
+      "titre": "EFT Wiki — Shadow of Tagilla",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Shadow_of_Tagilla",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté le 18/11/2026 : Labyrinth, immunité explosive rapportée, comportement et santé tabulés. Propriétés susceptibles d’évoluer; aucun test client.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-wedge": {
+      "titre": "EFT Wiki — The Wedge",
+      "url": "https://escapefromtarkov.fandom.com/wiki/The_Wedge",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté le 18/11/2026. Le total HP affiché par la wiki n’est pas traité comme actuel car BSG a annoncé une baisse de santé le 12/11 sans publier le nouveau total.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "wiki-boss-vengeful-killa": {
+      "titre": "EFT Wiki — Vengeful Killa",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Vengeful_Killa",
+      "type": "wiki",
+      "statut_phase_6": "consultée le 18 novembre 2026",
+      "usage": "Profil communautaire consulté le 18/11/2026 : Labyrinth et apparition après Shadow of Tagilla selon la wiki; HP et séquence non confirmés en client.",
+      "revalidation_phase_6": "data/phase6.json et docs/verifications-2026-11-18.md"
+    },
+    "bsg-patch-110": {
+      "id": "bsg-patch-110",
+      "titre": "Patch 1.1.0.0 · notes BSG",
+      "type": "primaire",
+      "url": "https://www.escapefromtarkov.com/news/id/404?type=2",
+      "usage": "3 août 2026 : refonte des tâches par loyauté, retrait du volume d’achat, changement de services, règles Seasonal et synchronisation Arena → PvP Seasonal."
+    },
+    "bsg-patch-115": {
+      "id": "bsg-patch-115",
+      "titre": "Patch 1.1.5.0 · notes BSG",
+      "type": "primaire",
+      "url": "https://www.escapefromtarkov.com/news/id/408?type=2",
+      "usage": "Notes BSG consultées; changements d’accès et de progression à revalider dans le client."
+    },
+    "bsg-patch-130": {
+      "id": "bsg-patch-130",
+      "titre": "Patch 1.3.0.0 · notes BSG",
+      "type": "primaire",
+      "url": "https://www.escapefromtarkov.com/news/id/416?type=2",
+      "usage": "29 octobre 2026 : événement Halloween, esthétique Hideout et ajustements de compétences; les notes ne donnent pas un ROI de stations."
+    },
+    "bsg-tech-135": {
+      "id": "bsg-tech-135",
+      "titre": "Journal technique 1.3.5.0 · BSG",
+      "type": "primaire",
+      "url": "https://www.escapefromtarkov.com/news/id/420",
+      "usage": "18 novembre 2026 : 1.3.5.0 est annoncée pour la seconde moitié de novembre, sans date précise ni confirmation de déploiement."
+    },
+    "tdev-endpoints": {
+      "id": "tdev-endpoints",
+      "titre": "Tarkov.dev · catalogue des endpoints",
+      "type": "donnees_communautaires",
+      "url": "https://json.tarkov.dev/endpoints",
+      "usage": "Documente les exports JSON publics et les modes regular, pve et pvp-season. Source communautaire, pas une API officielle BSG."
+    },
+    "tdev-traders": {
+      "id": "tdev-traders",
+      "titre": "Tarkov.dev · traders",
+      "type": "donnees_communautaires",
+      "url": "https://tarkov.dev/traders",
+      "usage": "Référence communautaire des traders et niveaux; le stock et les prix peuvent changer."
+    },
+    "tdev-tasks": {
+      "id": "tdev-tasks",
+      "titre": "Tarkov.dev · tâches",
+      "type": "donnees_communautaires",
+      "url": "https://tarkov.dev/tasks",
+      "usage": "Tâches, prérequis et balises Kappa affichés par Tarkov.dev; l’export interrogé ne comprend pas toutes les tâches signalées."
+    },
+    "tdev-hideout": {
+      "id": "tdev-hideout",
+      "titre": "Tarkov.dev · Hideout",
+      "type": "donnees_communautaires",
+      "url": "https://tarkov.dev/hideout",
+      "usage": "Stations, niveaux, exigences et prix affichés sur le site; seuls les champs de structure exportés ont été retenus ici."
+    },
+    "tdev-crafts": {
+      "id": "tdev-crafts",
+      "titre": "Tarkov.dev · données JSON",
+      "type": "donnees_communautaires",
+      "url": "https://json.tarkov.dev/endpoints",
+      "usage": "Endpoint crafts public, sans traduction; recettes et durées sont séparées par mode dans les snapshots."
+    },
+    "tracker-community": {
+      "id": "tracker-community",
+      "titre": "TarkovTracker.io — ancienne instance du projet",
+      "type": "outil_communautaire",
+      "url": "https://tarkovtracker.io",
+      "usage": "Ancienne adresse, décrite par l’équipe TarkovTracker.org comme non maintenue. Ne pas recommander pour les données courantes; rediriger le lecteur vers la documentation de l’instance communautaire active, sans garantie de service."
+    },
+    "github-886": {
+      "id": "github-886",
+      "titre": "GitHub · issue #886 sur les tâches absentes",
+      "type": "communaute",
+      "url": "https://github.com/the-hideout/tarkov-data-manager/issues/886",
+      "usage": "Issue ouverte à la vérification : Getting Acquainted et huit tâches Make Amends signalés absents. Les neuf IDs restent absents des trois réponses tasks interrogées; cela ne prouve pas l’état dans le client."
+    },
+    "fandom-collector": {
+      "id": "fandom-collector",
+      "titre": "Wiki communautaire · Collector",
+      "type": "wiki",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Collector",
+      "usage": "La page consultée indique niveau 40 et quatre quêtes préalables; ces chiffres contredisent le flux Tarkov.dev/Tarkov Advisor observé."
+    },
+    "tarkov-advisor-collector": {
+      "id": "tarkov-advisor-collector",
+      "titre": "Tarkov Advisor · Collector",
+      "type": "outil_communautaire",
+      "url": "https://www.tarkovadvisor.com/en/tasks/5c51aac186f77432ea65c552",
+      "usage": "Outil communautaire consulté directement : niveau 42, cinq prérequis et 44 objectifs FIR, ce qui corrobore l’export mais ne remplace pas une vérification en jeu."
+    },
+    "reddit-hideout": {
+      "id": "reddit-hideout",
+      "titre": "Reddit · discussion de communauté sur les crafts",
+      "type": "forum",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1pwrsdk/discussion_whats_your_goto_crafts_to_level/",
+      "usage": "Retour communautaire daté de décembre 2025; trop ancien pour servir de recommandation de rentabilité après les changements 1.1.0."
+    },
+    "reddit-110": {
+      "id": "reddit-110",
+      "titre": "Reddit · discussion Patch 1.1.0",
+      "type": "forum",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1ve4xsb/discussion_1100_patch_notes/",
+      "usage": "Lien trouvé en recherche; lecture directe refusée HTTP 403. Non utilisé pour établir les seuils."
+    },
+    "youtube-kappa": {
+      "id": "youtube-kappa",
+      "titre": "YouTube · recherche Collector/Kappa",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=eYtb2eGi4iQ",
+      "usage": "Résultat de recherche daté d’octobre 2026; vidéo non visionnée intégralement, donc non utilisée pour les chiffres."
+    },
+    "arena-ref-2024": {
+      "id": "arena-ref-2024",
+      "titre": "EFT: Arena · notes 0.1.8.0",
+      "type": "primaire",
+      "url": "https://arena.tarkov.com/news/patch-0180",
+      "usage": "Notes officielles Arena de 2024 sur Ref et les transferts de l’époque; ne pas les substituer aux règles plus récentes des notes 1.1.0."
+    },
+    "bsg-skill-speed-oct2": {
+      "titre": "Battlestate Games — annonce officielle sur la vitesse des compétences (X, 2 octobre 2026)",
+      "url": "https://x.com/tarkov/status/2105971354172350822",
+      "type": "primaire",
+      "usage_phase_8": "BSG annonce que toutes les compétences progressent jusqu’à 60 % plus vite dans tous les modes et que les limites de progression en raid ont été ajustées. « Jusqu’à » ne signifie pas +60 % garanti par compétence ou action. Vérifié le 18 novembre 2026."
+    },
+    "bsg-technical-diary-135": {
+      "titre": "Battlestate Games — journal technique 1.3.5.0 (18 novembre 2026)",
+      "url": "https://www.escapefromtarkov.com/news/id/420?lang=en",
+      "type": "primaire",
+      "usage_phase_8": "L’article annonce 1.3.5.0 pour la seconde moitié de novembre et décrit le travail prévu autour de Unity 6, du chargement, des sorties, des performances et de la reconnexion. C’est un calendrier, pas une confirmation que le patch est déployé.",
+      "usage_phase_10": "Article BSG original récupéré directement le 18/11/2026 : le journal, daté du 18 novembre, programme 1.3.5.0 pour la seconde moitié de novembre, sans jour précis ni annonce d’installation. L’index BSG des patch notes récupéré directement le 18/11 affiche toujours 1.3.0.0 (29/10) comme dernière note numérotée; cela ne garantit pas le build installé par chaque client. Unity 6, connexion serveur en parallèle du chargement, libération de RAM après raid, stabilité serveur, hit registration, pertes de paquets réduites, fluidité et reconnexion rapide sont annoncés pour 1.3.5.0. DirectX 12, DLSS Frame Generation x2/x4 et NVIDIA Reflex sont des travaux futurs; la végétation est reportée; FSR 4 est visé avant fin 2026. Cette page ne prouve pas le déploiement.",
+      "date_releve_phase_10": "18 novembre 2026 : article BSG récupéré directement et recoupé avec l’index officiel des notes et l’annonce BSG sur Steam; aucune date précise ni annonce d’installation."
+    },
+    "bsg-expansion-tarcoin": {
+      "titre": "Battlestate Games — Expansions Hub et TarCoin (8 juillet 2026)",
+      "url": "https://www.escapefromtarkov.com/news/id/403?lang=en",
+      "type": "primaire",
+      "usage_phase_8": "BSG définit TarCoin comme devise utilisée exclusivement dans l’Expansions Hub; les pièces trouvées en raid sont créditées après extraction réussie. À séparer des roubles et du marché Flea. Vérifié le 18 novembre 2026."
+    },
+    "tdev-api-doc-phase8": {
+      "titre": "Tarkov.dev — documentation de l’API JSON",
+      "url": "https://tarkov.dev/api/",
+      "type": "donnees_communautaires",
+      "usage_phase_8": "Tarkov.dev décrit des réponses GET avec cache, assemblées depuis plusieurs sources communautaires (dont le wiki, Tarkov Changes et TarkovTracker). Ce n’est pas une API BSG ni une validation du client. Vérifié le 18 novembre 2026."
+    },
+    "tdev-items-regular-p8": {
+      "titre": "Tarkov.dev — capture items regular, quarantinée",
+      "url": "https://json.tarkov.dev/regular/items",
+      "type": "donnees_communautaires_quarantaine",
+      "usage_phase_8": "L’artefact data/snapshots/phase-8-reference-2026-11-19.json est horodaté 19 novembre 2026, postérieur à la date de relecture système (18 novembre 2026). Il est conservé comme artifact interne mais exclu de toutes les pages, du sitemap public et des affirmations « actuelles »; ne pas publier ses valeurs avant un nouveau relevé à date cohérente. Le snapshot ne contient pas de cours de marché."
+    },
+    "tdev-items-pve-p8": {
+      "titre": "Tarkov.dev — capture items PvE, quarantinée",
+      "url": "https://json.tarkov.dev/pve/items",
+      "type": "donnees_communautaires_quarantaine",
+      "usage_phase_8": "La capture partagée est horodatée 19 novembre 2026, après la date de relecture système du 18 novembre 2026. Exclue de la publication et des affirmations actuelles; artifact interne conservé pour revalidation. Aucun cours n’est publié."
+    },
+    "tdev-items-season-p8": {
+      "titre": "Tarkov.dev — capture items PvP Seasonal, quarantinée",
+      "url": "https://json.tarkov.dev/pvp-season/items",
+      "type": "donnees_communautaires_quarantaine",
+      "usage_phase_8": "La capture partagée est horodatée 19 novembre 2026, après la date de relecture système du 18 novembre 2026. Exclue de la publication et des affirmations actuelles; artifact interne conservé pour revalidation. Aucun cours n’est publié."
+    },
+    "tarkov-market-economy-p8": {
+      "titre": "Tarkov Market — tableau d’activité et d’économie du Flea",
+      "url": "https://tarkov-market.com/economy",
+      "type": "outil_communautaire_volatile",
+      "usage_phase_8": "Tableau communautaire consulté pendant la relecture du 18 novembre : modes PvP/PvE/Seasonal et activité mouvante sur 24 h. L’axe de date affichait aussi le 19 novembre; les cours sont donc exclus et la page n’est citée que comme outil à consulter soi-même, après vérification du mode et de l’horodatage."
+    },
+    "wiki-trading-p8": {
+      "titre": "Escape from Tarkov Wiki — Trading / Flea commission",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Trading",
+      "type": "wiki_communautaire",
+      "usage_phase_8": "Référence secondaire pour distinguer la commission de vente de l’offre affichée. Formule communautaire à recouper avec le client; le guide ne la simplifie pas en taux effectif universel."
+    },
+    "reddit-skill-130-p8": {
+      "titre": "Reddit — discussion des notes 1.3.0.0 (29 octobre 2026)",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1xicxsn/discussion_1300_patch_notes/",
+      "type": "piste_communautaire_non_retenue",
+      "usage_phase_8": "Piste de recherche uniquement : texte non récupéré/validé pour cette relecture; exclue du contenu public PHASE_8 et des affirmations actuelles."
+    },
+    "reddit-money-pve-jul-p8": {
+      "titre": "Reddit PvE — idées de runs débutant et Interchange (19 juillet 2026)",
+      "url": "https://www.reddit.com/r/EscapeFromTarkovPvE/comments/1v0tq6b/loot_new_player_whats_the_best_way_to_farm_money/",
+      "type": "piste_communautaire_non_retenue",
+      "usage_phase_8": "Piste de recherche uniquement : texte non récupéré/validé pour cette relecture; exclue du contenu public PHASE_8 et des affirmations actuelles."
+    },
+    "reddit-money-method-feb-p8": {
+      "titre": "Reddit PvE — discussion « Fast way to make money » (23 février 2026)",
+      "url": "https://www.reddit.com/r/EscapeFromTarkovPvE/comments/1rc2uav/fast_way_to_make_moneyguide/",
+      "type": "piste_communautaire_non_retenue",
+      "usage_phase_8": "Piste de recherche uniquement : texte non récupéré/validé pour cette relecture; exclue du contenu public PHASE_8 et des affirmations actuelles."
+    },
+    "reddit-beginner-apr-p8": {
+      "titre": "Reddit — conseils généraux d’un nouveau joueur (6 avril 2026)",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1se0twc/new_player_anyone_got_some_general_tips/",
+      "type": "piste_communautaire_non_retenue",
+      "usage_phase_8": "Piste de recherche uniquement : texte non récupéré/validé pour cette relecture; exclue du contenu public PHASE_8 et des affirmations actuelles."
+    },
+    "reddit-pvp-tips-oct25-p8": {
+      "titre": "Reddit — amélioration en PvP pour nouveau joueur (27 octobre 2025)",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1ohf0mw/new_player_can_anyone_give_me_tips_how_to_get/",
+      "type": "piste_communautaire_non_retenue",
+      "usage_phase_8": "Piste de recherche uniquement : texte non récupéré/validé pour cette relecture; exclue du contenu public PHASE_8 et des affirmations actuelles."
+    },
+    "reddit-builds-apr26-p8": {
+      "titre": "Reddit — builds présentés par des joueurs (13 avril 2026)",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1sk460a/show_me_your_current_meta_builds_discussion/",
+      "type": "piste_communautaire_non_retenue",
+      "usage_phase_8": "Piste de recherche uniquement : texte non récupéré/validé pour cette relecture; exclue du contenu public PHASE_8 et des affirmations actuelles."
+    },
+    "youtube-pestily-130-p8": {
+      "titre": "Pestily — analyse vidéo des notes 1.3.0.0 (29 octobre 2026)",
+      "url": "https://www.youtube.com/watch?v=eBYQ3qzA2FE",
+      "type": "createur_communautaire",
+      "usage_phase_8": "Décryptage daté du patch; secondaire à l’annonce BSG. La vidéo signale notamment que certains détails chiffrés des compétences ne sont pas publiés."
+    },
+    "youtube-pve-prestige-nov-p8": {
+      "titre": "Task Force Gaming+ — progression PvE après Prestige (10 novembre 2026)",
+      "url": "https://www.youtube.com/watch?v=lnf9w_KkIzU",
+      "type": "createur_communautaire",
+      "usage_phase_8": "Partie commentée d’un profil après Prestige. Témoignage et expérience individuelle, pas un barème officiel d’exigences ou de rétention. À lire avec les notes BSG 1.2.0.0."
+    },
+    "youtube-interchange-nov-p8": {
+      "titre": "Pestily — Interchange et caisses enregistreuses (11 novembre 2026)",
+      "url": "https://www.youtube.com/watch?v=kMSSAEzL6y8",
+      "type": "createur_communautaire",
+      "usage_phase_8": "Vidéo publiée le 11 novembre; le créateur décrit une session personnelle d’environ 7 h/15 raids et 5 bitcoins. Échantillon de créateur, sans protocole représentatif; le guide ne le convertit pas en revenu attendu."
+    },
+    "github-gunsmith-pr243-p8": {
+      "titre": "GitHub — TarkovGunsmith PR #243 (16 octobre 2026)",
+      "url": "https://github.com/UnderMyBed/TarkovGunsmith/pull/243",
+      "type": "outil_communautaire_open_source",
+      "usage_phase_8": "Tests de placement de presets sur un snapshot communautaire; leur compatibilité ne prouve ni une méta, ni une performance en jeu, ni un prix actuel."
+    },
+    "github-data-pr896-p8": {
+      "titre": "GitHub — tarkov-data-manager PR #896 (8 novembre 2026)",
+      "url": "https://github.com/the-hideout/tarkov-data-manager/pull/896",
+      "type": "outil_communautaire_open_source",
+      "usage_phase_8": "Travail communautaire sur erreurs transitoires de récupération de prix Flea et identifiants trader. Motive un repli sans cours live; ne définit aucune commission."
+    },
+    "rankedmeta-oct30-p8": {
+      "titre": "RankedMeta — sondage armes, relevé du 30 octobre 2026",
+      "url": "https://rankedmeta.com/tarkov/meta-guns",
+      "type": "piste_communautaire_non_retenue",
+      "usage_phase_8": "Piste de recherche uniquement : texte non récupéré/validé pour cette relecture; exclue du contenu public PHASE_8 et des affirmations actuelles."
+    },
+    "spt-skill-reference-p8": {
+      "titre": "GitHub SP-Tarkov Wiki — référence enum des compétences (2025)",
+      "url": "https://github.com/sp-tarkov/wiki/blob/main/modding/references/skills-reference.md",
+      "type": "piste_communautaire_non_retenue",
+      "usage_phase_8": "Piste de recherche uniquement : texte non récupéré/validé pour cette relecture; exclue du contenu public PHASE_8 et des affirmations actuelles."
+    },
+    "tarkov-party-skills-p8": {
+      "titre": "Tarkov Party — guide compétences (17 septembre 2026)",
+      "url": "https://tarkov.party/en/guides/skills-guide/",
+      "type": "piste_communautaire_non_retenue",
+      "usage_phase_8": "Piste de recherche uniquement : texte non récupéré/validé pour cette relecture; exclue du contenu public PHASE_8 et des affirmations actuelles."
+    },
+    "fandom-skills-legacy-p8": {
+      "titre": "Wiki communautaire — Character skills, figures historiques",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Character_skills",
+      "type": "piste_communautaire_non_retenue",
+      "usage_phase_8": "Piste de recherche uniquement : texte non récupéré/validé pour cette relecture; exclue du contenu public PHASE_8 et des affirmations actuelles."
+    },
+    "bsg-patch-110-official-p8": {
+      "titre": "Battlestate Games — notes officielles du patch 1.1.0.0 (3 août 2026)",
+      "url": "https://www.escapefromtarkov.com/news/id/404?lang=en",
+      "type": "primaire",
+      "usage_phase_8": "BSG dit que les changements économiques s’appliquent à PvP Season, PvP Zone et PvE Zone : prix d’achat traders +25 % en moyenne, offres de rachat aux joueurs −20 % en moyenne, commission Flea 3 % → 5 %. Le volume de vente requis pour les niveaux de loyauté trader est retiré. Ce sont des moyennes/règles de patch, pas des prix item par item ni le frais net garanti d’une annonce. Vérifié le 18 novembre 2026."
+    },
+    "bsg-patch-120-official-p8": {
+      "titre": "Battlestate Games — notes officielles du patch 1.2.0.0 (6 octobre 2026)",
+      "url": "https://www.escapefromtarkov.com/news/id/411?lang=en",
+      "type": "primaire",
+      "usage_phase_8": "En PvE Zone : Prestige comporte six niveaux; chaque prestige réinitialise la progression du profil PvE, certains équipements, compétences et maîtrises peuvent être conservés jusqu’à 50 %. Les notes listent des catégories de prérequis, pas les seuils numériques de chaque niveau. Les bots PvE ont aussi été modifiés (mouvement, distribution, faction et équipement). Vérifié le 18 novembre 2026."
+    },
+    "bsg-patch-130-official-p8": {
+      "titre": "Battlestate Games — notes officielles du patch 1.3.0.0 (29 octobre 2026)",
+      "url": "https://www.escapefromtarkov.com/news/id/416?lang=en",
+      "type": "primaire",
+      "usage_phase_8": "Métabolisme progresse selon l’énergie ou l’hydratation restaurée; les compétences montent nettement plus vite en Seasonal; les diminishing returns sont rééquilibrés; les bots PvE de haute difficulté apparaissent sur des lieux de haut niveau; correction de hostilité des bots; vitesse de progression des compétences d’armes alignée sur les autres compétences. Aucun coefficient ou tableau par compétence n’est publié. Vérifié le 18 novembre 2026."
+    },
+    "spt-installer-v300": {
+      "titre": "SP-Tushonka — installateur v3.0.0.0 (11 novembre 2026)",
+      "url": "https://github.com/SP-Tushonka/installer/releases/tag/v3.0.0.0",
+      "type": "primaire_projet",
+      "usage_phase_9": "Miroirs sélectionnables, cache/espace disque revus et installeur Linux natif. La version de l’installateur n’est pas la version du jeu/SPT.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "spt-installation-guide": {
+      "titre": "SP-Tushonka Wiki — guide d’installation SPT 4.x",
+      "url": "https://wiki.sp-tushonka.com/en/SPT_4x/Installation_Guide",
+      "type": "primaire_projet",
+      "usage_phase_9": "Documentation du projet : copie EFT retail mise à jour et vérifiée, nouveau dossier distinct, démarrer le serveur avant le launcher. Le guide couvre les branches 4.0/4.1; suivre la release active pour ses prérequis exacts.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "spt-updating-guide": {
+      "titre": "SP-Tushonka Wiki — mise à jour d’une installation SPT",
+      "url": "https://wiki.sp-tushonka.com/en/SPT_4x/Updating_SPT",
+      "type": "primaire_projet",
+      "usage_phase_9": "Remplacement de fichiers de patch dans la même branche mineure; changement majeur ou mineur = nouvelle installation. Sauvegarder données locales et vérifier les mods compatibles.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "fika-install-docs": {
+      "titre": "Project Fika Wiki — installer Fika",
+      "url": "https://wiki.project-fika.com/installing-fika",
+      "type": "primaire_projet",
+      "usage_phase_9": "Exige une copie EFT légitime et un SPT fonctionnel, d’abord sans mods. Documentation mise à jour pour SPT 4.1; appliquer l’installeur et les instructions compatibles avec le build choisi.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "fika-general-docs": {
+      "titre": "Project Fika Wiki — informations générales et limites",
+      "url": "https://wiki.project-fika.com/general-information",
+      "type": "primaire_projet",
+      "usage_phase_9": "Fika est un mod coopératif pour SPT, formé d’un plugin client et d’un mod serveur; pas de matchmaking mondial. Le projet recommande les groupes de confiance et déconseille fortement les serveurs publics; des mods sont incompatibles.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "fika-plugin-release": {
+      "titre": "Project Fika — plugin client v2.4.6",
+      "url": "https://github.com/project-fika/Fika-Plugin/releases/tag/v2.4.6",
+      "type": "primaire_projet",
+      "usage_phase_9": "Release publiée le 15 octobre 2026; le tag annonce EFT 0.16.9.40743. La fiche Forge l’associe à SPT 4.1.6; contrôler l’ensemble de la matrice dans la documentation.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "fika-server-release": {
+      "titre": "Project Fika — composant serveur C# v2.4.2",
+      "url": "https://github.com/project-fika/Fika-Server-CSharp/releases/tag/v2.4.2",
+      "type": "primaire_projet",
+      "usage_phase_9": "Release serveur distincte, publiée le 5 octobre 2026; prend en charge la nouvelle WebApp. Ce numéro n’est pas celui du plugin client. La fiche Forge indique SPT 4.1.6; vérifier les deux releases ensemble.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "spt-linux-issue24": {
+      "titre": "SP-Tushonka Launcher — rapport de lancement Linux, issue #24",
+      "url": "https://github.com/SP-Tushonka/launcher/issues/24",
+      "type": "communaute_github",
+      "usage_phase_9": "Signalement ouvert le 18 novembre : SPT 4.1.6 crée serveur/profil mais le jeu se ferme au démarrage sous Linux/UMU/Proton. La réponse de l’auteur est une hypothèse de préfixe Wine; aucune solution générale confirmée.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "reddit-spt-release416": {
+      "titre": "r/sptushonka — annonce communautaire de SPT 4.1.6",
+      "url": "https://www.reddit.com/r/sptushonka/comments/1wk0rr8/release_spt_416_40743_sptushonkabuild/",
+      "type": "communaute_reddit",
+      "usage_phase_9": "Piste de discussion autour de la sortie 4.1.6. Le fetch Reddit peut être bloqué; l’annonce GitHub du projet reste la source de version et de compatibilité.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "youtube-spt-release416": {
+      "titre": "YouTube — retour communautaire sur SPT 4.1.6 (6 novembre 2026)",
+      "url": "https://www.youtube.com/watch?v=lLrIwjHcCeI",
+      "type": "video_communaute",
+      "usage_phase_9": "Retour d’expérience d’un joueur, utile pour repérer les sujets abordés; ne prouve ni compatibilité ni règle officielle.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "youtube-spt-night-raid": {
+      "titre": "YouTube — raid nocturne SPT (3 novembre 2026)",
+      "url": "https://www.youtube.com/watch?v=FnXs54G8pqc",
+      "type": "video_communaute",
+      "usage_phase_9": "Gameplay communautaire daté : expérience individuelle, pas une source de version, de compatibilité ni de mécanique stable.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "forge-modlist-416": {
+      "titre": "The Forge — liste de mods SP-Tushonka 4.1.6",
+      "url": "https://sp-mod.com/list/127479/sptushonka-megapack",
+      "type": "catalogue_communautaire",
+      "usage_phase_9": "Liste communautaire cible 4.1.6; les dépendances sont affichées et la page signale aussi des mods sans version compatible exacte. Ni approbation officielle ni garantie globale.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "forge-sain-416": {
+      "titre": "The Forge — SAIN 4.5.1",
+      "url": "https://sp-mod.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+      "type": "catalogue_communautaire",
+      "usage_phase_9": "Fiche directement relue le 18 novembre : SAIN 4.5.1 est déclaré compatible SPT 4.1.6; Waypoints 1.9.0 et BigBrain 1.5.0 sont listés comme dépendances. Vérifier les exigences, mises à jour du mainteneur et compatibilité Fika avant installation.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "forge-svm-223": {
+      "titre": "The Forge — Server Value Modifier 2.2.3",
+      "url": "https://sp-mod.com/mod/236/server-value-modifier-svm",
+      "type": "catalogue_communautaire",
+      "usage_phase_9": "Fiche directement relue le 18 novembre : SVM 2.2.3 est indiqué compatible avec SPT 4.1.6 (version note : 4.1.3+); l’auteur recommande un nouveau profil, ou au minimum load-save-load et vérification des sections Traders/Loot avant réutilisation. Réglages locaux SPT, pas règles EFT officielles.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "forge-icebreaker-backport": {
+      "titre": "The Forge — Manimal’s Icebreaker Backport 1.2.4",
+      "url": "https://sp-mod.com/mod/2866/manimals-icebreaker-backport",
+      "type": "catalogue_communautaire",
+      "usage_phase_9": "Fiche directement relue le 18 novembre : version 1.2.4, compatible SPT 4.1.6, mise à jour le 11 novembre; nombreuses dépendances et addon ICEBREAKER FIKA SYNC requis sur chaque nœud si utilisé avec Fika. Backport fan-made, distinct de l’EFT/PvE officiel.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "arena-modes-official": {
+      "titre": "Escape from Tarkov: Arena — modes et lieux (support officiel)",
+      "url": "https://arena.tarkov.com/support/knowledge/523",
+      "type": "primaire_arena",
+      "usage_phase_9": "Article officiel daté de mai 2025 : règles TeamFight, BlastGang, CheckPoint et Last Hero. Les files/rotations peuvent avoir évolué depuis; vérifier le client Arena.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "arena-qa-2026": {
+      "titre": "Escape from Tarkov: Arena — Q&A des développeurs (30 janvier 2026)",
+      "url": "https://arena.tarkov.com/news/qa-with-the-eftarena-devs",
+      "type": "primaire_arena",
+      "usage_phase_9": "Évoque intentions pour le classement, les tâches et la synchronisation; les plans du Q&A ne remplacent pas les règles actuellement servies par le client.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "arena-q4-2026": {
+      "titre": "Escape from Tarkov: Arena — plan préliminaire Q4 2026",
+      "url": "https://arena.tarkov.com/news/preliminary-plan-for-eft-arena-q4-2026",
+      "type": "primaire_arena",
+      "usage_phase_9": "Publication du 8 octobre explicitement préliminaire; les plans peuvent changer avant sortie. Ne pas convertir cette annonce en calendrier ferme ou fonctionnalité déployée.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "arena-bloodlust-official": {
+      "titre": "Escape from Tarkov: Arena — événement CheckPoint: BloodLust",
+      "url": "https://arena.tarkov.com/news/the-new-checkpoint-bloodlust",
+      "type": "primaire_arena",
+      "usage_phase_9": "Annonce du 29 octobre : playlist annoncée jusqu’au 5 novembre, mêlée sur Fort et Stadium, XP de match doublée et +50 % XP BattlePass. Aucun horaire de clôture publié.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "arena-patch-060": {
+      "titre": "Escape from Tarkov: Arena — patch 0.6.0",
+      "url": "https://arena.tarkov.com/news/patch-060",
+      "type": "primaire_arena",
+      "usage_phase_9": "Patch Arena du 18 septembre : économie/boutique par manche dans BlastGang; carte tactique The Lab à trois niveaux et plus de 50 points d’intérêt. Mécaniques propres à Arena.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "blackout-start": {
+      "titre": "Battlestate Games — lancement de l’événement Blackout",
+      "url": "https://x.com/tarkov/status/2077012312653775216",
+      "type": "primaire",
+      "usage_phase_9": "Annonce du 14 juillet : Blackout est en ligne dans The Lab; BSG précise que la date de fin sera annoncée plus tard.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "blackout-extension": {
+      "titre": "Battlestate Games — Blackout prolongé, nouvelle fin à annoncer",
+      "url": "https://x.com/tarkov/status/2081715123064877461",
+      "type": "primaire",
+      "usage_phase_9": "Message du 27 juillet : l’événement est prolongé et la date de fin sera annoncée séparément. Des sources secondaires divergent; aucune date finale précise n’est reprise ici.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "full-speed-start": {
+      "titre": "Battlestate Games — début de Full Speed Ahead",
+      "url": "https://x.com/tarkov/status/2055322809224536409",
+      "type": "primaire",
+      "usage_phase_9": "Annonce du 15 mai : disponible en PvP et PvE, initialement annoncée jusqu’au 21 mai.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "full-speed-extension": {
+      "titre": "Battlestate Games — prolongation de Full Speed Ahead",
+      "url": "https://x.com/tarkov/status/2057115736712122446",
+      "type": "primaire",
+      "usage_phase_9": "Annonce du 20 mai : prolongé jusqu’au 25 mai en PvP et PvE; pas d’heure de fermeture dans le message.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "wild-woods-start": {
+      "titre": "Battlestate Games — lancement de Wild Wild Woods",
+      "url": "https://x.com/tarkov/status/2070176456668283361",
+      "type": "primaire",
+      "usage_phase_9": "Annonce du 25 juin : révolte de Scavs et changements temporaires; fin initialement annoncée le 29 juin à 9:00 BST.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "wild-woods-extension": {
+      "titre": "Battlestate Games — Wild Wild Woods prolongé au 1er juillet",
+      "url": "https://x.com/tarkov/status/2071599698125762903",
+      "type": "primaire",
+      "usage_phase_9": "Annonce du 29 juin : prolongé jusqu’au 1er juillet à 11:00 BST / 6:00 EDT, soit 12:00 à Paris ce jour-là.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "wild-woods-ended": {
+      "titre": "Battlestate Games — clôture de Wild Wild Woods",
+      "url": "https://x.com/tarkov/status/2072279163466047649",
+      "type": "primaire",
+      "usage_phase_9": "Confirmation du 1er juillet : événement terminé et valeurs normales de spawn/cooldown et pénalité d’agression Scav rétablies.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "duck-hunt-end": {
+      "titre": "Battlestate Games — fin de Duck Hunt",
+      "url": "https://x.com/tarkov/status/2024453924305113378",
+      "type": "primaire",
+      "usage_phase_9": "Annonce du 19 février : disponible en PvP/PvE, fin le 24 février à 09:00 UTC; l’accomplissement et la cible de stand obtenus restent au compte.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "forge-waypoints": {
+      "titre": "The Forge — Waypoints - Expanded Navmesh 1.9.0",
+      "url": "https://sp-mod.com/mod/827/waypoints-expanded-navmesh",
+      "type": "catalogue_communautaire",
+      "usage_phase_9": "Dépendance exigée sur la fiche SAIN consultée le 18 novembre; version listée 1.9.0. Vérifier à nouveau la version et la branche avant installation.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "forge-bigbrain": {
+      "titre": "The Forge — BigBrain 1.5.0",
+      "url": "https://sp-mod.com/mod/902/bigbrain",
+      "type": "catalogue_communautaire",
+      "usage_phase_9": "Dépendance exigée sur la fiche SAIN consultée le 18 novembre; version listée 1.5.0. Vérifier à nouveau la version et la branche avant installation.",
+      "date_releve_phase_9": "Vérifié le 18 novembre 2026."
+    },
+    "bsg-news-index": {
+      "titre": "Battlestate Games — index officiel des notes de patch EFT",
+      "url": "https://www.escapefromtarkov.com/news?type=2",
+      "type": "primaire",
+      "usage_phase_10": "Index officiel récupéré directement le 18/11/2026 : la dernière note de patch numérotée affichée est 1.3.0.0, datée du 29/10/2026; aucune note 1.3.5.0 ne figure dans la rubrique à cette date. L’index ne permet pas de connaître le build installé par chaque client et peut ne pas lister les correctifs techniques sans numéro.",
+      "date_releve_phase_10": "Vérifié par récupération directe le 18 novembre 2026; 1.3.0.0 reste en tête de la rubrique des notes de patch."
+    },
+    "bsg-release-100": {
+      "titre": "Battlestate Games — annonce de sortie de la version 1.0",
+      "url": "https://www.escapefromtarkov.com/news/id/352",
+      "type": "primaire",
+      "usage_phase_10": "Communiqué BSG publié le 22/08/2025 annonçant une sortie prévue le 15/11/2025. La date de publication et la date de sortie ne sont pas confondues; la fiche Steam sert de seconde vérification de la sortie.",
+      "date_releve_phase_10": "Résultat d’indexation BSG consulté le 18/11/2026."
+    },
+    "bsg-patch-1002": {
+      "titre": "Battlestate Games — patch 1.0.0.2",
+      "url": "https://www.escapefromtarkov.com/news/id/367?lang=en",
+      "type": "primaire",
+      "usage_phase_10": "Notes BSG reliées à l’annonce officielle du début d’installation du 01/12/2025. L’URL et la date sont recoupées avec le compte X officiel; consulter la note originale pour la liste complète.",
+      "date_releve_phase_10": "1er décembre 2025, indexation et publication sociale BSG; récupération directe non disponible."
+    },
+    "bsg-patch-1005": {
+      "titre": "Battlestate Games — patch 1.0.0.5 (Steam News)",
+      "url": "https://store.steampowered.com/news/app/3932890/view/491585297311596605",
+      "type": "primaire",
+      "usage_phase_10": "Note Steam BSG datée du 11/12/2025 : bascule de saison en hiver et correctifs après la sortie 1.0. Le sommaire du guide reste sélectif; voir la note complète pour les détails.",
+      "date_releve_phase_10": "11 décembre 2025, note officielle Steam repérée le 18/11/2026."
+    },
+    "bsg-patch-1010": {
+      "titre": "Battlestate Games — patch 1.0.1.0",
+      "url": "https://www.escapefromtarkov.com/news/id/375?lang=en",
+      "type": "primaire",
+      "usage_phase_10": "Index officiel : notes datées du 23/12/2025; l’installation a été annoncée le 24/12. Points saillants des notes : retouches du matchmaking, M110 et événement Kolotun. Date de note et date de maintenance sont séparées.",
+      "date_releve_phase_10": "Index BSG et annonce X officielle consultés le 18/11/2026; fetch direct refusé."
+    },
+    "bsg-patch-1020": {
+      "titre": "Battlestate Games — patch 1.0.2.0 (publication X officielle)",
+      "url": "https://x.com/tarkov/status/2021117719521669631",
+      "type": "primaire",
+      "usage_phase_10": "Publication/article du compte BSG officiel daté du 10/02/2026 : notes 1.0.2.0. Repères : Rich Presence Steam, lancement des serveurs de raid et ajustements de contenu/équilibrage. La page d’origine reste la référence.",
+      "date_releve_phase_10": "10 février 2026; indexation X consultée le 18/11/2026."
+    },
+    "bsg-patch-1025": {
+      "titre": "Battlestate Games — patch 1.0.2.5",
+      "url": "https://www.escapefromtarkov.com/news/id/380?lang=en",
+      "type": "primaire",
+      "usage_phase_10": "Notes BSG datées du 05/03/2026; l’annonce X officielle confirme l’installation et lie ces notes. Repères : optimisation du lancement des raids/retour post-raid et ajustements d’accessoires/équilibrage. Vérifier les lignes détaillées dans la note.",
+      "date_releve_phase_10": "5 mars 2026; annonce X officielle et résultats d’indexation BSG."
+    },
+    "bsg-patch-1040": {
+      "titre": "Battlestate Games — patch 1.0.4.0",
+      "url": "https://www.escapefromtarkov.com/news/id/382?lang=en",
+      "type": "primaire",
+      "usage_phase_10": "Note BSG datée du 26/03/2026; l’annonce d’installation du compte BSG sur X est datée du 27/03. Le guide conserve ces deux repères de publication/maintenance au lieu de les présenter comme un seul instant.",
+      "date_releve_phase_10": "26–27 mars 2026; extrait d’index BSG et annonce X officielle."
+    },
+    "bsg-patch-1045": {
+      "titre": "Battlestate Games — patch 1.0.4.5",
+      "url": "https://www.escapefromtarkov.com/news/id/385?lang=en",
+      "type": "primaire",
+      "usage_phase_10": "Index BSG : note datée du 19/04/2026; annonce X de l’installation le 20/04. Repères des notes : optimisation hors raid, limite FPS des menus, ressources animation/audio, culling sur certains lieux, protection de progression PvE local et rééquilibrage d’accessoires. Les effets de performance ne sont pas garantis sur chaque PC.",
+      "date_releve_phase_10": "19–20 avril 2026; index officiel et annonce X."
+    },
+    "bsg-patch-1049": {
+      "titre": "Battlestate Games — patch 1.0.4.9",
+      "url": "https://www.escapefromtarkov.com/news/id/391?type=2",
+      "type": "primaire",
+      "usage_phase_10": "Index BSG daté du 19/05/2026. Les notes abordent notamment les bonus liés aux éditions; consulter la note pour les conditions exactes. Ne pas inférer les avantages d’une édition au-delà du texte officiel.",
+      "date_releve_phase_10": "19 mai 2026; extrait de l’index BSG consulté le 18/11/2026."
+    },
+    "bsg-patch-1151": {
+      "titre": "Battlestate Games — Leagues / patch 1.1.5.1 (Steam News)",
+      "url": "https://store.steampowered.com/news/app/3932890/view/695397823941707149?l=english",
+      "type": "primaire",
+      "usage_phase_10": "Annonce BSG sur Steam, datée du 15/09/2026; ajoute Leagues pour personnages Seasonal. La page officielle complète décrit les conditions; ne pas généraliser ces règles au PvE ou au personnage permanent.",
+      "date_releve_phase_10": "15 septembre 2026; titre/date Steam repérés le 18/11/2026."
+    },
+    "bsg-expansion-hub-403": {
+      "titre": "Battlestate Games — Expansions Hub et TarCoin",
+      "url": "https://www.escapefromtarkov.com/news/id/403?lang=en",
+      "type": "primaire",
+      "usage_phase_10": "Annonce distincte du patch 1.0.6.0, datée du 08/07/2026, sur l’arrivée de l’Expansion Hub et de TarCoin. Sert à éviter de présenter le Hub comme immédiatement disponible à l’installation de 1.0.6.0.",
+      "date_releve_phase_10": "8 juillet 2026; annonce officielle BSG."
+    },
+    "bsg-youtube": {
+      "titre": "Battlestate Games — chaîne YouTube officielle",
+      "url": "https://www.youtube.com/@Battlestategames",
+      "type": "primaire",
+      "usage_phase_10": "Chaîne vidéo officielle BSG, distincte des créateurs communautaires. Une vidéo est un média officiel mais peut être ancienne; dater et recouper ses promesses avec les notes de patch ou le client.",
+      "date_releve_phase_10": "Lien recoupé avec la liste de réseaux sociaux BSG publiée sur le hub Steam."
+    },
+    "tarkovtracker-org": {
+      "titre": "TarkovTracker.org — site communautaire actif",
+      "url": "https://tarkovtracker.org/",
+      "type": "outil_communautaire",
+      "usage_phase_10": "Suivi communautaire des tâches, Hideout et progression par mode. Le projet GitHub org et sa documentation signalent .org comme instance maintenue et .io comme ancienne instance non maintenue. Possibles erreurs/downtime; le suivi ne remplace pas l’état du client.",
+      "date_releve_phase_10": "Site, documentation et activité GitHub consultés via recherche le 18/11/2026."
+    },
+    "tarkovtracker-guide": {
+      "titre": "TarkovTracker.org — comparaison .org / .io",
+      "url": "https://tarkovtracker.org/resources/tarkovtracker_org_vs_io",
+      "type": "outil_communautaire",
+      "usage_phase_10": "Documentation publiée par l’équipe TarkovTracker.org sur les domaines et la migration. Source primaire pour le statut déclaré par le projet, pas source BSG ni garantie d’uptime.",
+      "date_releve_phase_10": "Page indexée le 18/11/2026; fetch direct refusé."
+    },
+    "tarkovtracker-github": {
+      "titre": "TarkovTracker.org — organisation GitHub",
+      "url": "https://github.com/tarkovtracker-org",
+      "type": "outil_communautaire",
+      "usage_phase_10": "Dépôts publics du projet communautaire; l’activité des dépôts permet de vérifier la maintenance du code, pas la disponibilité de chaque service ni l’exactitude des données de jeu.",
+      "date_releve_phase_10": "Page d’organisation et activité jusqu’au 18/11/2026 consultées via recherche."
+    },
+    "tarkovtracker-pr1496": {
+      "titre": "TarkovTracker — PR #1496, nouvelle tentative de chargement des objectifs",
+      "url": "https://github.com/tarkovtracker-org/TarkovTracker/pull/1496",
+      "type": "outil_communautaire",
+      "usage_phase_10": "Exemple d’activité de maintenance du 18/11/2026 : amélioration d’une nouvelle tentative lorsqu’un catalogue d’objectifs échoue. Montre l’activité du projet à cette date; n’établit pas une mécanique BSG.",
+      "date_releve_phase_10": "18 novembre 2026, page GitHub indexée."
+    },
+    "wiki-portal-license": {
+      "titre": "EFT Wiki — portail communautaire et licence",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki:Community_portal",
+      "type": "wiki",
+      "usage_phase_10": "Le portail indique que le wiki est un projet communautaire bénévole et annonce CC BY-NC-SA sauf mention contraire. Les exceptions et licences des fichiers doivent être vérifiées sur chaque page/média; l’appellation « Official » n’établit pas une affiliation BSG.",
+      "date_releve_phase_10": "Résultat de recherche du portail consulté le 18/11/2026."
+    },
+    "reddit-tracker-apr2026": {
+      "titre": "Reddit — annonce communautaire TarkovTracker.org (20 avril 2026)",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1sqngey/discussion_tarkovtrackerorg_final_version_released/",
+      "type": "communaute",
+      "usage_phase_10": "Discussion de lancement/commentaires sur la nouvelle version .org, utile comme retour d’utilisateurs. Statut du domaine vérifié séparément dans la documentation et le dépôt du projet; les commentaires contradictoires ne sont pas des faits techniques garantis.",
+      "date_releve_phase_10": "20 avril 2026, extrait de recherche; page Reddit non récupérée directement."
+    },
+    "reddit-map-alternatives-may2026": {
+      "titre": "Reddit — alternatives et fraîcheur des cartes (10 mai 2026)",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1t9gvkv/is_there_an_alternative_to_mapgenie_discussion/",
+      "type": "communaute",
+      "usage_phase_10": "Discussion sur MapGenie, Tarkov.dev et les cartes du wiki. Les commentaires expriment des expériences et désaccords; ils justifient une réserve de fraîcheur, pas une conclusion universelle sur la qualité.",
+      "date_releve_phase_10": "10 mai 2026, résultat de recherche; lecture directe non disponible."
+    },
+    "yt-community-hotfix-nov14": {
+      "titre": "YouTube — analyse communautaire du hotfix / équilibrage de novembre",
+      "url": "https://www.youtube.com/watch?v=mUUikgqdfLA",
+      "type": "video_communautaire",
+      "usage_phase_10": "Vidéo de créateur publiée le 14/11/2026 commentant les publications BSG du 12 novembre. Source de découverte/explication, non preuve d’un numéro de build ni du comportement en jeu; vérifier la note ou le message BSG d’origine.",
+      "date_releve_phase_10": "Métadonnées et transcription repérées le 18/11/2026."
+    },
+    "bsg-patch-1049-install": {
+      "titre": "Battlestate Games sur X — installation du patch 1.0.4.9 terminée",
+      "url": "https://x.com/tarkov/status/2056732298754601459",
+      "type": "primaire",
+      "date_releve_phase_10": "Publication X BSG consultée le 18/11/2026; indique la fin de l’installation le 19/05/2026.",
+      "usage_phase_10": "Annonce du compte BSG : installation du patch 1.0.4.9 terminée le 19/05/2026. La publication permet de dater la fin de maintenance, mais ne remplace pas la note de patch; les détails de contenu n’ont pas été récupérés dans la revue PHASE_10."
+    }
+  },
+  "revalidation_phase_2": {
+    "date": "2026-11-18T14:04:02+01:00",
+    "rapport": "docs/verifications-phase-2.md"
+  },
+  "revalidation_phase_3": {
+    "date": "2026-11-18T14:36:42+01:00",
+    "rapport": "docs/verifications-phase-3.md",
+    "client_et_modes_testes": false
+  },
+  "revalidation_phase_4": {
+    "date": "2026-11-18",
+    "rapport": "docs/verifications-phase-4.md",
+    "snapshot_cartes": "data/snapshots/cartes-2026-11-18.json",
+    "client_et_modes_testes": false,
+    "etat": "RECHERCHE_TERMINEE_REDACTION_NON_COMMENCEE"
+  },
+  "revalidation_phase_5": {
+    "date": "2026-11-18T19:08:58+01:00",
+    "rapport": "docs/verifications-phase-5.md",
+    "snapshot_catalogue": "data/snapshots/phase-5-catalogue-2026-11-18.json",
+    "snapshot_crafts": "data/snapshots/phase-5-crafts-2026-11-18.json",
+    "snapshot_traders_hideout": "data/snapshots/phase-5-traders-hideout-2026-11-18.json",
+    "qa_browser": "data/snapshots/validation-phase-5.json",
+    "client_et_modes_testes": false,
+    "etat": "VERIFIEE_EN_ATTENTE_URL_CANONIQUE"
+  },
+  "revalidation_phase_7": {
+    "date": "2026-11-18",
+    "snapshot_date_reference": "2026-11-18",
+    "collected_at_utc": "2026-11-19T00:34:47Z",
+    "observed_upstream_last_modified": {
+      "regular": {
+        "tasks": "Wed, 18 Nov 2026 20:23:19 GMT",
+        "traders": "Thu, 19 Nov 2026 00:31:29 GMT",
+        "hideout": "Tue, 08 Sep 2026 14:31:55 GMT",
+        "crafts": "Thu, 12 Nov 2026 17:51:47 GMT",
+        "barters": "Wed, 18 Nov 2026 22:47:09 GMT"
+      },
+      "pve": {
+        "tasks": "Wed, 18 Nov 2026 20:23:26 GMT",
+        "traders": "Thu, 19 Nov 2026 00:31:30 GMT",
+        "hideout": "Tue, 08 Sep 2026 14:31:56 GMT",
+        "crafts": "Thu, 12 Nov 2026 17:51:48 GMT",
+        "barters": "Wed, 18 Nov 2026 22:47:11 GMT"
+      },
+      "pvp-season": {
+        "tasks": "Wed, 18 Nov 2026 20:23:30 GMT",
+        "traders": "Thu, 19 Nov 2026 00:21:32 GMT",
+        "hideout": "Tue, 08 Sep 2026 14:31:56 GMT",
+        "crafts": "Thu, 12 Nov 2026 17:51:49 GMT",
+        "barters": "Wed, 18 Nov 2026 22:47:13 GMT"
+      }
+    },
+    "snapshots": {
+      "regular": "data/snapshots/phase-7-regular-2026-11-18.json",
+      "pve": "data/snapshots/phase-7-pve-2026-11-18.json",
+      "pvp-season": "data/snapshots/phase-7-pvp-season-2026-11-18.json"
+    },
+    "notes": "Tarkov.dev, source communautaire, archivé séparément par mode. L’heure UTC de collecte est conservée indépendamment de la date de référence locale. Collector diverge de Fandom; issue #886 observée ouverte. Reddit direct a répondu HTTP 403; la vidéo YouTube n’a pas été visionnée intégralement."
+  },
+  "revalidation_phase_8": {
+    "date": "2026-11-18",
+    "snapshot": "data/snapshots/phase-8-reference-2026-11-19.json",
+    "snapshot_status": "QUARANTAINE: date d’horodatage 19 novembre, postérieure à la date de référence 18 novembre 2026; non utilisé par les pages générées et non inclus dans l’allowlist du serveur.",
+    "sources_primaires": [
+      "bsg-patch-110-official-p8",
+      "bsg-patch-120-official-p8",
+      "bsg-patch-130-official-p8",
+      "bsg-skill-speed-oct2",
+      "bsg-technical-diary-135",
+      "bsg-expansion-tarcoin"
+    ],
+    "sources_communautaires_utilisees": [
+      "tdev-api-doc-phase8",
+      "tarkov-market-economy-p8",
+      "github-gunsmith-pr243-p8",
+      "github-data-pr896-p8",
+      "youtube-interchange-nov-p8",
+      "youtube-pve-prestige-nov-p8"
+    ],
+    "note": "Notes BSG vérifiées au 18 novembre; aucun cours Flea, rendement ou classement de build n’est copié. Les posts Reddit et wikis dont le contenu n’a pas été récupéré sont des pistes exclues. Les calculateurs exigent une saisie manuelle et exposent leurs hypothèses."
+  },
+  "revalidation_phase_9": {
+    "date": "2026-11-18",
+    "rapport": "docs/verifications-phase-9.md",
+    "sources_primaires": [
+      "spt-release",
+      "spt-installer-v300",
+      "spt-installation-guide",
+      "spt-updating-guide",
+      "fika-plugin-release",
+      "fika-server-release",
+      "fika-general-docs",
+      "arena-modes-official",
+      "arena-patch-0625-official",
+      "arena-patch-060",
+      "halloween",
+      "drops",
+      "season-end",
+      "blackout-start",
+      "blackout-extension",
+      "wild-woods-ended",
+      "full-speed-extension",
+      "duck-hunt-end",
+      "arena-bloodlust-official",
+      "patch105",
+      "patch130"
+    ],
+    "sources_communautaires": [
+      "forge-modlist-416",
+      "forge-sain-416",
+      "forge-svm-223",
+      "forge-icebreaker-backport",
+      "spt-linux-issue24",
+      "reddit-spt-release416",
+      "reddit-tushonka",
+      "youtube-spt-release416",
+      "youtube-spt-night-raid",
+      "forge-waypoints",
+      "forge-bigbrain"
+    ],
+    "limites": "Reddit direct peut renvoyer HTTP 403; les résultats indexés sont des pistes, non des sources primaires. Les vidéos sont des retours anecdotiques. Les fiches The Forge SAIN, SVM, Icebreaker Backport, Waypoints et BigBrain ont été relues directement le 18/11; leur compatibilité Fika n’est pas présumée. Aucun raid ni installation n’a été reproduit dans le client. Blackout est archivé mais sa clôture finale exacte n’a pas été confirmée par BSG dans les sources primaires consultées; Halloween est encore actif selon le message BSG du 16/11, clôture annoncée seulement « la semaine prochaine ». City Drops s’arrête le 23/11 à 15:00 GMT selon l’annonce BSG."
+  },
+  "revalidation_phase_10": {
+    "date": "2026-11-18",
+    "recherche": "docs/recherche-phase10.md",
+    "regle": "Les notes BSG/Steam/X/Telegram sont primaires; les outils, wikis, forums, Reddit et vidéos sont explicitement communautaires. Aucun prix actuel ni numéro de build absent des messages BSG n’est publié.",
+    "dernier_index_officiel": "Au 18/11/2026, l’index BSG consulté liste la note 1.3.0.0 du 29/10/2026; le 13/11 BSG confirme une mise à jour technique sans numéro. La 1.3.5.0 est annoncée pour la seconde moitié de novembre, sans confirmation de déploiement trouvée au relevé.",
+    "limites": "Fetch direct échoué pour plusieurs pages primaires et outils; les extraits de recherche sont notés comme tels. Les liens de détail renvoient aux originaux pour revalidation.",
+    "images": "Six JPG générés localement pour les trois routes; aucune image externe reprise.",
+    "phase10_routes": [
+      "pages/patch-notes.html",
+      "pages/resources/index.html",
+      "pages/resources/glossary.html"
+    ]
+  }
+}

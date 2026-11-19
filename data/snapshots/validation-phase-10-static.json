@@ -1,0 +1,168 @@
+{
+  "phase": "PHASE_10",
+  "reviewedAt": "2026-11-18",
+  "base": "http://127.0.0.1:4190",
+  "siteHtmlPages": 87,
+  "plannedHtmlPages": 87,
+  "phase10Pages": [
+    {
+      "route": "pages/patch-notes.html",
+      "title": "Notes de patch & chronologie",
+      "html_bytes": 60141,
+      "source_links": 28
+    },
+    {
+      "route": "pages/resources/",
+      "title": "Ressources & outils",
+      "html_bytes": 52234,
+      "source_links": 27
+    },
+    {
+      "route": "pages/resources/glossary.html",
+      "title": "Glossaire EFT — anglais / français",
+      "html_bytes": 231494,
+      "source_links": 7
+    }
+  ],
+  "sourceRegistryEntries": 272,
+  "glossaryEntries": 314,
+  "sitemapUrls": 87,
+  "siteLocalReferences": 7838,
+  "siteLocalFragments": 1210,
+  "images": [
+    {
+      "file": "images/phase10/glossary-notebook.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "mode": "RGB",
+      "bytes": 189985
+    },
+    {
+      "file": "images/phase10/glossary-radio.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "mode": "RGB",
+      "bytes": 162053
+    },
+    {
+      "file": "images/phase10/patch-archive.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "mode": "RGB",
+      "bytes": 171825
+    },
+    {
+      "file": "images/phase10/patch-timeline.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "mode": "RGB",
+      "bytes": 191803
+    },
+    {
+      "file": "images/phase10/resources-briefing.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "mode": "RGB",
+      "bytes": 232473
+    },
+    {
+      "file": "images/phase10/resources-workbench.jpg",
+      "format": "JPEG",
+      "size": [
+        1376,
+        768
+      ],
+      "mode": "RGB",
+      "bytes": 254775
+    }
+  ],
+  "httpChecks": [
+    {
+      "path": "/",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "path": "/pages/patch-notes.html",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "path": "/pages/resources/",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "path": "/pages/resources/glossary.html",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "path": "/css/pages/phase10.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "path": "/js/phase10.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "path": "/js/data/search-index.json",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "content_type": "application/xml"
+    },
+    {
+      "path": "/images/phase10/glossary-notebook.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "/images/phase10/glossary-radio.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "/images/phase10/patch-archive.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "/images/phase10/patch-timeline.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "/images/phase10/resources-briefing.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "/images/phase10/resources-workbench.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    }
+  ],
+  "status": "PASS",
+  "errors": []
+}

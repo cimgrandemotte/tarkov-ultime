@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "language": "fr",
+  "records": [
+    {"title":"Comparer l’équipement","summary":"Filtrer six objets du jeu et ouvrir le comparateur de deux à trois modèles.","href":"#catalogue","tag":"Catalogue","keywords":["armes","tri","famille","filtre","comparateur"]},
+    {"title":"Ambiances audio","summary":"Écouter les pistes originales de pluie, de forêt ou de planque à la demande.","href":"#audio","tag":"Audio","keywords":["écouter","son","mp3","volume","pluie","forêt","planque"]},
+    {"title":"Composants et préférences","summary":"Tester les onglets, le contraste et la réduction des animations.","href":"#modules","tag":"Interface","keywords":["accessibilité","motion","navigation","contraste","préférences"]},
+    {"title":"Tier list de priorités","summary":"Organiser les priorités de lecture de l’atelier et enregistrer le choix localement.","href":"#priorites","tag":"Composant","keywords":["classement","rang","tier","ordre"]},
+    {"title":"Tarkov.dev : extrait de données","summary":"Échantillon du PvP permanent, valeurs des objets de base et date de collecte.","href":"#dataset","tag":"Données","keywords":["tarkov.dev","source","snapshot","ergonomie","patch","json"]},
+    {"title":"AK-74N","summary":"Aller à l’entrée AK-74N dans le catalogue de démonstration.","href":"#specimen-ak74n","tag":"Modèle","keywords":["kalashnikov","ak 74n","fusil d’assaut"]},
+    {"title":"M4A1","summary":"Aller à l’entrée M4A1 dans le catalogue de démonstration.","href":"#specimen-m4a1","tag":"Modèle","keywords":["colt","m4a1","fusil d’assaut"]},
+    {"title":"État des annonces","summary":"Consulter les liens vers les dernières notes vérifiées avant le développement de l’atelier.","href":"#sources-atelier","tag":"Sources","keywords":["actualités","battlestate games","Unity 6","1.3.0.0"]}
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "schemaVersion": 1,
+  "snapshotDateReference": "2026-11-18",
+  "collectedAtUtc": "2026-11-19T00:34:47Z",
+  "publisher": "Tarkov.dev / the-hideout/tarkov-data-manager",
+  "modes": {
+    "regular": {
+      "path": "data/snapshots/phase-7-regular-2026-11-18.json",
+      "metrics": {
+        "tasks": 503,
+        "taskNamesMissingFrench": 0,
+        "questItems": 138,
+        "kappaFlagged": 13,
+        "lightkeeperFlagged": 0,
+        "traders": 16,
+        "stations": 26,
+        "stationLevels": 68,
+        "hideoutItemRequirementRows": 317,
+        "hideoutFirRequirementRows": 76,
+        "crafts": 214,
+        "barters": 888,
+        "missingTaskReferences": [],
+        "missingCraftUnlockTasks": [],
+        "issue886MissingIds": [
+          "625d700cc48e6c62a440fab5",
+          "6391d912f8e5dd32bf4e3ab2",
+          "6391d9144b15ca31f76bc323",
+          "626148334149f1149b5b12ca",
+          "62614836f7308432be1d44cc",
+          "6261483ac48e6c62a440fab7",
+          "6261483dc4874104f230c0cd",
+          "626148251ed3bb5bcc5bd9ed",
+          "6261482fa4eb80027c4f2e11"
+        ],
+        "collectorObjectives": 44,
+        "collectorFoundInRaidObjectives": 44
+      },
+      "upstream": {
+        "traders_en": {
+          "url": "https://json.tarkov.dev/regular/traders_en",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:01:49 GMT",
+          "etag": "\"ae7786d8780829f46473df52900b2ca1\"",
+          "bytesDecoded": 3537,
+          "sha256Decoded": "a570d1e4f9cbe91c243a025f4d2a2dad19754be23cd003cb8b8de3c07b5ab0eb"
+        },
+        "tasks_en": {
+          "url": "https://json.tarkov.dev/regular/tasks_en",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:03:23 GMT",
+          "etag": "\"850e5f4004dd0639aca063043c679553\"",
+          "bytesDecoded": 202632,
+          "sha256Decoded": "7b753b0358cf42f6ae9d72444548e11d2f133786a63fec2f8a2adecf84d8574e"
+        },
+        "tasks_fr": {
+          "url": "https://json.tarkov.dev/regular/tasks_fr",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:03:24 GMT",
+          "etag": "\"c0cc9203d1a6abebbed7db1f4878ccb4\"",
+          "bytesDecoded": 211982,
+          "sha256Decoded": "d752e7989c68438cbf2a4f62a4cd1c10109e19235faa4019ed414865d3dc66c0"
+        },
+        "traders_fr": {
+          "url": "https://json.tarkov.dev/regular/traders_fr",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:01:49 GMT",
+          "etag": "\"f47b7453d16066b4cfc9e6494b8f3ab7\"",
+          "bytesDecoded": 3661,
+          "sha256Decoded": "7825b571402ce32516d1b1340539ae61eadbeace646706abef4159bacc0cdbed"
+        },
+        "hideout_en": {
+          "url": "https://json.tarkov.dev/regular/hideout_en",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:01:59 GMT",
+          "etag": "\"aee2ef5c8bebea9eb2c5cbc9cbcd8b39\"",
+          "bytesDecoded": 14543,
+          "sha256Decoded": "f90f81e83071f83569358962b70619d87663e7ed07ece71caf13c860ad4fdf6a"
+        },
+        "hideout_fr": {
+          "url": "https://json.tarkov.dev/regular/hideout_fr",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:01:59 GMT",
+          "etag": "\"c931d950fa9f122569bf18fa60b0993b\"",
+          "bytesDecoded": 17095,
+          "sha256Decoded": "a68edaf77a202b953082e6c656158421227ca831b726f5ab37308a77c631de30"
+        },
+        "tasks": {
+          "url": "https://json.tarkov.dev/regular/tasks",
+          "httpStatus": 200,
+          "lastModified": "Wed, 18 Nov 2026 20:23:19 GMT",
+          "etag": "\"2bb9a97a768bf0edf55db6a6d3d46041\"",
+          "bytesDecoded": 2116017,
+          "sha256Decoded": "0225df12309240732bbfb2f8f26bce4c6eb5d221947badfe34ba169056094e41"
+        },
+        "crafts": {
+          "url": "https://json.tarkov.dev/regular/crafts",
+          "httpStatus": 200,
+          "lastModified": "Thu, 12 Nov 2026 17:51:47 GMT",
+          "etag": "\"18d08444ad26147f3c7f6c4d68d25259\"",
+          "bytesDecoded": 97432,
+          "sha256Decoded": "4da7ce455a12416a100176627a99d7c77dabfad43beba661f1369e7ebab2e133"
+        },
+        "hideout": {
+          "url": "https://json.tarkov.dev/regular/hideout",
+          "httpStatus": 200,
+          "lastModified": "Tue, 08 Sep 2026 14:31:55 GMT",
+          "etag": "\"a657568cf5c21c9f4a6197d43c7d476a\"",
+          "bytesDecoded": 80199,
+          "sha256Decoded": "882180dfc433ca4d54c8d148f225a891994ee28a9beac14799ea02819ebac161"
+        },
+        "barters": {
+          "url": "https://json.tarkov.dev/regular/barters",
+          "httpStatus": 200,
+          "lastModified": "Wed, 18 Nov 2026 22:47:09 GMT",
+          "etag": "\"030e507df827519a90f4ed65eb375958\"",
+          "bytesDecoded": 289984,
+          "sha256Decoded": "f01456e7484ce24ce26949fd3956c99379eacdcb281b96e861d481e3492e37bd"
+        },
+        "traders": {
+          "url": "https://json.tarkov.dev/regular/traders",
+          "httpStatus": 200,
+          "lastModified": "Thu, 19 Nov 2026 00:31:29 GMT",
+          "etag": "\"c0c25bb69dd3cb4e95b5c1d543a9303d\"",
+          "bytesDecoded": 58898,
+          "sha256Decoded": "caec9b5eab41cdab20d21c550196e7458e911ba0322589cab56b0c2dc358b3f4"
+        }
+      }
+    },
+    "pve": {
+      "path": "data/snapshots/phase-7-pve-2026-11-18.json",
+      "metrics": {
+        "tasks": 499,
+        "taskNamesMissingFrench": 0,
+        "questItems": 138,
+        "kappaFlagged": 13,
+        "lightkeeperFlagged": 0,
+        "traders": 16,
+        "stations": 26,
+        "stationLevels": 68,
+        "hideoutItemRequirementRows": 317,
+        "hideoutFirRequirementRows": 76,
+        "crafts": 214,
+        "barters": 888,
+        "missingTaskReferences": [],
+        "missingCraftUnlockTasks": [],
+        "issue886MissingIds": [
+          "625d700cc48e6c62a440fab5",
+          "6391d912f8e5dd32bf4e3ab2",
+          "6391d9144b15ca31f76bc323",
+          "626148334149f1149b5b12ca",
+          "62614836f7308432be1d44cc",
+          "6261483ac48e6c62a440fab7",
+          "6261483dc4874104f230c0cd",
+          "626148251ed3bb5bcc5bd9ed",
+          "6261482fa4eb80027c4f2e11"
+        ],
+        "collectorObjectives": 44,
+        "collectorFoundInRaidObjectives": 44
+      },
+      "upstream": {
+        "tasks_fr": {
+          "url": "https://json.tarkov.dev/pve/tasks_fr",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:03:33 GMT",
+          "etag": "\"d96b9ecc7285b1e062df8f361b9f14dd\"",
+          "bytesDecoded": 209227,
+          "sha256Decoded": "769126b1580d20f5945540c21a583e5199979bc30679d040a868404740c23df6"
+        },
+        "traders": {
+          "url": "https://json.tarkov.dev/pve/traders",
+          "httpStatus": 200,
+          "lastModified": "Thu, 19 Nov 2026 00:31:30 GMT",
+          "etag": "\"cd0731064a45012ab7b21656634094c6\"",
+          "bytesDecoded": 58898,
+          "sha256Decoded": "3a6212b13167be9afcfb2786317ce0391dc7222a38688c9af347b8f5e215c1c6"
+        },
+        "tasks_en": {
+          "url": "https://json.tarkov.dev/pve/tasks_en",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:03:33 GMT",
+          "etag": "\"8df9dfeebab56316ce22a235b5c569db\"",
+          "bytesDecoded": 199976,
+          "sha256Decoded": "b96bbd16bd249d78dca2511151b74bd7aa89321bdad055b5d479f96d37854472"
+        },
+        "hideout_fr": {
+          "url": "https://json.tarkov.dev/pve/hideout_fr",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:01:59 GMT",
+          "etag": "\"c931d950fa9f122569bf18fa60b0993b\"",
+          "bytesDecoded": 17095,
+          "sha256Decoded": "a68edaf77a202b953082e6c656158421227ca831b726f5ab37308a77c631de30"
+        },
+        "traders_fr": {
+          "url": "https://json.tarkov.dev/pve/traders_fr",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:01:51 GMT",
+          "etag": "\"f47b7453d16066b4cfc9e6494b8f3ab7\"",
+          "bytesDecoded": 3661,
+          "sha256Decoded": "7825b571402ce32516d1b1340539ae61eadbeace646706abef4159bacc0cdbed"
+        },
+        "traders_en": {
+          "url": "https://json.tarkov.dev/pve/traders_en",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:01:51 GMT",
+          "etag": "\"ae7786d8780829f46473df52900b2ca1\"",
+          "bytesDecoded": 3537,
+          "sha256Decoded": "a570d1e4f9cbe91c243a025f4d2a2dad19754be23cd003cb8b8de3c07b5ab0eb"
+        },
+        "tasks": {
+          "url": "https://json.tarkov.dev/pve/tasks",
+          "httpStatus": 200,
+          "lastModified": "Wed, 18 Nov 2026 20:23:26 GMT",
+          "etag": "\"27c0c72cfce4b2bf5a27ac29ff095f61\"",
+          "bytesDecoded": 2101658,
+          "sha256Decoded": "29cfb4f76ad85b399b7ab6412e60a397dd19b86979df8dc8823cff9df8d5dcd7"
+        },
+        "hideout": {
+          "url": "https://json.tarkov.dev/pve/hideout",
+          "httpStatus": 200,
+          "lastModified": "Tue, 08 Sep 2026 14:31:56 GMT",
+          "etag": "\"a657568cf5c21c9f4a6197d43c7d476a\"",
+          "bytesDecoded": 80199,
+          "sha256Decoded": "882180dfc433ca4d54c8d148f225a891994ee28a9beac14799ea02819ebac161"
+        },
+        "hideout_en": {
+          "url": "https://json.tarkov.dev/pve/hideout_en",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:02:00 GMT",
+          "etag": "\"aee2ef5c8bebea9eb2c5cbc9cbcd8b39\"",
+          "bytesDecoded": 14543,
+          "sha256Decoded": "f90f81e83071f83569358962b70619d87663e7ed07ece71caf13c860ad4fdf6a"
+        },
+        "crafts": {
+          "url": "https://json.tarkov.dev/pve/crafts",
+          "httpStatus": 200,
+          "lastModified": "Thu, 12 Nov 2026 17:51:48 GMT",
+          "etag": "\"b416b7e3781ecf21c4f6660b68c81fd9\"",
+          "bytesDecoded": 97432,
+          "sha256Decoded": "78875558cc6e9dd7469c57ed111c9f90a0b5533b95df977ddd1847eeef50873e"
+        },
+        "barters": {
+          "url": "https://json.tarkov.dev/pve/barters",
+          "httpStatus": 200,
+          "lastModified": "Wed, 18 Nov 2026 22:47:11 GMT",
+          "etag": "\"658e94e94b3eeb91c510d28f0660f243\"",
+          "bytesDecoded": 289984,
+          "sha256Decoded": "5074ada9fd0fc8dd8583373ecd3cbd523dc431795408a113c9914ba8028b6346"
+        }
+      }
+    },
+    "pvp-season": {
+      "path": "data/snapshots/phase-7-pvp-season-2026-11-18.json",
+      "metrics": {
+        "tasks": 462,
+        "taskNamesMissingFrench": 0,
+        "questItems": 135,
+        "kappaFlagged": 13,
+        "lightkeeperFlagged": 0,
+        "traders": 16,
+        "stations": 26,
+        "stationLevels": 68,
+        "hideoutItemRequirementRows": 317,
+        "hideoutFirRequirementRows": 0,
+        "crafts": 214,
+        "barters": 905,
+        "missingTaskReferences": [],
+        "missingCraftUnlockTasks": [],
+        "issue886MissingIds": [
+          "625d700cc48e6c62a440fab5",
+          "6391d912f8e5dd32bf4e3ab2",
+          "6391d9144b15ca31f76bc323",
+          "626148334149f1149b5b12ca",
+          "62614836f7308432be1d44cc",
+          "6261483ac48e6c62a440fab7",
+          "6261483dc4874104f230c0cd",
+          "626148251ed3bb5bcc5bd9ed",
+          "6261482fa4eb80027c4f2e11"
+        ],
+        "collectorObjectives": 44,
+        "collectorFoundInRaidObjectives": 44
+      },
+      "upstream": {
+        "traders": {
+          "url": "https://json.tarkov.dev/pvp-season/traders",
+          "httpStatus": 200,
+          "lastModified": "Thu, 19 Nov 2026 00:21:32 GMT",
+          "etag": "\"c5b409d18373e218fcd27bcbde5d36df\"",
+          "bytesDecoded": 58898,
+          "sha256Decoded": "d23454059052f71395e4046e2f2d8e846078eae5c627aa370b9da0e0c0f1403a"
+        },
+        "crafts": {
+          "url": "https://json.tarkov.dev/pvp-season/crafts",
+          "httpStatus": 200,
+          "lastModified": "Thu, 12 Nov 2026 17:51:49 GMT",
+          "etag": "\"019f41bb05cd34e22c4effc1923fae98\"",
+          "bytesDecoded": 97432,
+          "sha256Decoded": "90ccbbde403437209ad33299a46ded1027f5663802ea24af51179b27dd4b1af1"
+        },
+        "hideout_en": {
+          "url": "https://json.tarkov.dev/pvp-season/hideout_en",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:02:00 GMT",
+          "etag": "\"aee2ef5c8bebea9eb2c5cbc9cbcd8b39\"",
+          "bytesDecoded": 14543,
+          "sha256Decoded": "f90f81e83071f83569358962b70619d87663e7ed07ece71caf13c860ad4fdf6a"
+        },
+        "tasks_fr": {
+          "url": "https://json.tarkov.dev/pvp-season/tasks_fr",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:03:40 GMT",
+          "etag": "\"f9a5c8af994f7f17e4e71866979b3de4\"",
+          "bytesDecoded": 194913,
+          "sha256Decoded": "7fd714ee8b831e42457b524f819f1e25dc10c48ee5d2810f2d20279c28f2755e"
+        },
+        "traders_en": {
+          "url": "https://json.tarkov.dev/pvp-season/traders_en",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:01:54 GMT",
+          "etag": "\"ae7786d8780829f46473df52900b2ca1\"",
+          "bytesDecoded": 3537,
+          "sha256Decoded": "a570d1e4f9cbe91c243a025f4d2a2dad19754be23cd003cb8b8de3c07b5ab0eb"
+        },
+        "hideout": {
+          "url": "https://json.tarkov.dev/pvp-season/hideout",
+          "httpStatus": 200,
+          "lastModified": "Tue, 08 Sep 2026 14:31:56 GMT",
+          "etag": "\"a0837a697140ba8f5395597a51e3584c\"",
+          "bytesDecoded": 80275,
+          "sha256Decoded": "e6034c2b619613f02d396426918b314a636322741fa2cab82411a1480c73f1ed"
+        },
+        "barters": {
+          "url": "https://json.tarkov.dev/pvp-season/barters",
+          "httpStatus": 200,
+          "lastModified": "Wed, 18 Nov 2026 22:47:13 GMT",
+          "etag": "\"0edb5a24165f2cd9069824f7ed36b1ef\"",
+          "bytesDecoded": 296713,
+          "sha256Decoded": "7c74e20ebdedeebcc5df8050d348b9ea9fa906fee2876d83a4194324f34e1909"
+        },
+        "traders_fr": {
+          "url": "https://json.tarkov.dev/pvp-season/traders_fr",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:01:54 GMT",
+          "etag": "\"f47b7453d16066b4cfc9e6494b8f3ab7\"",
+          "bytesDecoded": 3661,
+          "sha256Decoded": "7825b571402ce32516d1b1340539ae61eadbeace646706abef4159bacc0cdbed"
+        },
+        "hideout_fr": {
+          "url": "https://json.tarkov.dev/pvp-season/hideout_fr",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:02:00 GMT",
+          "etag": "\"c931d950fa9f122569bf18fa60b0993b\"",
+          "bytesDecoded": 17095,
+          "sha256Decoded": "a68edaf77a202b953082e6c656158421227ca831b726f5ab37308a77c631de30"
+        },
+        "tasks_en": {
+          "url": "https://json.tarkov.dev/pvp-season/tasks_en",
+          "httpStatus": 200,
+          "lastModified": "Mon, 16 Nov 2026 19:03:40 GMT",
+          "etag": "\"268c51b63d436896aeb6d1680b2a3a15\"",
+          "bytesDecoded": 186205,
+          "sha256Decoded": "0eae81346f812e086dd8ffc9ddf1725fc35bd7924cfcc4e05a6afd4cfd30410b"
+        },
+        "tasks": {
+          "url": "https://json.tarkov.dev/pvp-season/tasks",
+          "httpStatus": 200,
+          "lastModified": "Wed, 18 Nov 2026 20:23:30 GMT",
+          "etag": "\"f243cf8e1e7fa1bd6944400c4db88a87\"",
+          "bytesDecoded": 1855335,
+          "sha256Decoded": "532863cd7a668ce2b3cf57350acb43e995ffe9d162c46c05f1076ca74dfcbf94"
+        }
+      }
+    }
+  },
+  "comparison": {
+    "unionTaskIds": 526,
+    "missingInMode": {
+      "regular": 23,
+      "pve": 27,
+      "pvp-season": 64
+    },
+    "missingIssue886ByMode": {
+      "regular": [
+        "625d700cc48e6c62a440fab5",
+        "6391d912f8e5dd32bf4e3ab2",
+        "6391d9144b15ca31f76bc323",
+        "626148334149f1149b5b12ca",
+        "62614836f7308432be1d44cc",
+        "6261483ac48e6c62a440fab7",
+        "6261483dc4874104f230c0cd",
+        "626148251ed3bb5bcc5bd9ed",
+        "6261482fa4eb80027c4f2e11"
+      ],
+      "pve": [
+        "625d700cc48e6c62a440fab5",
+        "6391d912f8e5dd32bf4e3ab2",
+        "6391d9144b15ca31f76bc323",
+        "626148334149f1149b5b12ca",
+        "62614836f7308432be1d44cc",
+        "6261483ac48e6c62a440fab7",
+        "6261483dc4874104f230c0cd",
+        "626148251ed3bb5bcc5bd9ed",
+        "6261482fa4eb80027c4f2e11"
+      ],
+      "pvp-season": [
+        "625d700cc48e6c62a440fab5",
+        "6391d912f8e5dd32bf4e3ab2",
+        "6391d9144b15ca31f76bc323",
+        "626148334149f1149b5b12ca",
+        "62614836f7308432be1d44cc",
+        "6261483ac48e6c62a440fab7",
+        "6261483dc4874104f230c0cd",
+        "626148251ed3bb5bcc5bd9ed",
+        "6261482fa4eb80027c4f2e11"
+      ]
+    }
+  },
+  "issue886": {
+    "url": "https://github.com/the-hideout/tarkov-data-manager/issues/886",
+    "statusObserved": "OPEN",
+    "missingIds": [
+      "625d700cc48e6c62a440fab5",
+      "6391d912f8e5dd32bf4e3ab2",
+      "6391d9144b15ca31f76bc323",
+      "626148334149f1149b5b12ca",
+      "62614836f7308432be1d44cc",
+      "6261483ac48e6c62a440fab7",
+      "6261483dc4874104f230c0cd",
+      "626148251ed3bb5bcc5bd9ed",
+      "6261482fa4eb80027c4f2e11"
+    ]
+  }
+}

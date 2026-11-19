@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-18T13:50:45+00:00",
+  "profiles": [
+    {
+      "route": "pages/lore/",
+      "width": 1024,
+      "theme": "renforce",
+      "testedSamples": 8,
+      "lowestRatio": 12.12,
+      "at": ".guide-hero__actions .button",
+      "text": "Lire la chronologie"
+    },
+    {
+      "route": "pages/lore/",
+      "width": 1024,
+      "theme": "standard",
+      "testedSamples": 8,
+      "lowestRatio": 8.37,
+      "at": ".guide-hero__actions .button",
+      "text": "Lire la chronologie"
+    },
+    {
+      "route": "pages/lore/",
+      "width": 1440,
+      "theme": "renforce",
+      "testedSamples": 8,
+      "lowestRatio": 12.0,
+      "at": ".guide-hero__actions .button",
+      "text": "Lire la chronologie"
+    },
+    {
+      "route": "pages/lore/",
+      "width": 1440,
+      "theme": "standard",
+      "testedSamples": 8,
+      "lowestRatio": 5.61,
+      "at": ".guide-hero h1",
+      "text": "Tarkov, une ville sous blocus"
+    },
+    {
+      "route": "pages/lore/",
+      "width": 320,
+      "theme": "renforce",
+      "testedSamples": 7,
+      "lowestRatio": 12.0,
+      "at": ".guide-hero__actions .button",
+      "text": "Lire la chronologie"
+    },
+    {
+      "route": "pages/lore/",
+      "width": 320,
+      "theme": "standard",
+      "testedSamples": 7,
+      "lowestRatio": 8.48,
+      "at": ".guide-hero__actions .button",
+      "text": "Lire la chronologie"
+    },
+    {
+      "route": "pages/lore/",
+      "width": 390,
+      "theme": "renforce",
+      "testedSamples": 7,
+      "lowestRatio": 12.0,
+      "at": ".guide-hero__actions .button",
+      "text": "Lire la chronologie"
+    },
+    {
+      "route": "pages/lore/",
+      "width": 390,
+      "theme": "standard",
+      "testedSamples": 7,
+      "lowestRatio": 8.45,
+      "at": ".guide-hero__actions .button",
+      "text": "Lire la chronologie"
+    },
+    {
+      "route": "pages/lore/",
+      "width": 768,
+      "theme": "renforce",
+      "testedSamples": 8,
+      "lowestRatio": 10.77,
+      "at": ".guide-hero__lead",
+      "text": "Comment une zone économique est-elle devenue une ville coupée du monde ? Suivez les factions, les lieux et la chronologie. Les révélations de la campagne restent fermées par défaut."
+    },
+    {
+      "route": "pages/lore/",
+      "width": 768,
+      "theme": "standard",
+      "testedSamples": 8,
+      "lowestRatio": 8.01,
+      "at": ".guide-hero__lead",
+      "text": "Comment une zone économique est-elle devenue une ville coupée du monde ? Suivez les factions, les lieux et la chronologie. Les révélations de la campagne restent fermées par défaut."
+    },
+    {
+      "route": "pages/getting-started.html",
+      "width": 1024,
+      "theme": "renforce",
+      "testedSamples": 8,
+      "lowestRatio": 12.0,
+      "at": ".guide-hero__actions .button",
+      "text": "Voir les 10 étapes"
+    },
+    {
+      "route": "pages/getting-started.html",
+      "width": 1024,
+      "theme": "standard",
+      "testedSamples": 8,
+      "lowestRatio": 5.83,
+      "at": ".guide-hero h1",
+      "text": "Réussir son premier raid"
+    },
+    {
+      "route": "pages/getting-started.html",
+      "width": 1440,
+      "theme": "renforce",
+      "testedSamples": 8,
+      "lowestRatio": 12.0,
+      "at": ".guide-hero__actions .button",
+      "text": "Voir les 10 étapes"
+    },
+    {
+      "route": "pages/getting-started.html",
+      "width": 1440,
+      "theme": "standard",
+      "testedSamples": 8,
+      "lowestRatio": 8.51,
+      "at": ".guide-hero__actions .button",
+      "text": "Voir les 10 étapes"
+    },
+    {
+      "route": "pages/getting-started.html",
+      "width": 320,
+      "theme": "renforce",
+      "testedSamples": 7,
+      "lowestRatio": 12.12,
+      "at": ".guide-hero__actions .button",
+      "text": "Voir les 10 étapes"
+    },
+    {
+      "route": "pages/getting-started.html",
+      "width": 320,
+      "theme": "standard",
+      "testedSamples": 7,
+      "lowestRatio": 8.05,
+      "at": ".guide-hero__note",
+      "text": "Escape from Tarkov officiel · PvP, Seasonal et PvE"
+    },
+    {
+      "route": "pages/getting-started.html",
+      "width": 390,
+      "theme": "renforce",
+      "testedSamples": 7,
+      "lowestRatio": 12.12,
+      "at": ".guide-hero__actions .button",
+      "text": "Voir les 10 étapes"
+    },
+    {
+      "route": "pages/getting-started.html",
+      "width": 390,
+      "theme": "standard",
+      "testedSamples": 7,
+      "lowestRatio": 8.45,
+      "at": ".guide-hero__actions .button",
+      "text": "Voir les 10 étapes"
+    },
+    {
+      "route": "pages/getting-started.html",
+      "width": 768,
+      "theme": "renforce",
+      "testedSamples": 8,
+      "lowestRatio": 9.19,
+      "at": ".guide-hero__lead",
+      "text": "Choisissez un profil, préparez un kit que vous pouvez remplacer et apprenez à rentrer. De l’écran de départ au rangement du butin, voici quoi faire à chaque étape."
+    },
+    {
+      "route": "pages/getting-started.html",
+      "width": 768,
+      "theme": "standard",
+      "testedSamples": 8,
+      "lowestRatio": 8.24,
+      "at": ".guide-hero h1",
+      "text": "Réussir son premier raid"
+    }
+  ],
+  "palette": [
+    {
+      "label": "FAQ, bord de contrôle et fond",
+      "color": "#787568",
+      "background": "#151713",
+      "ratio": 3.9,
+      "minimum": 3
+    },
+    {
+      "label": "Spoilers, bord de contrôle et fond",
+      "color": "#9e7d5e",
+      "background": "#201913",
+      "ratio": 4.59,
+      "minimum": 3
+    },
+    {
+      "label": "HUD, bord de repère sur le panneau",
+      "color": "#879184",
+      "background": "#151a17",
+      "ratio": 5.38,
+      "minimum": 3
+    },
+    {
+      "label": "Focalisation, anneau doré sur onglet",
+      "color": "#f2d59c",
+      "background": "#252017",
+      "ratio": 11.38,
+      "minimum": 3
+    },
+    {
+      "label": "Onglet actif, texte",
+      "color": "#e1c48d",
+      "background": "#252017",
+      "ratio": 9.62,
+      "minimum": 4.5
+    },
+    {
+      "label": "Légende du HUD, texte secondaire",
+      "color": "#c2c0b5",
+      "background": "#151713",
+      "ratio": 9.88,
+      "minimum": 4.5
+    },
+    {
+      "label": "Chiffre du HUD",
+      "color": "#eac994",
+      "background": "#151a17",
+      "ratio": 11.14,
+      "minimum": 4.5
+    },
+    {
+      "label": "Étiquette de lore, texte",
+      "color": "#b6cfcb",
+      "background": "#1a2120",
+      "ratio": 9.96,
+      "minimum": 4.5
+    },
+    {
+      "label": "Bouton de spoiler, étiquette",
+      "color": "#f7c79b",
+      "background": "#332417",
+      "ratio": 9.67,
+      "minimum": 4.5
+    }
+  ],
+  "method": "Chromium DPR 1 ; texte et décorations masqués, capture JPEG qualité 100 ; pixels les moins favorables dans les boîtes de texte des deux visuels principaux. Palette des contrôles calculée séparément."
+}

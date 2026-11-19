@@ -1,0 +1,1205 @@
+{
+  "schemaVersion": 1,
+  "phase": "PHASE_9",
+  "status": "PASS",
+  "base": "http://127.0.0.1:4180",
+  "checkedAt": "2026-11-18",
+  "routes": [
+    {
+      "engine": "Chromium",
+      "route": "pages/spt-tushonka/",
+      "http": 200,
+      "title": "SP-Tushonka : guide, installation et coop · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 29128,
+      "heroLoaded": true
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/spt-tushonka/",
+      "http": 200,
+      "title": "SP-Tushonka : guide, installation et coop · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 29128,
+      "heroLoaded": true
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/spt-tushonka/installation.html",
+      "http": 200,
+      "title": "Installer SP-Tushonka (SPT) · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24337,
+      "heroLoaded": true
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/spt-tushonka/installation.html",
+      "http": 200,
+      "title": "Installer SP-Tushonka (SPT) · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24337,
+      "heroLoaded": true
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/spt-tushonka/mods.html",
+      "http": 200,
+      "title": "Mods SPT & The Forge · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 25531,
+      "heroLoaded": true
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/spt-tushonka/mods.html",
+      "http": 200,
+      "title": "Mods SPT & The Forge · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 25531,
+      "heroLoaded": true
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/spt-tushonka/fika.html",
+      "http": 200,
+      "title": "Project Fika : coopératif avec SPT · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 22721,
+      "heroLoaded": true
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/spt-tushonka/fika.html",
+      "http": 200,
+      "title": "Project Fika : coopératif avec SPT · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 22721,
+      "heroLoaded": true
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/spt-tushonka/troubleshooting.html",
+      "http": 200,
+      "title": "Dépanner SP-Tushonka · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 23698,
+      "heroLoaded": true
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/spt-tushonka/troubleshooting.html",
+      "http": 200,
+      "title": "Dépanner SP-Tushonka · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 23698,
+      "heroLoaded": true
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/arena/",
+      "http": 200,
+      "title": "Escape from Tarkov: Arena — modes & stratégies · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 25862,
+      "heroLoaded": true
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/arena/",
+      "http": 200,
+      "title": "Escape from Tarkov: Arena — modes & stratégies · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 25862,
+      "heroLoaded": true
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/events/",
+      "http": 200,
+      "title": "Événements Escape from Tarkov 2026 · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 34905,
+      "heroLoaded": true
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/events/",
+      "http": 200,
+      "title": "Événements Escape from Tarkov 2026 · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 34905,
+      "heroLoaded": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "Chromium · pages/spt-tushonka/ · rendu, médias et modules + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 29128,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/spt-tushonka/ · rendu, médias et modules",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 29128,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Responsive · pages/spt-tushonka/ · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    },
+    {
+      "name": "Sans JavaScript · pages/spt-tushonka/ · contenu et navigation statiques",
+      "passed": true,
+      "detail": {
+        "title": "SP-Tushonka : guide, installation et coop · Guide Tarkov | Tarkov Ultimate Guide",
+        "h1": "SP-Tushonka : guide, installation et coop",
+        "mainVisible": true,
+        "navVisible": true,
+        "contentVisible": 4,
+        "eventCards": 0,
+        "tabPanels": 0,
+        "phaseSections": 4
+      }
+    },
+    {
+      "name": "Chromium · pages/spt-tushonka/installation.html · rendu, médias et modules + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 24337,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/spt-tushonka/installation.html · rendu, médias et modules",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 24337,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Responsive · pages/spt-tushonka/installation.html · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    },
+    {
+      "name": "Sans JavaScript · pages/spt-tushonka/installation.html · contenu et navigation statiques",
+      "passed": true,
+      "detail": {
+        "title": "Installer SP-Tushonka (SPT) · Guide Tarkov | Tarkov Ultimate Guide",
+        "h1": "Installer SP-Tushonka (SPT)",
+        "mainVisible": true,
+        "navVisible": true,
+        "contentVisible": 4,
+        "eventCards": 0,
+        "tabPanels": 0,
+        "phaseSections": 4
+      }
+    },
+    {
+      "name": "Chromium · pages/spt-tushonka/mods.html · rendu, médias et modules + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 25531,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/spt-tushonka/mods.html · rendu, médias et modules",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 25531,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Responsive · pages/spt-tushonka/mods.html · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    },
+    {
+      "name": "Sans JavaScript · pages/spt-tushonka/mods.html · contenu et navigation statiques",
+      "passed": true,
+      "detail": {
+        "title": "Mods SPT & The Forge · Guide Tarkov | Tarkov Ultimate Guide",
+        "h1": "Mods SPT & The Forge",
+        "mainVisible": true,
+        "navVisible": true,
+        "contentVisible": 3,
+        "eventCards": 0,
+        "tabPanels": 0,
+        "phaseSections": 3
+      }
+    },
+    {
+      "name": "Chromium · pages/spt-tushonka/fika.html · rendu, médias et modules + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 22721,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/spt-tushonka/fika.html · rendu, médias et modules",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 22721,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Responsive · pages/spt-tushonka/fika.html · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    },
+    {
+      "name": "Sans JavaScript · pages/spt-tushonka/fika.html · contenu et navigation statiques",
+      "passed": true,
+      "detail": {
+        "title": "Project Fika : coopératif avec SPT · Guide Tarkov | Tarkov Ultimate Guide",
+        "h1": "Project Fika : coopératif avec SPT",
+        "mainVisible": true,
+        "navVisible": true,
+        "contentVisible": 3,
+        "eventCards": 0,
+        "tabPanels": 0,
+        "phaseSections": 3
+      }
+    },
+    {
+      "name": "Chromium · pages/spt-tushonka/troubleshooting.html · rendu, médias et modules + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 23698,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/spt-tushonka/troubleshooting.html · rendu, médias et modules",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 23698,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Responsive · pages/spt-tushonka/troubleshooting.html · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    },
+    {
+      "name": "Sans JavaScript · pages/spt-tushonka/troubleshooting.html · contenu et navigation statiques",
+      "passed": true,
+      "detail": {
+        "title": "Dépanner SP-Tushonka · Guide Tarkov | Tarkov Ultimate Guide",
+        "h1": "Dépanner SP-Tushonka",
+        "mainVisible": true,
+        "navVisible": true,
+        "contentVisible": 3,
+        "eventCards": 0,
+        "tabPanels": 0,
+        "phaseSections": 3
+      }
+    },
+    {
+      "name": "Chromium · pages/arena/ · rendu, médias et modules + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 25862,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/arena/ · rendu, médias et modules",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 25862,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Responsive · pages/arena/ · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    },
+    {
+      "name": "Sans JavaScript · pages/arena/ · contenu et navigation statiques",
+      "passed": true,
+      "detail": {
+        "title": "Escape from Tarkov: Arena — modes & stratégies · Guide Tarkov | Tarkov Ultimate Guide",
+        "h1": "Escape from Tarkov: Arena — modes & stratégies",
+        "mainVisible": true,
+        "navVisible": true,
+        "contentVisible": 3,
+        "eventCards": 0,
+        "tabPanels": 4,
+        "phaseSections": 3
+      }
+    },
+    {
+      "name": "Chromium · pages/events/ · rendu, médias et modules + axe-core",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 34905,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/events/ · rendu, médias et modules",
+      "passed": true,
+      "detail": {
+        "appReady": true,
+        "htmlChars": 34905,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Responsive · pages/events/ · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    },
+    {
+      "name": "Sans JavaScript · pages/events/ · contenu et navigation statiques",
+      "passed": true,
+      "detail": {
+        "title": "Événements Escape from Tarkov 2026 · Guide Tarkov | Tarkov Ultimate Guide",
+        "h1": "Événements Escape from Tarkov 2026",
+        "mainVisible": true,
+        "navVisible": true,
+        "contentVisible": 2,
+        "eventCards": 10,
+        "tabPanels": 0,
+        "phaseSections": 2
+      }
+    },
+    {
+      "name": "Responsive · / · 375/768/1440 px",
+      "passed": true,
+      "detail": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    },
+    {
+      "name": "SP-Tushonka · filtre Stable / BE / Fika",
+      "passed": true,
+      "detail": "5 → 3 stable / 1 Fika / 1 BE → 5; compteurs aria-live vérifiés"
+    },
+    {
+      "name": "Installation · filtre de parcours stable / expérimental",
+      "passed": true,
+      "detail": "le filtre masque/affiche les sections entières et garde les ancres actives"
+    },
+    {
+      "name": "Mods · filtre branche et catégorie",
+      "passed": true,
+      "detail": "branche × catégorie, y compris résultat zéro et reset vérifiés"
+    },
+    {
+      "name": "Dépannage · filtre par symptôme",
+      "passed": true,
+      "detail": "4 pistes → Linux/Proton isolé → 4 pistes"
+    },
+    {
+      "name": "Événements · filtres actif / annoncé / archivé / durable",
+      "passed": true,
+      "detail": "10 → actif 3 / annoncé 1 / archivé 5 / durable 1 → 10; ancre du filtre présente"
+    },
+    {
+      "name": "Arena · onglets accessibles et navigation clavier",
+      "passed": true,
+      "detail": "onglet CheckPoint activable par clic et flèche droite; un panneau visible"
+    },
+    {
+      "name": "Recherche globale · route PHASE_9 indexée",
+      "passed": true,
+      "detail": "index local chargé; requête « City Drops » renvoie la chronologie"
+    },
+    {
+      "name": "Accueil · liens directs Arena/Événements et méga-menu communautaire",
+      "passed": true,
+      "detail": "25 liens menu; SP-Tushonka, Arena et Événements présents"
+    },
+    {
+      "name": "PHASE_8 · méga-menu vers les nouvelles routes",
+      "passed": true,
+      "detail": "liens relatifs depuis PHASE_8 présents pour 16 entrées"
+    },
+    {
+      "name": "Mobile · navigation compacte ouvrable au clavier",
+      "passed": true,
+      "detail": "état initial conservé, repli/dépli, liens PHASE_9 et aria-expanded testés"
+    }
+  ],
+  "audits": [
+    {
+      "engine": "Chromium",
+      "route": "pages/spt-tushonka/",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase9-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase9-callout--warning > strong"
+            ],
+            [
+              ".phase9-callout--warning > p"
+            ],
+            [
+              "#spt-community > .phase9-callout > strong"
+            ],
+            [
+              "#spt-community > .phase9-callout > p"
+            ],
+            [
+              ".guide-next > div:nth-child(1) > .guide-kicker"
+            ],
+            [
+              ".guide-next > div:nth-child(1) > h2"
+            ],
+            [
+              ".guide-next > div:nth-child(1) > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/spt-tushonka/installation.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase9-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase9-callout > strong"
+            ],
+            [
+              ".phase9-callout > p"
+            ],
+            [
+              ".guide-next > div:nth-child(1) > .guide-kicker"
+            ],
+            [
+              ".guide-next > div:nth-child(1) > h2"
+            ],
+            [
+              ".guide-next > div:nth-child(1) > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/spt-tushonka/mods.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase9-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase9-callout > strong"
+            ],
+            [
+              ".phase9-callout > p"
+            ],
+            [
+              ".guide-next > div:nth-child(1) > .guide-kicker"
+            ],
+            [
+              ".guide-next > div:nth-child(1) > h2"
+            ],
+            [
+              ".guide-next > div:nth-child(1) > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/spt-tushonka/fika.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase9-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase9-callout > strong"
+            ],
+            [
+              ".phase9-callout > p"
+            ],
+            [
+              ".guide-next > div:nth-child(1) > .guide-kicker"
+            ],
+            [
+              ".guide-next > div:nth-child(1) > h2"
+            ],
+            [
+              ".guide-next > div:nth-child(1) > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/spt-tushonka/troubleshooting.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase9-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase9-callout > strong"
+            ],
+            [
+              ".phase9-callout > p"
+            ],
+            [
+              ".guide-next > div:nth-child(1) > .guide-kicker"
+            ],
+            [
+              ".guide-next > div:nth-child(1) > h2"
+            ],
+            [
+              ".guide-next > div:nth-child(1) > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/arena/",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase9-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              "#arena-mode-loop > .phase9-callout > strong"
+            ],
+            [
+              "#arena-mode-loop > .phase9-callout > p"
+            ],
+            [
+              ".phase9-callout--warning > strong"
+            ],
+            [
+              ".phase9-callout--warning > p"
+            ],
+            [
+              "#arena-patches > .phase9-callout > strong"
+            ],
+            [
+              "#arena-patches > .phase9-callout > p"
+            ],
+            [
+              ".phase9-callout > a"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/events/",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase9-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "a[href$=\"#sources\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase9-event-card[data-p9-status=\"active\"][data-p9-event-card=\"\"]:nth-child(1) > .phase9-event-card__top > .phase9-event-card__category"
+            ],
+            [
+              ".phase9-event-card[data-p9-status=\"active\"][data-p9-event-card=\"\"]:nth-child(1) > h3"
+            ],
+            [
+              ".phase9-event-card[data-p9-status=\"active\"][data-p9-event-card=\"\"]:nth-child(1) > .phase9-event-card__dates"
+            ],
+            [
+              ".phase9-event-card[data-p9-status=\"active\"][data-p9-event-card=\"\"]:nth-child(1) > .phase9-event-card__dates > time[datetime=\"2026-10-29\"]"
+            ],
+            [
+              ".phase9-event-card[data-p9-status=\"active\"][data-p9-event-card=\"\"]:nth-child(1) > p:nth-child(4)"
+            ],
+            [
+              ".phase9-event-card[data-p9-status=\"active\"][data-p9-event-card=\"\"]:nth-child(1) > .phase9-event-card__action"
+            ],
+            [
+              ".phase9-event-card[data-p9-status=\"active\"][data-p9-event-card=\"\"]:nth-child(1) > .phase9-event-card__source[rel=\"noopener noreferrer\"]"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "responsive": [
+    {
+      "route": "pages/spt-tushonka/",
+      "sizes": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    },
+    {
+      "route": "pages/spt-tushonka/installation.html",
+      "sizes": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    },
+    {
+      "route": "pages/spt-tushonka/mods.html",
+      "sizes": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    },
+    {
+      "route": "pages/spt-tushonka/fika.html",
+      "sizes": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    },
+    {
+      "route": "pages/spt-tushonka/troubleshooting.html",
+      "sizes": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    },
+    {
+      "route": "pages/arena/",
+      "sizes": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    },
+    {
+      "route": "pages/events/",
+      "sizes": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "sizes": [
+        {
+          "width": 375,
+          "client": 375,
+          "scroll": 375
+        },
+        {
+          "width": 768,
+          "client": 768,
+          "scroll": 768
+        },
+        {
+          "width": 1440,
+          "client": 1440,
+          "scroll": 1440
+        }
+      ]
+    }
+  ],
+  "noJs": [
+    {
+      "route": "pages/spt-tushonka/",
+      "title": "SP-Tushonka : guide, installation et coop · Guide Tarkov | Tarkov Ultimate Guide",
+      "h1": "SP-Tushonka : guide, installation et coop",
+      "mainVisible": true,
+      "navVisible": true,
+      "contentVisible": 4,
+      "eventCards": 0,
+      "tabPanels": 0,
+      "phaseSections": 4
+    },
+    {
+      "route": "pages/spt-tushonka/installation.html",
+      "title": "Installer SP-Tushonka (SPT) · Guide Tarkov | Tarkov Ultimate Guide",
+      "h1": "Installer SP-Tushonka (SPT)",
+      "mainVisible": true,
+      "navVisible": true,
+      "contentVisible": 4,
+      "eventCards": 0,
+      "tabPanels": 0,
+      "phaseSections": 4
+    },
+    {
+      "route": "pages/spt-tushonka/mods.html",
+      "title": "Mods SPT & The Forge · Guide Tarkov | Tarkov Ultimate Guide",
+      "h1": "Mods SPT & The Forge",
+      "mainVisible": true,
+      "navVisible": true,
+      "contentVisible": 3,
+      "eventCards": 0,
+      "tabPanels": 0,
+      "phaseSections": 3
+    },
+    {
+      "route": "pages/spt-tushonka/fika.html",
+      "title": "Project Fika : coopératif avec SPT · Guide Tarkov | Tarkov Ultimate Guide",
+      "h1": "Project Fika : coopératif avec SPT",
+      "mainVisible": true,
+      "navVisible": true,
+      "contentVisible": 3,
+      "eventCards": 0,
+      "tabPanels": 0,
+      "phaseSections": 3
+    },
+    {
+      "route": "pages/spt-tushonka/troubleshooting.html",
+      "title": "Dépanner SP-Tushonka · Guide Tarkov | Tarkov Ultimate Guide",
+      "h1": "Dépanner SP-Tushonka",
+      "mainVisible": true,
+      "navVisible": true,
+      "contentVisible": 3,
+      "eventCards": 0,
+      "tabPanels": 0,
+      "phaseSections": 3
+    },
+    {
+      "route": "pages/arena/",
+      "title": "Escape from Tarkov: Arena — modes & stratégies · Guide Tarkov | Tarkov Ultimate Guide",
+      "h1": "Escape from Tarkov: Arena — modes & stratégies",
+      "mainVisible": true,
+      "navVisible": true,
+      "contentVisible": 3,
+      "eventCards": 0,
+      "tabPanels": 4,
+      "phaseSections": 3
+    },
+    {
+      "route": "pages/events/",
+      "title": "Événements Escape from Tarkov 2026 · Guide Tarkov | Tarkov Ultimate Guide",
+      "h1": "Événements Escape from Tarkov 2026",
+      "mainVisible": true,
+      "navVisible": true,
+      "contentVisible": 2,
+      "eventCards": 10,
+      "tabPanels": 0,
+      "phaseSections": 2
+    }
+  ],
+  "errors": []
+}

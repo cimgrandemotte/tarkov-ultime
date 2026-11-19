@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "status": "VALIDE",
+  "browser": "Firefox 159.0",
+  "checkedAt": "2026-11-18T15:28:06.876Z",
+  "viewportCssPx": 390,
+  "checks": [
+    "Hub mobile, 13 fiches et recherche accentuée",
+    "Filtre de lecture du terrain et synchronisation du mode",
+    "Comparateur mobile et limite de deux sélections",
+    "Navigation du menu sur écran étroit et cibles de filtre utilisables",
+    "Fiche Icebreaker : trois exports et sélection clavier",
+    "Sources du changement BSG du 12/11 et mise en garde fumée",
+    "Reflow 320–1440 px : hub et fiche, sans débordement de page"
+  ],
+  "errors": [],
+  "method": "Parcours local HTTP ; mode tactile mobile simulé ; filtres, comparaison, clavier, 320–1440 px ; console et réponses contrôlées."
+}

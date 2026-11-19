@@ -1,0 +1,951 @@
+{
+  "schemaVersion": 1,
+  "status": "VALIDE",
+  "browser": "Chromium 159.0.8154.6",
+  "checkedAt": "2026-11-18T15:27:58.285Z",
+  "checks": [
+    {
+      "name": "HTTP : 17 routes, canoniques, sitemap, recherche, liste blanche et métadonnées",
+      "passed": true
+    },
+    {
+      "name": "Hub : treize cartes, médias décodés, filtre activé, audit axe-core",
+      "passed": true
+    },
+    {
+      "name": "Filtres : recherche multi-terme, difficulté éditoriale, mode d’export et réinitialisation",
+      "passed": true
+    },
+    {
+      "name": "Comparateur : deux lieux, valeurs et mode synchronisés, troisième sélection refusée",
+      "passed": true
+    },
+    {
+      "name": "Treize fiches : rendu client, une illustration JPG et huit sections de lecture",
+      "passed": true
+    },
+    {
+      "name": "Fiche Icebreaker : bascule de modes, preuves du 12/11, citations et nuance des astuces fumée",
+      "passed": true
+    },
+    {
+      "name": "Navigation clavier : saut au contenu, mode Icebreaker, sommaire et retour à l’index",
+      "passed": true
+    },
+    {
+      "name": "Recherche globale : index du hub et ouverture de la fiche Icebreaker",
+      "passed": true
+    },
+    {
+      "name": "Mobile tactile : navigation, recherche et comparaison sans débordement",
+      "passed": true
+    },
+    {
+      "name": "Reflow 320–1440 px et texte 200 % : hub et fiche longue",
+      "passed": true
+    },
+    {
+      "name": "Couleurs système : forced-colors, contraste renforcé et animations réduites",
+      "passed": true
+    },
+    {
+      "name": "Repli sans JavaScript : cartes, sommaire, comparaison et trois exports lisibles",
+      "passed": true
+    },
+    {
+      "name": "Mobile simulé : LCP/CLS du hub et d’une fiche sur réseau et CPU bridés",
+      "passed": true
+    }
+  ],
+  "audits": [
+    {
+      "context": "Hub Cartes, état initial bureau",
+      "violations": [],
+      "review": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".maps-access-legend"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#maps-title"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#transit-network\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#map-index\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#compare\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#transit-network\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              "article[data-map-slug=\"ground-zero\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"ground-zero\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"ground-zero\"] > .map-card__image > figcaption > span:nth-child(3)"
+            ],
+            [
+              "article[data-map-slug=\"customs\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"customs\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"factory\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"factory\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"woods\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"woods\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"shoreline\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"shoreline\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"interchange\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"interchange\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"reserve\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"reserve\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"the-lab\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"the-lab\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"lighthouse\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"lighthouse\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"streets-of-tarkov\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"streets-of-tarkov\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"streets-of-tarkov\"] > .map-card__image > figcaption > span:nth-child(3)"
+            ],
+            [
+              "article[data-map-slug=\"the-labyrinth\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"the-labyrinth\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"icebreaker\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"icebreaker\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"terminal\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"terminal\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"terminal\"] > .map-card__image > figcaption > span:nth-child(3)"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(1) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(2) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(3) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(4) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--official.maps-network-row:nth-child(5) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--official.maps-network-row:nth-child(6) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(7) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(8) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(9) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(10) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(11) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(12) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(13) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(14) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(15) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(16) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(17) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(18) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(19) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(20) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(21) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(22) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(23) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(24) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(25) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(26) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(27) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(28) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(29) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ]
+          ]
+        }
+      ],
+      "passes": 35
+    },
+    {
+      "context": "Hub filtré · Icebreaker, difficulté et PvE",
+      "violations": [],
+      "review": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".maps-access-legend"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#maps-title"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#transit-network\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#map-index\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#compare\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#transit-network\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              "article[data-map-slug=\"icebreaker\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"icebreaker\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(1) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(2) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(3) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(4) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--official.maps-network-row:nth-child(5) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--official.maps-network-row:nth-child(6) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(7) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(8) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(9) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(10) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(11) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(12) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(13) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(14) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(15) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(16) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(17) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(18) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(19) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(20) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(21) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(22) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(23) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(24) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(25) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(26) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(27) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(28) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(29) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ]
+          ]
+        }
+      ],
+      "passes": 35
+    },
+    {
+      "context": "Hub avec deux cartes comparées",
+      "violations": [],
+      "review": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".maps-access-legend"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#maps-title"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#transit-network\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#map-index\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#compare\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#transit-network\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              "article[data-map-slug=\"ground-zero\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"ground-zero\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"ground-zero\"] > .map-card__image > figcaption > span:nth-child(3)"
+            ],
+            [
+              "h3 > a[href$=\"ground-zero.html\"]"
+            ],
+            [
+              "article[data-map-slug=\"ground-zero\"] > .map-card__body > .map-card__summary"
+            ],
+            [
+              "article[data-map-slug=\"customs\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"customs\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "h3 > a[href$=\"customs.html\"]"
+            ],
+            [
+              "article[data-map-slug=\"customs\"] > .map-card__body > .map-card__summary"
+            ],
+            [
+              "article[data-map-slug=\"factory\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"factory\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"woods\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"woods\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"shoreline\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"shoreline\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"interchange\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"interchange\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"reserve\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"reserve\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"the-lab\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"the-lab\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"lighthouse\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"lighthouse\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"streets-of-tarkov\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"streets-of-tarkov\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"streets-of-tarkov\"] > .map-card__image > figcaption > span:nth-child(3)"
+            ],
+            [
+              "article[data-map-slug=\"the-labyrinth\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"the-labyrinth\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"icebreaker\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"icebreaker\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"terminal\"] > .map-card__image > figcaption > span:nth-child(1)"
+            ],
+            [
+              "article[data-map-slug=\"terminal\"] > .map-card__image > figcaption > span:nth-child(2)"
+            ],
+            [
+              "article[data-map-slug=\"terminal\"] > .map-card__image > figcaption > span:nth-child(3)"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(1) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(2) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(3) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(4) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--official.maps-network-row:nth-child(5) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--official.maps-network-row:nth-child(6) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(7) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(8) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(9) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(10) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(11) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(12) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(13) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(14) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(15) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(16) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(17) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(18) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(19) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(20) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(21) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(22) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(23) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(24) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(25) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(26) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(27) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(28) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(29) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ]
+          ]
+        }
+      ],
+      "passes": 35
+    },
+    {
+      "context": "Icebreaker · Seasonal sélectionné et sources BSG/communauté",
+      "violations": [],
+      "review": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".map-proof-strip"
+            ],
+            [
+              ".map-route-steps"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#guide-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#extractions\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".guide-quick__link[href$=\"#acces\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#extractions\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#transits\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".map-anchor-figure__mark"
+            ],
+            [
+              ".map-anchor-figure__top > p"
+            ],
+            [
+              ".map-anchor-figure > figcaption"
+            ],
+            [
+              ".map-boss-list > li:nth-child(1) > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".map-boss-list > li:nth-child(2) > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "#map-exit-check-title"
+            ],
+            [
+              ".map-exit-check > p"
+            ],
+            [
+              "li:nth-child(1) > .map-transit-route > span[aria-hidden=\"true\"]"
+            ],
+            [
+              "li:nth-child(2) > .map-transit-route > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-next > div > .guide-kicker"
+            ],
+            [
+              ".guide-next > div > h2"
+            ],
+            [
+              ".guide-next > div > p:nth-child(3)"
+            ],
+            [
+              ".button--quiet.button[href$=\"terminal.html\"]"
+            ]
+          ]
+        }
+      ],
+      "passes": 31
+    },
+    {
+      "context": "Hub mobile sous couleurs système",
+      "violations": [],
+      "review": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": [
+            [
+              ".maps-access-legend"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#maps-title"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#transit-network\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-quick__link[href$=\"#map-index\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#compare\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".guide-quick__link[href$=\"#transit-network\"] > .guide-quick__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(1) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(2) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(3) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(4) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--official.maps-network-row:nth-child(5) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--official.maps-network-row:nth-child(6) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(7) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(8) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(9) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(10) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(11) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(12) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(13) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(14) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(15) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(16) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(17) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(18) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(19) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(20) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(21) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(22) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(23) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(24) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(25) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(26) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(27) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(28) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              ".maps-network-row--community.maps-network-row:nth-child(29) > .maps-network-row__arrow[aria-hidden=\"true\"]"
+            ],
+            [
+              "#ref-wiki-shoreline > .guide-source__type"
+            ],
+            [
+              "#ref-wiki-shoreline > a"
+            ]
+          ]
+        }
+      ],
+      "passes": 34
+    }
+  ],
+  "widths": [
+    320,
+    390,
+    576,
+    768,
+    832,
+    1024,
+    1440
+  ],
+  "performance": {
+    "hub": {
+      "lcpMs": 1540,
+      "cls": 0,
+      "resources": 23,
+      "transferBytes": 642988
+    },
+    "map": {
+      "lcpMs": 1268,
+      "cls": 0,
+      "resources": 24,
+      "transferBytes": 487200
+    }
+  },
+  "method": "Parcours local HTTP ; axe-core WCAG 2.1 A/AA ; réseau/console contrôlés ; tailles CSS et reflow ; LCP/CLS sur mobile émulé, 100 ms, 4 Mbit/s et CPU ×4."
+}

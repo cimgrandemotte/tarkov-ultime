@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /lab/
+Sitemap: https://4190-i8gmoighw6d8bspep6ilb.e2b.app/sitemap.xml

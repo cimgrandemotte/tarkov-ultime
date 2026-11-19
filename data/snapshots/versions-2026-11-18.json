@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "verifie_le": "2026-11-18T16:09:23+01:00",
+  "programme": "PHASE_0",
+  "registre_sources": "docs/sources.json",
+  "faits": [
+    {
+      "id": "eft-1-0",
+      "statut": "CONFIRME",
+      "observation": "La version commerciale est sortie le 15 novembre 2025.",
+      "sources": [
+        "steam",
+        "steam-news"
+      ]
+    },
+    {
+      "id": "eft-1-3-0",
+      "statut": "CONFIRME",
+      "observation": "Dernier patch numéroté trouvé dans les canaux officiels consultés : 1.3.0.0, publié le 29 octobre 2026. Halloween, automne, bots PMC PvE de difficulté élevée, progression Seasonal et Metabolism.",
+      "sources": [
+        "patch130",
+        "steam-rss",
+        "bsg-social"
+      ]
+    },
+    {
+      "id": "eft-unity-6",
+      "statut": "ANNONCE_NON_CONFIRME_COMME_DEPLOYE",
+      "observation": "Le journal technique officiel BSG du 18/11 prévoit la mise à jour 1.3.5.0 pour la seconde moitié de novembre, sans jour précis. Cette fenêtre est une annonce, pas une attestation de déploiement ; ne pas présenter la migration Unity 6 comme active.",
+      "sources": [
+        "patch130",
+        "steam-news",
+        "bsg-social",
+        "bsg-tech-diary-135"
+      ]
+    },
+    {
+      "id": "eft-hotfix",
+      "statut": "CONFIRME",
+      "observation": "Des réglages et mises à jour non numérotés suivent 1.3.0.0. Le message BSG du 12/11 ne donne pas de numéro de patch : en Seasonal, Black Division passe à 100 % sur les lieux concernés et les récompenses/liste Seasonal Icebreaker changent ; tous modes, réaction, précision, santé et munitions de The Wedge et de ses gardes sont modifiées.",
+      "sources": [
+        "balance-nov",
+        "bsg-social"
+      ]
+    },
+    {
+      "id": "halloween-end",
+      "statut": "ANNONCE",
+      "observation": "Le 16 novembre, BSG décrit l’événement comme encore actif et annonce sa fin la semaine suivante, sans jour précis. La fin des Drops est une échéance distincte.",
+      "sources": [
+        "halloween",
+        "drops"
+      ]
+    },
+    {
+      "id": "kord-breach",
+      "statut": "CONFIRME",
+      "observation": "Kord Breach et son Battle Pass gratuit ont débuté le 3 août 2026 (1.1.0.0). Les Leagues sont annoncées comme lancées le 15 septembre. Fin de Kord Breach annoncée pour le 7 décembre.",
+      "sources": [
+        "patch110",
+        "leagues",
+        "season-end"
+      ]
+    },
+    {
+      "id": "icebreaker",
+      "statut": "CORRECTION_CAHIER",
+      "observation": "BSG confirme l’arrivée le 25 mai en 1.0.5.0 ; expédition contre l’IA de 1–3 joueurs dans les modes EFT officiels, sans matchmaking aléatoire. La note 1.1.5.0 confirme les transits Shoreline/Lighthouse et le kit marin à usage unique. Le message du 12/11 apporte des changements Battle Pass/Seasonal et un rééquilibrage de The Wedge, sans numéro de patch.",
+      "sources": [
+        "patch105",
+        "patch115",
+        "patch120",
+        "balance-nov"
+      ]
+    },
+    {
+      "id": "lighthouse",
+      "statut": "PRECISION_CAHIER",
+      "observation": "Rogues déplacés vers les chalets ; suppression des mines de la station de traitement, pas de garantie pour l’ensemble de la carte.",
+      "sources": [
+        "patch115"
+      ]
+    },
+    {
+      "id": "terminal",
+      "statut": "CORRECTION_CAHIER",
+      "observation": "Terminal figure parmi les 13 emplacements principaux recensés. Le flux contient 19 enregistrements de carte en PvP permanent en comptant variantes, tutoriel et événements.",
+      "sources": [
+        "terminal",
+        "wiki-maps",
+        "tdev"
+      ]
+    },
+    {
+      "id": "boss-rates",
+      "statut": "A_REVALIDER",
+      "observation": "Séparer chances nominales, déclencheurs, modes et événements. Les valeurs brutes du cahier ne sont pas des données confirmées ; confronter à un snapshot daté et aux équilibrages.",
+      "sources": [
+        "wiki-bosses",
+        "tdev",
+        "patch130",
+        "balance-nov"
+      ]
+    },
+    {
+      "id": "spt-history",
+      "statut": "CORROBORE",
+      "observation": "L’ancienne infrastructure a annoncé sa fermeture au plus tard le 12 août 2026 ; Tushonka est le successeur communautaire. Pas d’affirmation générale sur tous les mods.",
+      "sources": [
+        "spt-history",
+        "spt-transition",
+        "forge"
+      ]
+    },
+    {
+      "id": "spt-stable",
+      "statut": "CONFIRME",
+      "observation": "4.1.6 stable (18 septembre 2026) pour EFT 0.16.9.5.40743, avec .NET Desktop Runtime 10.0.9 et ASP.NET Core Runtime 10.0.9 indiqués sur la release.",
+      "sources": [
+        "spt-build",
+        "spt-release"
+      ]
+    },
+    {
+      "id": "spt-5",
+      "statut": "CONFIRME_COMPOSANT_SEULEMENT",
+      "observation": "5.0.0-pre.202611061606 (6 novembre 2026) existe sur NuGet pour SPTushonka.Server.Core. Aucun tag de release correspondant dans SP-Tushonka/build (HTTP 404). L’archive Bleeding Edge jouable et sa version live sont à vérifier séparément.",
+      "sources": [
+        "spt-nuget",
+        "spt-be"
+      ]
+    },
+    {
+      "id": "fika",
+      "statut": "CONFIRME_TAG",
+      "observation": "v2.4.6 figure dans les releases du plugin Project Fika et sur la Forge pour SPT 4.1.6. Vérifier la version serveur et les dépendances avant le guide.",
+      "sources": [
+        "fika",
+        "forge"
+      ]
+    }
+  ]
+}

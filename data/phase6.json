@@ -1,0 +1,1217 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-18T20:22:01+01:00",
+  "armorSnapshot": "data/snapshots/phase-6-armor-2026-11-18.json",
+  "armorPages": [
+    {
+      "file": "pages/armor/index.html",
+      "route": "pages/armor/",
+      "type": "armor-index",
+      "code": "A–00",
+      "label": "Armures & protection",
+      "seoTitle": "Armures Tarkov : couverture, plaques et protection | Guide EFT FR",
+      "description": "Comparez les gilets, plaques, casques et rigs de Tarkov par slot, zones, poids et pénalités. Exports communautaires datés, pas un test client.",
+      "heading": "La couverture compte plus que la classe affichée",
+      "lead": "Un porte-plaques n’est pas une protection uniforme. Comparez les zones et les slots pièce par pièce, puis vérifiez les inserts réellement montés dans votre profil.",
+      "image": "images/armor/armor-hub.jpg",
+      "imageAlt": "Équipement balistique fictif, porte-plaques et casque sur un établi sombre; illustration éditoriale, sans logo ni capture du jeu.",
+      "imageCaption": "Illustration originale · équipement de protection · pas une capture du jeu",
+      "gallery": [
+        {
+          "src": "images/armor/armor-hub.jpg",
+          "alt": "Porte-plaques, plaques amovibles et casque fictifs sur un établi",
+          "caption": "Ambiance d’équipement · les emplacements exacts sont décrits dans le tableau."
+        },
+        {
+          "src": "images/armor/armor-materials.jpg",
+          "alt": "Plaques balistiques fictives en céramique, acier et polymère, sans étiquette",
+          "caption": "Illustration de matériaux · ne représente pas des statistiques du client."
+        }
+      ],
+      "sources": [
+        "tdev-armor-regular",
+        "tdev-armor-pve",
+        "tdev-armor-seasonal",
+        "wiki-armor-vests-2026",
+        "wiki-armor-plates-2026",
+        "wiki-chest-rigs-2026",
+        "wiki-headwear-2026",
+        "wiki-helmet-mods-2026"
+      ],
+      "next": {
+        "label": "Gilets & plaques",
+        "url": "pages/armor/body-armor.html",
+        "blurb": "Séparer la couche souple, les emplacements de plaques et les zones réellement listées."
+      }
+    },
+    {
+      "file": "pages/armor/body-armor.html",
+      "route": "pages/armor/body-armor.html",
+      "type": "armor-body",
+      "code": "A–01",
+      "label": "Gilets & plaques",
+      "seoTitle": "Gilets pare-balles et plaques Tarkov | Guide EFT FR",
+      "description": "Distinguez porte-plaques, protections souples et inserts. Filtrez les gilets et plaques selon les données d’export Tarkov.dev du 18 novembre 2026.",
+      "heading": "Gilet, couche souple et plaque : trois lectures distinctes",
+      "lead": "La ligne d’un gilet peut couvrir plusieurs pièces de protection. N’attribuez pas une classe unique à tout le torse : inspectez chaque slot et vérifiez si la plaque est présente.",
+      "image": "images/armor/armor-body-plates.jpg",
+      "imageAlt": "Porte-plaques et plaques balistiques fictifs, vierges de texte et de marque, photographiés dans un atelier sombre; illustration générée, non issue du jeu.",
+      "imageCaption": "Illustration JPG générée · l’image n’encode aucune classe, valeur ni compatibilité EFT",
+      "gallery": [
+        {
+          "src": "images/armor/armor-materials.jpg",
+          "alt": "Plaques balistiques fictives en matériaux variés sur une table de comparaison, sans étiquette.",
+          "caption": "Illustration de matériaux sans nomenclature; les valeurs affichées proviennent de l’export."
+        },
+        {
+          "src": "images/armor/armor-body-plates.jpg",
+          "alt": "Porte-plaques et inserts balistiques fictifs sans inscription ni logo.",
+          "caption": "Illustration générée · les caractéristiques exactes sont dans le tableau, pas dans l’image."
+        }
+      ],
+      "sources": [
+        "tdev-armor-regular",
+        "tdev-armor-pve",
+        "tdev-armor-seasonal",
+        "wiki-armor-vests-2026",
+        "wiki-armor-plates-2026"
+      ],
+      "next": {
+        "label": "Comparateur d’armures",
+        "url": "pages/armor/armor-chart.html",
+        "blurb": "Comparer deux objets du même groupe, sans fusionner les classes de leurs emplacements."
+      }
+    },
+    {
+      "file": "pages/armor/helmets.html",
+      "route": "pages/armor/helmets.html",
+      "type": "armor-helmets",
+      "code": "A–02",
+      "label": "Casques & visières",
+      "seoTitle": "Casques, visières et protections de tête Tarkov | Guide EFT FR",
+      "description": "Comparez zones de tête, slots de visière, matériaux, pénalités et compatibilités exportées. Les conflits de casque et de casque audio restent à valider en jeu.",
+      "heading": "Lire la protection de tête par zone et accessoire",
+      "lead": "Une coque, une visière et un protège-joue ne couvrent pas la même zone. Le niveau sonore et les compatibilités d’accessoires changent aussi d’un casque à l’autre.",
+      "image": "images/armor/armor-helmet-visor.jpg",
+      "imageAlt": "Casque balistique fictif avec visière relevée et protection auditive sur une étagère de refuge; illustration éditoriale.",
+      "imageCaption": "Casque et accessoires fictifs · compatibilités à vérifier dans l’interface du jeu",
+      "gallery": [
+        {
+          "src": "images/armor/armor-helmet-visor.jpg",
+          "alt": "Casque fictif avec visière relevée et protection auditive",
+          "caption": "Coque, visière, rails et protection auditive sont des pièces distinctes."
+        },
+        {
+          "src": "images/armor/armor-hub.jpg",
+          "alt": "Équipement de protection fictif posé sur un établi",
+          "caption": "Illustration d’ambiance · aucune classe ou compatibilité n’est encodée dans l’image."
+        }
+      ],
+      "sources": [
+        "tdev-armor-regular",
+        "tdev-armor-pve",
+        "tdev-armor-seasonal",
+        "wiki-headwear-2026",
+        "wiki-helmet-mods-2026"
+      ],
+      "next": {
+        "label": "Rigs tactiques",
+        "url": "pages/armor/rigs.html",
+        "blurb": "Comparer cases de rangement et protection sans confondre gilet et armure."
+      }
+    },
+    {
+      "file": "pages/armor/rigs.html",
+      "route": "pages/armor/rigs.html",
+      "type": "armor-rigs",
+      "code": "A–03",
+      "label": "Rigs tactiques",
+      "seoTitle": "Rigs tactiques et armored rigs Tarkov | Guide EFT FR",
+      "description": "Comparez stockage, grilles, poids et protection intégrée des rigs. Les emplacements d’inventaire ne sont pas une classe d’armure.",
+      "heading": "Stockage et protection ne sont pas la même statistique",
+      "lead": "Un rig peut être un simple gilet de rangement ou un armored rig avec plusieurs protections. La taille des cases et les restrictions d’objets comptent autant que la capacité totale exportée.",
+      "image": "images/armor/armor-rig-storage.jpg",
+      "imageAlt": "Rig tactique fictif et poches de rangement sur une table de terrain; illustration éditoriale sans marquage.",
+      "imageCaption": "Disposition de rangement fictive · pas une grille d’inventaire réelle",
+      "gallery": [
+        {
+          "src": "images/armor/armor-rig-storage.jpg",
+          "alt": "Rig tactique fictif avec plusieurs poches sur un établi",
+          "caption": "Illustration d’un rig · la grille du jeu est détaillée en texte dans la fiche."
+        },
+        {
+          "src": "images/armor/armor-materials.jpg",
+          "alt": "Plaques balistiques fictives sans étiquette sur une table de comparaison; illustration éditoriale.",
+          "caption": "Illustration de matériaux sans nomenclature; les valeurs affichées proviennent de l’export."
+        }
+      ],
+      "sources": [
+        "tdev-armor-regular",
+        "tdev-armor-pve",
+        "tdev-armor-seasonal",
+        "wiki-chest-rigs-2026",
+        "wiki-armor-plates-2026"
+      ],
+      "next": {
+        "label": "Comparateur d’armures",
+        "url": "pages/armor/armor-chart.html",
+        "blurb": "Comparer les propriétés exportées et leur mode de lecture."
+      }
+    },
+    {
+      "file": "pages/armor/armor-chart.html",
+      "route": "pages/armor/armor-chart.html",
+      "type": "armor-chart",
+      "code": "A–04",
+      "label": "Comparateur d’armures",
+      "seoTitle": "Comparateur d’armures et de plaques Tarkov | Guide EFT FR",
+      "description": "Comparez deux objets de même catégorie selon leurs slots, classes par pièce, zones, durabilité, poids, matériau et prix flea récent disponible.",
+      "heading": "Comparer deux objets sans inventer une classe globale",
+      "lead": "Sélectionnez deux pièces du même groupe. Les classes restent attachées à leurs slots; le filtre de classe repère une classe présente sur au moins une pièce, il ne calcule pas une armure totale.",
+      "image": "images/armor/armor-materials.jpg",
+      "imageAlt": "Plaques balistiques fictives de plusieurs matériaux sur une table de comparaison; illustration éditoriale.",
+      "imageCaption": "Comparaison visuelle fictive · les valeurs viennent du tableau d’export, pas de l’image",
+      "gallery": [
+        {
+          "src": "images/armor/armor-materials.jpg",
+          "alt": "Plaques fictives en céramique, acier et polymère",
+          "caption": "Les matériaux et leur état de réparation doivent être comparés avec les statistiques datées."
+        },
+        {
+          "src": "images/armor/armor-materials.jpg",
+          "alt": "Plaques balistiques fictives sans étiquette sur une table de comparaison; illustration éditoriale.",
+          "caption": "Illustration de matériaux sans nomenclature; les valeurs affichées proviennent de l’export."
+        }
+      ],
+      "sources": [
+        "tdev-armor-regular",
+        "tdev-armor-pve",
+        "tdev-armor-seasonal",
+        "wiki-armor-vests-2026",
+        "wiki-armor-plates-2026"
+      ],
+      "next": {
+        "label": "Armures & protection",
+        "url": "pages/armor/",
+        "blurb": "Revenir au guide des slots et à l’index filtrable."
+      }
+    }
+  ],
+  "bossHub": {
+    "file": "pages/bosses/index.html",
+    "route": "pages/bosses/",
+    "type": "boss-index",
+    "code": "B–00",
+    "label": "Boss de Tarkov",
+    "seoTitle": "Boss de Tarkov : lieux, profils et stratégies prudentes | Guide EFT FR",
+    "description": "Repérez les boss et groupes selon les lieux rapportés, leurs gardes et les mises à jour officielles récentes. Les apparitions par raid et par mode ne sont pas garanties.",
+    "heading": "Reconnaître la rencontre avant de chercher un taux",
+    "lead": "Les lieux et profils ci-dessous croisent la wiki communautaire et des annonces BSG datées. Ils ne prédisent pas le boss d’un raid : vérifiez l’événement, le mode et les conditions affichés par le client.",
+    "image": "images/bosses/bosses-hub.jpg",
+    "imageAlt": "Silhouette anonyme en équipement dans un couloir industriel pluvieux; illustration originale d’ambiance, non associée à un boss précis.",
+    "imageCaption": "Illustration d’ambiance originale · figure fictive non identifiée",
+    "gallery": [
+      {
+        "src": "images/bosses/bosses-hub.jpg",
+        "alt": "Silhouette anonyme dans un couloir industriel sous la pluie",
+        "caption": "Visuel d’ambiance original · aucun boss, lieu ou taux n’est représenté."
+      },
+      {
+        "src": "images/bosses/boss-goons.jpg",
+        "alt": "Trois opérateurs anonymes sur une crête boisée dans la brume",
+        "caption": "Illustration de groupe fictive · pas une capture ni une composition exacte du jeu."
+      }
+    ],
+    "sources": [
+      "wiki-bosses",
+      "bsg-partisan-2026-10",
+      "bsg-zryachiy-2026-10",
+      "balance-nov",
+      "halloween",
+      "patch120",
+      "wiki-labyrinth"
+    ],
+    "next": {
+      "label": "Reshala",
+      "url": "pages/bosses/reshala.html",
+      "blurb": "Un profil de boss par fiche; les apparitions et les taux restent à vérifier dans le raid."
+    }
+  },
+  "bossProfiles": [
+    {
+      "id": "reshala",
+      "file": "pages/bosses/reshala.html",
+      "route": "pages/bosses/reshala.html",
+      "code": "B–01",
+      "label": "Reshala",
+      "seoTitle": "Reshala : Customs, gardes et Golden TT | Guide EFT FR",
+      "description": "Repères communautaires sur Reshala, ses lieux rapportés à Customs et Terminal, ses gardes et les limites des stratégies non testées en raid.",
+      "heading": "Reshala : sécuriser la zone avant le butin",
+      "lead": "La wiki rapporte Reshala à Customs et Terminal. Le nombre de gardes et les secteurs diffèrent selon le lieu; l’export communautaire n’atteste pas sa présence dans votre raid.",
+      "group": "Boss individuel",
+      "faction": "Scavs · wiki communautaire",
+      "maps": [
+        "Customs",
+        "Terminal"
+      ],
+      "locations": [
+        {
+          "map": "Customs",
+          "detail": "Dortoirs, New Gas ou base Scav : lieux rapportés par la wiki; les positions peuvent varier."
+        },
+        {
+          "map": "Terminal",
+          "detail": "Zone des postes d’amarrage des navires-conteneurs moyens : relevé wiki, roster du raid non garanti."
+        }
+      ],
+      "escorts": "2–4 gardes à Customs; 3 indiqués à Terminal par la wiki. Chiffres communautaires, non testés en client.",
+      "signature": "Golden TT-33 et clé des dortoirs attribués à sa fiche wiki; taux de butin non repris.",
+      "role": "La fiche communautaire le décrit comme restant souvent au centre du groupe, tandis que ses gardes peuvent pousser. Positions et équipement sont variables.",
+      "tactics": [
+        "À Customs, vérifiez d’abord plusieurs approches vers les dortoirs, New Gas et la base Scav; ne supposez pas un point fixe.",
+        "Repérez les gardes et les angles avant d’entrer dans les bâtiments. Sécurisez la zone avant toute fouille; c’est un conseil de prudence, pas une IA garantie.",
+        "La Golden TT est un objet de quête rapporté par la wiki; ne planifiez pas un taux de drop qui n’est pas publié officiellement."
+      ],
+      "modeNotes": {
+        "regular": "La wiki liste Customs et Terminal; aucune disponibilité ou probabilité par raid n’est confirmée ici par BSG.",
+        "pve": "La liste de lieux est communautaire et ne confirme pas un spawn PvE. Vérifiez la carte, l’événement et le raid du compte.",
+        "pvp-season": "La liste de lieux est communautaire; aucun taux Seasonal propre à Reshala n’est repris."
+      },
+      "officialNotes": [],
+      "health": {
+        "total": 950,
+        "parts": [],
+        "sourceDate": "2026-11-18",
+        "label": "Total HP transcrit d’une table de la wiki communautaire consultée le 18 novembre 2026; peut dépendre du patch et n’a pas été vérifié dans le client."
+      },
+      "gallery": [
+        {
+          "src": "images/bosses/boss-operator.jpg",
+          "alt": "Opérateur anonyme fictif dans un passage de béton; ne représente pas Reshala",
+          "caption": "Illustration d’ambiance générique · non représentation de Reshala."
+        },
+        {
+          "src": "images/maps/customs.jpg",
+          "alt": "Illustration originale d’une route industrielle de Customs, sans plan de jeu",
+          "caption": "Ambiance de carte · aucun point de spawn n’est indiqué."
+        }
+      ],
+      "sources": [
+        "wiki-boss-reshala",
+        "wiki-bosses"
+      ]
+    },
+    {
+      "id": "killa",
+      "file": "pages/bosses/killa.html",
+      "route": "pages/bosses/killa.html",
+      "code": "B–02",
+      "label": "Killa",
+      "seoTitle": "Killa : Interchange, équipement et repères | Guide EFT FR",
+      "description": "Repères de Killa à Interchange et Terminal, séparés de Vengeful Killa au Labyrinth. Informations communautaires et conseils prudents.",
+      "heading": "Killa : surveiller les angles du mall",
+      "lead": "La wiki associe le Killa classique à Interchange et Terminal. Son pendant Vengeful Killa est une entrée distincte du Labyrinth : ne mélangez pas les deux profils.",
+      "group": "Boss individuel · variantes à distinguer",
+      "faction": "Scavs · wiki communautaire",
+      "maps": [
+        "Interchange",
+        "Terminal"
+      ],
+      "locations": [
+        {
+          "map": "Interchange",
+          "detail": "Secteurs du centre commercial ULTRA, avec plusieurs magasins et niveaux; emplacement exact variable selon la wiki."
+        },
+        {
+          "map": "Terminal",
+          "detail": "Zone des postes d’amarrage des navires-conteneurs moyens; il s’agit d’un roster de cinq bosses rapporté par la wiki."
+        }
+      ],
+      "escorts": "Aucun garde personnel n’est listé pour Killa par la table communautaire consultée.",
+      "signature": "Masque Maska et RPK-16 cités par la wiki. Le pendant Vengeful Killa au Labyrinth a sa propre fiche.",
+      "role": "La wiki décrit une IA qui supprime à l’arme automatique et avance de couvert en couvert; ce comportement n’est pas un script garanti.",
+      "tactics": [
+        "À Interchange, examinez les lignes de vue entre magasins, étage et parking avant une traversée; ne courez pas à découvert sur un axe long.",
+        "Gardez une sortie vers un couvert et une option de repli. Les conseils de joueurs sur un trajet unique ne sont pas validés pour tous les raids.",
+        "Pour le Labyrinth, ouvrez plutôt la fiche Vengeful Killa : la rencontre et son déclencheur sont distincts du Killa d’Interchange."
+      ],
+      "modeNotes": {
+        "regular": "Les lieux Interchange et Terminal viennent de la wiki; aucune disponibilité ni probabilité par raid n’est confirmée officiellement ici.",
+        "pve": "La liste communautaire n’établit pas une présence PvE ni une variante d’événement; vérifiez le raid courant.",
+        "pvp-season": "La liste communautaire ne fournit pas de taux Seasonal propre à Killa; le mode ne peut pas être déduit du nom de carte."
+      },
+      "officialNotes": [],
+      "health": {
+        "total": 890,
+        "parts": [],
+        "sourceDate": "2026-11-18",
+        "label": "Total HP transcrit d’une table de la wiki communautaire consultée le 18 novembre 2026; peut dépendre du patch et n’a pas été vérifié dans le client."
+      },
+      "gallery": [
+        {
+          "src": "images/bosses/killa-ambience.jpg",
+          "alt": "Silhouette inspirée d’un adversaire masqué dans un centre commercial; illustration d’ambiance, pas une capture",
+          "caption": "Illustration éditoriale d’ambiance · pas un relevé de localisation."
+        },
+        {
+          "src": "images/maps/interchange.jpg",
+          "alt": "Illustration originale d’un centre commercial fictif inspiré d’Interchange",
+          "caption": "Ambiance de carte · les secteurs décrits sont des repères wiki, pas des coordonnées."
+        }
+      ],
+      "sources": [
+        "wiki-boss-killa",
+        "wiki-bosses",
+        "wiki-boss-vengeful-killa"
+      ]
+    },
+    {
+      "id": "shturman",
+      "file": "pages/bosses/shturman.html",
+      "route": "pages/bosses/shturman.html",
+      "code": "B–03",
+      "label": "Shturman",
+      "seoTitle": "Shturman : Woods, scierie et gardes | Guide EFT FR",
+      "description": "Repérez les axes de la scierie de Woods et les gardes de Shturman. Les clés, objets et stratégies restent des informations communautaires.",
+      "heading": "Shturman : traverser la scierie sans offrir sa silhouette",
+      "lead": "Le profil communautaire situe Shturman à la scierie de Woods avec des gardes. Un tir à longue distance peut venir d’un angle hors de votre ligne de visée : le point de spawn n’est pas garanti.",
+      "group": "Boss individuel avec gardes",
+      "faction": "Scavs · wiki communautaire",
+      "maps": [
+        "Woods"
+      ],
+      "locations": [
+        {
+          "map": "Woods",
+          "detail": "Scierie au sud du grand lac selon la wiki; positions précises et activité du raid à confirmer."
+        }
+      ],
+      "escorts": "2–4 gardes selon la page communautaire; nombre non vérifié dans le client.",
+      "signature": "Clé de cache de Shturman et Red Rebel cités comme objets possibles par la wiki; aucune probabilité n’est publiée ici.",
+      "role": "La wiki décrit un engagement à longue distance autour de la scierie, avec des gardes capables de se déplacer ou de flanquer.",
+      "tactics": [
+        "Évitez de traverser la clairière de la scierie sans repérer les couvertures et les ouvertures de tir.",
+        "Identifiez si le tir vient du boss ou d’un garde avant de vous exposer à nouveau; un repositionnement n’est pas un spawn fixe.",
+        "Les objets de quête et la Red Rebel sont des mentions communautaires; ne comptez pas sur un taux non sourcé."
+      ],
+      "modeNotes": {
+        "regular": "Woods est le lieu rapporté par la wiki; pas de taux par raid confirmé ici par BSG.",
+        "pve": "La page communautaire ne vérifie pas la présence de Shturman en PvE pour chaque événement ou profil.",
+        "pvp-season": "Aucun taux Seasonal propre à Shturman n’est repris; le relevé de lieu reste communautaire."
+      },
+      "officialNotes": [],
+      "health": {
+        "total": 812,
+        "parts": [],
+        "sourceDate": "2026-11-18",
+        "label": "Total HP transcrit d’une table de la wiki communautaire consultée le 18 novembre 2026; peut dépendre du patch et n’a pas été vérifié dans le client."
+      },
+      "gallery": [
+        {
+          "src": "images/bosses/boss-operator.jpg",
+          "alt": "Opérateur anonyme fictif dans une zone de forêt; ne représente pas Shturman",
+          "caption": "Illustration d’ambiance générique · pas le boss ni une scène de raid."
+        },
+        {
+          "src": "images/maps/woods.jpg",
+          "alt": "Illustration originale d’une forêt fictive de Woods, sans plan de jeu",
+          "caption": "Ambiance de forêt · aucun point de tir ou de spawn n’est marqué."
+        }
+      ],
+      "sources": [
+        "wiki-boss-shturman",
+        "wiki-bosses"
+      ]
+    },
+    {
+      "id": "glukhar",
+      "file": "pages/bosses/glukhar.html",
+      "route": "pages/bosses/glukhar.html",
+      "code": "B–04",
+      "label": "Glukhar",
+      "seoTitle": "Glukhar : Reserve, groupes de gardes et Terminal | Guide EFT FR",
+      "description": "Distinguez Glukhar, ses groupes de gardes et la variante de lieu Terminal. Aucun nombre d’ennemis n’est déduit des compteurs d’API.",
+      "heading": "Glukhar : lire un groupe, pas un seul contact",
+      "lead": "La fiche wiki distingue plusieurs rôles de gardes et deux contextes de carte. Les compteurs bruts d’ennemis de Tarkov.dev ne sont pas un nombre de boss uniques ni un roster garanti.",
+      "group": "Boss individuel · groupe de gardes",
+      "faction": "Scavs · wiki communautaire",
+      "maps": [
+        "Reserve",
+        "Terminal"
+      ],
+      "locations": [
+        {
+          "map": "Reserve",
+          "detail": "Base militaire; la page mentionne plusieurs groupes et rôles de gardes. L’emplacement et le nombre varient selon le raid."
+        },
+        {
+          "map": "Terminal",
+          "detail": "La wiki rapporte trois gardes près des postes d’amarrage moyens; distinct du profil Reserve."
+        }
+      ],
+      "escorts": "3–6 followers indiqués sur la page Reserve; l’entrée Terminal est décrite avec 3. Chiffres communautaires, pas des compteurs live.",
+      "signature": "ASh-12 cité dans la table communautaire; la composition des armes varie.",
+      "role": "La page distingue gardes d’assaut, éclaireurs et sécurité; ne regroupez pas ces catégories en un seul ennemi ou une valeur de HP commune.",
+      "tactics": [
+        "À Reserve, identifiez les secteurs ouverts et les lignes de tir avant d’entrer; les différents groupes peuvent couvrir plusieurs axes.",
+        "Avancez par couvert et gardez une option de repli plutôt que de poursuivre un garde isolé dans un second angle.",
+        "Les zones et la composition Terminal sont rapportées par la wiki; le catalogue d’API n’en confirme pas la sélection dans votre raid."
+      ],
+      "modeNotes": {
+        "regular": "La wiki associe Glukhar à Reserve et Terminal; pas de taux officiel ou d’apparition garantie affichée.",
+        "pve": "Ne déduisez pas une présence PvE du compteur `bossEntries`; ce compteur agrège des enregistrements d’ennemis.",
+        "pvp-season": "Le roster de lieu reste communautaire; aucune probabilité par mode n’est fournie ici."
+      },
+      "officialNotes": [],
+      "health": {
+        "total": 1010,
+        "parts": [],
+        "sourceDate": "2026-11-18",
+        "label": "Total HP transcrit d’une table de la wiki communautaire consultée le 18 novembre 2026; peut dépendre du patch et n’a pas été vérifié dans le client."
+      },
+      "gallery": [
+        {
+          "src": "images/bosses/boss-operator.jpg",
+          "alt": "Opérateur anonyme fictif dans un abri de béton; ne représente pas Glukhar",
+          "caption": "Illustration d’ambiance générique · pas un boss nommé."
+        },
+        {
+          "src": "images/maps/reserve.jpg",
+          "alt": "Illustration originale d’une base militaire fictive inspirée de Reserve",
+          "caption": "Ambiance de lieu · pas une carte tactique ni un relevé de position."
+        }
+      ],
+      "sources": [
+        "wiki-boss-glukhar",
+        "wiki-bosses"
+      ]
+    },
+    {
+      "id": "sanitar",
+      "file": "pages/bosses/sanitar.html",
+      "route": "pages/bosses/sanitar.html",
+      "code": "B–05",
+      "label": "Sanitar",
+      "seoTitle": "Sanitar : Shoreline, gardes et secteurs rapportés | Guide EFT FR",
+      "description": "Préparez une rencontre rapportée avec Sanitar à Shoreline ou Terminal, sans figer un taux ni un point de spawn communautaire.",
+      "heading": "Sanitar : vérifier les secteurs et les gardes",
+      "lead": "La wiki rapporte Sanitar à Shoreline et Terminal. Les secteurs de Shoreline comprennent plusieurs zones éloignées; une seule vérification de la côte ne suffit pas à confirmer son absence.",
+      "group": "Boss individuel avec gardes",
+      "faction": "Scavs · wiki communautaire",
+      "maps": [
+        "Shoreline",
+        "Terminal"
+      ],
+      "locations": [
+        {
+          "map": "Shoreline",
+          "detail": "Cottages et zone du port / jetée; l’article wiki décrit aussi le Resort. Ces lieux ne garantissent pas une apparition."
+        },
+        {
+          "map": "Terminal",
+          "detail": "Zone des postes d’amarrage moyens, indiquée dans le roster communautaire des cinq bosses possibles."
+        }
+      ],
+      "escorts": "2–4 gardes selon la page wiki; non vérifié en jeu.",
+      "signature": "Carte à marquage bleu et sac de Sanitar figurent dans la table d’équipement communautaire; ne pas afficher de probabilité de butin.",
+      "role": "La fiche communautaire le distingue par un équipement de soins et des gardes; le comportement précis de soin et leur équipement doivent être vérifiés dans le client.",
+      "tactics": [
+        "À Shoreline, considérez les cottages, le port et le Resort comme des secteurs séparés; planifiez une route de repli entre zones.",
+        "Repérez les gardes avant de vous soigner ou de fouiller. N’utilisez pas une ancienne carte de spawn comme preuve qu’une zone est vide.",
+        "Les clés et objets rapportés par la wiki ne signifient pas un drop garanti; la fiche ne reprend aucun taux."
+      ],
+      "modeNotes": {
+        "regular": "Shoreline et Terminal sont des lieux wiki; aucune présence ou probabilité par raid n’est attestée par BSG ici.",
+        "pve": "La liste de lieux communautaire ne vérifie pas le profil PvE; contrôlez les informations dans le raid.",
+        "pvp-season": "Aucun taux Seasonal propre à Sanitar n’est repris; l’événement peut modifier les rencontres."
+      },
+      "officialNotes": [],
+      "health": {
+        "total": 1270,
+        "parts": [],
+        "sourceDate": "2026-11-18",
+        "label": "Total HP transcrit d’une table de la wiki communautaire consultée le 18 novembre 2026; peut dépendre du patch et n’a pas été vérifié dans le client."
+      },
+      "gallery": [
+        {
+          "src": "images/bosses/boss-operator.jpg",
+          "alt": "Opérateur anonyme fictif dans un couloir médicalisé; ne représente pas Sanitar",
+          "caption": "Illustration générique · non représentation du boss."
+        },
+        {
+          "src": "images/maps/shoreline.jpg",
+          "alt": "Illustration originale d’un littoral fictif inspiré de Shoreline",
+          "caption": "Ambiance de côte · pas un marqueur de spawn."
+        }
+      ],
+      "sources": [
+        "wiki-boss-sanitar",
+        "wiki-bosses"
+      ]
+    },
+    {
+      "id": "tagilla",
+      "file": "pages/bosses/tagilla.html",
+      "route": "pages/bosses/tagilla.html",
+      "code": "B–06",
+      "label": "Tagilla",
+      "seoTitle": "Tagilla : Factory, variantes et équipement | Guide EFT FR",
+      "description": "Distinguez Tagilla de Factory, ses lieux communautaires et la variante événementielle Infected. L’événement reste daté et les taux sont omis.",
+      "heading": "Tagilla : reconnaître la variante avant d’entrer",
+      "lead": "La wiki associe Tagilla à Factory, Interchange et Terminal. L’événement Halloween 2026 ajoute des variantes Infected : cette rencontre temporaire ne se confond pas avec le boss standard.",
+      "group": "Boss individuel · variantes événementielles séparées",
+      "faction": "Scavs · wiki communautaire",
+      "maps": [
+        "Factory",
+        "Interchange",
+        "Terminal"
+      ],
+      "locations": [
+        {
+          "map": "Factory",
+          "detail": "Lieu standard rapporté par la wiki; la position dans l’usine varie."
+        },
+        {
+          "map": "Interchange",
+          "detail": "La page wiki cite le parking sous Goshan; non confirmé pour chaque mode ou événement."
+        },
+        {
+          "map": "Terminal",
+          "detail": "Postes d’amarrage moyens, dans la liste communautaire des cinq bosses possibles."
+        }
+      ],
+      "escorts": "Aucun garde personnel n’est listé pour Tagilla dans la table communautaire consultée.",
+      "signature": "Masque de soudage et arme de mêlée / marteau figurent dans la fiche communautaire. Les règles de butin ne sont pas garanties.",
+      "role": "Le profil de la wiki le décrit comme une menace de proximité; l’événement peut présenter une variante infectée distincte.",
+      "tactics": [
+        "À Factory, gardez une distance de sécurité et ne vous enfermez pas dans un couloir sans sortie; ce conseil ne garantit pas le comportement de l’IA.",
+        "Vérifiez si le raid est standard ou événementiel avant de vous fier à une ancienne vidéo de combat.",
+        "BSG a annoncé que l’événement Halloween restait actif au 16 novembre et finirait la semaine suivante, sans jour exact dans ce message."
+      ],
+      "modeNotes": {
+        "regular": "Les lieux sont ceux de la wiki communautaire; l’événement Infected est séparé du profil standard.",
+        "pve": "Les lieux ne prouvent pas le spawn PvE du raid. Le patch 1.3.0.0 a aussi ajouté des PMC bots difficiles en PvE, pas un taux de boss.",
+        "pvp-season": "Séparez le roster Seasonal de l’événement Halloween; aucune probabilité par mode n’est reprise."
+      },
+      "officialNotes": [
+        {
+          "key": "halloween",
+          "text": "BSG a indiqué le 16 novembre que l’événement Halloween restait actif et prendrait fin la semaine suivante; le jour exact n’était pas donné."
+        },
+        {
+          "key": "patch120",
+          "text": "Le patch 1.2.0.0 a corrigé l’apparition de Tagilla trop près du joueur au début d’un raid Factory; cela n’atteste pas une position fixe."
+        }
+      ],
+      "health": {
+        "total": 1220,
+        "parts": [],
+        "sourceDate": "2026-11-18",
+        "label": "Total HP transcrit d’une table de la wiki communautaire consultée le 18 novembre 2026; peut dépendre du patch et n’a pas été vérifié dans le client."
+      },
+      "gallery": [
+        {
+          "src": "images/bosses/boss-operator.jpg",
+          "alt": "Silhouette fictive d’un adversaire anonyme dans un passage industriel; ne représente pas Tagilla",
+          "caption": "Illustration générique · pas le boss ni la variante Infected."
+        },
+        {
+          "src": "images/maps/factory.jpg",
+          "alt": "Illustration originale d’un atelier industriel fictif inspiré de Factory",
+          "caption": "Ambiance d’usine · les points d’apparition ne sont pas tracés."
+        }
+      ],
+      "sources": [
+        "wiki-boss-tagilla",
+        "wiki-bosses",
+        "halloween",
+        "patch120"
+      ]
+    },
+    {
+      "id": "kaban",
+      "file": "pages/bosses/kaban.html",
+      "route": "pages/bosses/kaban.html",
+      "code": "B–07",
+      "label": "Kaban",
+      "seoTitle": "Kaban : LexOs, gardes et lignes de tir | Guide EFT FR",
+      "description": "Repères communautaires sur Kaban et la zone LexOs de Streets of Tarkov; distinguez gardes, bodyguards et snipers sans compter un spawn garanti.",
+      "heading": "Kaban : traiter LexOs comme une zone défendue",
+      "lead": "La wiki place Kaban dans le concessionnaire LexOs de Streets of Tarkov et distingue des gardes, ses bodyguards Gus/Basmach et des snipers. La composition exacte d’un raid n’est pas confirmée.",
+      "group": "Boss individuel · défense de site",
+      "faction": "Scavs · wiki communautaire",
+      "maps": [
+        "Streets of Tarkov"
+      ],
+      "locations": [
+        {
+          "map": "Streets of Tarkov",
+          "detail": "Concessionnaire LexOs selon la wiki; les lignes de vue, fenêtres et accès doivent être relus sur une carte actuelle et en jeu."
+        }
+      ],
+      "escorts": "La page wiki distingue Gus et Basmach, quatre gardes supplémentaires et 2–3 snipers; chiffres communautaires non confirmés en raid.",
+      "signature": "PKM ou PKP listés comme armes notables par la table des boss communautaire; pas un équipement garanti.",
+      "role": "Un combat de groupe avec des angles potentiellement éloignés; la liste de mobs API n’est pas un nombre de bosses distincts.",
+      "tactics": [
+        "Repérez les fenêtres et angles extérieurs avant d’entrer dans le complexe; évitez de rester immobile dans une ligne de tir longue.",
+        "Traitez les bodyguards, gardes et snipers comme des rôles différents signalés par la wiki, pas comme une seule cible.",
+        "Ne lootez pas tant que les angles et l’accès au repli ne sont pas sécurisés. Les détails de carte restent communautaires."
+      ],
+      "modeNotes": {
+        "regular": "LexOs est le repère wiki; aucune apparition ou probabilité officielle par raid n’est publiée ici.",
+        "pve": "Les données d’export et la wiki ne confirment pas le roster PvE du raid courant.",
+        "pvp-season": "Aucun taux Seasonal propre à Kaban n’est utilisé; le mode reste à vérifier dans le client."
+      },
+      "officialNotes": [],
+      "health": {
+        "total": 1300,
+        "parts": [],
+        "sourceDate": "2026-11-18",
+        "label": "Total HP transcrit d’une table de la wiki communautaire consultée le 18 novembre 2026; peut dépendre du patch et n’a pas été vérifié dans le client."
+      },
+      "gallery": [
+        {
+          "src": "images/bosses/boss-operator.jpg",
+          "alt": "Opérateur anonyme fictif dans une zone urbaine; ne représente pas Kaban",
+          "caption": "Illustration d’ambiance générique · non une capture de LexOs."
+        },
+        {
+          "src": "images/maps/streets-of-tarkov-district.jpg",
+          "alt": "Illustration originale d’un quartier urbain fictif inspiré de Streets of Tarkov",
+          "caption": "Ambiance urbaine · aucun repère tactique n’est localisé."
+        }
+      ],
+      "sources": [
+        "wiki-boss-kaban",
+        "wiki-bosses"
+      ]
+    },
+    {
+      "id": "kollontay",
+      "file": "pages/bosses/kollontay.html",
+      "route": "pages/bosses/kollontay.html",
+      "code": "B–08",
+      "label": "Kollontay",
+      "seoTitle": "Kollontay : Streets, lieux rapportés et gardes | Guide EFT FR",
+      "description": "Préparez les deux secteurs de Kollontay à Streets rapportés par la wiki. Le profil et ses effets ne sont pas certifiés BSG dans cette fiche.",
+      "heading": "Kollontay : deux secteurs, pas un point unique",
+      "lead": "La page communautaire décrit des variantes à l’Académie du ministère de l’Intérieur et au Klimov Shopping Mall. Les secteurs et l’état de la carte doivent être vérifiés dans le raid.",
+      "group": "Boss individuel · variantes de lieu",
+      "faction": "Scavs · wiki communautaire",
+      "maps": [
+        "Streets of Tarkov"
+      ],
+      "locations": [
+        {
+          "map": "Streets of Tarkov",
+          "detail": "Académie du ministère de l’Intérieur ou Klimov Shopping Mall dans la wiki; ce ne sont pas des positions confirmées pour chaque raid."
+        }
+      ],
+      "escorts": "Quatre gardes indiqués par la wiki; non vérifiés dans le client.",
+      "signature": "Le PR-Taran police baton est l’objet notable associé par la wiki. Les effets de combat ne sont pas transformés ici en règle garantie.",
+      "role": "Deux secteurs et des groupes de garde sont mentionnés; ne confondez pas le nom de la carte avec un spawn fixe.",
+      "tactics": [
+        "Avant l’entrée, identifiez la variante de secteur et les couloirs de repli; préparez-vous à des angles proches comme à des traversées ouvertes.",
+        "La wiki associe un baton au profil mais ne constitue pas un test de proc ou de panne d’arme actuel.",
+        "Si le secteur ne correspond pas à votre raid, réévaluez l’objectif plutôt que de chercher un marqueur ancien."
+      ],
+      "modeNotes": {
+        "regular": "Les lieux sont rapportés par la wiki; aucune probabilité officielle ou condition de raid n’est donnée ici.",
+        "pve": "La présence PvE et la variante de lieu restent à vérifier; la carte communautaire ne prouve pas un spawn.",
+        "pvp-season": "Aucun taux Seasonal n’est repris; vérifiez la carte sélectionnée et les annonces d’événement."
+      },
+      "officialNotes": [],
+      "health": {
+        "total": 1055,
+        "parts": [],
+        "sourceDate": "2026-11-18",
+        "label": "Total HP transcrit d’une table de la wiki communautaire consultée le 18 novembre 2026; peut dépendre du patch et n’a pas été vérifié dans le client."
+      },
+      "gallery": [
+        {
+          "src": "images/bosses/boss-operator.jpg",
+          "alt": "Opérateur anonyme fictif dans une galerie urbaine; ne représente pas Kollontay",
+          "caption": "Illustration d’ambiance générique · aucun secteur précis."
+        },
+        {
+          "src": "images/maps/streets-of-tarkov-district.jpg",
+          "alt": "Illustration originale d’un quartier urbain fictif",
+          "caption": "Ambiance urbaine · pas une carte ou une position de boss."
+        }
+      ],
+      "sources": [
+        "wiki-boss-kollontay",
+        "wiki-bosses"
+      ]
+    },
+    {
+      "id": "zryachiy",
+      "file": "pages/bosses/zryachiy.html",
+      "route": "pages/bosses/zryachiy.html",
+      "code": "B–09",
+      "label": "Zryachiy",
+      "seoTitle": "Zryachiy : Lighthouse, péninsule et DSP | Guide EFT FR",
+      "description": "Repères communautaires et correctif BSG du 9 octobre pour Zryachiy. L’approche de la péninsule et les règles DSP restent à contrôler en raid.",
+      "heading": "Zryachiy : ne pas approcher la péninsule à l’aveugle",
+      "lead": "Zryachiy et ses gardes sont associés à Lighthouse par la wiki. BSG a corrigé sa position le 9 octobre 2026; cela ne publie ni itinéraire sûr, ni condition DSP exhaustive.",
+      "group": "Boss individuel · gardien de zone",
+      "faction": "Cultistes · wiki communautaire",
+      "maps": [
+        "Lighthouse"
+      ],
+      "locations": [
+        {
+          "map": "Lighthouse",
+          "detail": "Péninsule du phare, d’après la wiki; le correctif BSG du 9 octobre a changé une position incorrecte, sans publier de coordonnées."
+        }
+      ],
+      "escorts": "Deux gardes cités par la wiki; cette page communautaire dit qu’ils peuvent réapparaître, mais le nombre exact n’est pas repris comme règle live.",
+      "signature": "La wiki associe l’approche à un DSP radio encodé et à un risque de décodage après provocation; vérifiez l’état de l’objet et le raid avant d’agir.",
+      "role": "Un point de contrôle de secteur à haut risque; la condition d’approche et les comportements Scav sont particulièrement sensibles au mode et aux correctifs.",
+      "tactics": [
+        "Avant de vous approcher du phare, vérifiez les consignes de quête et l’état du DSP dans l’inventaire; n’improvisez pas une entrée depuis une ancienne vidéo.",
+        "BSG a confirmé le correctif de position et un correctif de comportement envers les player Scavs avec réputation Fence supérieure à 6 le 9 octobre.",
+        "Aucune carte de tir ou coordonnée de sécurité n’est fournie ici; la page de lieu et l’interface en jeu priment."
+      ],
+      "modeNotes": {
+        "regular": "La wiki cite Lighthouse; l’annonce BSG du 9 octobre est un correctif de position et de comportement, pas un taux d’apparition.",
+        "pve": "La wiki rapporte des conditions particulières PvE autour du DSP; relisez la règle actuelle dans le client, sans extrapoler au PvP.",
+        "pvp-season": "Le relevé communautaire ne prouve pas l’accès à la péninsule ou la présence par profil Seasonal."
+      },
+      "officialNotes": [
+        {
+          "key": "bsg-zryachiy-2026-10",
+          "text": "Le message technique BSG du 9 octobre annonce la correction d’une position erronée de Zryachiy sur Lighthouse et du comportement de boss envers les player Scavs avec une réputation Fence supérieure à 6."
+        }
+      ],
+      "health": {
+        "total": 1655,
+        "parts": [],
+        "sourceDate": "2026-11-18",
+        "label": "Total HP transcrit d’une table de la wiki communautaire consultée le 18 novembre 2026; peut dépendre du patch et n’a pas été vérifié dans le client."
+      },
+      "gallery": [
+        {
+          "src": "images/bosses/boss-operator.jpg",
+          "alt": "Silhouette fictive près d’une passerelle insulaire; ne représente pas Zryachiy",
+          "caption": "Illustration générique · ni le boss ni la péninsule en jeu."
+        },
+        {
+          "src": "images/maps/lighthouse.jpg",
+          "alt": "Illustration originale d’une côte rocheuse fictive inspirée de Lighthouse",
+          "caption": "Ambiance côtière · aucune coordonnée ou zone d’accès n’est marquée."
+        }
+      ],
+      "sources": [
+        "wiki-boss-zryachiy",
+        "wiki-bosses",
+        "bsg-zryachiy-2026-10"
+      ]
+    },
+    {
+      "id": "partisan",
+      "file": "pages/bosses/partisan.html",
+      "route": "pages/bosses/partisan.html",
+      "code": "B–10",
+      "label": "Partisan",
+      "seoTitle": "Partisan : lieux, karma PMC et changement officiel | Guide EFT FR",
+      "description": "Suivez les annonces BSG sur la chance de base de Partisan et sa dépendance au karma PMC en PvP/Seasonal. Aucun taux final n’est inventé.",
+      "heading": "Partisan : séparer chance de base et condition de raid",
+      "lead": "BSG a annoncé une chance de base de 25 % sur Customs, Woods, Shoreline et Lighthouse. En PvP et Seasonal, le message précise que la chance finale dépend de la présence de PMCs à faible karma; ce n’est pas un taux final garanti.",
+      "group": "Boss individuel · chance conditionnelle",
+      "faction": "Aucune faction dans la fiche wiki consultée",
+      "maps": [
+        "Customs",
+        "Woods",
+        "Shoreline",
+        "Lighthouse"
+      ],
+      "locations": [
+        {
+          "map": "Customs",
+          "detail": "Présence potentielle rapportée partout par la wiki; BSG cite la carte pour la chance de base du 9 octobre."
+        },
+        {
+          "map": "Woods",
+          "detail": "Présence potentielle rapportée partout par la wiki; aucun point fixe officiel."
+        },
+        {
+          "map": "Shoreline",
+          "detail": "Présence potentielle rapportée partout par la wiki; aucune probabilité finale par raid publiée."
+        },
+        {
+          "map": "Lighthouse",
+          "detail": "Présence potentielle rapportée partout par la wiki; vérifiez le mode et l’événement courant."
+        }
+      ],
+      "escorts": "Aucun garde n’est listé sur la fiche de Partisan; une apparition reste aléatoire et conditionnelle.",
+      "signature": "Pièges/embuscades et sac de Partisan rapportés par la wiki. La vidéo smoke/Wedge n’est pas une source pour Partisan.",
+      "role": "La page communautaire le décrit comme discret et opportuniste; l’annonce BSG porte sur la chance d’apparition, pas sur un comportement garanti dans chaque raid.",
+      "tactics": [
+        "Contrôlez les chemins arrière, les zones de couvert et les fils-pièges signalés par la wiki; ne supposez pas qu’un secteur fouillé est vide pour le reste du raid.",
+        "Retenez que 25 % est la chance de base annoncée par BSG sur quatre cartes le 9 octobre; ce n’est pas la chance finale applicable à toutes les parties.",
+        "En PvP et Seasonal, BSG indique que la chance finale dépend aussi de la présence de PMCs à karma bas. Aucun taux final par raid n’est publié dans le message."
+      ],
+      "modeNotes": {
+        "regular": "BSG annonce 25 % de chance de base sur quatre cartes; en PvP, la chance finale dépend de la présence de PMCs à faible karma. Aucun taux final par raid n’est garanti.",
+        "pve": "Le message BSG du 9 octobre précise la modulation en PvP et Seasonal, pas une chance finale PvE. La présence en raid n’a pas été testée ici.",
+        "pvp-season": "BSG annonce une chance de base de 25 %; en Seasonal, la chance finale dépend des PMCs à faible karma. Aucun taux final par raid n’est donné."
+      },
+      "officialNotes": [
+        {
+          "key": "bsg-partisan-2026-10",
+          "text": "Le message BSG du 9 octobre indique une chance de base de 25 % sur Customs, Woods, Shoreline et Lighthouse; en PvP et Seasonal, la chance finale dépend de la présence de PMCs à faible karma. Le texte ne donne pas de probabilité finale garantie."
+        }
+      ],
+      "health": {
+        "total": 950,
+        "parts": [],
+        "sourceDate": "2026-11-18",
+        "label": "Total HP transcrit d’une table de la wiki communautaire consultée le 18 novembre 2026; peut dépendre du patch et n’a pas été vérifié dans le client."
+      },
+      "gallery": [
+        {
+          "src": "images/bosses/boss-operator.jpg",
+          "alt": "Silhouette anonyme fictive en sous-bois; ne représente pas Partisan",
+          "caption": "Illustration d’ambiance · aucun piège ou point de spawn n’est représenté."
+        },
+        {
+          "src": "images/maps/woods.jpg",
+          "alt": "Illustration originale d’une forêt fictive de Tarkov",
+          "caption": "Ambiance forestière · les chemins ne sont pas un plan tactique."
+        }
+      ],
+      "sources": [
+        "wiki-boss-partisan",
+        "wiki-bosses",
+        "bsg-partisan-2026-10"
+      ]
+    },
+    {
+      "id": "cultist-priest",
+      "file": "pages/bosses/cultist-priest.html",
+      "route": "pages/bosses/cultist-priest.html",
+      "code": "B–11",
+      "label": "Cultist Priest",
+      "seoTitle": "Cultist Priest : cultistes, lieux nocturnes et limites | Guide EFT FR",
+      "description": "Distinguez le Priest de ses cultistes et des variantes événementielles. Les lieux sont issus d’une wiki communautaire, sans fenêtre horaire garantie.",
+      "heading": "Cultist Priest : ne pas confondre faction et boss",
+      "lead": "La page communautaire Cultists liste notamment Night Factory, Customs, Woods, Shoreline et Ground Zero (21+). La fiche dédiée au Priest était vide lors du contrôle; les lieux et nombres ci-dessous sont donc des repères de faction, pas un taux ni une disponibilité live.",
+      "group": "Boss individuel · groupe cultiste",
+      "faction": "Cultistes · wiki communautaire",
+      "maps": [
+        "Factory",
+        "Customs",
+        "Woods",
+        "Shoreline",
+        "Ground Zero"
+      ],
+      "locations": [
+        {
+          "map": "Factory",
+          "detail": "Night Factory est listée par la wiki; ne pas étendre cela à Factory de jour."
+        },
+        {
+          "map": "Customs",
+          "detail": "Lieu listé par la page communautaire; fenêtre et disponibilité non vérifiées en jeu."
+        },
+        {
+          "map": "Woods",
+          "detail": "Lieu listé par la page communautaire; ne pas en déduire une heure ou un taux live."
+        },
+        {
+          "map": "Shoreline",
+          "detail": "Lieu listé par la page communautaire; événement et mode peuvent changer la sélection."
+        },
+        {
+          "map": "Ground Zero",
+          "detail": "La source précise le groupe Ground Zero 21+; le matchmaking de profil reste à vérifier."
+        }
+      ],
+      "escorts": "La page Cultists évoque un Priest et 2–4 cultist followers; nombre communautaire et non validé pour chaque raid.",
+      "signature": "Cultist Priest et warriors sont des rôles distincts. La fiche dédiée Priest était vide; l’article de faction est la source utilisée.",
+      "role": "La wiki décrit des pas feutrés et une détection thermique plus difficile pour les cultistes; ces détails sont communautaires et peuvent évoluer.",
+      "tactics": [
+        "Vérifiez le variant de carte et le moment affiché dans le client; aucune fenêtre horaire exacte n’est affirmée ici.",
+        "Écoutez les déplacements et surveillez les angles sombres; la wiki signale des pas plus discrets, sans garantir la détection à chaque raid.",
+        "Ne confondez pas le Priest, ses warriors, les Infected et un événement Halloween. Les taux ou comportements attribués à un seul groupe ne s’appliquent pas automatiquement aux autres."
+      ],
+      "modeNotes": {
+        "regular": "Les lieux et comportements viennent de la wiki Cultists; la page dédiée Priest est vide et aucun taux ou horaire officiel n’est utilisé.",
+        "pve": "La liste communautaire ne confirme pas l’apparition pour chaque profil PvE; vérifiez variante et événement dans le client.",
+        "pvp-season": "Aucun taux Seasonal du Priest n’est repris; les variantes de carte et événements sont distincts."
+      },
+      "officialNotes": [],
+      "gallery": [
+        {
+          "src": "images/bosses/boss-operator.jpg",
+          "alt": "Silhouette anonyme fictive dans un sous-bois sombre; ne représente pas un cultiste",
+          "caption": "Illustration d’ambiance · pas un portrait ni une scène de nuit du jeu."
+        },
+        {
+          "src": "images/maps/woods.jpg",
+          "alt": "Illustration originale d’une forêt fictive, sans emplacement marqué",
+          "caption": "Ambiance de forêt · aucune heure ni route n’est indiquée."
+        }
+      ],
+      "sources": [
+        "wiki-cultists-2026",
+        "wiki-bosses"
+      ]
+    },
+    {
+      "id": "the-goons",
+      "file": "pages/bosses/the-goons.html",
+      "route": "pages/bosses/the-goons.html",
+      "code": "B–12",
+      "label": "The Goons",
+      "seoTitle": "The Goons : Knight, Big Pipe et Birdeye | Guide EFT FR",
+      "description": "Lisez The Goons comme un groupe de trois rôles. Les listes de lieux sont communautaires et Knight sur Icebreaker est séparé du groupe.",
+      "heading": "The Goons : trois profils, plusieurs angles",
+      "lead": "La wiki distingue Knight (assaut/commandement), Big Pipe (grenadier) et Birdeye (tireur/radio). Knight est également listé à part sur Icebreaker avec deux Rogues; ne le comptez pas comme une rotation confirmée des trois Goons.",
+      "group": "Groupe de trois boss · Knight, Big Pipe, Birdeye",
+      "faction": "Rogues · wiki communautaire",
+      "maps": [
+        "Customs",
+        "Woods",
+        "Shoreline",
+        "Lighthouse"
+      ],
+      "locations": [
+        {
+          "map": "Customs",
+          "detail": "Lieu rapporté pour le trio; le poste d’apparition et la rotation ne sont pas confirmés par cette fiche."
+        },
+        {
+          "map": "Woods",
+          "detail": "Lieu rapporté pour le trio; ne déduisez pas une carte active d’une ancienne capture."
+        },
+        {
+          "map": "Shoreline",
+          "detail": "Lieu rapporté pour le trio; les emplacements de garde peuvent changer."
+        },
+        {
+          "map": "Lighthouse",
+          "detail": "Lieu rapporté pour le trio. Knight est aussi listé séparément sur Icebreaker avec deux Rogues."
+        }
+      ],
+      "escorts": "Trois membres nommés dans le groupe; la table et les spawns par raid restent communautaires.",
+      "signature": "Rôles de la wiki : Knight commande et pousse, Big Pipe emploie des grenades, Birdeye est associé au tir de précision et à la radio.",
+      "role": "Ce sont trois ennemis distincts avec des menaces complémentaires; une ligne de tir peut venir d’un angle différent de celui de Knight.",
+      "tactics": [
+        "Avant de poursuivre l’un des trois, identifiez les deux autres angles possibles et une voie de repli.",
+        "Ne traitez pas une grenade ou un tir lointain comme une preuve de position exacte; la composition est un repère, pas une triangulation de spawn.",
+        "La wiki répertorie Knight sur Icebreaker séparément; le message BSG du 12 novembre parle de The Wedge et de ses gardes, sans confirmer que le trio est présent."
+      ],
+      "modeNotes": {
+        "regular": "La wiki associe le trio à quatre cartes; elle ne fournit pas une règle de rotation officielle ou un taux par raid.",
+        "pve": "Les lieux rapportés ne confirment pas une apparition PvE; les corrections historiques sur des doublons de Goons ne sont pas un état live.",
+        "pvp-season": "Aucun taux Seasonal du trio n’est repris. Knight sur Icebreaker est une entrée séparée de The Wedge."
+      },
+      "officialNotes": [],
+      "health": null,
+      "gallery": [
+        {
+          "src": "images/bosses/boss-goons.jpg",
+          "alt": "Trois opérateurs fictifs et anonymes avançant sur une crête brumeuse; illustration de groupe, pas les Goons",
+          "caption": "Illustration originale générique · pas une composition exacte des Goons."
+        },
+        {
+          "src": "images/maps/lighthouse.jpg",
+          "alt": "Illustration originale d’une côte fictive inspirée de Lighthouse",
+          "caption": "Ambiance d’un lieu rapporté · aucun spawn n’est marqué."
+        }
+      ],
+      "sources": [
+        "wiki-bosses",
+        "wiki-boss-knight",
+        "wiki-boss-big-pipe",
+        "wiki-boss-birdeye"
+      ]
+    },
+    {
+      "id": "shadow-of-tagilla",
+      "file": "pages/bosses/shadow-of-tagilla.html",
+      "route": "pages/bosses/shadow-of-tagilla.html",
+      "code": "B–13",
+      "label": "Shadow of Tagilla",
+      "seoTitle": "Shadow of Tagilla : Labyrinth et rencontre | Guide EFT FR",
+      "description": "Repères communautaires sur Shadow of Tagilla au Labyrinth, séparés du Tagilla standard de Factory et de la variante Vengeful Killa.",
+      "heading": "Shadow of Tagilla : préparer le passage étroit",
+      "lead": "La wiki associe Shadow of Tagilla au Labyrinth. Ses affirmations de comportement et d’immunité sont communautaires; les accès et l’état du raid doivent être confirmés avant d’engager.",
+      "group": "Boss de variante · The Labyrinth",
+      "faction": "Scavs · wiki communautaire",
+      "maps": [
+        "The Labyrinth"
+      ],
+      "locations": [
+        {
+          "map": "The Labyrinth",
+          "detail": "Lieux intérieurs du Labyrinth rapportés par la wiki; aucun point exact ou trajet à l’échelle n’est reproduit."
+        }
+      ],
+      "escorts": "Aucun garde personnel n’est listé dans la table communautaire consultée.",
+      "signature": "Chained Labrys et masque cités dans la table d’équipement; la wiki précise que certaines pièces ne sont pas lootables.",
+      "role": "La fiche communautaire le décrit comme une menace qui ferme la distance; certaines propriétés tactiques peuvent changer avec un correctif.",
+      "tactics": [
+        "Dans un couloir, conservez une distance de sécurité et un itinéraire de repli avant de fouiller une salle.",
+        "L’immunité aux explosifs et le comportement envers les tripwires sont des affirmations wiki; ne basez pas un plan de raid sur elles sans test actuel.",
+        "Préparez l’étape suivante du Labyrinth, mais ne supposez pas qu’une apparition de Vengeful Killa est garantie après chaque élimination."
+      ],
+      "modeNotes": {
+        "regular": "The Labyrinth et ses bosses sont répertoriés par la wiki; aucune disponibilité par mode n’est attestée par BSG ici.",
+        "pve": "La liste communautaire ne garantit pas le profil de raid PvE; vérifiez les conditions d’accès en jeu.",
+        "pvp-season": "Aucun taux Seasonal n’est repris; les conditions peuvent varier par événement ou mode."
+      },
+      "officialNotes": [],
+      "health": {
+        "total": 1305,
+        "parts": [],
+        "sourceDate": "2026-11-18",
+        "label": "Total HP transcrit d’une table de la wiki communautaire consultée le 18 novembre 2026; peut dépendre du patch et n’a pas été vérifié dans le client."
+      },
+      "gallery": [
+        {
+          "src": "images/bosses/boss-labyrinth.jpg",
+          "alt": "Silhouette anonyme dans un labyrinthe souterrain fictif; ne représente pas Shadow of Tagilla",
+          "caption": "Illustration de lieu fictif · non une capture ou un portrait du boss."
+        },
+        {
+          "src": "images/maps/the-labyrinth.jpg",
+          "alt": "Illustration originale d’un complexe souterrain fictif inspiré du Labyrinth",
+          "caption": "Ambiance souterraine · pas un plan de navigation."
+        }
+      ],
+      "sources": [
+        "wiki-boss-shadow-tagilla",
+        "wiki-bosses",
+        "wiki-labyrinth"
+      ]
+    },
+    {
+      "id": "the-wedge",
+      "file": "pages/bosses/the-wedge.html",
+      "route": "pages/bosses/the-wedge.html",
+      "code": "B–14",
+      "label": "The Wedge",
+      "seoTitle": "The Wedge : Icebreaker, patch BSG et prudence | Guide EFT FR",
+      "description": "État officiel BSG du 12 novembre et données wiki du Wedge sur Icebreaker. Les astuces de fumée restent non confirmées et ne sont pas recommandées.",
+      "heading": "The Wedge : changements récents, pas de méthode garantie",
+      "lead": "BSG a annoncé le 12 novembre une baisse de réaction, précision et santé de The Wedge et de ses gardes, ainsi que des munitions modifiées. Aucun nouveau nombre, type de munition ou exploit de fumée n’est confirmé officiellement.",
+      "group": "Boss de groupe · Black Division",
+      "faction": "Black Division · wiki communautaire",
+      "maps": [
+        "Icebreaker"
+      ],
+      "locations": [
+        {
+          "map": "Icebreaker",
+          "detail": "La wiki le situe au niveau 3, dans le gym; le lieu précis et les conditions de raid restent des repères communautaires."
+        }
+      ],
+      "escorts": "3–6 gardes selon la taille du groupe dans la wiki; BSG a annoncé leur affaiblissement sans préciser ce nombre.",
+      "signature": "Le dossier wiki associe le boss à un porte-plaques LV-119 pour une tâche; cette pièce n’est pas promise comme butin garanti.",
+      "role": "Boss Black Division présenté avec des gardes. Le hotfix du 12 novembre est le fait officiel le plus récent retenu ici.",
+      "tactics": [
+        "Préparez les angles et un repli; la baisse annoncée par BSG ne transforme pas l’affrontement en méthode garantie.",
+        "Une vidéo du 12 novembre avance une hypothèse de comportement de vision lié à la fumée, mais rapporte des échecs de reproduction. Ne faites pas de ce comportement un plan de raid.",
+        "Les retours Reddit d’octobre précèdent l’équilibrage BSG du 12 novembre et sont contradictoires; ils ne constituent pas une procédure post-patch."
+      ],
+      "modeNotes": {
+        "regular": "BSG (12/11) : Wedge et gardes affaiblis dans tous les modes; munitions modifiées sans nom. La wiki affiche une table HP communautaire, non testée en client.",
+        "pve": "Même annonce BSG multi-mode; aucun détail de taux ou de munition pour PvE. La page d’API ne prouve pas la présence au raid.",
+        "pvp-season": "BSG précise aussi des changements Seasonal de progression et d’équipement sur les lieux concernés, sans détailler un taux propre au Wedge."
+      },
+      "officialNotes": [
+        {
+          "key": "balance-nov",
+          "text": "Dans sa note d’équilibrage du 12 novembre, BSG annonce pour tous les modes une baisse de la réaction, de la précision et de la santé de The Wedge et de ses gardes, ainsi que des munitions modifiées. La note ne publie ni le nouveau total HP, ni le type de munition; les anecdotes sur la fumée ne sont pas confirmées par BSG."
+        }
+      ],
+      "health": {
+        "total": 750,
+        "parts": [],
+        "sourceDate": "2026-11-18",
+        "label": "Relevé de la wiki communautaire consultée le 18 novembre. BSG a annoncé une baisse de santé le 12 novembre sans publier le nouveau total : 750 HP est donc un repère historique incertain, pas une valeur actuelle confirmée."
+      },
+      "gallery": [
+        {
+          "src": "images/bosses/boss-icebreaker.jpg",
+          "alt": "Silhouette hostile anonyme dans un couloir de navire fictif; ne représente pas The Wedge",
+          "caption": "Illustration d’ambiance originale · ni le boss, ni une capture d’Icebreaker."
+        },
+        {
+          "src": "images/maps/icebreaker.jpg",
+          "alt": "Illustration originale d’un navire fictif inspiré d’Icebreaker",
+          "caption": "Ambiance maritime · aucun emplacement de boss n’est marqué."
+        }
+      ],
+      "sources": [
+        "wiki-boss-wedge",
+        "wiki-icebreaker",
+        "balance-nov",
+        "youtube-wedge-smoke-12nov",
+        "reddit-wedge-tips-oct14"
+      ]
+    },
+    {
+      "id": "vengeful-killa",
+      "file": "pages/bosses/vengeful-killa.html",
+      "route": "pages/bosses/vengeful-killa.html",
+      "code": "B–15",
+      "label": "Vengeful Killa",
+      "seoTitle": "Vengeful Killa : Labyrinth et séquence | Guide EFT FR",
+      "description": "Distinguez Vengeful Killa du Killa d’Interchange. La wiki rapporte une apparition après Shadow of Tagilla au Labyrinth; la séquence n’est pas garantie.",
+      "heading": "Vengeful Killa : la seconde rencontre rapportée",
+      "lead": "La page wiki de Vengeful Killa indique qu’il apparaît après Shadow of Tagilla au Labyrinth. C’est un repère communautaire, pas une condition de quête ou de raid testée ici.",
+      "group": "Boss de variante · The Labyrinth",
+      "faction": "Scavs · wiki communautaire",
+      "maps": [
+        "The Labyrinth"
+      ],
+      "locations": [
+        {
+          "map": "The Labyrinth",
+          "detail": "Présence rapportée après Shadow of Tagilla; le déclencheur et l’accès varient potentiellement avec le raid et restent à vérifier."
+        }
+      ],
+      "escorts": "Aucun garde personnel indiqué dans la table consultée.",
+      "signature": "La wiki liste des armes automatiques dont le RPK-16; ne pas assimiler le loot du Killa standard à cette variante.",
+      "role": "Deuxième profil rapporté au Labyrinth, distinct de Killa sur Interchange et de Shadow of Tagilla.",
+      "tactics": [
+        "Avant d’engager Shadow, prévoyez une recharge, une zone de soin et un repli pour une éventuelle suite; la séquence exacte n’est pas garantie.",
+        "Ne quittez pas le secteur uniquement sur la base d’un ancien guide : la page communautaire décrit une apparition séquentielle après Shadow.",
+        "Les valeurs HP de la wiki ne sont pas reprises comme live; aucun chiffre BSG récent n’a été trouvé pour cette variante."
+      ],
+      "modeNotes": {
+        "regular": "Le Labyrinth et la séquence après Shadow sont des informations communautaires; pas de confirmation BSG par mode.",
+        "pve": "La page de la wiki ne garantit pas la suite en PvE ou selon l’événement; confirmez le déclencheur dans le raid.",
+        "pvp-season": "Aucun taux Seasonal ou état d’apparition par raid n’est publié ici."
+      },
+      "officialNotes": [],
+      "health": {
+        "total": 960,
+        "parts": [],
+        "sourceDate": "2026-11-18",
+        "label": "Total HP transcrit d’une table de la wiki communautaire consultée le 18 novembre 2026; peut dépendre du patch et n’a pas été vérifié dans le client."
+      },
+      "gallery": [
+        {
+          "src": "images/bosses/boss-labyrinth.jpg",
+          "alt": "Silhouette anonyme dans un labyrinthe souterrain fictif; ne représente pas Vengeful Killa",
+          "caption": "Illustration de lieu fictif · pas un portrait de la variante."
+        },
+        {
+          "src": "images/maps/the-labyrinth.jpg",
+          "alt": "Illustration originale d’un complexe souterrain fictif",
+          "caption": "Ambiance de lieu · pas de plan de parcours ou de déclencheur."
+        }
+      ],
+      "sources": [
+        "wiki-boss-vengeful-killa",
+        "wiki-boss-shadow-tagilla",
+        "wiki-labyrinth"
+      ]
+    }
+  ]
+}

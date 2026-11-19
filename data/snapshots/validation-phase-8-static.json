@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "phase": "PHASE_8",
+  "status": "PASS",
+  "base": "http://127.0.0.1:4180",
+  "checkedAt": "2026-11-19T09:18:02Z",
+  "checks": [
+    {
+      "name": "Audit statique des pages, références, ancres, alts et illustrations",
+      "passed": true,
+      "detail": "10 pages · 624 liens/assets/ancres · 10 JPG intégrées"
+    },
+    {
+      "name": "Index de recherche et sitemap",
+      "passed": true,
+      "detail": "1294 entrées de recherche · 77 URLs uniques · 10 routes PHASE_8 dans les deux"
+    },
+    {
+      "name": "Inventaire du workflow et des médias",
+      "passed": true,
+      "detail": "workflow synchronisé · 77/87 pages · PHASE_8 10/10 · 10 JPG vérifiés"
+    },
+    {
+      "name": "Liste blanche HTTP du serveur d’aperçu et quarantaine",
+      "passed": true,
+      "detail": "25 ressources HTTP 200 · 6 chemins privés/instantanés HTTP 404"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,2604 @@
+{
+  "schema_version": 1,
+  "date_cadrage": "2026-11-18",
+  "langue": "fr-FR",
+  "total": 87,
+  "objet": "Plan directeur de 87 routes; seules les routes marquées LIVREE figurent dans l’aperçu. 67 routes des phases 2 à 7 sont livrées localement; 20 routes des phases 8 à 10 restent planifiées. La publication publique reste séparément bloquée par l’accès au dépôt et la configuration du domaine.",
+  "gabarits_communs": {
+    "en_tete": "Logo, méga-menu et recherche globale, badge de patch et de mode.",
+    "lecture": "H1, fil d’Ariane, sommaire, date de vérification, sources des chiffres, liens connexes et retour en haut.",
+    "media": "Illustrations JPG locales et haute qualité. Les vignettes génériques PHASE_5 sont des repères éditoriaux, jamais des représentations exactes d’objets EFT; les images PHASE_6 ne portent pas de statistique. Les schémas/graphes sont en HTML/CSS, sans SVG ni PNG générés. Exception PHASE_4 documentée : une JPG d’ambiance par fiche Carte, avec schémas de repères/transits en HTML/CSS.",
+    "donnees": "Preuves par mode/date et label pour les prix et spawns variables ; null signifie inconnu ou non applicable.",
+    "avant_redaction": "Requêtes ciblées + lecture des sources pertinentes pour chaque URL, puis journal des faits et contradictions."
+  },
+  "pages": [
+    {
+      "phase": "PHASE_2",
+      "fichier": "index.html",
+      "titre": "Tarkov Ultimate Guide",
+      "objectif": "Faire trouver une réponse en deux clics, que l’on débute ou que l’on revienne après un patch.",
+      "gabarit": "accueil",
+      "sections": [
+        "Hero cinématique et appels « Premier raid » / « Cartes »",
+        "Cartes illustrées vers les grands dossiers",
+        "Compteurs tirés des catalogues publiés",
+        "Dernier patch, actualités confirmées, guides en vedette et avertissement fan-site"
+      ],
+      "interaction": "Méga-menu accessible, recherche au clavier avec Ctrl/K, ambiance volontaire et effets compatibles reduced-motion.",
+      "illustrations_jpg": [
+        "PMC et rues de Tarkov sous la pluie (hero 16:9)",
+        "Panorama aérien urbain",
+        "Arsenal en jeu sur établi",
+        "Silhouette de boss dans la brume"
+      ],
+      "sources_a_consulter": [
+        "patch130",
+        "steam-news",
+        "bsg-social",
+        "tdev",
+        "spt-release"
+      ],
+      "revalidation": "Contrôler les annonces du jour ; n’afficher comme navigables que les pages effectivement livrées.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T14:22:50+01:00",
+      "bilan": "docs/phase-2.md"
+    },
+    {
+      "phase": "PHASE_3",
+      "fichier": "pages/getting-started.html",
+      "titre": "Guide du débutant",
+      "objectif": "Préparer et réussir son premier raid sans supposer que le lecteur connaît le jeu.",
+      "gabarit": "dossier",
+      "sections": [
+        "Modes, USEC/BEAR et tutoriel",
+        "Pré-raid, raid, extraction, bilan et stash",
+        "Santé du PMC, saignements et soins dans l’interface du jeu",
+        "Réglages et raccourcis, avec alternatives de touches",
+        "Survie en 10 étapes, checklist et FAQ de 20+ questions"
+      ],
+      "interaction": "Checklist locale, sommaire à ancres, FAQ en accordéons et onglets PMC/Scav.",
+      "illustrations_jpg": [
+        "Maquette HUD annotée (pas une capture officielle)",
+        "PMC et équipement dans la planque",
+        "Schéma santé du personnage"
+      ],
+      "sources_a_consulter": [
+        "steam",
+        "wiki",
+        "patch110",
+        "patch130",
+        "yt-beginner",
+        "reddit-eft"
+      ],
+      "revalidation": "Recouper contrôles et état Survived avec le wiki et le client ; tester la progression du tutoriel selon le mode.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T14:51:56+01:00",
+      "bilan": "docs/phase-3.md",
+      "verification": "docs/verifications-phase-3.md"
+    },
+    {
+      "phase": "PHASE_3",
+      "fichier": "pages/lore/index.html",
+      "titre": "Lore & univers de Tarkov",
+      "objectif": "Situer la région fictive, les factions et les chapitres sans divulgâcher par défaut.",
+      "gabarit": "hub",
+      "sections": [
+        "Norvinsk et son enclave",
+        "TerraGroup, USEC, BEAR, Scavs et autres factions",
+        "Chronologie des Contract Wars au récit de la 1.0",
+        "Liens entre lieux et chapitres ; spoiler protégé"
+      ],
+      "interaction": "Chronologie, fiches de factions et dévoilement explicite des spoilers.",
+      "illustrations_jpg": [
+        "Tarkov et la baie au crépuscule",
+        "Dossier cartographique de Norvinsk fictif"
+      ],
+      "sources_a_consulter": [
+        "steam",
+        "wiki",
+        "terminal",
+        "patch105",
+        "yt-dev"
+      ],
+      "revalidation": "Séparer texte canonique, allusions et interprétations ; vérifier les noms des chapitres.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T14:51:56+01:00",
+      "bilan": "docs/phase-3.md",
+      "verification": "docs/verifications-phase-3.md"
+    },
+    {
+      "phase": "PHASE_4",
+      "fichier": "pages/maps/index.html",
+      "titre": "Cartes de Tarkov",
+      "objectif": "Choisir un emplacement compatible avec son niveau, sa quête et son mode de jeu.",
+      "gabarit": "hub",
+      "sections": [
+        "Treize emplacements principaux, variantes et zones d’événement distinctes",
+        "Durée, joueurs, difficulté éditoriale, boss et accès",
+        "Tableau des transitions et du risque en jeu",
+        "Renvois vers guides et quêtes"
+      ],
+      "interaction": "Filtre difficulté/mode, comparaison de deux cartes, légende d’accès et tableau de secours.",
+      "illustrations_jpg": [
+        "images/maps/norvinsk-overlook.jpg"
+      ],
+      "sources_a_consulter": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-maps",
+        "mapgenie",
+        "patch105",
+        "patch115",
+        "patch120",
+        "terminal-80level",
+        "wiki-terminal",
+        "tracker-map-rules",
+        "tarkov-party-transits"
+      ],
+      "revalidation": "Valider présence, accès effectif, date et mode ; aucun compteur basé sur les seuls enregistrements API.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T16:31:10+01:00",
+      "bilan": "docs/phase-4.md",
+      "verification": "docs/verifications-phase-4.md"
+    },
+    {
+      "phase": "PHASE_4",
+      "fichier": "pages/maps/factory.html",
+      "titre": "Factory",
+      "objectif": "Usine, échelle compacte et différences jour/nuit.",
+      "gabarit": "carte",
+      "sections": [
+        "Contexte et accès : mode, durée, joueurs et restrictions",
+        "Bureaux, escaliers, sorties conditionnelles et scène Tagilla.",
+        "Extractions PMC/Scav, transits et conditions ; liste alternative à la carte",
+        "Apparitions en jeu et boss (mode, date, déclencheur), dangers et points de vue",
+        "Clés, loot et routes de quêtes par niveau ; conseils PvP/PvE propres à ce terrain"
+      ],
+      "interaction": "Carte filtrable avec navigation clavier et listes par type ; onglets de mode ; liens de quête et de boss.",
+      "illustrations_jpg": [
+        "images/maps/factory.jpg"
+      ],
+      "sources_a_consulter": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-factory",
+        "wiki-bosses",
+        "halloween"
+      ],
+      "revalidation": "Relever les variantes jour/nuit, clés de sortie, événements et statistiques par variante.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T16:31:10+01:00",
+      "bilan": "docs/phase-4.md",
+      "verification": "docs/verifications-phase-4.md"
+    },
+    {
+      "phase": "PHASE_4",
+      "fichier": "pages/maps/customs.html",
+      "titre": "Customs",
+      "objectif": "Carte des premières quêtes et traversées entre douanes, dortoirs et entrepôts.",
+      "gabarit": "carte",
+      "sections": [
+        "Contexte et accès : mode, durée, joueurs et restrictions",
+        "Dortoirs, Reshala, transits et secteurs revus en 1.2.",
+        "Extractions PMC/Scav, transits et conditions ; liste alternative à la carte",
+        "Apparitions en jeu et boss (mode, date, déclencheur), dangers et points de vue",
+        "Clés, loot et routes de quêtes par niveau ; conseils PvP/PvE propres à ce terrain"
+      ],
+      "interaction": "Carte filtrable avec navigation clavier et listes par type ; onglets de mode ; liens de quête et de boss.",
+      "illustrations_jpg": [
+        "images/maps/customs.jpg"
+      ],
+      "sources_a_consulter": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-customs",
+        "patch120",
+        "tracker-map-rules",
+        "customs-reddit-oct",
+        "customs-reemr-x",
+        "wiki-bosses"
+      ],
+      "revalidation": "Vérifier les changements d’extractions et de loot de 1.2.0.0 et les quêtes d’introduction.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T16:31:10+01:00",
+      "bilan": "docs/phase-4.md",
+      "verification": "docs/verifications-phase-4.md"
+    },
+    {
+      "phase": "PHASE_4",
+      "fichier": "pages/maps/woods.html",
+      "titre": "Woods",
+      "objectif": "S’orienter dans les bois et repérer le bord jouable.",
+      "gabarit": "carte",
+      "sections": [
+        "Contexte et accès : mode, durée, joueurs et restrictions",
+        "Scierie, points hauts en jeu, caches, Shturman et chemin vers les tâches Jaeger.",
+        "Extractions PMC/Scav, transits et conditions ; liste alternative à la carte",
+        "Apparitions en jeu et boss (mode, date, déclencheur), dangers et points de vue",
+        "Clés, loot et routes de quêtes par niveau ; conseils PvP/PvE propres à ce terrain"
+      ],
+      "interaction": "Carte filtrable avec navigation clavier et listes par type ; onglets de mode ; liens de quête et de boss.",
+      "illustrations_jpg": [
+        "images/maps/woods.jpg"
+      ],
+      "sources_a_consulter": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-woods",
+        "tracker-map-rules",
+        "wiki-bosses"
+      ],
+      "revalidation": "Comparer les couches dangers, marqueurs et positions de la quête d’accès à Jaeger.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T16:31:10+01:00",
+      "bilan": "docs/phase-4.md",
+      "verification": "docs/verifications-phase-4.md"
+    },
+    {
+      "phase": "PHASE_4",
+      "fichier": "pages/maps/shoreline.html",
+      "titre": "Shoreline",
+      "objectif": "Le Resort, la côte et les transitions d’histoire.",
+      "gabarit": "carte",
+      "sections": [
+        "Contexte et accès : mode, durée, joueurs et restrictions",
+        "Ailes du Resort, Sanitar, clés et bifurcations vers le Labyrinth, Terminal et Icebreaker.",
+        "Extractions PMC/Scav, transits et conditions ; liste alternative à la carte",
+        "Apparitions en jeu et boss (mode, date, déclencheur), dangers et points de vue",
+        "Clés, loot et routes de quêtes par niveau ; conseils PvP/PvE propres à ce terrain"
+      ],
+      "interaction": "Carte filtrable avec navigation clavier et listes par type ; onglets de mode ; liens de quête et de boss.",
+      "illustrations_jpg": [
+        "images/maps/shoreline.jpg"
+      ],
+      "sources_a_consulter": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-shoreline",
+        "patch115",
+        "terminal-80level",
+        "wiki-terminal",
+        "wiki-labyrinth",
+        "wiki-icebreaker"
+      ],
+      "revalidation": "Vérifier les règles de transit et les corrections d’accès, et distinguer les loot rooms par aile.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T16:31:10+01:00",
+      "bilan": "docs/phase-4.md",
+      "verification": "docs/verifications-phase-4.md"
+    },
+    {
+      "phase": "PHASE_4",
+      "fichier": "pages/maps/interchange.html",
+      "titre": "Interchange",
+      "objectif": "Naviguer dans ULTRA, ses magasins et ses parkings.",
+      "gabarit": "carte",
+      "sections": [
+        "Contexte et accès : mode, durée, joueurs et restrictions",
+        "Électricité, magasins Tech, étages et périmètre de Killa en jeu.",
+        "Extractions PMC/Scav, transits et conditions ; liste alternative à la carte",
+        "Apparitions en jeu et boss (mode, date, déclencheur), dangers et points de vue",
+        "Clés, loot et routes de quêtes par niveau ; conseils PvP/PvE propres à ce terrain"
+      ],
+      "interaction": "Carte filtrable avec navigation clavier et listes par type ; onglets de mode ; liens de quête et de boss.",
+      "illustrations_jpg": [
+        "images/maps/interchange.jpg"
+      ],
+      "sources_a_consulter": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-interchange",
+        "patch120",
+        "tracker-map-rules",
+        "wiki-bosses"
+      ],
+      "revalidation": "Reprendre les modifications de loot et de géométrie puis distinguer les variantes de boss.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T16:31:10+01:00",
+      "bilan": "docs/phase-4.md",
+      "verification": "docs/verifications-phase-4.md"
+    },
+    {
+      "phase": "PHASE_4",
+      "fichier": "pages/maps/reserve.html",
+      "titre": "Reserve",
+      "objectif": "Lier les bâtiments de la base militaire aux bunkers.",
+      "gabarit": "carte",
+      "sections": [
+        "Contexte et accès : mode, durée, joueurs et restrictions",
+        "Souterrains, hermétique, train, défis d’extractions et fiches Glukhar/Raiders.",
+        "Extractions PMC/Scav, transits et conditions ; liste alternative à la carte",
+        "Apparitions en jeu et boss (mode, date, déclencheur), dangers et points de vue",
+        "Clés, loot et routes de quêtes par niveau ; conseils PvP/PvE propres à ce terrain"
+      ],
+      "interaction": "Carte filtrable avec navigation clavier et listes par type ; onglets de mode ; liens de quête et de boss.",
+      "illustrations_jpg": [
+        "images/maps/reserve.jpg"
+      ],
+      "sources_a_consulter": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-reserve",
+        "tracker-map-rules",
+        "wiki-bosses"
+      ],
+      "revalidation": "Confirmer les déclencheurs, les limites PMC/Scav et les prérequis conditionnels.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T16:31:10+01:00",
+      "bilan": "docs/phase-4.md",
+      "verification": "docs/verifications-phase-4.md"
+    },
+    {
+      "phase": "PHASE_4",
+      "fichier": "pages/maps/the-lab.html",
+      "titre": "The Lab",
+      "objectif": "Séparer les accès du laboratoire permanent et ceux de ses variantes.",
+      "gabarit": "carte",
+      "sections": [
+        "Contexte et accès : mode, durée, joueurs et restrictions",
+        "Keycards, sorties conditionnelles, Raiders, archives The Lab (Dark) et renvoi Infected Lab.",
+        "Extractions PMC/Scav, transits et conditions ; liste alternative à la carte",
+        "Apparitions en jeu et boss (mode, date, déclencheur), dangers et points de vue",
+        "Clés, loot et routes de quêtes par niveau ; conseils PvP/PvE propres à ce terrain"
+      ],
+      "interaction": "Carte filtrable avec navigation clavier et listes par type ; onglets de mode ; liens de quête et de boss.",
+      "illustrations_jpg": [
+        "images/maps/the-lab.jpg"
+      ],
+      "sources_a_consulter": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-lab",
+        "patch120",
+        "halloween",
+        "wiki-bosses"
+      ],
+      "revalidation": "Vérifier assurance et accès par mode, séparer Blackout et Halloween des spawns permanents.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T16:31:10+01:00",
+      "bilan": "docs/phase-4.md",
+      "verification": "docs/verifications-phase-4.md"
+    },
+    {
+      "phase": "PHASE_4",
+      "fichier": "pages/maps/lighthouse.html",
+      "titre": "Lighthouse",
+      "objectif": "Reprendre les itinéraires de la carte réorganisée en 1.1.5.0.",
+      "gabarit": "carte",
+      "sections": [
+        "Contexte et accès : mode, durée, joueurs et restrictions",
+        "Chalets Rogues, Water Treatment, BTR, tunnels, péninsule et Icebreaker.",
+        "Extractions PMC/Scav, transits et conditions ; liste alternative à la carte",
+        "Apparitions en jeu et boss (mode, date, déclencheur), dangers et points de vue",
+        "Clés, loot et routes de quêtes par niveau ; conseils PvP/PvE propres à ce terrain"
+      ],
+      "interaction": "Carte filtrable avec navigation clavier et listes par type ; onglets de mode ; liens de quête et de boss.",
+      "illustrations_jpg": [
+        "images/maps/lighthouse.jpg"
+      ],
+      "sources_a_consulter": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-lighthouse",
+        "patch115",
+        "wiki-icebreaker",
+        "wiki-bosses"
+      ],
+      "revalidation": "Contrôler bornes jouables et danger résiduel, règles USEC/BEAR et accès Lightkeeper.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T16:31:10+01:00",
+      "bilan": "docs/phase-4.md",
+      "verification": "docs/verifications-phase-4.md"
+    },
+    {
+      "phase": "PHASE_4",
+      "fichier": "pages/maps/streets-of-tarkov.html",
+      "titre": "Streets of Tarkov",
+      "objectif": "Lire les quartiers et bâtiments d’une grande carte urbaine.",
+      "gabarit": "carte",
+      "sections": [
+        "Contexte et accès : mode, durée, joueurs et restrictions",
+        "LexOs, zones de Kollontay, clés, repères de quartiers et itinéraires de quêtes.",
+        "Extractions PMC/Scav, transits et conditions ; liste alternative à la carte",
+        "Apparitions en jeu et boss (mode, date, déclencheur), dangers et points de vue",
+        "Clés, loot et routes de quêtes par niveau ; conseils PvP/PvE propres à ce terrain"
+      ],
+      "interaction": "Carte filtrable avec navigation clavier et listes par type ; onglets de mode ; liens de quête et de boss.",
+      "illustrations_jpg": [
+        "images/maps/norvinsk-overlook.jpg"
+      ],
+      "sources_a_consulter": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-streets",
+        "tracker-map-rules",
+        "wiki-bosses"
+      ],
+      "revalidation": "Vérifier les sorties et changements de spawn ; éviter les vieilles cartes de quartiers.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T16:31:10+01:00",
+      "bilan": "docs/phase-4.md",
+      "verification": "docs/verifications-phase-4.md"
+    },
+    {
+      "phase": "PHASE_4",
+      "fichier": "pages/maps/ground-zero.html",
+      "titre": "Ground Zero",
+      "objectif": "Différencier tutoriel, rotation débutant et variante 21+.",
+      "gabarit": "carte",
+      "sections": [
+        "Contexte et accès : mode, durée, joueurs et restrictions",
+        "Reconnaissance des bâtiments, premières quêtes et condition des rencontres selon variante.",
+        "Extractions PMC/Scav, transits et conditions ; liste alternative à la carte",
+        "Apparitions en jeu et boss (mode, date, déclencheur), dangers et points de vue",
+        "Clés, loot et routes de quêtes par niveau ; conseils PvP/PvE propres à ce terrain"
+      ],
+      "interaction": "Carte filtrable avec navigation clavier et listes par type ; onglets de mode ; liens de quête et de boss.",
+      "illustrations_jpg": [
+        "images/maps/norvinsk-overlook.jpg"
+      ],
+      "sources_a_consulter": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-ground-zero",
+        "patch110",
+        "tracker-map-rules"
+      ],
+      "revalidation": "Comparer identifiants, niveaux, présence de Kollontay/Cultistes et régimes par mode.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T16:31:10+01:00",
+      "bilan": "docs/phase-4.md",
+      "verification": "docs/verifications-phase-4.md"
+    },
+    {
+      "phase": "PHASE_4",
+      "fichier": "pages/maps/the-labyrinth.html",
+      "titre": "The Labyrinth",
+      "objectif": "Expliquer le transit et les chambres de l’instance souterraine.",
+      "gabarit": "carte",
+      "sections": [
+        "Contexte et accès : mode, durée, joueurs et restrictions",
+        "Clés Labrys/Knossos à contrôler ; chambres, puzzles et séquence Shadow of Tagilla → Vengeful Killa.",
+        "Extractions PMC/Scav, transits et conditions ; liste alternative à la carte",
+        "Apparitions en jeu et boss (mode, date, déclencheur), dangers et points de vue",
+        "Clés, loot et routes de quêtes par niveau ; conseils PvP/PvE propres à ce terrain"
+      ],
+      "interaction": "Carte filtrable avec navigation clavier et listes par type ; onglets de mode ; liens de quête et de boss.",
+      "illustrations_jpg": [
+        "images/maps/the-labyrinth.jpg"
+      ],
+      "sources_a_consulter": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-labyrinth",
+        "patch120",
+        "balance-nov",
+        "tracker-map-rules"
+      ],
+      "revalidation": "Vérifier règles d’accès et distinguer apparition conditionnelle d’un taux de spawn.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T16:31:10+01:00",
+      "bilan": "docs/phase-4.md",
+      "verification": "docs/verifications-phase-4.md"
+    },
+    {
+      "phase": "PHASE_4",
+      "fichier": "pages/maps/icebreaker.html",
+      "titre": "Icebreaker",
+      "objectif": "Présenter l’expédition Boreas par pont sans la qualifier d’exclusivité PvE Zone.",
+      "gabarit": "carte",
+      "sections": [
+        "Contexte et accès : mode, durée, joueurs et restrictions",
+        "Conditions d’accès et kit marin à vérifier ; progression, salles, The Wedge, Knight et groupes privés.",
+        "Extractions PMC/Scav, transits et conditions ; liste alternative à la carte",
+        "Apparitions en jeu et boss (mode, date, déclencheur), dangers et points de vue",
+        "Clés, loot et routes de quêtes par niveau ; conseils PvP/PvE propres à ce terrain"
+      ],
+      "interaction": "Carte filtrable avec navigation clavier et listes par type ; onglets de mode ; liens de quête et de boss.",
+      "illustrations_jpg": [
+        "images/maps/icebreaker.jpg"
+      ],
+      "sources_a_consulter": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-icebreaker",
+        "patch105",
+        "patch115",
+        "balance-nov",
+        "wiki-bosses"
+      ],
+      "revalidation": "Revalider après les équilibrages de novembre et vérifier les modes et conditions de l’hélicoptère.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T16:31:10+01:00",
+      "bilan": "docs/phase-4.md",
+      "verification": "docs/verifications-phase-4.md"
+    },
+    {
+      "phase": "PHASE_4",
+      "fichier": "pages/maps/terminal.html",
+      "titre": "Terminal",
+      "objectif": "Documenter le lieu d’exfiltration de l’histoire et ses conditions spécifiques.",
+      "gabarit": "carte",
+      "sections": [
+        "Contexte et accès : mode, durée, joueurs et restrictions",
+        "Port, accès narratif et sections avec avertissement de spoilers.",
+        "Extractions PMC/Scav, transits et conditions ; liste alternative à la carte",
+        "Apparitions en jeu et boss (mode, date, déclencheur), dangers et points de vue",
+        "Clés, loot et routes de quêtes par niveau ; conseils PvP/PvE propres à ce terrain"
+      ],
+      "interaction": "Carte filtrable avec navigation clavier et listes par type ; onglets de mode ; liens de quête et de boss.",
+      "illustrations_jpg": [
+        "images/maps/norvinsk-overlook.jpg"
+      ],
+      "sources_a_consulter": [
+        "tdev-maps",
+        "tdev-maps-pve",
+        "tdev-maps-seasonal",
+        "wiki-terminal",
+        "terminal-80level",
+        "tracker-map-rules"
+      ],
+      "revalidation": "Vérifier conditions de transit, temps de raid divergent et effets narratifs avant publication.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T16:31:10+01:00",
+      "bilan": "docs/phase-4.md",
+      "verification": "docs/verifications-phase-4.md"
+    },
+    {
+      "phase": "PHASE_5",
+      "fichier": "pages/weapons/index.html",
+      "titre": "Arsenal",
+      "objectif": "Parcourir et comparer les champs exportés des 199 armes par mode, sans confondre snapshot, prix daté et preset complet.",
+      "gabarit": "hub",
+      "sections": [
+        "Catalogue par familles et champs couverts",
+        "Bascule PvP permanent/PvE/Seasonal et comparaison par identifiant",
+        "Offres traders et prix flea datés avec avertissements de fraîcheur",
+        "Limites des presets et distinction entre source officielle et communautaire"
+      ],
+      "interaction": "Filtres de catalogue et d’offre, sélection explicite du mode, recherche et comparateur jusqu’à trois objets.",
+      "illustrations_jpg": [
+        "Râtelier d’arsenal fictif en atelier sombre; illustration éditoriale JPG.",
+        "Vignettes locales génériques par famille, sans correspondance exacte avec un ID EFT."
+      ],
+      "sources_a_consulter": [
+        "tdev-phase5-catalog",
+        "bsg-balance-nov",
+        "bsg-135-diary",
+        "patch110",
+        "patch120",
+        "patch130"
+      ],
+      "revalidation": "Recharger les trois exports, dater toute offre/prix et confirmer dans le client les conditions ou résultats avant de publier un conseil de jeu.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T19:06:33+01:00",
+      "bilan": "docs/phase-5.md",
+      "verification": "docs/verifications-phase-5.md"
+    },
+    {
+      "phase": "PHASE_5",
+      "fichier": "pages/weapons/assault-rifles.html",
+      "titre": "Fusils d’assaut",
+      "objectif": "Consulter les valeurs d’export de la famille Fusils d’assaut et les comparer par identifiant et mode, sans extrapoler une méta ni un build.",
+      "gabarit": "equipement",
+      "sections": [
+        "Périmètre de la famille dans le catalogue exporté",
+        "Valeurs disponibles de l’objet et offres datées par mode",
+        "Filtres, tri et comparaison des objets identifiés",
+        "Limites des presets/prix, sources et renvois vers les munitions"
+      ],
+      "interaction": "Filtres par famille/calibre et champs présents, offres séparées par mode et comparateur par identifiant.",
+      "illustrations_jpg": [
+        "Fusils d’assaut fictifs en atelier; illustration éditoriale JPG générique.",
+        "Vignettes locales de famille, sans représentation exacte d’un objet EFT."
+      ],
+      "sources_a_consulter": [
+        "tdev-phase5-catalog",
+        "patch110",
+        "patch130",
+        "wiki-ammo-2026"
+      ],
+      "revalidation": "Recharger les trois exports, dater toute offre/prix et confirmer dans le client les conditions ou résultats avant de publier un conseil de jeu.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T19:06:33+01:00",
+      "bilan": "docs/phase-5.md",
+      "verification": "docs/verifications-phase-5.md"
+    },
+    {
+      "phase": "PHASE_5",
+      "fichier": "pages/weapons/smgs.html",
+      "titre": "Pistolets-mitrailleurs (SMG)",
+      "objectif": "Consulter les valeurs d’export de la famille Pistolets-mitrailleurs et les comparer par identifiant et mode, sans extrapoler une méta ni un build.",
+      "gabarit": "equipement",
+      "sections": [
+        "Périmètre de la famille dans le catalogue exporté",
+        "Valeurs disponibles de l’objet et offres datées par mode",
+        "Filtres, tri et comparaison des objets identifiés",
+        "Limites des presets/prix, sources et renvois vers les munitions"
+      ],
+      "interaction": "Filtres par famille/calibre et champs présents, offres séparées par mode et comparateur par identifiant.",
+      "illustrations_jpg": [
+        "Pistolets-mitrailleurs (SMG) fictifs en atelier; illustration éditoriale JPG générique.",
+        "Vignettes locales de famille, sans représentation exacte d’un objet EFT."
+      ],
+      "sources_a_consulter": [
+        "tdev-phase5-catalog",
+        "patch110",
+        "patch130",
+        "wiki-ammo-2026"
+      ],
+      "revalidation": "Recharger les trois exports, dater toute offre/prix et confirmer dans le client les conditions ou résultats avant de publier un conseil de jeu.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T19:06:33+01:00",
+      "bilan": "docs/phase-5.md",
+      "verification": "docs/verifications-phase-5.md"
+    },
+    {
+      "phase": "PHASE_5",
+      "fichier": "pages/weapons/shotguns.html",
+      "titre": "Fusils à pompe",
+      "objectif": "Consulter les valeurs d’export de la famille Fusils à pompe et les comparer par identifiant et mode, sans extrapoler une méta ni un build.",
+      "gabarit": "equipement",
+      "sections": [
+        "Périmètre de la famille dans le catalogue exporté",
+        "Valeurs disponibles de l’objet et offres datées par mode",
+        "Filtres, tri et comparaison des objets identifiés",
+        "Limites des presets/prix, sources et renvois vers les munitions"
+      ],
+      "interaction": "Filtres par famille/calibre et champs présents, offres séparées par mode et comparateur par identifiant.",
+      "illustrations_jpg": [
+        "Fusils à pompe fictifs en atelier; illustration éditoriale JPG générique.",
+        "Vignettes locales de famille, sans représentation exacte d’un objet EFT."
+      ],
+      "sources_a_consulter": [
+        "tdev-phase5-catalog",
+        "wiki-ammo-2026",
+        "patch110",
+        "patch130"
+      ],
+      "revalidation": "Recharger les trois exports, dater toute offre/prix et confirmer dans le client les conditions ou résultats avant de publier un conseil de jeu.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T19:06:33+01:00",
+      "bilan": "docs/phase-5.md",
+      "verification": "docs/verifications-phase-5.md"
+    },
+    {
+      "phase": "PHASE_5",
+      "fichier": "pages/weapons/sniper-rifles.html",
+      "titre": "Fusils de précision",
+      "objectif": "Consulter les valeurs d’export de la famille Fusils de précision et les comparer par identifiant et mode, sans extrapoler une méta ni un build.",
+      "gabarit": "equipement",
+      "sections": [
+        "Périmètre de la famille dans le catalogue exporté",
+        "Valeurs disponibles de l’objet et offres datées par mode",
+        "Filtres, tri et comparaison des objets identifiés",
+        "Limites des presets/prix, sources et renvois vers les munitions"
+      ],
+      "interaction": "Filtres par famille/calibre et champs présents, offres séparées par mode et comparateur par identifiant.",
+      "illustrations_jpg": [
+        "Fusils de précision fictifs en atelier; illustration éditoriale JPG générique.",
+        "Vignettes locales de famille, sans représentation exacte d’un objet EFT."
+      ],
+      "sources_a_consulter": [
+        "tdev-phase5-catalog",
+        "patch130",
+        "wiki-ammo-2026"
+      ],
+      "revalidation": "Recharger les trois exports, dater toute offre/prix et confirmer dans le client les conditions ou résultats avant de publier un conseil de jeu.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T19:06:33+01:00",
+      "bilan": "docs/phase-5.md",
+      "verification": "docs/verifications-phase-5.md"
+    },
+    {
+      "phase": "PHASE_5",
+      "fichier": "pages/weapons/dmrs.html",
+      "titre": "Fusils de tireur désigné (DMR)",
+      "objectif": "Consulter les valeurs d’export de la famille Fusils DMR et les comparer par identifiant et mode, sans extrapoler une méta ni un build.",
+      "gabarit": "equipement",
+      "sections": [
+        "Périmètre de la famille dans le catalogue exporté",
+        "Valeurs disponibles de l’objet et offres datées par mode",
+        "Filtres, tri et comparaison des objets identifiés",
+        "Limites des presets/prix, sources et renvois vers les munitions"
+      ],
+      "interaction": "Filtres par famille/calibre et champs présents, offres séparées par mode et comparateur par identifiant.",
+      "illustrations_jpg": [
+        "Fusils de tireur désigné (DMR) fictifs en atelier; illustration éditoriale JPG générique.",
+        "Vignettes locales de famille, sans représentation exacte d’un objet EFT."
+      ],
+      "sources_a_consulter": [
+        "tdev-phase5-catalog",
+        "patch110",
+        "patch130",
+        "wiki-ammo-2026"
+      ],
+      "revalidation": "Recharger les trois exports, dater toute offre/prix et confirmer dans le client les conditions ou résultats avant de publier un conseil de jeu.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T19:06:33+01:00",
+      "bilan": "docs/phase-5.md",
+      "verification": "docs/verifications-phase-5.md"
+    },
+    {
+      "phase": "PHASE_5",
+      "fichier": "pages/weapons/lmgs.html",
+      "titre": "Mitrailleuses légères (LMG)",
+      "objectif": "Consulter les valeurs d’export de la famille Mitrailleuses légères et les comparer par identifiant et mode, sans extrapoler une méta ni un build.",
+      "gabarit": "equipement",
+      "sections": [
+        "Périmètre de la famille dans le catalogue exporté",
+        "Valeurs disponibles de l’objet et offres datées par mode",
+        "Filtres, tri et comparaison des objets identifiés",
+        "Limites des presets/prix, sources et renvois vers les munitions"
+      ],
+      "interaction": "Filtres par famille/calibre et champs présents, offres séparées par mode et comparateur par identifiant.",
+      "illustrations_jpg": [
+        "Mitrailleuses légères (LMG) fictifs en atelier; illustration éditoriale JPG générique.",
+        "Vignettes locales de famille, sans représentation exacte d’un objet EFT."
+      ],
+      "sources_a_consulter": [
+        "tdev-phase5-catalog",
+        "patch130",
+        "wiki-ammo-2026"
+      ],
+      "revalidation": "Recharger les trois exports, dater toute offre/prix et confirmer dans le client les conditions ou résultats avant de publier un conseil de jeu.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T19:06:33+01:00",
+      "bilan": "docs/phase-5.md",
+      "verification": "docs/verifications-phase-5.md"
+    },
+    {
+      "phase": "PHASE_5",
+      "fichier": "pages/weapons/pistols.html",
+      "titre": "Pistolets et revolvers",
+      "objectif": "Consulter les valeurs d’export de la famille Pistolets et revolvers et les comparer par identifiant et mode, sans extrapoler une méta ni un build.",
+      "gabarit": "equipement",
+      "sections": [
+        "Périmètre de la famille dans le catalogue exporté",
+        "Valeurs disponibles de l’objet et offres datées par mode",
+        "Filtres, tri et comparaison des objets identifiés",
+        "Limites des presets/prix, sources et renvois vers les munitions"
+      ],
+      "interaction": "Filtres par famille/calibre et champs présents, offres séparées par mode et comparateur par identifiant.",
+      "illustrations_jpg": [
+        "Pistolets et revolvers fictifs en atelier; illustration éditoriale JPG générique.",
+        "Vignettes locales de famille, sans représentation exacte d’un objet EFT."
+      ],
+      "sources_a_consulter": [
+        "tdev-phase5-catalog",
+        "patch110",
+        "patch130",
+        "wiki-ammo-2026"
+      ],
+      "revalidation": "Recharger les trois exports, dater toute offre/prix et confirmer dans le client les conditions ou résultats avant de publier un conseil de jeu.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T19:06:33+01:00",
+      "bilan": "docs/phase-5.md",
+      "verification": "docs/verifications-phase-5.md"
+    },
+    {
+      "phase": "PHASE_5",
+      "fichier": "pages/weapons/melee.html",
+      "titre": "Armes de mêlée",
+      "objectif": "Consulter les valeurs d’export de la famille Armes de mêlée et les comparer par identifiant et mode, sans extrapoler une méta ni un build.",
+      "gabarit": "equipement",
+      "sections": [
+        "Périmètre de la famille dans le catalogue exporté",
+        "Valeurs disponibles de l’objet et offres datées par mode",
+        "Filtres, tri et comparaison des objets identifiés",
+        "Limites des presets/prix, sources et renvois vers les munitions"
+      ],
+      "interaction": "Filtres par famille/calibre et champs présents, offres séparées par mode et comparateur par identifiant.",
+      "illustrations_jpg": [
+        "Armes de mêlée fictifs en atelier; illustration éditoriale JPG générique.",
+        "Vignettes locales de famille, sans représentation exacte d’un objet EFT."
+      ],
+      "sources_a_consulter": [
+        "tdev-phase5-catalog",
+        "patch130"
+      ],
+      "revalidation": "Recharger les trois exports, dater toute offre/prix et confirmer dans le client les conditions ou résultats avant de publier un conseil de jeu.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T19:06:33+01:00",
+      "bilan": "docs/phase-5.md",
+      "verification": "docs/verifications-phase-5.md"
+    },
+    {
+      "phase": "PHASE_5",
+      "fichier": "pages/weapons/grenade-launchers.html",
+      "titre": "Lanceurs en jeu",
+      "objectif": "Consulter les valeurs d’export de la famille Lanceurs en jeu et les comparer par identifiant et mode, sans extrapoler une méta ni un build.",
+      "gabarit": "equipement",
+      "sections": [
+        "Périmètre de la famille dans le catalogue exporté",
+        "Valeurs disponibles de l’objet et offres datées par mode",
+        "Filtres, tri et comparaison des objets identifiés",
+        "Limites des presets/prix, sources et renvois vers les munitions"
+      ],
+      "interaction": "Filtres par famille/calibre et champs présents, offres séparées par mode et comparateur par identifiant.",
+      "illustrations_jpg": [
+        "Lanceurs en jeu fictifs en atelier; illustration éditoriale JPG générique.",
+        "Vignettes locales de famille, sans représentation exacte d’un objet EFT."
+      ],
+      "sources_a_consulter": [
+        "tdev-phase5-catalog",
+        "wiki-ammo-2026",
+        "patch130"
+      ],
+      "revalidation": "Recharger les trois exports, dater toute offre/prix et confirmer dans le client les conditions ou résultats avant de publier un conseil de jeu.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T19:06:33+01:00",
+      "bilan": "docs/phase-5.md",
+      "verification": "docs/verifications-phase-5.md"
+    },
+    {
+      "phase": "PHASE_5",
+      "fichier": "pages/weapons/weapon-mods.html",
+      "titre": "Modifications d’armes",
+      "objectif": "Consulter les slots et IDs de modifications autorisés par l’export; ne pas présenter l’index comme un calculateur de build.",
+      "gabarit": "equipement",
+      "sections": [
+        "Résumé des slots et des IDs allow-listed",
+        "Index des modifications et plateformes compatibles",
+        "Filtres croisés par texte, slot et famille; tri par compatibilité ou nom",
+        "Limites des données de presets, coût, ergonomie et recul"
+      ],
+      "interaction": "Recherche, filtre slot/famille, tri alphabétique ou par nombre de plateformes; table complète conservée sans JavaScript.",
+      "illustrations_jpg": [
+        "Modifications d’armes fictifs en atelier; illustration éditoriale JPG générique.",
+        "Vignettes locales de famille, sans représentation exacte d’un objet EFT."
+      ],
+      "sources_a_consulter": [
+        "tdev-phase5-catalog",
+        "patch130"
+      ],
+      "revalidation": "Recharger les trois exports, dater toute offre/prix et confirmer dans le client les conditions ou résultats avant de publier un conseil de jeu.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T19:06:33+01:00",
+      "bilan": "docs/phase-5.md",
+      "verification": "docs/verifications-phase-5.md"
+    },
+    {
+      "phase": "PHASE_5",
+      "fichier": "pages/ammo/index.html",
+      "titre": "Munitions & balistique en jeu",
+      "objectif": "Parcourir les 200 entrées de munitions exportées par mode et distinguer statistiques, offres datées et informations non vérifiées en client.",
+      "gabarit": "hub",
+      "sections": [
+        "Catégories et périmètre des objets exportés",
+        "Valeurs dégâts/pénétration et champs présents",
+        "Offres traders/crafts par mode, avec données datées",
+        "Limites de fraîcheur et renvoi vers le graphique"
+      ],
+      "interaction": "Bascule de mode, filtres par nom/calibre/type et offre, comparateur par identifiant.",
+      "illustrations_jpg": [
+        "Cartouches génériques en macro; aucune munition EFT précise n’est représentée.",
+        "Illustration éditoriale JPG; les statistiques restent dans le tableau exporté."
+      ],
+      "sources_a_consulter": [
+        "tdev-phase5-catalog",
+        "tdev-phase5-crafts",
+        "tdev-special-equipment",
+        "wiki-ammo-2026",
+        "wiki-m855a1-2026",
+        "bsg-balance-nov",
+        "bsg-135-diary",
+        "patch110",
+        "patch130"
+      ],
+      "revalidation": "Recharger les trois exports, dater toute offre/prix et confirmer dans le client les conditions ou résultats avant de publier un conseil de jeu.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T19:06:33+01:00",
+      "bilan": "docs/phase-5.md",
+      "verification": "docs/verifications-phase-5.md"
+    },
+    {
+      "phase": "PHASE_5",
+      "fichier": "pages/ammo/ammo-chart.html",
+      "titre": "Tableau balistique interactif",
+      "objectif": "Visualiser les champs dégâts et pénétration de l’export par calibre sans modéliser un résultat exact en raid.",
+      "gabarit": "tableau",
+      "sections": [
+        "Nuage de points pour les projectiles concernés",
+        "Filtres de recherche/calibre synchronisés avec la table",
+        "Table HTML accessible et comparaison par mode",
+        "Crafts, sources et limites des champs balistiques"
+      ],
+      "interaction": "Filtres de recherche et calibre; graphique SVG relié au tableau accessible, sans point interactif ni calculateur de pénétration.",
+      "illustrations_jpg": [
+        "Munitions génériques en macro; aucune référence à un modèle EFT précis.",
+        "Nuage HTML/CSS des propriétés exportées; pas de graphique-image ni de tier list."
+      ],
+      "sources_a_consulter": [
+        "tdev-phase5-catalog",
+        "tdev-phase5-crafts",
+        "tdev-special-equipment",
+        "tdev-drip-out-bear",
+        "tdev-drip-out-usec",
+        "wiki-ammo-2026",
+        "wiki-m855a1-2026",
+        "lfcarry-ammo-2026",
+        "ascheron-ammo-2026",
+        "bsg-balance-nov",
+        "bsg-135-diary"
+      ],
+      "revalidation": "Recharger les trois exports, dater toute offre/prix et confirmer dans le client les conditions ou résultats avant de publier un conseil de jeu.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T19:06:33+01:00",
+      "bilan": "docs/phase-5.md",
+      "verification": "docs/verifications-phase-5.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/armor/index.html",
+      "titre": "Armures & protection en jeu",
+      "objectif": "Comprendre la couverture réelle dans le modèle d’armure EFT.",
+      "gabarit": "hub",
+      "sections": [
+        "Classes, zones, armures souples, plaques, casques et rigs",
+        "État, réparation, poids et pénalités",
+        "Recommandations par slot et niveau de budget"
+      ],
+      "interaction": "Comparaison à deux colonnes, filtre pièce/mode/classe avec texte, renvois casque/plaque/rig.",
+      "illustrations_jpg": [
+        "Matériel EFT posé dans un vestiaire",
+        "Schéma de couverture du modèle de jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch130",
+        "market"
+      ],
+      "revalidation": "Vérifier les zones dans le client et préserver les classes par pièce/plaque, pas de classe agrégée trompeuse.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/armor/body-armor.html",
+      "titre": "Gilets & plaques",
+      "objectif": "Distinguer le porte-plaques, les inserts et la protection intégrée.",
+      "gabarit": "equipement",
+      "sections": [
+        "Formats et compatibilité des inserts",
+        "Zones et classes par emplacement",
+        "Durabilité, matériaux et réparation"
+      ],
+      "interaction": "Comparer couvertures et filtrer par classe/poids.",
+      "illustrations_jpg": [
+        "Porte-plaques et plaques balistiques fictifs, vierges de texte et de marque; illustration JPG générée.",
+        "Image d’ambiance générique; aucune classe, statistique ou compatibilité n’est encodée dans la photo."
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch130",
+        "market"
+      ],
+      "revalidation": "Ne pas attribuer une classe aux emplacements vides ; vérifier le kit vendu par défaut.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/armor/helmets.html",
+      "titre": "Casques & visières",
+      "objectif": "Repérer les protections compatibles avec les pièces portées.",
+      "gabarit": "equipement",
+      "sections": [
+        "Zones de tête couvertes",
+        "Visières, accessoires et conflits de slots",
+        "Vision, son et pénalités en jeu"
+      ],
+      "interaction": "Filtrer par zones, classe et compatibilité casque de communication.",
+      "illustrations_jpg": [
+        "Casque et visière du jeu",
+        "Planche de zones tête"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch130",
+        "market"
+      ],
+      "revalidation": "Vérifier par emplacement les protections, classes et incompatibilités.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/armor/rigs.html",
+      "titre": "Rigs tactiques",
+      "objectif": "Comparer capacité d’inventaire et protection sans confondre rigs et armures.",
+      "gabarit": "equipement",
+      "sections": [
+        "Armored rigs et gilets simples",
+        "Nombre, disposition et limites de stockage des cases",
+        "Comparatif budget et poids"
+      ],
+      "interaction": "Afficher une grille de cases avec liste textuelle ; trier poids/capacité.",
+      "illustrations_jpg": [
+        "Gilet tactique EFT",
+        "Schéma de capacité de rig"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch130",
+        "market"
+      ],
+      "revalidation": "Distinguer cases utiles, classe intégrée, et pièces compatibles.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/armor/armor-chart.html",
+      "titre": "Comparateur d’armures",
+      "objectif": "Comparer des objets de même slot sur les valeurs du flux.",
+      "gabarit": "equipement",
+      "sections": [
+        "Table de valeurs",
+        "Choix du mode et des emplacements",
+        "Interprétation et source"
+      ],
+      "interaction": "Sélection côte à côte ; barres et valeurs numériques ; liens permanents à la fiche.",
+      "illustrations_jpg": [
+        "Présentation catalogue EFT",
+        "Graphique explicatif matériau/durabilité"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch130",
+        "market"
+      ],
+      "revalidation": "Tester les valeurs nulles et l’absence de référence de plaque.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/index.html",
+      "titre": "Boss de Tarkov",
+      "objectif": "Identifier une rencontre et son contexte sans réduire le jeu à un pourcentage fixe.",
+      "gabarit": "hub",
+      "sections": [
+        "Boss uniques, groupes, gardes, Raiders/Rogues et variantes à distinguer",
+        "Carte de présence et filtre par mode",
+        "Table HP, équipement notable et difficulté éditoriale",
+        "Liens vers profils, vidéos corroborées et aides en jeu"
+      ],
+      "interaction": "Comparaison des profils, onglets PvP/PvE/Seasonal et grille par lieu.",
+      "illustrations_jpg": [
+        "Reshala et dortoirs",
+        "Killa dans ULTRA",
+        "Tagilla dans Factory",
+        "The Goons, trio"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130",
+        "balance-nov",
+        "halloween"
+      ],
+      "revalidation": "Réconcilier noms et variantes : ne pas compter chaque enregistrement de mob comme boss distinct.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/reshala.html",
+      "titre": "Reshala",
+      "objectif": "Préparer cette rencontre dans EFT : Customs.",
+      "gabarit": "boss",
+      "sections": [
+        "Identification et lieux vérifiés (mode, variante et date)",
+        "Dortoirs et zones alternatives ; comportement et rôle des gardes ; Golden TT à contrôler.",
+        "HP par zone et équipement de jeu quand attestés ; gardes et comportement IA",
+        "Loot, quêtes liées et stratégie propre au fonctionnement du raid"
+      ],
+      "interaction": "Onglets par mode et renvois carte/quête ; fiche comparateur issue du hub.",
+      "illustrations_jpg": [
+        "Reshala : portrait illustratif",
+        "Reshala : localisation ou équipement notable dans le jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130"
+      ],
+      "revalidation": "Vérifier la fiche dédiée Reshala, ses entrées Tarkov.dev et leur validité pour Customs ; ne pas reprendre les taux du brief.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/killa.html",
+      "titre": "Killa",
+      "objectif": "Préparer cette rencontre dans EFT : Interchange.",
+      "gabarit": "boss",
+      "sections": [
+        "Identification et lieux vérifiés (mode, variante et date)",
+        "Tenue et visière ; présence par secteurs d’ULTRA ; distinguer son pendant du Labyrinth.",
+        "HP par zone et équipement de jeu quand attestés ; gardes et comportement IA",
+        "Loot, quêtes liées et stratégie propre au fonctionnement du raid"
+      ],
+      "interaction": "Onglets par mode et renvois carte/quête ; fiche comparateur issue du hub.",
+      "illustrations_jpg": [
+        "Killa : portrait illustratif",
+        "Killa : localisation ou équipement notable dans le jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130",
+        "halloween"
+      ],
+      "revalidation": "Vérifier la fiche dédiée Killa, ses entrées Tarkov.dev et leur validité pour Interchange ; ne pas reprendre les taux du brief.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/shturman.html",
+      "titre": "Shturman",
+      "objectif": "Préparer cette rencontre dans EFT : Woods.",
+      "gabarit": "boss",
+      "sections": [
+        "Identification et lieux vérifiés (mode, variante et date)",
+        "Scierie et gardes ; clé de cache et probabilités de Red Rebel si sourcées.",
+        "HP par zone et équipement de jeu quand attestés ; gardes et comportement IA",
+        "Loot, quêtes liées et stratégie propre au fonctionnement du raid"
+      ],
+      "interaction": "Onglets par mode et renvois carte/quête ; fiche comparateur issue du hub.",
+      "illustrations_jpg": [
+        "Shturman : portrait illustratif",
+        "Shturman : localisation ou équipement notable dans le jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130"
+      ],
+      "revalidation": "Vérifier la fiche dédiée Shturman, ses entrées Tarkov.dev et leur validité pour Woods ; ne pas reprendre les taux du brief.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/glukhar.html",
+      "titre": "Glukhar",
+      "objectif": "Préparer cette rencontre dans EFT : Reserve / variantes.",
+      "gabarit": "boss",
+      "sections": [
+        "Identification et lieux vérifiés (mode, variante et date)",
+        "Groupes de gardes et positions sur la base ; confirmer autres lieux séparément.",
+        "HP par zone et équipement de jeu quand attestés ; gardes et comportement IA",
+        "Loot, quêtes liées et stratégie propre au fonctionnement du raid"
+      ],
+      "interaction": "Onglets par mode et renvois carte/quête ; fiche comparateur issue du hub.",
+      "illustrations_jpg": [
+        "Glukhar : portrait illustratif",
+        "Glukhar : localisation ou équipement notable dans le jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130"
+      ],
+      "revalidation": "Vérifier la fiche dédiée Glukhar, ses entrées Tarkov.dev et leur validité pour Reserve / variantes ; ne pas reprendre les taux du brief.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/sanitar.html",
+      "titre": "Sanitar",
+      "objectif": "Préparer cette rencontre dans EFT : Shoreline.",
+      "gabarit": "boss",
+      "sections": [
+        "Identification et lieux vérifiés (mode, variante et date)",
+        "Resort, jetée et cottages ; soins IA et équipement notable en jeu.",
+        "HP par zone et équipement de jeu quand attestés ; gardes et comportement IA",
+        "Loot, quêtes liées et stratégie propre au fonctionnement du raid"
+      ],
+      "interaction": "Onglets par mode et renvois carte/quête ; fiche comparateur issue du hub.",
+      "illustrations_jpg": [
+        "Sanitar : portrait illustratif",
+        "Sanitar : localisation ou équipement notable dans le jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130"
+      ],
+      "revalidation": "Vérifier la fiche dédiée Sanitar, ses entrées Tarkov.dev et leur validité pour Shoreline ; ne pas reprendre les taux du brief.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/tagilla.html",
+      "titre": "Tagilla",
+      "objectif": "Préparer cette rencontre dans EFT : Factory.",
+      "gabarit": "boss",
+      "sections": [
+        "Identification et lieux vérifiés (mode, variante et date)",
+        "Reconnaître le masque et l’agression de l’IA ; variantes Infected et Terminal isolées.",
+        "HP par zone et équipement de jeu quand attestés ; gardes et comportement IA",
+        "Loot, quêtes liées et stratégie propre au fonctionnement du raid"
+      ],
+      "interaction": "Onglets par mode et renvois carte/quête ; fiche comparateur issue du hub.",
+      "illustrations_jpg": [
+        "Tagilla : portrait illustratif",
+        "Tagilla : localisation ou équipement notable dans le jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130",
+        "halloween"
+      ],
+      "revalidation": "Vérifier la fiche dédiée Tagilla, ses entrées Tarkov.dev et leur validité pour Factory ; ne pas reprendre les taux du brief.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/kaban.html",
+      "titre": "Kaban",
+      "objectif": "Préparer cette rencontre dans EFT : Streets of Tarkov.",
+      "gabarit": "boss",
+      "sections": [
+        "Identification et lieux vérifiés (mode, variante et date)",
+        "LexOs, gardes et zone ; clés et quêtes liées.",
+        "HP par zone et équipement de jeu quand attestés ; gardes et comportement IA",
+        "Loot, quêtes liées et stratégie propre au fonctionnement du raid"
+      ],
+      "interaction": "Onglets par mode et renvois carte/quête ; fiche comparateur issue du hub.",
+      "illustrations_jpg": [
+        "Kaban : portrait illustratif",
+        "Kaban : localisation ou équipement notable dans le jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130"
+      ],
+      "revalidation": "Vérifier la fiche dédiée Kaban, ses entrées Tarkov.dev et leur validité pour Streets of Tarkov ; ne pas reprendre les taux du brief.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/kollontay.html",
+      "titre": "Kollontay",
+      "objectif": "Préparer cette rencontre dans EFT : Streets / Ground Zero à vérifier.",
+      "gabarit": "boss",
+      "sections": [
+        "Identification et lieux vérifiés (mode, variante et date)",
+        "Variantes de lieu, gardes et effets in-game ; conditions de la carte débutant.",
+        "HP par zone et équipement de jeu quand attestés ; gardes et comportement IA",
+        "Loot, quêtes liées et stratégie propre au fonctionnement du raid"
+      ],
+      "interaction": "Onglets par mode et renvois carte/quête ; fiche comparateur issue du hub.",
+      "illustrations_jpg": [
+        "Kollontay : portrait illustratif",
+        "Kollontay : localisation ou équipement notable dans le jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130"
+      ],
+      "revalidation": "Vérifier la fiche dédiée Kollontay, ses entrées Tarkov.dev et leur validité pour Streets / Ground Zero à vérifier ; ne pas reprendre les taux du brief.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/zryachiy.html",
+      "titre": "Zryachiy",
+      "objectif": "Préparer cette rencontre dans EFT : Lighthouse.",
+      "gabarit": "boss",
+      "sections": [
+        "Identification et lieux vérifiés (mode, variante et date)",
+        "Péninsule, accès à Lightkeeper et conséquences en jeu ; état actualisé.",
+        "HP par zone et équipement de jeu quand attestés ; gardes et comportement IA",
+        "Loot, quêtes liées et stratégie propre au fonctionnement du raid"
+      ],
+      "interaction": "Onglets par mode et renvois carte/quête ; fiche comparateur issue du hub.",
+      "illustrations_jpg": [
+        "Zryachiy : portrait illustratif",
+        "Zryachiy : localisation ou équipement notable dans le jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130"
+      ],
+      "revalidation": "Vérifier la fiche dédiée Zryachiy, ses entrées Tarkov.dev et leur validité pour Lighthouse ; ne pas reprendre les taux du brief.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/partisan.html",
+      "titre": "Partisan",
+      "objectif": "Préparer cette rencontre dans EFT : Plusieurs cartes.",
+      "gabarit": "boss",
+      "sections": [
+        "Identification et lieux vérifiés (mode, variante et date)",
+        "Présence et karma PMC, fix 1.3.0.0 et mises à jour récentes ; taux nominal vs conditionnel.",
+        "HP par zone et équipement de jeu quand attestés ; gardes et comportement IA",
+        "Loot, quêtes liées et stratégie propre au fonctionnement du raid"
+      ],
+      "interaction": "Onglets par mode et renvois carte/quête ; fiche comparateur issue du hub.",
+      "illustrations_jpg": [
+        "Partisan : portrait illustratif",
+        "Partisan : localisation ou équipement notable dans le jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130"
+      ],
+      "revalidation": "Vérifier la fiche dédiée Partisan, ses entrées Tarkov.dev et leur validité pour Plusieurs cartes ; ne pas reprendre les taux du brief.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/cultist-priest.html",
+      "titre": "Cultist Priest",
+      "objectif": "Préparer cette rencontre dans EFT : Variantes nocturnes.",
+      "gabarit": "boss",
+      "sections": [
+        "Identification et lieux vérifiés (mode, variante et date)",
+        "Séparer Priest, combattants associés et événements ; fenêtres horaires en jeu.",
+        "HP par zone et équipement de jeu quand attestés ; gardes et comportement IA",
+        "Loot, quêtes liées et stratégie propre au fonctionnement du raid"
+      ],
+      "interaction": "Onglets par mode et renvois carte/quête ; fiche comparateur issue du hub.",
+      "illustrations_jpg": [
+        "Cultist Priest : portrait illustratif",
+        "Cultist Priest : localisation ou équipement notable dans le jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130"
+      ],
+      "revalidation": "Vérifier la fiche dédiée Cultist Priest, ses entrées Tarkov.dev et leur validité pour Variantes nocturnes ; ne pas reprendre les taux du brief.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/the-goons.html",
+      "titre": "The Goons",
+      "objectif": "Préparer cette rencontre dans EFT : Plusieurs cartes.",
+      "gabarit": "boss",
+      "sections": [
+        "Identification et lieux vérifiés (mode, variante et date)",
+        "Knight, Big Pipe et Birdeye : tableaux distincts, groupe et rotations validées ; Knight sur Icebreaker séparé.",
+        "HP par zone et équipement de jeu quand attestés ; gardes et comportement IA",
+        "Loot, quêtes liées et stratégie propre au fonctionnement du raid"
+      ],
+      "interaction": "Onglets par mode et renvois carte/quête ; fiche comparateur issue du hub.",
+      "illustrations_jpg": [
+        "The Goons : portrait illustratif",
+        "The Goons : localisation ou équipement notable dans le jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130",
+        "patch105",
+        "balance-nov"
+      ],
+      "revalidation": "Vérifier la fiche dédiée The Goons, ses entrées Tarkov.dev et leur validité pour Plusieurs cartes ; ne pas reprendre les taux du brief.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/shadow-of-tagilla.html",
+      "titre": "Shadow of Tagilla",
+      "objectif": "Préparer cette rencontre dans EFT : The Labyrinth.",
+      "gabarit": "boss",
+      "sections": [
+        "Identification et lieux vérifiés (mode, variante et date)",
+        "Accès, équipement Labrys et déclenchement de la rencontre suivante.",
+        "HP par zone et équipement de jeu quand attestés ; gardes et comportement IA",
+        "Loot, quêtes liées et stratégie propre au fonctionnement du raid"
+      ],
+      "interaction": "Onglets par mode et renvois carte/quête ; fiche comparateur issue du hub.",
+      "illustrations_jpg": [
+        "Shadow of Tagilla : portrait illustratif",
+        "Shadow of Tagilla : localisation ou équipement notable dans le jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130"
+      ],
+      "revalidation": "Vérifier la fiche dédiée Shadow of Tagilla, ses entrées Tarkov.dev et leur validité pour The Labyrinth ; ne pas reprendre les taux du brief.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/the-wedge.html",
+      "titre": "The Wedge",
+      "objectif": "Préparer cette rencontre dans EFT : Icebreaker / The Lab (Dark).",
+      "gabarit": "boss",
+      "sections": [
+        "Identification et lieux vérifiés (mode, variante et date)",
+        "Identifiants distincts, groupe Black Division et correctifs du 12 novembre.",
+        "HP par zone et équipement de jeu quand attestés ; gardes et comportement IA",
+        "Loot, quêtes liées et stratégie propre au fonctionnement du raid"
+      ],
+      "interaction": "Onglets par mode et renvois carte/quête ; fiche comparateur issue du hub.",
+      "illustrations_jpg": [
+        "The Wedge : portrait illustratif",
+        "The Wedge : localisation ou équipement notable dans le jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130",
+        "patch105",
+        "balance-nov"
+      ],
+      "revalidation": "Vérifier la fiche dédiée The Wedge, ses entrées Tarkov.dev et leur validité pour Icebreaker / The Lab (Dark) ; ne pas reprendre les taux du brief.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_6",
+      "fichier": "pages/bosses/vengeful-killa.html",
+      "titre": "Vengeful Killa",
+      "objectif": "Préparer cette rencontre dans EFT : The Labyrinth.",
+      "gabarit": "boss",
+      "sections": [
+        "Identification et lieux vérifiés (mode, variante et date)",
+        "Apparition après Shadow of Tagilla ; profil, loot et déclencheur à distinguer du Killa standard.",
+        "HP par zone et équipement de jeu quand attestés ; gardes et comportement IA",
+        "Loot, quêtes liées et stratégie propre au fonctionnement du raid"
+      ],
+      "interaction": "Onglets par mode et renvois carte/quête ; fiche comparateur issue du hub.",
+      "illustrations_jpg": [
+        "Vengeful Killa : portrait illustratif",
+        "Vengeful Killa : localisation ou équipement notable dans le jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki-bosses",
+        "patch130"
+      ],
+      "revalidation": "Vérifier la fiche dédiée Vengeful Killa, ses entrées Tarkov.dev et leur validité pour The Labyrinth ; ne pas reprendre les taux du brief.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18T23:31:31.197Z",
+      "bilan": "docs/phase-6.md",
+      "verification": "docs/verifications-phase-6.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/traders/index.html",
+      "titre": "Traders & interlocuteurs",
+      "objectif": "Choisir quel profil suivre selon son besoin et le mode de partie.",
+      "gabarit": "hub",
+      "sections": [
+        "Dix traders mis en avant ; autres interlocuteurs/PNJ distingués",
+        "Loyauté, déblocage et inventaire représentatif",
+        "Quêtes et réputation depuis la refonte 1.1.0.0"
+      ],
+      "interaction": "Filtres spécialité/mode et navigation par niveau de loyauté ; champs non applicables explicites.",
+      "illustrations_jpg": [
+        "Marché des traders de Tarkov",
+        "Planche de comptoirs et ressources"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "patch115",
+        "tracker"
+      ],
+      "revalidation": "Recenser et séparer les 16 enregistrements amont, traders, vendeurs et personnages d’histoire.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/traders/prapor.html",
+      "titre": "Prapor",
+      "objectif": "Progression d’armes russes et premières chaînes.",
+      "gabarit": "trader",
+      "sections": [
+        "Profil et condition de mise à disposition",
+        "Offres de départ, quêtes initiales et objets à conserver.",
+        "Table de réputation/niveau et offres datées",
+        "Ordre des quêtes, inventaire et alternatives accessibles"
+      ],
+      "interaction": "Filtre par LL et mode, ancres vers guides de quêtes et items à garder.",
+      "illustrations_jpg": [
+        "Prapor : portrait interprété",
+        "Prapor : univers du comptoir ou équipement de jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "tracker"
+      ],
+      "revalidation": "Revalider le trader Prapor, ses LL et ses offres ; séparer les chiffres fixes des rotations.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/traders/therapist.html",
+      "titre": "Therapist",
+      "objectif": "Soins et ressources de départ.",
+      "gabarit": "trader",
+      "sections": [
+        "Profil et condition de mise à disposition",
+        "Déblocages médicaux, service post-raid et chaînes de remise.",
+        "Table de réputation/niveau et offres datées",
+        "Ordre des quêtes, inventaire et alternatives accessibles"
+      ],
+      "interaction": "Filtre par LL et mode, ancres vers guides de quêtes et items à garder.",
+      "illustrations_jpg": [
+        "Therapist : portrait interprété",
+        "Therapist : univers du comptoir ou équipement de jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "tracker"
+      ],
+      "revalidation": "Revalider le trader Therapist, ses LL et ses offres ; séparer les chiffres fixes des rotations.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/traders/skier.html",
+      "titre": "Skier",
+      "objectif": "Équipement, devises et quêtes à embranchements.",
+      "gabarit": "trader",
+      "sections": [
+        "Profil et condition de mise à disposition",
+        "Arbitrages de réputation et distinguer quêtes permanentes de la branche Halloween.",
+        "Table de réputation/niveau et offres datées",
+        "Ordre des quêtes, inventaire et alternatives accessibles"
+      ],
+      "interaction": "Filtre par LL et mode, ancres vers guides de quêtes et items à garder.",
+      "illustrations_jpg": [
+        "Skier : portrait interprété",
+        "Skier : univers du comptoir ou équipement de jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "tracker"
+      ],
+      "revalidation": "Revalider le trader Skier, ses LL et ses offres ; séparer les chiffres fixes des rotations.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/traders/peacekeeper.html",
+      "titre": "Peacekeeper",
+      "objectif": "Dollars et équipement occidental.",
+      "gabarit": "trader",
+      "sections": [
+        "Profil et condition de mise à disposition",
+        "Conversion et disponibilité par mode, déblocage de la chaîne de quêtes.",
+        "Table de réputation/niveau et offres datées",
+        "Ordre des quêtes, inventaire et alternatives accessibles"
+      ],
+      "interaction": "Filtre par LL et mode, ancres vers guides de quêtes et items à garder.",
+      "illustrations_jpg": [
+        "Peacekeeper : portrait interprété",
+        "Peacekeeper : univers du comptoir ou équipement de jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "tracker"
+      ],
+      "revalidation": "Revalider le trader Peacekeeper, ses LL et ses offres ; séparer les chiffres fixes des rotations.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/traders/mechanic.html",
+      "titre": "Mechanic",
+      "objectif": "Presets, accessoires et progression Gunsmith.",
+      "gabarit": "trader",
+      "sections": [
+        "Profil et condition de mise à disposition",
+        "Pièces par niveau, réparations en jeu et accès Lightkeeper.",
+        "Table de réputation/niveau et offres datées",
+        "Ordre des quêtes, inventaire et alternatives accessibles"
+      ],
+      "interaction": "Filtre par LL et mode, ancres vers guides de quêtes et items à garder.",
+      "illustrations_jpg": [
+        "Mechanic : portrait interprété",
+        "Mechanic : univers du comptoir ou équipement de jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "tracker"
+      ],
+      "revalidation": "Revalider le trader Mechanic, ses LL et ses offres ; séparer les chiffres fixes des rotations.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/traders/ragman.html",
+      "titre": "Ragman",
+      "objectif": "Vêtements, gilets et gestion de l’inventaire.",
+      "gabarit": "trader",
+      "sections": [
+        "Profil et condition de mise à disposition",
+        "Équipement par LL, personnalisation et synchronisation à vérifier.",
+        "Table de réputation/niveau et offres datées",
+        "Ordre des quêtes, inventaire et alternatives accessibles"
+      ],
+      "interaction": "Filtre par LL et mode, ancres vers guides de quêtes et items à garder.",
+      "illustrations_jpg": [
+        "Ragman : portrait interprété",
+        "Ragman : univers du comptoir ou équipement de jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "tracker"
+      ],
+      "revalidation": "Revalider le trader Ragman, ses LL et ses offres ; séparer les chiffres fixes des rotations.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/traders/jaeger.html",
+      "titre": "Jaeger",
+      "objectif": "Déblocage et progression de ses quêtes.",
+      "gabarit": "trader",
+      "sections": [
+        "Profil et condition de mise à disposition",
+        "Chaîne d’accès et premiers barters ; exceptions de réputation.",
+        "Table de réputation/niveau et offres datées",
+        "Ordre des quêtes, inventaire et alternatives accessibles"
+      ],
+      "interaction": "Filtre par LL et mode, ancres vers guides de quêtes et items à garder.",
+      "illustrations_jpg": [
+        "Jaeger : portrait interprété",
+        "Jaeger : univers du comptoir ou équipement de jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "tracker"
+      ],
+      "revalidation": "Revalider le trader Jaeger, ses LL et ses offres ; séparer les chiffres fixes des rotations.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/traders/fence.html",
+      "titre": "Fence",
+      "objectif": "Relation entre karma Scav, transactions et Collector.",
+      "gabarit": "trader",
+      "sections": [
+        "Profil et condition de mise à disposition",
+        "Seuils de karma, effets à vérifier, progression de la quête Collector.",
+        "Table de réputation/niveau et offres datées",
+        "Ordre des quêtes, inventaire et alternatives accessibles"
+      ],
+      "interaction": "Filtre par LL et mode, ancres vers guides de quêtes et items à garder.",
+      "illustrations_jpg": [
+        "Fence : portrait interprété",
+        "Fence : univers du comptoir ou équipement de jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "tracker"
+      ],
+      "revalidation": "Revalider le trader Fence, ses LL et ses offres ; séparer les chiffres fixes des rotations.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/traders/lightkeeper.html",
+      "titre": "Lightkeeper",
+      "objectif": "Accès narratif et périmètre Lighthouse.",
+      "gabarit": "trader",
+      "sections": [
+        "Profil et condition de mise à disposition",
+        "Vérifier To the Light, exceptions de LL et post-refonte de la péninsule.",
+        "Table de réputation/niveau et offres datées",
+        "Ordre des quêtes, inventaire et alternatives accessibles"
+      ],
+      "interaction": "Filtre par LL et mode, ancres vers guides de quêtes et items à garder.",
+      "illustrations_jpg": [
+        "Lightkeeper : portrait interprété",
+        "Lightkeeper : univers du comptoir ou équipement de jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "tracker",
+        "patch115"
+      ],
+      "revalidation": "Revalider le trader Lightkeeper, ses LL et ses offres ; séparer les chiffres fixes des rotations.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/traders/ref.html",
+      "titre": "Ref",
+      "objectif": "Séparer Arena, PvP et PvE côté transferts et récompenses.",
+      "gabarit": "trader",
+      "sections": [
+        "Profil et condition de mise à disposition",
+        "Monnaies, Lega Medals, inventaire et règles de synchronisation par mode.",
+        "Table de réputation/niveau et offres datées",
+        "Ordre des quêtes, inventaire et alternatives accessibles"
+      ],
+      "interaction": "Filtre par LL et mode, ancres vers guides de quêtes et items à garder.",
+      "illustrations_jpg": [
+        "Ref : portrait interprété",
+        "Ref : univers du comptoir ou équipement de jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "tracker",
+        "arena"
+      ],
+      "revalidation": "Revalider le trader Ref, ses LL et ses offres ; séparer les chiffres fixes des rotations.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/quests/index.html",
+      "titre": "Quêtes de Tarkov",
+      "objectif": "Savoir quoi entreprendre et emporter selon le mode et le prérequis réel.",
+      "gabarit": "hub",
+      "sections": [
+        "Quêtes par trader, histoire et événements",
+        "Prérequis, objectifs, récompenses, cartes et objets",
+        "Routes de progression et priorités débutant",
+        "Arbre et Kappa : données et limites"
+      ],
+      "interaction": "Filtre trader/carte/mode/autres critères, recherche et progression stockée localement.",
+      "illustrations_jpg": [
+        "Dossier de mission EFT",
+        "Écran fictif de suivi de raid"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "tracker",
+        "wiki",
+        "patch110",
+        "patch120",
+        "balance-nov"
+      ],
+      "revalidation": "Tester couverture des tâches d’histoire et des 11 historiques manquantes signalées ; noter les lacunes du flux.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/quests/quest-tree.html",
+      "titre": "Arbre des quêtes",
+      "objectif": "Voir le prochain objectif réalisable et les chaînes qui le bloquent.",
+      "gabarit": "outil",
+      "sections": [
+        "Graphe des prérequis, ET/OU et niveau",
+        "Cartes, objets et liens par quête",
+        "Statut local et méthode de calcul"
+      ],
+      "interaction": "Graphe et liste accessibles, filtre par trader/mode et statut persistant avec export JSON local.",
+      "illustrations_jpg": [
+        "Schéma de progression des quêtes du jeu",
+        "Dossier d’objectifs en jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "tracker",
+        "patch110",
+        "wiki"
+      ],
+      "revalidation": "Détecter cycles, quêtes mixtes et prérequis absents par mode.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/quests/kappa-guide.html",
+      "titre": "Guide du conteneur Kappa",
+      "objectif": "Suivre Collector et ses exigences réelles selon le mode.",
+      "gabarit": "dossier",
+      "sections": [
+        "Accès à Collector et prérequis datés",
+        "Checklist d’objets et condition Found in Raid",
+        "Quêtes obligatoires et différences de progression par mode",
+        "Budget de stash et erreurs fréquentes"
+      ],
+      "interaction": "Suivi sauvegardé localement, filtres et liens vers objets et quêtes.",
+      "illustrations_jpg": [
+        "Conteneur sécurisé en jeu",
+        "Établi de tri des objets Collector"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "tracker",
+        "wiki",
+        "patch110",
+        "kappaguide"
+      ],
+      "revalidation": "Écarter les valeurs contradictoires des anciens guides et valider tailles, nombre d’objets et niveaux.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/hideout/index.html",
+      "titre": "Planque (Hideout)",
+      "objectif": "Investir les ressources selon les déblocages et le temps de jeu.",
+      "gabarit": "hub",
+      "sections": [
+        "Stations, niveaux et dépendances",
+        "Liste de matériaux et statut Found in Raid par mode",
+        "Paliers de priorité, Bitcoin Farm et ROI scénarisé",
+        "Alimentation et coûts récurrents en jeu"
+      ],
+      "interaction": "Arbre de stations, comparaison de paliers et checklist locale.",
+      "illustrations_jpg": [
+        "Planque et établi",
+        "Plan annoté des stations EFT"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "tracker",
+        "wiki",
+        "patch110",
+        "patch130",
+        "market"
+      ],
+      "revalidation": "Recouper contraintes de construction, carburant et calcul de temps selon les modes.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_7",
+      "fichier": "pages/hideout/crafting.html",
+      "titre": "Atelier & recettes",
+      "objectif": "Estimer un gain de craft en explicitant les coûts en jeu.",
+      "gabarit": "outil",
+      "sections": [
+        "Ingrédients, station et durée par recette",
+        "Coût des consommables, frais et coûts d’opportunité",
+        "Alternatives pour objets de quête et temps par session"
+      ],
+      "interaction": "Tri coût/durée et simulateur de marge, ajustement manuel d’un prix sans connexion.",
+      "illustrations_jpg": [
+        "Établi de fabrication EFT",
+        "Infographie entrées/sorties de recette"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "tracker",
+        "market",
+        "wiki"
+      ],
+      "revalidation": "Distinguer coût par unité et coût par lot ; vérifier si une recette est dépendante de l’événement.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-19T00:58:54.228Z",
+      "bilan": "docs/phase-7.md",
+      "verification": "docs/verifications-phase-7.md"
+    },
+    {
+      "phase": "PHASE_8",
+      "fichier": "pages/skills/index.html",
+      "titre": "Compétences (Skills)",
+      "objectif": "Interpréter la progression et choisir des activités normales en jeu par compétence.",
+      "gabarit": "hub",
+      "sections": [
+        "Compétences physiques, mentales, pratiques et d’armes",
+        "Actions, diminishing returns et tableaux par niveau si sourcés",
+        "Metabolism 1.3 et comparaison Seasonal/Standard"
+      ],
+      "interaction": "Filtrer par groupe, afficher le contexte de jeu et les sources de chaque formule.",
+      "illustrations_jpg": [
+        "Journal de compétences EFT",
+        "Diagramme de progression du personnage"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch130",
+        "patch110",
+        "reddit-eft"
+      ],
+      "revalidation": "Valider unités, multiplicateurs et chiffres confirmés ; aucun taux inventé.",
+      "statut": "LIVREE"
+    },
+    {
+      "phase": "PHASE_8",
+      "fichier": "pages/economy/index.html",
+      "titre": "Économie & Flea Market",
+      "objectif": "Mesurer les gains de raid et choisir entre vendre, stocker, échanger et crafter.",
+      "gabarit": "hub",
+      "sections": [
+        "Marché par mode, traders, devises et TarCoin",
+        "Frais, offres et volatilité des prix",
+        "Routes de profit et coût du risque en jeu"
+      ],
+      "interaction": "Simulateur de revenu en roubles et liens vers marchés externes datés.",
+      "illustrations_jpg": [
+        "Objet de loot EFT et roubles de jeu",
+        "Table de suivi financier fictive"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "market",
+        "patch110",
+        "tarcoin",
+        "wiki"
+      ],
+      "revalidation": "Vérifier restrictions, mode, libellé des devises, source et péremption des prix.",
+      "statut": "LIVREE"
+    },
+    {
+      "phase": "PHASE_8",
+      "fichier": "pages/economy/flea-market.html",
+      "titre": "Guide du Flea Market",
+      "objectif": "Optimiser les décisions de mise en vente sans promesse de cours en direct.",
+      "gabarit": "outil",
+      "sections": [
+        "Déblocage et interdits par mode",
+        "Offres, frais et réputation de marché",
+        "Exemples comparés de gain net"
+      ],
+      "interaction": "Calculatrice avec frais saisis ou version documentée et historique daté.",
+      "illustrations_jpg": [
+        "Illustration du Flea Market EFT",
+        "Schéma de vente et frais"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "market",
+        "patch110",
+        "wiki"
+      ],
+      "revalidation": "Valider plafonds, catégories et disponibilité ; jamais appliquer un prix d’un autre mode.",
+      "statut": "LIVREE"
+    },
+    {
+      "phase": "PHASE_8",
+      "fichier": "pages/economy/money-making.html",
+      "titre": "Gagner des roubles",
+      "objectif": "Choisir une boucle de loot en fonction du temps, de la progression et de la carte.",
+      "gabarit": "dossier",
+      "sections": [
+        "Rotation débutant et boucle PMC/Scav",
+        "Valeur par case, clés et coût d’entrée",
+        "Exemples de routes in-game avec issues de secours et risque"
+      ],
+      "interaction": "Comparateur de rentabilité avec temps estimé et valeurs éditables ; filtre carte/mode.",
+      "illustrations_jpg": [
+        "Sacs de loot du jeu",
+        "Planche de cases d’inventaire"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "market",
+        "mapgenie",
+        "wiki",
+        "reddit-eft"
+      ],
+      "revalidation": "Chiffrer sur un échantillon daté, pas de promesse de rendement fixe.",
+      "statut": "LIVREE"
+    },
+    {
+      "phase": "PHASE_8",
+      "fichier": "pages/strategy/index.html",
+      "titre": "Stratégies & méta en jeu",
+      "objectif": "Choisir des pratiques et kits adaptés au mode et au niveau du joueur.",
+      "gabarit": "hub",
+      "sections": [
+        "Astuces débutant, routines et erreurs",
+        "PvP permanent, Seasonal et PvE/Prestige",
+        "Presets classés par budget et contraintes de progression"
+      ],
+      "interaction": "Onglets par mode et sélecteur de profil pour les guides.",
+      "illustrations_jpg": [
+        "PMC et menu de préparation EFT",
+        "Planche de brief de raid fictive"
+      ],
+      "sources_a_consulter": [
+        "wiki",
+        "patch120",
+        "patch130",
+        "balance-nov",
+        "tdev",
+        "reddit-eft"
+      ],
+      "revalidation": "Séparer conseils opinatifs, expérience vidéo et faits datés ; éviter les données de la beta si 1.0+.",
+      "statut": "LIVREE"
+    },
+    {
+      "phase": "PHASE_8",
+      "fichier": "pages/strategy/beginner-tips.html",
+      "titre": "61 astuces pour débuter",
+      "objectif": "Proposer des automatismes utilisables dès les premiers raids.",
+      "gabarit": "dossier",
+      "sections": [
+        "Checklist du stash",
+        "50+ conseils groupés : interface, cartes, soin et extraction",
+        "Pièges d’assurance et progression par mode"
+      ],
+      "interaction": "Liste filtrable et favoris locaux.",
+      "illustrations_jpg": [
+        "Rack de planque",
+        "Repère d’exfiltration EFT"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "patch120",
+        "patch130",
+        "balance-nov",
+        "reddit-eft"
+      ],
+      "revalidation": "Vérifier chaque mécanique susceptible d’avoir changé (assurance, contrôles, niveaux).",
+      "statut": "LIVREE"
+    },
+    {
+      "phase": "PHASE_8",
+      "fichier": "pages/strategy/advanced-tactics.html",
+      "titre": "Tactiques avancées en jeu",
+      "objectif": "Lire et organiser un raid en maîtrisant interfaces, bruit de jeu et ressources.",
+      "gabarit": "dossier",
+      "sections": [
+        "Choix d’objectif et fenêtres de raid",
+        "Mécaniques de stamina, audio et IA",
+        "Exemples sur les cartes du jeu"
+      ],
+      "interaction": "Scénarios et alternatives en accordéon.",
+      "illustrations_jpg": [
+        "Rue de Tarkov en raid",
+        "Diagramme de choix en match"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "patch120",
+        "patch130",
+        "balance-nov",
+        "reddit-eft"
+      ],
+      "revalidation": "Sourcer les interactions dans le moteur de jeu, sans extrapolation à la réalité.",
+      "statut": "LIVREE"
+    },
+    {
+      "phase": "PHASE_8",
+      "fichier": "pages/strategy/pvp-guide.html",
+      "titre": "Guide PvP",
+      "objectif": "Préparer une session PvP en distinguant progression permanente et saisonnière.",
+      "gabarit": "dossier",
+      "sections": [
+        "Objectifs et choix de carte",
+        "Équipement en jeu selon budget",
+        "Analyse d’erreurs de jeu et post-raid"
+      ],
+      "interaction": "Onglets PvP Zone / Seasonal et checklists.",
+      "illustrations_jpg": [
+        "Opérateur fictif PvP",
+        "Planche de presets du jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "patch120",
+        "patch130",
+        "balance-nov",
+        "reddit-eft"
+      ],
+      "revalidation": "Relire changements d’équilibrage et différences d’assurance, de trader et de Flea.",
+      "statut": "LIVREE"
+    },
+    {
+      "phase": "PHASE_8",
+      "fichier": "pages/strategy/pve-guide.html",
+      "titre": "Guide PvE & Prestige",
+      "objectif": "Expliquer le mode BSG et les effets d’un Prestige sans le confondre avec Tushonka.",
+      "gabarit": "dossier",
+      "sections": [
+        "PvE officiel, solo et groupe",
+        "Bots, événements et raids côté serveur",
+        "Prestige : conditions, pertes et conservation"
+      ],
+      "interaction": "Sélecteur de palier de Prestige et avertissements avant reset.",
+      "illustrations_jpg": [
+        "Raid PvE illustratif",
+        "Chronologie graphique de Prestige"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "patch120",
+        "patch130",
+        "balance-nov",
+        "reddit-eft"
+      ],
+      "revalidation": "Vérifier la progression de l’histoire, les prérequis et les six niveaux réellement annoncés.",
+      "statut": "LIVREE"
+    },
+    {
+      "phase": "PHASE_8",
+      "fichier": "pages/strategy/meta-builds.html",
+      "titre": "Builds par budget & méta",
+      "objectif": "Comparer des presets fonctionnels dans EFT et montrer pourquoi ils sont classés.",
+      "gabarit": "dossier",
+      "sections": [
+        "Critères S–D explicites",
+        "Kits budget/intermédiaire/haut de gamme",
+        "Compatibilité, marché et disponibilité",
+        "Comparaison par scénario de raid"
+      ],
+      "interaction": "Comparateur avec mode, budget saisi, patch de référence et alternative par slot.",
+      "illustrations_jpg": [
+        "Établi et variantes de preset EFT",
+        "Planche comparative ergo/recul du jeu"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "wiki",
+        "patch110",
+        "patch120",
+        "patch130",
+        "balance-nov",
+        "reddit-eft"
+      ],
+      "revalidation": "Tester les slots et coûts dans le système de preset du jeu ; noter la date de chaque build.",
+      "statut": "LIVREE"
+    },
+    {
+      "phase": "PHASE_9",
+      "fichier": "pages/spt-tushonka/index.html",
+      "titre": "SP-Tushonka : guide, installation et coop",
+      "objectif": "Choisir entre EFT PvE officiel, Tushonka stable, branche de test et Fika.",
+      "gabarit": "hub",
+      "sections": [
+        "Ancienne équipe SPT, arrêt d’infrastructure et successeur communautaire",
+        "Matrice build EFT / SPT / runtime et statut stable ou Bleeding Edge",
+        "Profils locaux, Forge, mods, Fika et dépannage",
+        "Questions fréquentes, possession du jeu et avertissements de version"
+      ],
+      "interaction": "Comparatif de modes, filtre par branche et navigation entre les dossiers.",
+      "illustrations_jpg": [
+        "images/phase9/spt-raid.jpg"
+      ],
+      "sources_a_consulter": [
+        "spt-history",
+        "spt-transition",
+        "spt-release",
+        "spt-installer-v300",
+        "spt-installation-guide",
+        "spt-be",
+        "spt-nuget",
+        "fika-plugin-release",
+        "fika-server-release",
+        "fika-general-docs",
+        "reddit-spt-release416",
+        "youtube-spt-release416",
+        "youtube-spt-night-raid"
+      ],
+      "revalidation": "Relever latest et tags, compatibilité de l’installateur et provenance des packages ; pas de lien vers copie du jeu non autorisée.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18",
+      "bilan": "docs/phase-9.md",
+      "verification": "docs/verifications-phase-9.md"
+    },
+    {
+      "phase": "PHASE_9",
+      "fichier": "pages/spt-tushonka/installation.html",
+      "titre": "Installer SP-Tushonka (SPT)",
+      "objectif": "Suivre la documentation adaptée à une copie légitime sans modifier l’installation live.",
+      "gabarit": "dossier",
+      "sections": [
+        "Préparer une copie et sauvegarder le profil",
+        "Installation recommandée pour la stable ; contrôles de build et runtime",
+        "Validation du lancement, erreurs et différence Bleeding Edge"
+      ],
+      "interaction": "Sélecteur stable / Bleeding Edge, parcours distincts et liens directs aux consignes.",
+      "illustrations_jpg": [
+        "images/phase9/spt-install.jpg"
+      ],
+      "sources_a_consulter": [
+        "spt-release",
+        "spt-installer-v300",
+        "spt-installation-guide",
+        "spt-updating-guide",
+        "spt-be",
+        "spt-wiki"
+      ],
+      "revalidation": "Contrôler jeu installé, canal Steam/BSG, systèmes et version du wiki ; aucun binaire redistribué.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18",
+      "bilan": "docs/phase-9.md",
+      "verification": "docs/verifications-phase-9.md"
+    },
+    {
+      "phase": "PHASE_9",
+      "fichier": "pages/spt-tushonka/mods.html",
+      "titre": "Mods SPT & The Forge",
+      "objectif": "Choisir des mods selon leur fiabilité et leurs compatibilités déclarées.",
+      "gabarit": "dossier",
+      "sections": [
+        "Forge et filtre par version",
+        "Mods de qualité de vie, IA et autres catégories",
+        "Dépendances, sauvegarde et essais contrôlés"
+      ],
+      "interaction": "Filtres branche × catégorie; fiches de mainteneurs et dépendances explicites.",
+      "illustrations_jpg": [
+        "images/phase9/spt-mods.jpg"
+      ],
+      "sources_a_consulter": [
+        "forge",
+        "forge-modlist-416",
+        "forge-sain-416",
+        "forge-waypoints",
+        "forge-bigbrain",
+        "forge-svm-223",
+        "forge-icebreaker-backport",
+        "spt-release",
+        "spt-be",
+        "reddit-tushonka"
+      ],
+      "revalidation": "Vérifier chaque fiche auprès du mainteneur ; vieux mods non certifiés comme compatibles.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18",
+      "bilan": "docs/phase-9.md",
+      "verification": "docs/verifications-phase-9.md"
+    },
+    {
+      "phase": "PHASE_9",
+      "fichier": "pages/spt-tushonka/fika.html",
+      "titre": "Project Fika : coopératif avec SPT",
+      "objectif": "Différencier le jeu local moddé de la coop officielle.",
+      "gabarit": "dossier",
+      "sections": [
+        "Versions client, serveur et SPT",
+        "Principes d’une session privée, profils et mods partagés",
+        "Dépannage et limites des tests"
+      ],
+      "interaction": "Matrice de versions client/serveur et checklist de session privée.",
+      "illustrations_jpg": [
+        "images/phase9/fika-coop.jpg"
+      ],
+      "sources_a_consulter": [
+        "fika-install-docs",
+        "fika-general-docs",
+        "fika-plugin-release",
+        "fika-server-release",
+        "spt-release",
+        "forge"
+      ],
+      "revalidation": "Relever les releases côté serveur et client et les incompatibilités ; privilégier réseau privé sécurisé.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18",
+      "bilan": "docs/phase-9.md",
+      "verification": "docs/verifications-phase-9.md"
+    },
+    {
+      "phase": "PHASE_9",
+      "fichier": "pages/spt-tushonka/troubleshooting.html",
+      "titre": "Dépanner SP-Tushonka",
+      "objectif": "Isoler les problèmes courants sans perdre un profil.",
+      "gabarit": "dossier",
+      "sections": [
+        "Symptômes et messages de version",
+        "Dépendances .NET, logs et conflit mod",
+        "Retour à une copie propre et sauvegardes"
+      ],
+      "interaction": "Filtre par symptôme; diagnostic sûr, profils protégés et limites Linux documentées.",
+      "illustrations_jpg": [
+        "images/phase9/spt-troubleshoot.jpg"
+      ],
+      "sources_a_consulter": [
+        "spt-installation-guide",
+        "spt-updating-guide",
+        "spt-release",
+        "spt-linux-issue24",
+        "spt-wiki",
+        "reddit-spt-release416",
+        "reddit-tushonka"
+      ],
+      "revalidation": "Vérifier chaque erreur dans la doc du projet ; ne pas inciter à désactiver les protections du système.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18",
+      "bilan": "docs/phase-9.md",
+      "verification": "docs/verifications-phase-9.md"
+    },
+    {
+      "phase": "PHASE_9",
+      "fichier": "pages/arena/index.html",
+      "titre": "Escape from Tarkov: Arena — modes & stratégies",
+      "objectif": "Comprendre les modes, le classement et la synchronisation de ce jeu distinct.",
+      "gabarit": "hub",
+      "sections": [
+        "BlastGang, TeamFight et autres modes à la date du patch",
+        "Boutique et progression ; transferts par mode",
+        "Compétition, entraînement et guides sur les cartes d’Arena",
+        "Journal de patchs spécifique, sans importer les annonces Unity d’EFT"
+      ],
+      "interaction": "Onglets clavier par mode, comparatif de progression et journal de patchs Arena.",
+      "illustrations_jpg": [
+        "images/phase9/arena-match.jpg"
+      ],
+      "sources_a_consulter": [
+        "arena-modes-official",
+        "arena-patch-060",
+        "arena-patch-0625-official",
+        "arena-qa-2026",
+        "arena-q4-2026",
+        "arena-bloodlust-official",
+        "patch110"
+      ],
+      "revalidation": "Contrôler version courante, compétitions et séparations statistiques ; vérification départ Arena, pas EFT.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18",
+      "bilan": "docs/phase-9.md",
+      "verification": "docs/verifications-phase-9.md"
+    },
+    {
+      "phase": "PHASE_9",
+      "fichier": "pages/events/index.html",
+      "titre": "Événements Escape from Tarkov 2026",
+      "objectif": "Distinguer contenus archivés, déploiements durables, événements actifs à la date du relevé et Drops.",
+      "gabarit": "hub",
+      "sections": [
+        "Halloween : variantes Infected, quêtes Skier/Therapist et fin annoncée",
+        "Blackout, Icebreaker/Boreas, Full Speed Ahead, Wild Woods et Duckov",
+        "Kord Breach, récompenses et campagnes de Drops distinctes",
+        "Table dates/modes/statut et sources des objectifs"
+      ],
+      "interaction": "Chronologie filtrable actif / annoncé / archivé / durable avec dates et limites.",
+      "illustrations_jpg": [
+        "images/phase9/events-timeline.jpg"
+      ],
+      "sources_a_consulter": [
+        "patch130",
+        "halloween",
+        "drops",
+        "season-end",
+        "untar-control",
+        "blackout-start",
+        "blackout-extension",
+        "full-speed-start",
+        "full-speed-extension",
+        "wild-woods-start",
+        "wild-woods-extension",
+        "wild-woods-ended",
+        "duck-hunt-end",
+        "arena-bloodlust-official",
+        "patch105",
+        "boreas-social"
+      ],
+      "revalidation": "Chercher annonces d’ouverture et clôture, récompenses par mode et événements supplémentaires depuis la phase 0.",
+      "statut": "LIVREE",
+      "livree_le": "2026-11-18",
+      "bilan": "docs/phase-9.md",
+      "verification": "docs/verifications-phase-9.md"
+    },
+    {
+      "phase": "PHASE_10",
+      "fichier": "pages/patch-notes.html",
+      "titre": "Notes de patch & chronologie",
+      "objectif": "Séparer publications, hotfixes et projets de roadmap de novembre 2025 à la version de référence.",
+      "gabarit": "timeline",
+      "sections": [
+        "Timeline 1.0 → 1.3.0.0 et correctifs officiels postérieurs",
+        "Dates, modes, changement principal et impact éditorial justifié",
+        "Unity 6 et annonces à distinguer des déploiements",
+        "Liens originaux et historique de révision"
+      ],
+      "interaction": "Filtres par période et catégorie, liens de détail et libellés non chromatiques.",
+      "illustrations_jpg": [
+        "Archives de transmissions du jeu",
+        "Frise chronologique illustrée"
+      ],
+      "sources_a_consulter": [
+        "steam",
+        "steam-news",
+        "steam-rss",
+        "bsg-social",
+        "patch106",
+        "patch105",
+        "patch110",
+        "patch115",
+        "patch120",
+        "patch130",
+        "patched"
+      ],
+      "revalidation": "Reconstituer l’archive officielle, vérifier latest et dater les notes sans numéro.",
+      "statut": "LIVREE"
+    },
+    {
+      "phase": "PHASE_10",
+      "fichier": "pages/resources/index.html",
+      "titre": "Ressources & outils",
+      "objectif": "Aider à choisir un outil fiable selon la tâche et la fraîcheur des données.",
+      "gabarit": "hub",
+      "sections": [
+        "Données, cartes, économie, suivi de progression",
+        "Chaînes, forums et communautés ; critères, langue et statut",
+        "Crédits, licences, méthodologie et mentions de fan-site"
+      ],
+      "interaction": "Filtres par usage et par niveau de confiance, liens externes vérifiés.",
+      "illustrations_jpg": [
+        "Dossier d’outils du joueur",
+        "Illustration de table de briefing"
+      ],
+      "sources_a_consulter": [
+        "tdev",
+        "mapgenie",
+        "market",
+        "tracker",
+        "tarkovhead",
+        "kappaguide",
+        "reddit-eft",
+        "forum",
+        "forge",
+        "yt-dev"
+      ],
+      "revalidation": "Tester liens, licences, auteur des cartes et annonces Discord/YouTube ; ne pas copier les ressources protégées.",
+      "statut": "LIVREE"
+    },
+    {
+      "phase": "PHASE_10",
+      "fichier": "pages/resources/glossary.html",
+      "titre": "Glossaire EFT",
+      "objectif": "Donner au moins 200 entrées bilingues pour lire le jeu et ses guides.",
+      "gabarit": "glossaire",
+      "sections": [
+        "Abréviations, économie et progression",
+        "Argot de communauté, modes et cartes",
+        "Munitions nommées, objets et accessoires du jeu",
+        "Liens contextuels et variantes de traduction"
+      ],
+      "interaction": "Recherche sans accents, regroupement A–Z et ancres par terme.",
+      "illustrations_jpg": [
+        "Lexique annoté de Tarkov",
+        "Radio et carnet de raid fictifs"
+      ],
+      "sources_a_consulter": [
+        "wiki",
+        "tdev",
+        "steam",
+        "reddit-eft",
+        "tracker"
+      ],
+      "revalidation": "Recouper les sens variables et éviter de présenter le jargon communautaire comme officiel.",
+      "statut": "LIVREE"
+    }
+  ],
+  "derniere_mise_a_jour": "2026-11-18"
+}

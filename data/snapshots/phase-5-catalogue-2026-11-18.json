@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "publisher": "Tarkov.dev / The Hideout",
+  "catalogUrl": "https://json.tarkov.dev/endpoints",
+  "collectedAt": "2026-11-18T16:08:28+00:00",
+  "dateParis": "2026-11-18",
+  "gameBuild": null,
+  "notes": [
+    "Version du jeu non inscrite dans le flux ; base communautaire, pas un export BSG certifié.",
+    "Les prix et stocks diffèrent par mode et changent après la collecte.",
+    "L’apparition d’une carte dans un fichier ne prouve pas l’accès dans ce mode."
+  ],
+  "modes": {
+    "regular": {
+      "label": "PvP permanent",
+      "files": {
+        "items": {
+          "path": "js/data/items.json",
+          "count": 5498,
+          "bytes": 5505905,
+          "sha256": "64cbe694a6af27759771d7a64a6fc5e05c907b22d8ff9bf431c514e24759151b",
+          "frNameCount": 5498,
+          "enNameCount": 5498
+        },
+        "weapons": {
+          "path": "js/data/weapons.json",
+          "count": 199,
+          "bytes": 681750,
+          "sha256": "34cfcec4f2b29d7ec94ff54d825d55ce10e9c0538b95df4e7990d018743ccba6",
+          "frNameCount": 199,
+          "enNameCount": 199
+        },
+        "ammo": {
+          "path": "js/data/ammo.json",
+          "count": 200,
+          "bytes": 207636,
+          "sha256": "9d31307fcf16f02e8cd0368a83eafe75dc411eb1f2607d05d6c5cac19473949b",
+          "frNameCount": 200,
+          "enNameCount": 200
+        },
+        "armor": {
+          "path": "js/data/armor.json",
+          "count": 423,
+          "bytes": 989652,
+          "sha256": "020f4b7b7864436741b28e8507df71f28b3b57f4cb536341a2f39fbef97ff897",
+          "frNameCount": 423,
+          "enNameCount": 423
+        }
+      }
+    },
+    "pve": {
+      "label": "PvE Zone officiel",
+      "files": {
+        "items": {
+          "path": "js/data/pve/items.json",
+          "count": 5498,
+          "bytes": 5441962,
+          "sha256": "3350cf49df527eeaf12717e582a493fffd14dc21c539302cb2b8463c1c67fc72",
+          "frNameCount": 5498,
+          "enNameCount": 5498
+        },
+        "weapons": {
+          "path": "js/data/pve/weapons.json",
+          "count": 199,
+          "bytes": 680420,
+          "sha256": "ac4d2de0834aa8ada7924da2fd5638db51fe47b3ca4bcc2524d6597e1387c64c",
+          "frNameCount": 199,
+          "enNameCount": 199
+        },
+        "ammo": {
+          "path": "js/data/pve/ammo.json",
+          "count": 200,
+          "bytes": 199845,
+          "sha256": "0f0b0c25e3395b578326ebd6bf461059e0e4dbb81c3ee6199b86f4c0778b0f37",
+          "frNameCount": 200,
+          "enNameCount": 200
+        },
+        "armor": {
+          "path": "js/data/pve/armor.json",
+          "count": 423,
+          "bytes": 981373,
+          "sha256": "3215a2511b9a2aa3bbda3a02b96dd0e1e7615bd35c33de40f7c8effb417a5622",
+          "frNameCount": 423,
+          "enNameCount": 423
+        }
+      }
+    },
+    "pvp-season": {
+      "label": "PvP saisonnier",
+      "files": {
+        "items": {
+          "path": "js/data/pvp-season/items.json",
+          "count": 5498,
+          "bytes": 5421999,
+          "sha256": "c549a319afa8849fbc8294432270c66f42779a29f44dc7f360e9cf09e07dc17a",
+          "frNameCount": 5498,
+          "enNameCount": 5498
+        },
+        "weapons": {
+          "path": "js/data/pvp-season/weapons.json",
+          "count": 199,
+          "bytes": 679942,
+          "sha256": "f16239840e8eb37b2b5af80c3ffda9046c95e6a67ab328ac4fa90d115665bcf9",
+          "frNameCount": 199,
+          "enNameCount": 199
+        },
+        "ammo": {
+          "path": "js/data/pvp-season/ammo.json",
+          "count": 200,
+          "bytes": 196098,
+          "sha256": "9b5505ec88c1fc727f91891bb37cd9fb1e606b7901e0efd9eada3d67c2882368",
+          "frNameCount": 200,
+          "enNameCount": 200
+        },
+        "armor": {
+          "path": "js/data/pvp-season/armor.json",
+          "count": 423,
+          "bytes": 976767,
+          "sha256": "6f1c56fa83c36b5c9b84f0b313a48d592d4a954323ffc018464e7579c8ee0ded",
+          "frNameCount": 423,
+          "enNameCount": 423
+        }
+      }
+    }
+  },
+  "upstream": {
+    "endpoints": {
+      "url": "https://json.tarkov.dev/endpoints",
+      "httpStatus": 200,
+      "lastModified": "Mon, 09 Nov 2026 15:30:35 GMT",
+      "etag": "W/\"03ecafecf55c94ec66b7b0edd1aaed15\"",
+      "bytesDecoded": 1369,
+      "sha256Decoded": "7cb41422f4c3663d44697389010168a494e416c91390bcbd439bafe02171c1bb"
+    },
+    "regular/items": {
+      "url": "https://json.tarkov.dev/regular/items",
+      "httpStatus": 200,
+      "lastModified": "Wed, 18 Nov 2026 16:00:28 GMT",
+      "etag": "W/\"b5c96571078d9538740dcd6c717fb853\"",
+      "bytesDecoded": 17347523,
+      "sha256Decoded": "da0d33b948915cf20dd8cb8e22b632bb627e923aa8d1c0df9cab9d9dc3eb579e"
+    },
+    "regular/items_fr": {
+      "url": "https://json.tarkov.dev/regular/items_fr",
+      "httpStatus": 200,
+      "lastModified": "Mon, 16 Nov 2026 19:00:32 GMT",
+      "etag": "W/\"ac9c2800f937458bf223ff5da2c9c128\"",
+      "bytesDecoded": 1816459,
+      "sha256Decoded": "6b09fb2f3d93f0ce85d246ade9bb61707b20f0a5b5d71cb386a05eb762b53376"
+    },
+    "regular/items_en": {
+      "url": "https://json.tarkov.dev/regular/items_en",
+      "httpStatus": 200,
+      "lastModified": "Mon, 16 Nov 2026 19:00:32 GMT",
+      "etag": "W/\"28101917006282d6836b0edae2356f57\"",
+      "bytesDecoded": 1703260,
+      "sha256Decoded": "9ecbf3b43f891e09c571166b4e416ccdc4194b3f91a4ad4300f3b123452fe352"
+    },
+    "regular/maps": {
+      "url": "https://json.tarkov.dev/regular/maps",
+      "httpStatus": 200,
+      "lastModified": "Wed, 18 Nov 2026 16:04:24 GMT",
+      "etag": "W/\"a9a94abd7551848416fa46c1629be88d\"",
+      "bytesDecoded": 9027422,
+      "sha256Decoded": "81c2d1d61996704ac4ecadeb6dc986e53b5894694e5b75b0d3ed773b9033c768"
+    },
+    "regular/maps_en": {
+      "url": "https://json.tarkov.dev/regular/maps_en",
+      "httpStatus": 200,
+      "lastModified": "Mon, 16 Nov 2026 19:04:21 GMT",
+      "etag": "W/\"7eab94015571c1602f7456a4499afa48\"",
+      "bytesDecoded": 23786,
+      "sha256Decoded": "b15a58e09599a6a3036f660e124a52e06d0d7af951ed539e0f72046cc01966b7"
+    },
+    "pve/items": {
+      "url": "https://json.tarkov.dev/pve/items",
+      "httpStatus": 200,
+      "lastModified": "Wed, 18 Nov 2026 16:00:50 GMT",
+      "etag": "W/\"30eda5e92b3349e7fabff7ed49b26ad4\"",
+      "bytesDecoded": 17278834,
+      "sha256Decoded": "1a317c50f0b37d348ca7da1bb4be105d50f9ea272e85484e879dcb32d49bcc05"
+    },
+    "pve/items_fr": {
+      "url": "https://json.tarkov.dev/pve/items_fr",
+      "httpStatus": 200,
+      "lastModified": "Mon, 16 Nov 2026 19:01:00 GMT",
+      "etag": "W/\"a0ba168c079a223758e8e6e32a61f386\"",
+      "bytesDecoded": 1820188,
+      "sha256Decoded": "07bcdb0c96185393be4a036e67dba8b22dead1d15a3d1e1104853c72237ac812"
+    },
+    "pve/items_en": {
+      "url": "https://json.tarkov.dev/pve/items_en",
+      "httpStatus": 200,
+      "lastModified": "Mon, 16 Nov 2026 19:00:57 GMT",
+      "etag": "W/\"28101917006282d6836b0edae2356f57\"",
+      "bytesDecoded": 1703260,
+      "sha256Decoded": "9ecbf3b43f891e09c571166b4e416ccdc4194b3f91a4ad4300f3b123452fe352"
+    },
+    "pve/maps": {
+      "url": "https://json.tarkov.dev/pve/maps",
+      "httpStatus": 200,
+      "lastModified": "Wed, 18 Nov 2026 15:24:24 GMT",
+      "etag": "W/\"b2f0b265cb10ce0eacc8307bc4081a5d\"",
+      "bytesDecoded": 9106938,
+      "sha256Decoded": "781a6680fc95700ae2b0e79e69f06416f97ba05d0d1f09a1e0697f392913fd42"
+    },
+    "pve/maps_en": {
+      "url": "https://json.tarkov.dev/pve/maps_en",
+      "httpStatus": 200,
+      "lastModified": "Mon, 16 Nov 2026 19:04:24 GMT",
+      "etag": "W/\"f5f87b622c9755274985790a118470fb\"",
+      "bytesDecoded": 24321,
+      "sha256Decoded": "b1e9d2e260a6666c954ef81c4cba10a59e7c2cbae7c5a01bd2eb3b03dc7eabc4"
+    },
+    "pvp-season/items": {
+      "url": "https://json.tarkov.dev/pvp-season/items",
+      "httpStatus": 200,
+      "lastModified": "Wed, 18 Nov 2026 16:01:38 GMT",
+      "etag": "W/\"da07c64c1af6a9b7d7b9c31169522f8a\"",
+      "bytesDecoded": 17126980,
+      "sha256Decoded": "dc171bbf49471cc664380d0472be8ec2fc4a97536aa44085ce5ef7175aace3ee"
+    },
+    "pvp-season/items_fr": {
+      "url": "https://json.tarkov.dev/pvp-season/items_fr",
+      "httpStatus": 200,
+      "lastModified": "Mon, 16 Nov 2026 19:01:58 GMT",
+      "etag": "W/\"a0ba168c079a223758e8e6e32a61f386\"",
+      "bytesDecoded": 1820188,
+      "sha256Decoded": "07bcdb0c96185393be4a036e67dba8b22dead1d15a3d1e1104853c72237ac812"
+    },
+    "pvp-season/items_en": {
+      "url": "https://json.tarkov.dev/pvp-season/items_en",
+      "httpStatus": 200,
+      "lastModified": "Mon, 16 Nov 2026 19:01:54 GMT",
+      "etag": "W/\"28101917006282d6836b0edae2356f57\"",
+      "bytesDecoded": 1703260,
+      "sha256Decoded": "9ecbf3b43f891e09c571166b4e416ccdc4194b3f91a4ad4300f3b123452fe352"
+    },
+    "pvp-season/maps": {
+      "url": "https://json.tarkov.dev/pvp-season/maps",
+      "httpStatus": 200,
+      "lastModified": "Wed, 18 Nov 2026 15:24:28 GMT",
+      "etag": "W/\"68dd8e8e2c4c746c70232bad7fa88a16\"",
+      "bytesDecoded": 9285819,
+      "sha256Decoded": "8b2317dbdc19052bd6f4a3fb43db42d05a988182e5e280262ddcfd3bfc848634"
+    },
+    "pvp-season/maps_en": {
+      "url": "https://json.tarkov.dev/pvp-season/maps_en",
+      "httpStatus": 200,
+      "lastModified": "Mon, 16 Nov 2026 19:04:27 GMT",
+      "etag": "W/\"dc29a550eb527d52fa48f158d1b2a69a\"",
+      "bytesDecoded": 23796,
+      "sha256Decoded": "bec0176de54c5295ea47277edba9ea77d12f32a53a3f6fe31bfb715bbb5ab040"
+    }
+  }
+}

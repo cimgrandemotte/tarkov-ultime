@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "status": "VALIDE",
+  "browser": "Firefox 159.0",
+  "checkedAt": "2026-11-18T13:50:36.533Z",
+  "viewportCssPx": 390,
+  "checks": [
+    "Débutant, reflow mobile et éléments d’introduction",
+    "Onglets PMC/Scav au clavier",
+    "Check locale, rechargement et restauration",
+    "FAQ : accents, filtre et accordéon",
+    "Recherche interpage depuis le bouton",
+    "Lore : spoilers fermés, ouverture volontaire au clavier puis fermeture"
+  ]
+}

@@ -1,0 +1,1509 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "base": "http://127.0.0.1:4180",
+  "checkedAt": "2026-11-19T00:58:54.228Z",
+  "routes": [
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/",
+      "http": 200,
+      "title": "Traders & interlocuteurs · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 27955,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/prapor.html",
+      "http": 200,
+      "title": "Prapor · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24499,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/therapist.html",
+      "http": 200,
+      "title": "Therapist · La Toubib · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24318,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/skier.html",
+      "http": 200,
+      "title": "Skier · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24186,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/peacekeeper.html",
+      "http": 200,
+      "title": "Peacekeeper · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24394,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/mechanic.html",
+      "http": 200,
+      "title": "Mechanic · Le Mécano · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 23732,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/ragman.html",
+      "http": 200,
+      "title": "Ragman · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24018,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/jaeger.html",
+      "http": 200,
+      "title": "Jaeger · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24428,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/fence.html",
+      "http": 200,
+      "title": "Fence · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 23756,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/lightkeeper.html",
+      "http": 200,
+      "title": "Lightkeeper · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 22874,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/ref.html",
+      "http": 200,
+      "title": "Ref · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 23951,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/quests/",
+      "http": 200,
+      "title": "Quêtes de Tarkov · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 62794,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/quests/quest-tree.html",
+      "http": 200,
+      "title": "Arbre des quêtes · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 59319,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/quests/kappa-guide.html",
+      "http": 200,
+      "title": "Guide du conteneur Kappa · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 34658,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/hideout/",
+      "http": 200,
+      "title": "Planque (Hideout) · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 133152,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/hideout/crafting.html",
+      "http": 200,
+      "title": "Atelier & recettes · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 102848,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/traders/",
+      "http": 200,
+      "title": "Traders & interlocuteurs · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 27955,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/traders/prapor.html",
+      "http": 200,
+      "title": "Prapor · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24499,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/traders/therapist.html",
+      "http": 200,
+      "title": "Therapist · La Toubib · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24318,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/traders/skier.html",
+      "http": 200,
+      "title": "Skier · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24186,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/traders/peacekeeper.html",
+      "http": 200,
+      "title": "Peacekeeper · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24394,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/traders/mechanic.html",
+      "http": 200,
+      "title": "Mechanic · Le Mécano · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 23732,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/traders/ragman.html",
+      "http": 200,
+      "title": "Ragman · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24018,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/traders/jaeger.html",
+      "http": 200,
+      "title": "Jaeger · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 24428,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/traders/fence.html",
+      "http": 200,
+      "title": "Fence · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 23756,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/traders/lightkeeper.html",
+      "http": 200,
+      "title": "Lightkeeper · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 22874,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/traders/ref.html",
+      "http": 200,
+      "title": "Ref · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 23951,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/quests/",
+      "http": 200,
+      "title": "Quêtes de Tarkov · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 62794,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/quests/quest-tree.html",
+      "http": 200,
+      "title": "Arbre des quêtes · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 59319,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/quests/kappa-guide.html",
+      "http": 200,
+      "title": "Guide du conteneur Kappa · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 34658,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/hideout/",
+      "http": 200,
+      "title": "Planque (Hideout) · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 133152,
+      "imageLoaded": true,
+      "canonical": ""
+    },
+    {
+      "engine": "Firefox",
+      "route": "pages/hideout/crafting.html",
+      "http": 200,
+      "title": "Atelier & recettes · Guide Tarkov | Tarkov Ultimate Guide",
+      "htmlChars": 102848,
+      "imageLoaded": true,
+      "canonical": ""
+    }
+  ],
+  "checks": [
+    {
+      "name": "Chromium · pages/traders/ · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Traders & interlocuteurs",
+        "htmlChars": 27955,
+        "dataReady": true,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/traders/prapor.html · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Prapor",
+        "htmlChars": 24499,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/traders/therapist.html · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Therapist · La Toubib",
+        "htmlChars": 24318,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/traders/skier.html · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Skier",
+        "htmlChars": 24186,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/traders/peacekeeper.html · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Peacekeeper",
+        "htmlChars": 24394,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/traders/mechanic.html · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Mechanic · Le Mécano",
+        "htmlChars": 23732,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/traders/ragman.html · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Ragman",
+        "htmlChars": 24018,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/traders/jaeger.html · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Jaeger",
+        "htmlChars": 24428,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/traders/fence.html · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Fence",
+        "htmlChars": 23756,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/traders/lightkeeper.html · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Lightkeeper",
+        "htmlChars": 22874,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/traders/ref.html · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Ref",
+        "htmlChars": 23951,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/quests/ · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Quêtes de Tarkov",
+        "htmlChars": 62794,
+        "dataReady": true,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/quests/quest-tree.html · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Arbre des quêtes",
+        "htmlChars": 59319,
+        "dataReady": true,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/quests/kappa-guide.html · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Guide du conteneur Kappa",
+        "htmlChars": 34658,
+        "dataReady": true,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/hideout/ · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Planque (Hideout)",
+        "htmlChars": 133152,
+        "dataReady": true,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Chromium · pages/hideout/crafting.html · HTML, médias, SEO d’aperçu et axe-core",
+      "passed": true,
+      "detail": {
+        "h1": "Atelier & recettes",
+        "htmlChars": 102848,
+        "dataReady": true,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Traders · 16 entrées, spécialité, type et loyauté",
+      "passed": true,
+      "detail": "16 fiches/auxiliaires · filtres · LL4 · mode PvE"
+    },
+    {
+      "name": "Quêtes · 503/499/462 tâches, recherche, progression et filtres",
+      "passed": true,
+      "detail": "503 regular · 499 PvE · recherche Kappa · suivi local"
+    },
+    {
+      "name": "Quêtes · deep link conserve le mode explicitement demandé",
+      "passed": true,
+      "detail": "A Big Loss · PvP Seasonal"
+    },
+    {
+      "name": "Arbre · Collector, prérequis, cases locales et export JSON",
+      "passed": true,
+      "detail": "Collector · 5 prérequis listés · export local"
+    },
+    {
+      "name": "Kappa · 44 objets FIR, mode, recherche et checklist locale",
+      "passed": true,
+      "detail": "44 objectifs · mode PvE · recherche et effacement"
+    },
+    {
+      "name": "Planque · 26 stations, deep link, matériaux FIR et filtres par mode",
+      "passed": true,
+      "detail": "26 stations regular/PvE · filtre FIR · mode Seasonal distinct"
+    },
+    {
+      "name": "Atelier · 214 recettes, estimation du lot et prix locaux",
+      "passed": true,
+      "detail": "Bouteille de gnôle Bambi féroce · coût lot 300 ₽ · sortie 2000 ₽"
+    },
+    {
+      "name": "Sans JavaScript · pages/quests/ · repli statique",
+      "passed": true,
+      "detail": "60 éléments lisibles sans exécuter de script"
+    },
+    {
+      "name": "Sans JavaScript · pages/quests/kappa-guide.html · repli statique",
+      "passed": true,
+      "detail": "44 éléments lisibles sans exécuter de script"
+    },
+    {
+      "name": "Sans JavaScript · pages/hideout/ · repli statique",
+      "passed": true,
+      "detail": "26 éléments lisibles sans exécuter de script"
+    },
+    {
+      "name": "Sans JavaScript · pages/hideout/crafting.html · repli statique",
+      "passed": true,
+      "detail": "214 éléments lisibles sans exécuter de script"
+    },
+    {
+      "name": "Reflow · pages/quests/ · 375px",
+      "passed": true,
+      "detail": {
+        "viewport": 375,
+        "document": 375,
+        "body": 375
+      }
+    },
+    {
+      "name": "Reflow · pages/hideout/ · 320px",
+      "passed": true,
+      "detail": {
+        "viewport": 320,
+        "document": 320,
+        "body": 320
+      }
+    },
+    {
+      "name": "Reflow · pages/traders/ · 768px",
+      "passed": true,
+      "detail": {
+        "viewport": 768,
+        "document": 768,
+        "body": 768
+      }
+    },
+    {
+      "name": "Firefox · pages/traders/ · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Traders & interlocuteurs",
+        "htmlChars": 27955,
+        "dataReady": true,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/traders/prapor.html · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Prapor",
+        "htmlChars": 24499,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/traders/therapist.html · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Therapist · La Toubib",
+        "htmlChars": 24318,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/traders/skier.html · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Skier",
+        "htmlChars": 24186,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/traders/peacekeeper.html · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Peacekeeper",
+        "htmlChars": 24394,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/traders/mechanic.html · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Mechanic · Le Mécano",
+        "htmlChars": 23732,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/traders/ragman.html · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Ragman",
+        "htmlChars": 24018,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/traders/jaeger.html · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Jaeger",
+        "htmlChars": 24428,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/traders/fence.html · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Fence",
+        "htmlChars": 23756,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/traders/lightkeeper.html · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Lightkeeper",
+        "htmlChars": 22874,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/traders/ref.html · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Ref",
+        "htmlChars": 23951,
+        "dataReady": false,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/quests/ · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Quêtes de Tarkov",
+        "htmlChars": 62794,
+        "dataReady": true,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/quests/quest-tree.html · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Arbre des quêtes",
+        "htmlChars": 59319,
+        "dataReady": true,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/quests/kappa-guide.html · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Guide du conteneur Kappa",
+        "htmlChars": 34658,
+        "dataReady": true,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/hideout/ · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Planque (Hideout)",
+        "htmlChars": 133152,
+        "dataReady": true,
+        "axeViolations": 0
+      }
+    },
+    {
+      "name": "Firefox · pages/hideout/crafting.html · HTML, médias, SEO d’aperçu",
+      "passed": true,
+      "detail": {
+        "h1": "Atelier & recettes",
+        "htmlChars": 102848,
+        "dataReady": true,
+        "axeViolations": 0
+      }
+    }
+  ],
+  "audits": [
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#method-note\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/prapor.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#limits\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/therapist.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#limits\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/skier.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#limits\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/peacekeeper.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#limits\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/mechanic.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#limits\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/ragman.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#limits\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/jaeger.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#limits\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/fence.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#limits\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/lightkeeper.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#limits\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/traders/ref.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#limits\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/quests/",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#progress-tools\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/quests/quest-tree.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#method-note\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/quests/kappa-guide.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#kappa-method\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/hideout/",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary.button[href$=\"#hideout-stations\"]"
+            ],
+            [
+              ".button--primary.button[href$=\"#hideout-stations\"] > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#method-note\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "Chromium",
+      "route": "pages/hideout/crafting.html",
+      "violations": [],
+      "review": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".guide-hero__copy > .guide-kicker"
+            ],
+            [
+              ".guide-hero__copy > .guide-kicker > span"
+            ],
+            [
+              "#phase7-h1"
+            ],
+            [
+              ".guide-hero__lead"
+            ],
+            [
+              ".button--primary"
+            ],
+            [
+              ".button--primary > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button--quiet.button[href$=\"#craft-method\"]"
+            ],
+            [
+              ".guide-hero__note"
+            ],
+            [
+              ".guide-hero__locator"
+            ],
+            [
+              ".phase7-intro__copy > .guide-kicker"
+            ],
+            [
+              ".phase7-intro__copy > h2"
+            ],
+            [
+              ".phase7-intro__copy > p:nth-child(3)"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "responsive": [
+    {
+      "route": "pages/quests/",
+      "width": 375,
+      "viewport": 375,
+      "document": 375,
+      "body": 375,
+      "passed": true
+    },
+    {
+      "route": "pages/hideout/",
+      "width": 320,
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "passed": true
+    },
+    {
+      "route": "pages/traders/",
+      "width": 768,
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "passed": true
+    }
+  ],
+  "browser": {
+    "chromium": "OK",
+    "firefox": "OK"
+  },
+  "errors": [],
+  "summary": {
+    "routesConfigured": 16,
+    "routeChecks": 32,
+    "checks": 46,
+    "axeAudits": 16,
+    "axeViolations": 0,
+    "errors": 0
+  }
+}
